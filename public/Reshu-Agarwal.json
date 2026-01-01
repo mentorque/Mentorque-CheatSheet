@@ -1,0 +1,143 @@
+{
+  "name": "Reshu Agarwal",
+  "role": "Software Developer | Full-Stack & Cloud Engineer",
+  "description": "Tailored to your experience in full-stack development, microservices architecture, cloud computing, automation, and building scalable production systems across banking, e-commerce, and enterprise domains",
+  "sections": [
+    {
+      "title": "Behavioral Questions",
+      "icon": "Users",
+      "cards": [
+        {
+          "front": "Tell me about yourself",
+          "back": "I'm a Software Developer with over 2 years of professional experience building scalable, production-grade systems across banking, e-commerce, and enterprise domains. Currently, I work at AIB in Ireland, contributing to a Java microservices platform that processes 3000+ mortgage applications monthly. I've increased system reliability by 30% through cross-platform automation and reduced document processing latency by 40% using in-memory databases and S3. Previously at Fastenal, I migrated synchronous workflows to event-driven architecture with Kafka, reducing system latency by 30% and improving user engagement by 20%. I also built an automation bot managing 20+ e-commerce shops, saving clients 15+ hours weekly. I hold an MSc in Computer Science from University College Dublin and have strong expertise in Java, Spring Boot, microservices, cloud technologies, and DevOps automation."
+        },
+        {
+          "front": "What are your strengths?",
+          "back": "My core strengths are problem-solving under pressure, building scalable distributed systems, and delivering measurable business impact. I excel at troubleshooting critical production issues—like resolving database connection failures at AIB—and implementing automation solutions that improve efficiency by 30-40%. I have strong expertise in microservices architecture, event-driven systems using Kafka, cloud technologies like AWS and S3, and DevOps practices including CI/CD, Docker, and Ansible. I'm also skilled at cross-functional collaboration, having led engineering initiatives that reduced DNS outages by 15% by coordinating across teams to resolve registry inconsistencies."
+        },
+        {
+          "front": "What are your weaknesses?",
+          "back": "I sometimes dive deep into technical details and optimizations, which can extend timelines on projects. However, I've learned to balance thoroughness with delivery by setting clear milestones, prioritizing high-impact features first, and using Agile practices to iterate quickly. This approach has helped me maintain quality while meeting deadlines, as demonstrated in my work at AIB where I delivered automation solutions that integrated 50% more servers while maintaining system stability."
+        },
+        {
+          "front": "Why do you want to join us?",
+          "back": "I'm excited about working on challenging, large-scale systems that drive real business value. Your focus on engineering excellence, scalable architecture, and innovative solutions aligns with my background in microservices, cloud platforms, and automation. I'm particularly drawn to opportunities where I can apply my experience in distributed systems, event-driven architectures, and DevOps to solve complex problems while continuing to grow as a senior engineer."
+        },
+        {
+          "front": "Where do you see yourself in the next 5 years?",
+          "back": "In five years, I see myself as a senior software engineer or technical lead specializing in distributed systems, cloud-native architectures, and platform engineering. I want to deepen my expertise in system design, scalability patterns, and team leadership while mentoring junior engineers and driving architectural decisions on high-impact projects. I'm particularly interested in growing into roles that combine hands-on technical work with strategic engineering leadership."
+        },
+        {
+          "front": "Tell me about a time you went above and beyond",
+          "back": "Situation: At AIB, we faced recurring DNS-related outages affecting multiple services. Task: Reduce production incidents and improve system reliability. Action: I took initiative to lead a cross-functional engineering effort, coordinating with network, infrastructure, and development teams to identify and resolve DNS registry inconsistencies. I went beyond my assigned responsibilities by documenting the root causes, implementing preventive measures, and creating monitoring alerts. Result: Reduced DNS-related outages by 15% and established a framework for proactive incident prevention, improving overall system reliability by 30%."
+        },
+        {
+          "front": "How do you handle tight deadlines?",
+          "back": "I prioritize ruthlessly, break work into manageable chunks, and focus on delivering core functionality first. At Mullan Lighting, I automated the dispatch order process under tight timeline pressure by identifying the highest-impact automation opportunities, implementing them incrementally, and validating each component. This approach increased processing efficiency by 30% while meeting the deadline. I also maintain clear communication with stakeholders about progress and any potential blockers."
+        },
+        {
+          "front": "Describe a time you took initiative",
+          "back": "Situation: At Fastenal, our synchronous workflow architecture was causing scalability bottlenecks and high latency. Task: Improve system performance without disrupting existing services. Action: I proactively proposed and led the migration to an event-driven architecture using Apache Kafka. I designed the new workflow, coordinated with multiple teams, implemented the message-driven system, and ensured backward compatibility during the transition. Result: Reduced system latency by 30%, significantly improved scalability, and increased user engagement by 20% due to better responsiveness."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Should you use the STAR method (Situation, Task, Action, Result) when answering behavioral questions about your experience at AIB, Mullan Lighting, and Fastenal?",
+          "answer": true
+        },
+        {
+          "question": "Is it important to mention specific quantifiable achievements like '30% system reliability increase', '40% latency reduction', or '3000+ mortgage applications monthly' in your behavioral answers?",
+          "answer": true
+        },
+        {
+          "question": "Should you avoid mentioning your specific accomplishments like the e-commerce automation bot or the emotion recognition research when answering behavioral questions?",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "title": "Technical Questions",
+      "icon": "Target",
+      "cards": [
+        {
+          "front": "Explain your experience with microservices architecture",
+          "back": "I have extensive hands-on experience building and maintaining microservices platforms, particularly at AIB where I contribute to a Java-based microservices system processing 3000+ mortgage applications monthly. I design RESTful APIs, implement service-to-service communication, handle distributed transactions, and focus on fault tolerance and scalability. I've worked with Spring Boot for service development, implemented API gateways, and used containerization with Docker for deployment."
+        },
+        {
+          "front": "What is your experience with event-driven architecture?",
+          "back": "At Fastenal, I led the migration from synchronous workflows to event-driven architecture using Apache Kafka. I designed message schemas, implemented producers and consumers, handled event ordering and idempotency, and ensured reliable message delivery. This reduced system latency by 30% and significantly improved scalability. I also have experience with RabbitMQ for message queuing and understand patterns like event sourcing and CQRS."
+        },
+        {
+          "front": "How do you approach performance optimization?",
+          "back": "I follow a data-driven approach: profile first, identify bottlenecks, then optimize. At AIB, I reduced document generation and retrieval latency by 40% by introducing in-memory databases for caching and using AWS S3 for efficient storage. At Fastenal, I implemented MongoDB performance tuning strategies including indexing optimization, query analysis, and connection pooling. I also focus on architectural improvements like moving to asynchronous processing and event-driven patterns when appropriate."
+        },
+        {
+          "front": "Explain your experience with cloud technologies",
+          "back": "I have production experience with AWS services including S3 for object storage, EC2 for compute, and various managed services. At AIB, I leveraged S3 for document storage achieving 40% latency reduction. I understand cloud-native principles, serverless architectures, infrastructure as code, and have worked with cloud databases like AWS RDS. I also have experience with cloud security, IAM policies, and cost optimization strategies."
+        },
+        {
+          "front": "What is your DevOps and automation experience?",
+          "back": "I have strong DevOps experience spanning CI/CD pipelines, containerization, and infrastructure automation. At AIB, I built a cross-platform automation solution that integrated 50% more servers and increased system reliability by 30%. I use Docker for containerization, Maven for build automation, Ansible for configuration management, and have implemented CI/CD pipelines. I'm proficient in Linux shell scripting and have experience with Git for version control and automated testing with JUnit."
+        },
+        {
+          "front": "How do you handle production incidents?",
+          "back": "I follow a structured approach: acknowledge the issue immediately, assess impact, stabilize the system, identify root cause, implement a fix, and document learnings. At AIB, I resolved a critical database connection issue in production through swift troubleshooting—analyzing logs, identifying the connection pool exhaustion, implementing a hotfix, and then designing a permanent solution. I also led initiatives to prevent future incidents, like reducing DNS outages by 15% through proactive monitoring and cross-team coordination."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Should you mention specific technologies like Spring Boot, Kafka, AWS, Docker, and MongoDB when discussing your technical experience?",
+          "answer": true
+        },
+        {
+          "question": "Is it okay to say 'I don't know' if you're unsure about a technical question, rather than trying to guess?",
+          "answer": true
+        },
+        {
+          "question": "Should you avoid discussing real production incidents you've handled when answering technical questions about problem-solving?",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "title": "Project Highlights",
+      "icon": "Award",
+      "cards": [
+        {
+          "front": "AIB Microservices Platform – Mortgage Processing System",
+          "back": "Contributing to a production Java microservices platform handling 3000+ mortgage applications monthly. Increased system reliability by 30% through cross-platform automation integrating 50% more servers. Reduced document processing latency by 40% using in-memory databases and AWS S3. Led cross-functional initiative reducing DNS-related outages by 15%. Resolved critical database connection issues in production. Tech Stack: Java, Spring Boot, Microservices, AWS S3, MySQL, DB2, Maven, Ansible, Docker."
+        },
+        {
+          "front": "Fastenal Event-Driven Architecture Migration",
+          "back": "Led migration from synchronous workflows to event-driven architecture using Apache Kafka, reducing system latency by 30% and improving scalability. Increased user engagement by 20% by deploying interactive features with Node.js and JavaScript. Integrated OneLogin SSO with OAuth 2.0 for enhanced security. Implemented MongoDB performance tuning improving reliability and scalability. Achieved 5-6% improvement in code reliability. Tech Stack: Node.js, JavaScript, Apache Kafka, MongoDB, OAuth 2.0."
+        },
+        {
+          "front": "Mullan Lighting Automation & Logistics Optimization",
+          "back": "Increased processing efficiency by 30% by automating dispatch order process using PHP, reducing manual workload significantly. Developed price comparison algorithm that reduced shipping expenses by 20% and optimized logistics operations. Built automated notification system that decreased customer support inquiries by 25% through proactive order updates via email. Tech Stack: PHP, MySQL, Email APIs, Logistics Integration."
+        },
+        {
+          "front": "E-Commerce Automation Bot",
+          "back": "Developed an automation bot managing operations for 20+ e-commerce shops simultaneously, saving clients an estimated 15+ hours per week. Automated inventory management, order processing, customer communications, and reporting. Demonstrated ability to build scalable automation solutions that deliver measurable time and cost savings. Tech Stack: Python, APIs, Web Scraping, Database Management."
+        },
+        {
+          "front": "Emotion Recognition & Sentiment Analysis Research",
+          "back": "Built and presented a deep learning-based emotion recognition and sentiment analysis system as Summer Research Intern at Illinois Institute of Technology. Implemented neural network models for real-time emotion detection from text and facial expressions. Results published at IEEE Xplore, demonstrating research capabilities and expertise in AI/ML. Tech Stack: Python, NLTK, Deep Learning, TensorFlow/PyTorch."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Should you highlight quantifiable results like '30% reliability increase', '40% latency reduction', or '3000+ mortgage applications monthly' when describing your projects?",
+          "answer": true
+        },
+        {
+          "question": "Is it important to mention the specific technologies and tools (Java, Spring Boot, Kafka, AWS, Docker, MongoDB) used in your projects?",
+          "answer": true
+        },
+        {
+          "question": "Should you avoid discussing the business impact and cost savings (like 15+ hours saved weekly or 20% shipping cost reduction) when describing your projects?",
+          "answer": false
+        }
+      ]
+    }
+  ]
+}

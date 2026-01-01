@@ -1,10 +1,21 @@
-import { useState } from 'react';
-import { CheckCircle, XCircle, AlertCircle, Eye } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { CheckCircle, XCircle, AlertCircle, Eye, Copy, FileText } from 'lucide-react';
 
 const TestValidator = () => {
   const [jsonInput, setJsonInput] = useState('');
+  const [resumeInput, setResumeInput] = useState('');
+  const [exampleJson, setExampleJson] = useState('');
   const [validationResult, setValidationResult] = useState(null);
   const [showPreview, setShowPreview] = useState(false);
+  const [copied, setCopied] = useState(false);
+
+  // Load Example.json on component mount
+  useEffect(() => {
+    fetch('/Example.json')
+      .then(res => res.text())
+      .then(text => setExampleJson(text))
+      .catch(err => console.error('Failed to load Example.json:', err));
+  }, []);
 
   const validateJSON = () => {
     // Reset state
@@ -136,6 +147,29 @@ const TestValidator = () => {
     }
   };
 
+  const handleCopyPrompt = async () => {
+    if (!resumeInput.trim()) return;
+
+    const prompt = `${exampleJson}\n\nLook At this above json carefully and Generate new JSON for this new resume information: name, role, description, sections[3]. Each section: title, icon (Users/Target/Award), cards[], quiz[3]. Quiz MANDATORY: question (string), answer (boolean) in the same way. Don't miss anything.\n\nResume:\n${resumeInput}`;
+
+    try {
+      await navigator.clipboard.writeText(prompt);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      console.error('Failed to copy:', err);
+      // Fallback: select text
+      const textarea = document.createElement('textarea');
+      textarea.value = prompt;
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textarea);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }
+  };
+
   return (
     <div className="min-h-screen bg-black py-8 px-4 sm:px-6 md:px-8 lg:px-12">
       <div className="max-w-6xl mx-auto">
@@ -153,48 +187,37 @@ const TestValidator = () => {
           <p className="text-gray-300 text-lg">
             Paste your cheatsheet JSON below to validate its structure
           </p>
-          <div className="mt-4 p-4 bg-blue-400/10 border border-blue-400/20 rounded-lg">
-            <p className="text-blue-300 text-sm font-semibold mb-2">📋 Copy This Prompt:</p>
-            <p className="text-white text-xs font-mono bg-black/50 p-3 rounded border border-white/10 select-all">
-              Generate JSON: name, role, description, sections[3]. Each section: title, icon (Users/Target/Award), cards[], quiz[3]. Quiz MANDATORY: question (string), answer (boolean).
-            </p>
-          </div>
-          <button
-            onClick={() => {
-              const sampleJSON = {
-                "name": "John Doe",
-                "role": "Software Engineer",
-                "description": "Tailored to your experience in software development",
-                "sections": [
-                  {
-                    "title": "Behavioral Questions",
-                    "icon": "Users",
-                    "cards": [
-                      {
-                        "front": "Tell me about yourself",
-                        "back": "I'm a software engineer with experience in..."
-                      }
-                    ],
-                    "quiz": [
-                      {
-                        "question": "Should you use the STAR method?",
-                        "answer": true
-                      }
-                    ]
-                  }
-                ]
-              };
-              setJsonInput(JSON.stringify(sampleJSON, null, 2));
-            }}
-            className="mt-4 px-4 py-2 bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors text-sm"
-          >
-            Load Sample JSON
-          </button>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Left: Input */}
           <div className="space-y-4">
+            {/* Resume Input Section */}
+            <div className="backdrop-blur-xl bg-white/[0.02] border border-white/10 rounded-2xl p-6">
+              <div className="flex items-center gap-2 mb-3">
+                <FileText className="w-5 h-5 text-blue-400" />
+                <label className="block text-white font-semibold">
+                  Paste Resume Here:
+                </label>
+              </div>
+              <textarea
+                value={resumeInput}
+                onChange={(e) => setResumeInput(e.target.value)}
+                placeholder="Paste the candidate's resume text here..."
+                className="w-full h-48 bg-black/50 border border-white/20 rounded-xl p-4 text-white text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-400/20 resize-none"
+              />
+              {resumeInput.trim() && (
+                <button
+                  onClick={handleCopyPrompt}
+                  className="mt-4 w-full px-6 py-3 bg-purple-400 text-white rounded-xl font-medium hover:bg-purple-500 transition-all duration-300 flex items-center justify-center gap-2"
+                >
+                  <Copy className="w-5 h-5" />
+                  {copied ? 'Copied!' : 'Copy Prompt'}
+                </button>
+              )}
+            </div>
+
+            {/* JSON Input Section */}
             <div className="backdrop-blur-xl bg-white/[0.02] border border-white/10 rounded-2xl p-6">
               <label className="block text-white font-semibold mb-3">
                 Paste JSON Here:

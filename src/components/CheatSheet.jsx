@@ -33,6 +33,9 @@ const CheatSheet = () => {
         const response = await fetch(`/${name}.json`);
         
         if (!response.ok) {
+          if (response.status === 404) {
+            throw new Error(`404 - Cheat sheet not found for: ${name}`);
+          }
           throw new Error(`Failed to load data: ${response.status} ${response.statusText}`);
         }
         
@@ -116,14 +119,46 @@ const CheatSheet = () => {
 
   // Show error state
   if (error || !data) {
+    const isNotFound = error && (error.includes('404') || error.includes('Failed to load data: 404') || error.includes('Not found'));
+    
     return (
       <div className="min-h-screen bg-black flex items-center justify-center px-4">
         <div className="text-center text-white max-w-2xl">
-          <div className="text-xl mb-4">Error loading cheat sheet</div>
-          <div className="text-gray-400 mb-4">{error || 'No data available'}</div>
-          <div className="text-sm text-gray-500">
-            Make sure {name}.json exists in the public folder and has the correct structure.
+          <div className="flex items-center justify-center gap-3 mb-6">
+            <div className="w-16 h-16 bg-white rounded-lg flex items-center justify-center">
+              <div className="w-10 h-10 bg-black rounded-sm"></div>
+            </div>
+            <span className="text-white font-bold text-3xl">Mentorque</span>
           </div>
+          
+          {isNotFound ? (
+            <>
+              <h1 className="text-4xl sm:text-5xl md:text-6xl text-white font-bold mb-4">
+                Oops!
+              </h1>
+              <p className="text-2xl sm:text-3xl text-gray-300 mb-2">
+                No cheat sheet found for <span className="text-blue-400">{name}</span>
+              </p>
+              <p className="text-lg text-gray-400 mb-6">
+                Maybe it's a typo? Check the name and try again.
+              </p>
+            </>
+          ) : (
+            <>
+              <div className="text-xl mb-4">Error loading cheat sheet</div>
+              <div className="text-gray-400 mb-4">{error || 'No data available'}</div>
+              <div className="text-sm text-gray-500">
+                Make sure {name}.json exists in the public folder and has the correct structure.
+              </div>
+            </>
+          )}
+          
+          <a
+            href="/"
+            className="inline-block px-6 py-3 bg-blue-400 text-white rounded-xl font-medium hover:bg-blue-500 transition-all duration-300 shadow-lg shadow-blue-400/30"
+          >
+            Go to Home
+          </a>
         </div>
       </div>
     );

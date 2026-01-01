@@ -1,232 +1,53 @@
 import { useState, useEffect, useRef } from 'react';
-import { CheckCircle, Star, Clock, Users, Target, Zap, Award, RotateCcw } from 'lucide-react';
+import { useParams } from 'react-router-dom';
+import { RotateCcw } from 'lucide-react';
+import { getIcon } from '@/lib/iconMap';
 
 const CheatSheet = () => {
+  const { name } = useParams();
   const [currentSection, setCurrentSection] = useState(0);
   const [flippedCards, setFlippedCards] = useState(new Set());
   const [quizAnswers, setQuizAnswers] = useState({});
   const [showQuiz, setShowQuiz] = useState(false);
   const [quizComplete, setQuizComplete] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  const [data, setData] = useState(null);
   const containerRef = useRef(null);
 
-  const sections = [
-    {
-      title: "Behavioral Questions",
-      icon: <Users className="w-8 h-8" />,
-      cards: [
-        {
-          front: "Tell me about yourself",
-          back: "I'm a Business Analytics professional with 3+ years of experience turning complex data into strategic insights that enhance performance, customer experience, and operational efficiency. I recently completed my MSc in Business Analytics from UCD Michael Smurfit Graduate Business School. I've contributed to impactful outcomes including 30% platform performance improvement, sub-second latency optimization, and an AI-powered RAG chatbot that simplified regulatory document access. Currently, I'm a Business Analyst Intern at ICON plc in Dublin, where I've reduced case processing time by 50% and saved 6,000 hours in annual productivity gains. Previously, I worked as a Senior Full Stack Developer at BNY Mellon Technology, where I increased platform efficiency by 40% and improved system scalability. My expertise spans Python, Power BI, Tableau, SQL, data management, stakeholder engagement, and building dashboards that drive informed decision-making."
-        },
-        {
-          front: "What are your strengths?",
-          back: "My key strengths are my analytical mindset and ability to turn complex data into actionable insights. I excel at stakeholder engagement and requirements analysis, which allows me to bridge the gap between business needs and technical solutions. At ICON plc, I introduced an AI-powered RAG chatbot that reduced case processing time by 50% and saved 6,000 hours annually. At BNY Mellon, I increased platform efficiency by 40% by identifying performance gaps and coordinating modernization efforts. I'm skilled in building dashboards using Power BI and Tableau, and I have strong technical proficiency in Python, SQL, and data management. My ability to identify process improvements and implement automation has consistently delivered measurable results, such as reducing form-completion errors to 5% and improving delivery accuracy by 30%."
-        },
-        {
-          front: "What are your weaknesses?",
-          back: "I sometimes dive deep into data analysis and want to explore every possible angle before presenting insights. While this thoroughness has helped me deliver high-quality analytical solutions, I've learned to balance depth with timeliness by setting clear priorities and focusing on the most impactful insights first. I've also improved my stakeholder communication by providing regular updates and involving them early in the analysis process to ensure I'm addressing the most critical business questions."
-        },
-        {
-          front: "Why do you want to join us?",
-          back: "I'm excited about your company's focus on data-driven decision-making and innovation. My experience in business analytics, turning complex data into strategic insights, and building analytical solutions aligns well with your challenges. I'm particularly drawn to the opportunity to apply my skills in Python, Power BI, Tableau, and stakeholder engagement to solve complex business problems, building on my experience with platform performance optimization, process automation, and building dashboards that drive informed decision-making."
-        },
-        {
-          front: "Why do you want to leave your current company?",
-          back: "While I've gained valuable experience at ICON plc as a Business Analyst Intern, I'm seeking a permanent role that will allow me to leverage my full Business Analytics expertise and 3+ years of experience more extensively. I want to work on projects that combine my technical skills in Python, Power BI, and Tableau with advanced analytical techniques, contributing to strategic decision-making and business growth in a more senior capacity. I'm also looking for opportunities to lead analytical initiatives and mentor junior analysts."
-        },
-        {
-          front: "Where do you see yourself in the next 5 years?",
-          back: "In five years, I see myself as a senior Business Analytics professional or Analytics Manager, leading data-driven initiatives that drive strategic decision-making. I want to lead cross-functional teams, mentor junior analysts, and be recognized as an expert who bridges the gap between complex data insights and business strategy. I'm committed to continuous learning in advanced analytics, machine learning, and staying current with emerging tools and methodologies in business intelligence and data science."
-        },
-        {
-          front: "Tell me about a time you went above and beyond",
-          back: "Situation: At ICON plc, the regulatory document retrieval process was time-consuming and manual, causing delays in case processing. Task: Improve efficiency and reduce processing time beyond basic requirements. Action: I went beyond the initial scope by introducing an AI-powered RAG chatbot that streamlined document retrieval, automated regulatory processes, and optimized high-volume case handling. I also enhanced data accuracy and improved compliance within reporting processes. Result: Reduced case processing time by 50%, saved 6,000 hours in annual productivity gains, and lowered form-completion errors to 5%, significantly improving operational efficiency and compliance."
-        },
-        {
-          front: "How do you encourage innovation in your team?",
-          back: "Situation: At BNY Mellon, the tracking processes were fragmented, making it difficult to forecast and align across teams. Task: Foster better collaboration and decision-making efficiency. Action: I noticed the fragmented processes and took initiative to define standardized workflows, build comprehensive Jira/Confluence dashboards, and create forums for sharing insights and best practices. I encouraged team members to propose improvements to our analytical approaches. Result: Enhanced project transparency and decision-making efficiency by 20%, enabling better forecasting and cross-team alignment, which improved overall team productivity."
-        },
-        {
-          front: "Can you give an example of improving a process?",
-          back: "Situation: At ICON plc, regulatory processes and high-volume case handling were manual and time-consuming, leading to delays and errors. Task: Streamline workflows to improve efficiency and accuracy. Action: I analyzed existing processes, identified bottlenecks in document retrieval and case processing, developed an AI-powered RAG chatbot for automated document retrieval, and implemented process automation for regulatory workflows. I also enhanced data accuracy measures. Result: Reduced case processing time by 50%, saved 6,000 hours in annual productivity gains, and lowered form-completion errors to 5%, significantly improving operational efficiency."
-        },
-        {
-          front: "How do you handle difficult team members?",
-          back: "Situation: At BNY Mellon, there was misalignment between business and technical teams, causing rework and delays in sprint implementation. Task: Ensure project delivery while improving team alignment. Action: I identified the misalignment and conducted structured stakeholder interviews to understand both perspectives. I organized backlog grooming sessions to ensure precise implementation of sprints and facilitated better communication between teams. Result: Increased delivery accuracy and reduced rework by 30%, ensuring precise implementation of sprints and improved collaboration between business and technical teams."
-        },
-        {
-          front: "Tell me about a time you took initiative",
-          back: "Situation: At BNY Mellon, I noticed fragmented tracking processes that were making it difficult to forecast and align across teams. Task: Improve project transparency and decision-making efficiency proactively. Action: Without being asked, I analyzed the fragmented processes, defined standardized workflows, and built comprehensive Jira/Confluence dashboards that provided better visibility into project status and metrics. Result: Enhanced project transparency and decision-making efficiency by 20%, enabling better forecasting and cross-team alignment, which improved overall project outcomes."
-        },
-        {
-          front: "Describe an innovative solution you implemented",
-          back: "Situation: At ICON plc, regulatory document retrieval was time-consuming and manual, causing delays in case processing. Task: Design an innovative solution to streamline document access and improve efficiency. Action: I introduced an AI-powered RAG chatbot that simplified regulatory document access, automated document retrieval processes, and integrated it with existing workflows. I also optimized the system for high-volume case handling. Result: Reduced case processing time by 50% and saved 6,000 hours in annual productivity gains, significantly improving operational efficiency and user experience."
-        },
-        {
-          front: "How do you stay updated with industry trends?",
-          back: "Situation: The business analytics and data science landscape evolves rapidly with new tools, methodologies, and AI technologies. Task: Stay current with best practices and emerging technologies in analytics. Action: I regularly participate in analytics communities, attend webinars on Power BI, Tableau, and Python advancements, experiment with new analytical tools and AI technologies like RAG chatbots, contribute to data science discussions, and apply learnings to ongoing projects. Result: Applied cutting-edge AI technologies like RAG chatbots and modern analytics practices that enhanced project outcomes, such as the 30% platform performance improvement and sub-second latency optimization I achieved."
-        },
-        {
-          front: "Tell me about a time you solved a problem creatively",
-          back: "Situation: At ICON plc, regulatory document access was fragmented and time-consuming, causing delays in case processing. Task: Simplify document access and improve efficiency creatively. Action: Instead of just improving the existing manual process, I designed and implemented an AI-powered RAG chatbot that could intelligently retrieve and present relevant regulatory documents based on queries, eliminating the need for manual searching through multiple systems. Result: Reduced case processing time by 50% and saved 6,000 hours in annual productivity gains, demonstrating how creative use of AI technology can solve operational challenges."
-        },
-        {
-          front: "Give me an example of solving a critical production issue",
-          back: "Situation: At BNY Mellon, the legacy brokerage portal had performance gaps causing slow load times and poor user experience for 120+ clients. Task: Identify and address performance issues to improve platform efficiency. Action: I analyzed the performance gaps, defined modernization requirements, coordinated with UI/UX teams to optimize the user experience, and implemented performance optimizations. Result: Increased platform efficiency by 40%, resulting in faster load times and improved experience for 120+ clients, significantly enhancing user satisfaction."
-        },
-        {
-          front: "Describe a time you balanced quality and speed under pressure",
-          back: "Situation: At BNY Mellon, there was pressure to deliver sprints quickly, but misalignment between business and technical teams was causing rework and delays. Task: Improve delivery accuracy and reduce rework while maintaining sprint velocity. Action: I conducted structured stakeholder interviews to understand requirements clearly, organized backlog grooming sessions to ensure precise implementation, and established better communication channels between teams. Result: Increased delivery accuracy and reduced rework by 30%, ensuring precise implementation of sprints while maintaining quality standards and meeting deadlines."
-        },
-        {
-          front: "How do you approach complex problem-solving in large systems?",
-          back: "Situation: At BNY Mellon, the legacy architecture had constraints that were limiting system scalability and increasing development effort. Task: Design solutions for scalability and efficiency while maintaining system reliability. Action: I recognized the constraints in the legacy architecture, broke down the challenge into manageable components, supported migration to microservices architecture, and coordinated with technical teams to ensure smooth transition. Result: Improved system scalability and reduced development effort by 25%, resulting in faster deployments and lower maintenance complexity, while maintaining system reliability."
+  // Load data based on route parameter
+  useEffect(() => {
+    const loadData = async () => {
+      setLoading(true);
+      setError(null);
+      
+      if (!name) {
+        setError('No candidate name provided');
+        setLoading(false);
+        return;
+      }
+      
+      try {
+        // Load JSON file from root directory (public folder)
+        // Files uploaded to GitHub root should be in public/ folder
+        const response = await fetch(`/${name}.json`);
+        
+        if (!response.ok) {
+          throw new Error(`Failed to load data: ${response.status} ${response.statusText}`);
         }
-      ],
-      quiz: [
-        {
-          question: "Should you use the STAR method (Situation, Task, Action, Result) when answering behavioral questions about your experience at ICON plc and BNY Mellon?",
-          answer: true
-        },
-        {
-          question: "Is it important to mention specific quantifiable achievements like 'reduced case processing time by 50%' or 'saved 6,000 hours annually' in your behavioral answers?",
-          answer: true
-        },
-        {
-          question: "Should you avoid mentioning your specific projects like the AI-powered RAG chatbot or platform performance improvements when answering behavioral questions?",
-          answer: false
-        }
-      ]
-    },
-    {
-      title: "Technical Questions",
-      icon: <Target className="w-8 h-8" />,
-      cards: [
-        {
-          front: "Explain your experience with Python for data analysis",
-          back: "Answer: I have 3+ years of hands-on experience with Python for data analysis, statistical modeling, and building analytical solutions. I'm proficient in libraries like Pandas, NumPy for data manipulation, and use Python for data cleansing, ETL structuring, and creating visualizations. How It Was Applied: Used Python extensively in my Aviation Delay DSS project for data joins, ETL structuring, outlier detection, and data cleansing. Also used Python for statistical analysis including hypothesis testing, ANOVA, and correlation analysis in my Unemployment Analysis project across Europe."
-        },
-        {
-          front: "What's your experience with SQL and data management?",
-          back: "Answer: I'm proficient in SQL for data extraction, transformation, and analysis. I have experience with data management and mining, including complex queries, data joins, and ensuring data quality and integrity. How It Was Applied: Used SQL extensively for data extraction and transformation in my analytics projects. At BNY Mellon, I worked with data management to support platform efficiency improvements and at ICON plc, I enhanced data accuracy which lowered form-completion errors to 5%."
-        },
-        {
-          front: "How do you approach data quality and cleansing?",
-          back: "Answer: I use systematic approaches including outlier detection, data validation, and ETL structuring to ensure data quality. I also implement data accuracy measures and compliance checks within reporting processes. How It Was Applied: In my Aviation Delay DSS project, I performed comprehensive data cleansing and outlier detection. At ICON plc, I enhanced data accuracy which lowered form-completion errors to 5% and improved compliance within reporting processes."
-        },
-        {
-          front: "What's your experience with statistical analysis and hypothesis testing?",
-          back: "Answer: I'm proficient in descriptive and inferential statistics, including hypothesis testing, ANOVA, paired t-tests, and correlation analysis. I understand how to quantify significance and identify patterns in data. How It Was Applied: Conducted a decade-long statistical analysis of unemployment across Europe, examining variations by gender, age group, and citizenship status. Used hypothesis testing and ANOVA to quantify significance of regional labour-market disparities, pandemic-driven disruptions, and structural inequalities."
-        },
-        {
-          front: "How do you handle large datasets and performance optimization?",
-          back: "Answer: I use efficient data processing techniques, optimize queries, and implement performance improvements. I have experience with sub-second latency optimization and platform performance improvements. How It Was Applied: Contributed to 30% platform performance improvement and sub-second latency optimization. At BNY Mellon, I increased platform efficiency by 40% by addressing performance gaps and optimizing legacy systems."
-        },
-        {
-          front: "What's your experience with process automation?",
-          back: "Answer: I specialize in automating manual processes to improve efficiency and reduce errors. I've implemented automation solutions including AI-powered chatbots and automated regulatory processes. How It Was Applied: At ICON plc, I introduced an AI-powered RAG chatbot and automated regulatory processes, saving 6,000 hours in annual productivity gains. At BNY Mellon, I implemented automated checks that reduced security-ticket volume to 0.1%."
-        },
-        {
-          front: "Explain your experience with Power BI and Tableau",
-          back: "Answer: I'm proficient in both Power BI and Tableau for creating interactive dashboards and analytical solutions. I specialize in building multi-dashboard decision support systems that integrate multiple data sources and provide actionable insights. How It Was Applied: Developed an interactive, multi-dashboard Tableau-based DSS for Aviation Delay analysis, integrating flight performance, weather, cancellation, and airport geolocation datasets to analyze and predict flight delay patterns across the U.S. aviation network."
-        },
-        {
-          front: "How do you design effective dashboards for stakeholders?",
-          back: "Answer: I focus on stakeholder engagement and requirements analysis to understand what insights they need. I design dashboards that are intuitive, visually appealing, and drive informed decision-making. I also build Jira/Confluence dashboards for project transparency. How It Was Applied: Built comprehensive Jira/Confluence dashboards at BNY Mellon that enhanced project transparency and decision-making efficiency by 20%, enabling better forecasting and cross-team alignment. Created Tableau dashboards that provided actionable insights for aviation delay analysis."
-        },
-        {
-          front: "What's your experience with data visualization and storytelling?",
-          back: "Answer: I use Excel for statistical formulas and visualizations, Python for creating plots and hypothesis graphs, and BI tools like Tableau and Power BI for interactive visualizations. I focus on telling a clear story with data. How It Was Applied: Created comprehensive visualizations in my Unemployment Analysis project using Excel and Python, and developed interactive Tableau dashboards for the Aviation Delay DSS that helped stakeholders understand patterns and make data-driven decisions."
-        },
-        {
-          front: "How do you ensure dashboards drive informed decision-making?",
-          back: "Answer: I engage with stakeholders early to understand their decision-making needs, design dashboards with clear KPIs and metrics, and ensure data accuracy. I also provide context and recommendations alongside visualizations. How It Was Applied: Built analytical solutions and dashboards that drive informed decision-making throughout my career. At BNY Mellon, my dashboards improved decision-making efficiency by 20%, and my Aviation Delay DSS provided actionable insights for flight delay prediction."
-        },
-        {
-          front: "What's your experience with A/B testing and experimentation?",
-          back: "Answer: I have experience with A/B testing methodologies to test hypotheses and measure the impact of changes. I understand statistical significance and how to design experiments that provide actionable insights. How It Was Applied: Applied A/B testing principles in my analytical work to validate hypotheses and measure the effectiveness of process improvements and optimizations, ensuring data-driven decision-making."
-        },
-        {
-          front: "How do you handle advanced Excel for data analysis?",
-          back: "Answer: I'm proficient in Advanced Excel including statistical formulas, complex data manipulations, pivot tables, and creating visualizations. I use Excel for data analysis, statistical calculations, and reporting. How It Was Applied: Used Excel extensively in my projects for statistical formulas, visualizations, and data analysis. In my Unemployment Analysis project, I used Excel for statistical calculations and creating visualizations alongside Python for more advanced analysis."
-        },
-        {
-          front: "Explain your experience with stakeholder engagement",
-          back: "Answer: I specialize in stakeholder engagement and requirements analysis. I conduct structured stakeholder interviews, understand business needs, and translate them into technical requirements. I also coordinate with cross-functional teams including UI/UX teams. How It Was Applied: At BNY Mellon, I conducted structured stakeholder interviews and organized backlog grooming sessions to ensure precise implementation of sprints, increasing delivery accuracy and reducing rework by 30%. I also coordinated with UI/UX teams to improve platform efficiency."
-        },
-        {
-          front: "How do you approach requirements analysis and gathering?",
-          back: "Answer: I use structured approaches including stakeholder interviews, requirements workshops, and backlog grooming sessions. I ensure alignment between business and technical teams and document requirements clearly. How It Was Applied: At BNY Mellon, I identified misalignment between business and technical teams and conducted structured stakeholder interviews and backlog grooming sessions, ensuring precise implementation of sprints and reducing rework significantly."
-        },
-        {
-          front: "What's your experience with process improvement and operational efficiency?",
-          back: "Answer: I specialize in identifying process improvements and implementing solutions that enhance operational efficiency. I analyze existing processes, identify bottlenecks, and implement automation and optimization solutions. How It Was Applied: At ICON plc, I automated regulatory processes and optimized high-volume case handling, saving 6,000 hours annually. At BNY Mellon, I defined modernization requirements and standardized workflows, improving efficiency by 40% and reducing development effort by 25%."
-        },
-        {
-          front: "How do you handle project management and tracking tools?",
-          back: "Answer: I'm proficient with Jira and Confluence for project management, tracking, and documentation. I build dashboards and define standardized workflows to improve transparency and coordination. How It Was Applied: At BNY Mellon, I built comprehensive Jira/Confluence dashboards and defined standardized workflows, enhancing project transparency and decision-making efficiency by 20%, enabling better forecasting and cross-team alignment."
-        },
-        {
-          front: "What's your experience with version control and code governance?",
-          back: "Answer: I have experience implementing structured version-control processes and automated checks. I understand the importance of code governance and reducing security risks. How It Was Applied: At BNY Mellon, after recurring code-governance issues surfaced, I implemented structured version-control processes and automated checks, reducing security-ticket volume to 0.1% and significantly reducing risk and support overhead."
-        },
-        {
-          front: "How do you approach system modernization and architecture improvements?",
-          back: "Answer: I recognize constraints in legacy systems, define modernization requirements, and support migration to modern architectures like microservices. I coordinate with technical teams to ensure smooth transitions. How It Was Applied: At BNY Mellon, I recognized constraints in legacy architecture and supported migration to microservices, improving system scalability and reducing development effort by 25%, resulting in faster deployments and lower maintenance complexity."
-        }
-      ],
-      quiz: [
-        {
-          question: "Should you mention specific tools like Python, Power BI, Tableau, and SQL when discussing your technical experience?",
-          answer: true
-        },
-        {
-          question: "Is it okay to say 'I don't know' if you're unsure about a technical question, rather than trying to guess?",
-          answer: true
-        },
-        {
-          question: "Should you avoid discussing your real projects like the Aviation Delay DSS or Unemployment Analysis when answering technical questions?",
-          answer: false
-        }
-      ]
-    },
-    {
-      title: "Project Highlights",
-      icon: <Award className="w-8 h-8" />,
-      cards: [
-        {
-          front: "Aviation Delay DSS using US DOT Flight Data – Tableau Project",
-          back: "Overview: Developed an interactive, multi-dashboard Tableau-based Decision Support System integrating flight performance, weather, cancellation, and airport geolocation datasets to analyze and predict flight delay patterns across the U.S. aviation network. Key Achievements: Created a comprehensive analytical solution that provides actionable insights for flight delay prediction and analysis, integrating multiple complex datasets into a unified dashboard system. Technical Aspects: Used Tableau for interactive dashboard development, Excel for data preparation, Python with Pandas and NumPy for data processing, implemented data joins, ETL structuring, outlier detection, and data cleansing. Challenges: Integrating multiple diverse datasets (flight performance, weather, cancellations, geolocation), ensuring data quality, and creating intuitive visualizations for complex patterns. Solutions: Performed comprehensive data cleansing and outlier detection, structured ETL processes, created data joins to integrate multiple sources, and designed multi-dashboard architecture for different analytical perspectives. Impact: Provided a powerful decision support system that enables stakeholders to analyze and predict flight delay patterns, supporting data-driven decision-making in aviation operations."
-        },
-        {
-          front: "Statistical Analysis of Unemployment Across Europe (2013 - 2023)",
-          back: "Overview: Conducted a decade-long statistical analysis of unemployment across Europe, examining variations by gender, age group, and citizenship status using descriptive and inferential methods. Key Achievements: Identified regional labour-market disparities, pandemic-driven disruptions, and structural inequalities using hypothesis testing and ANOVA to quantify significance of findings. Technical Aspects: Used Excel for statistical formulas and visualizations, Python for creating plots and hypothesis graphs, applied descriptive statistics, paired t-test, ANOVA, and correlation analysis. Challenges: Analyzing a decade of data across multiple dimensions (gender, age, citizenship, regions), ensuring statistical validity, and identifying meaningful patterns and trends. Solutions: Applied rigorous statistical methods including hypothesis testing and ANOVA to quantify significance, used both descriptive and inferential statistics, and created comprehensive visualizations to communicate findings. Impact: Provided valuable insights into labour-market dynamics, helping understand regional disparities, pandemic impacts, and structural inequalities in European employment patterns, supporting evidence-based policy and decision-making."
-        },
-        {
-          front: "AI-powered RAG Chatbot at ICON plc",
-          back: "At ICON plc, I introduced an AI-powered RAG chatbot that streamlined regulatory document retrieval and automated regulatory processes. This innovation reduced case processing time by 50% and saved 6,000 hours in annual productivity gains. The chatbot simplified regulatory document access, automated document retrieval processes, and integrated with existing workflows. I also optimized the system for high-volume case handling, enhanced data accuracy, and improved compliance within reporting processes. This creative solution eliminated the need for manual searching through multiple systems and significantly improved operational efficiency."
-        },
-        {
-          front: "Platform Performance Optimization at BNY Mellon",
-          back: "At BNY Mellon, I analyzed performance gaps in the legacy brokerage portal that was causing slow load times and poor user experience for 120+ clients. I defined modernization requirements, coordinated with UI/UX teams to optimize the user experience, and implemented performance optimizations. This resulted in 30% platform performance improvement, 40% increase in platform efficiency, and sub-second latency optimization. I also recognized constraints in the legacy architecture, broke down the challenge into manageable components, and supported migration to microservices architecture, improving system scalability and reducing development effort by 25%."
-        }
-      ],
-      quiz: [
-        {
-          question: "Should you highlight quantifiable results like 'reduced case processing time by 50%' or 'saved 6,000 hours annually' when describing your projects?",
-          answer: true
-        },
-        {
-          question: "Is it important to mention the specific technologies and tools (Tableau, Python, Pandas, NumPy, Excel) used in your Aviation Delay DSS and Unemployment Analysis projects?",
-          answer: true
-        },
-        {
-          question: "Should you avoid discussing the challenges you faced and how you solved them when describing your projects?",
-          answer: false
-        }
-      ]
-    }
-  ];
+        
+        const jsonData = await response.json();
+        setData(jsonData);
+      } catch (err) {
+        console.error('Error loading candidate data:', err);
+        setError(`Could not load cheat sheet for: ${name}. Make sure ${name}.json exists in the root directory.`);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadData();
+  }, [name]);
 
   const handleCardFlip = (sectionIndex, cardIndex) => {
     const key = `${sectionIndex}-${cardIndex}`;
@@ -249,7 +70,7 @@ const CheatSheet = () => {
   };
 
   const handleNextSection = () => {
-    if (currentSection < sections.length - 1) {
+    if (data && currentSection < data.sections.length - 1) {
       setShowQuiz(true);
       setQuizAnswers({});
       setQuizComplete(false);
@@ -269,6 +90,31 @@ const CheatSheet = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  // Show loading state
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-black flex items-center justify-center">
+        <div className="text-center">
+          <div className="text-white text-xl mb-4">Loading your cheat sheet...</div>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-400 mx-auto"></div>
+        </div>
+      </div>
+    );
+  }
+
+  // Show error state
+  if (error || !data) {
+    return (
+      <div className="min-h-screen bg-black flex items-center justify-center">
+        <div className="text-center text-white">
+          <div className="text-xl mb-4">Error loading cheat sheet</div>
+          <div className="text-gray-400">{error || 'No data available'}</div>
+        </div>
+      </div>
+    );
+  }
+
+  const sections = data.sections;
   const currentSectionData = sections[currentSection];
   const allAnswersCorrect = currentSectionData.quiz.every((q, idx) => 
     quizAnswers[idx] === q.answer
@@ -288,13 +134,13 @@ const CheatSheet = () => {
             </div>
             <div className="text-center">
               <h1 className="text-2xl sm:text-3xl md:text-4xl text-white font-bold mb-2">
-                Welcome, <span className="text-blue-400">Nidhi Sharma</span>
+                Welcome, <span className="text-blue-400">{data.name}</span>
               </h1>
               <p className="text-gray-300 text-sm sm:text-base mb-2">
                 Your personalized interview preparation cheat sheet
               </p>
               <p className="text-gray-400 text-xs sm:text-sm max-w-2xl mx-auto">
-                Tailored to your experience in Business Analytics, data analysis, stakeholder engagement, and building analytical solutions
+                {data.description}
               </p>
             </div>
           </div>
@@ -310,7 +156,7 @@ const CheatSheet = () => {
                   Quick Check: <span className="text-blue-400">{currentSectionData.title}</span>
                 </h2>
                 <p className="text-gray-300 text-sm sm:text-base">
-                  Hi Nidhi! Answer these 3 questions before moving to the next section
+                  Hi {data.name.split(' ')[0]}! Answer these 3 questions before moving to the next section
                 </p>
               </div>
 
@@ -400,7 +246,7 @@ const CheatSheet = () => {
             <div className="text-center mb-8 sm:mb-12">
               <div className="flex items-center justify-center gap-3 mb-4">
                 <div className="text-blue-400">
-                  {currentSectionData.icon}
+                  {getIcon(currentSectionData.icon)}
                 </div>
                 <h2 className="text-3xl sm:text-4xl md:text-6xl text-white leading-tight">
                   {currentSectionData.title}
@@ -489,7 +335,7 @@ const CheatSheet = () => {
 
               {currentSection === sections.length - 1 && (
                 <div className="text-center">
-                  <p className="text-gray-300 mb-2 text-lg">Congratulations, Nidhi!</p>
+                  <p className="text-gray-300 mb-2 text-lg">Congratulations, {data.name.split(' ')[0]}!</p>
                   <p className="text-gray-400 mb-4 text-sm">You've completed all sections. Best of luck with your interviews!</p>
                   <button
                     onClick={() => {

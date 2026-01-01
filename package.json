@@ -7,14 +7,19 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "export-html": "node export-html.js",
+    "get-html": "node get-html.js",
+    "get-complete-html": "node get-complete-html.js",
+    "export-working": "node export-working-html.js",
+    "single-file": "node create-single-file.js"
   },
   "dependencies": {
+    "clsx": "^2.0.0",
+    "lucide-react": "^0.294.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.20.0",
-    "lucide-react": "^0.294.0",
-    "clsx": "^2.0.0"
+    "react-router-dom": "^6.20.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
@@ -26,8 +31,8 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "postcss": "^8.4.32",
+    "puppeteer": "^21.11.0",
     "tailwindcss": "^3.3.6",
     "vite": "^5.0.8"
   }
 }
-

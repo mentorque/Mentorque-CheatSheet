@@ -32,13 +32,14 @@
           "back": "Situation: At Deloitte, the Smart Logbook Service project required implementing microservices, but I was unfamiliar with Quarkus. Task: Deliver production-ready microservices within tight project timelines while learning a new framework. Action: I proactively studied Quarkus documentation, completed hands-on tutorials, and refactored the existing tech stack to leverage Quarkus features. I went beyond basic implementation by integrating KeyCloak security with JWT, setting up 3Scale for API management, and implementing comprehensive JUnit test cases to ensure code quality. I also documented the new architecture in Confluence to help future developers. Result: Successfully delivered core business logic for digital logbook processing on schedule, achieved secure inter-service communication compliant with regulatory standards, and enabled the team to adopt Quarkus best practices for future development."
         },
         {
-          "front": "How do you handle tight deadlines?",
-          "back": "I break down complex requirements into manageable tasks, prioritize based on business impact, and leverage Agile methodologies for iterative delivery. In the Guardian Life Insurance project, I managed Sprint goals in JIRA, delivered features incrementally, and maintained constant communication with stakeholders. I use automated testing with JUnit and CI/CD pipelines to catch issues early, and I focus on shipping core functionality first while planning for enhancements. This approach helped me deliver a 20% performance improvement while meeting all project deadlines."
-        },
-        {
-          "front": "Describe a time you took initiative",
-          "back": "Situation: At Capgemini, during the Guardian Life Insurance project, I noticed API response times were affecting user experience. Task: Improve system performance without explicit direction. Action: I took initiative to analyze database queries, implemented caching strategies, optimized backend APIs, and refactored inefficient code paths. I also proposed and implemented connection pooling improvements and streamlined data retrieval logic. Result: Achieved a 25% improvement in data retrieval speeds, which directly enhanced user experience. This proactive optimization became a reference point for performance improvements across other system modules."
-        }
+  "front": "What is your visa status?",
+  "back": "I am **fully eligible to work in Ireland** under my current permission. I am on **Stamp 1G (Graduate Scheme)**, which is **valid until [Month, Year]**. This allows me to work full-time without restrictions, and I am legally authorized to be employed in Ireland."
+},
+{
+  "front": "Would you require sponsorship?",
+  "back": "I am **fully eligible to work in Ireland** under my current permission **until [Month, Year]** and can **independently manage any renewal process** with the necessary documentation if required. If **sponsorship becomes relevant** under company policy at a later stage, I would be happy to explore it at the **appropriate time**."
+}
+
       ],
       "quiz": [
         {

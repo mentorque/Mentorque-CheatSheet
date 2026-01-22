@@ -1,0 +1,147 @@
+{
+  "name": "Stanley Johnson",
+  "role": "Software Engineer | Backend & Microservices Developer",
+  "description": "Tailored to your experience in backend development, microservices architecture, cloud technologies, API integration, and building scalable enterprise systems with Java, Spring Boot, Quarkus, and event-driven platforms",
+  "sections": [
+    {
+      "title": "Behavioral Questions",
+      "icon": "Users",
+      "cards": [
+        {
+          "front": "Tell me about yourself",
+          "back": "I'm a Software Engineer with over 3 years of professional experience building scalable backend systems and microservices using Java, Spring Boot, Quarkus, and cloud platforms like AWS and GCP. I've worked on enterprise-grade projects at Deloitte and Capgemini, delivering solutions for government digital transformation and insurance policy management systems. At Deloitte, I contributed to Ireland's Smart Logbook Service using Quarkus microservices, implemented secure RESTful APIs with KeyCloak and JWT, and automated CI/CD pipelines with Jenkins and OpenShift 4. At Capgemini, I engineered backend solutions for Guardian Life Insurance that improved data retrieval speeds by 25% and system performance by 20%. I hold a Master's in Computing (Data Analytics) from Dublin City University and am passionate about leveraging microservices, event-driven architectures, and AI to solve complex problems in healthcare and enterprise domains."
+        },
+        {
+          "front": "What are your strengths?",
+          "back": "My core strengths lie in backend architecture, microservices development, and cloud-native system design. I excel at building RESTful APIs, implementing secure authentication flows with KeyCloak and JWT, and deploying production-ready applications on OpenShift and Kubernetes. I have strong expertise in Java ecosystem technologies including Spring Boot and Quarkus, and hands-on experience with event-driven systems using Apache Kafka. I'm skilled at API management using 3Scale and Apigee, CI/CD automation with Jenkins and Maven, and ensuring code quality through SonarQube and JUnit testing. I also bring strong analytical capabilities from my data analytics background, enabling me to optimize system performance and make data-driven architectural decisions."
+        },
+        {
+          "front": "What are your weaknesses?",
+          "back": "I sometimes dive deep into technical optimization and architecture refinement, which can extend development timelines. While this ensures robust, production-grade solutions, I've learned to balance technical excellence with business delivery by adopting Agile practices, setting clear sprint goals in JIRA, and prioritizing features based on business impact. Working in cross-functional teams has taught me to communicate trade-offs effectively and deliver incremental value while maintaining high engineering standards."
+        },
+        {
+          "front": "Why do you want to join us?",
+          "back": "I'm drawn to organizations that tackle complex engineering challenges at scale and value technical excellence. Your focus on modern architecture, cloud-native solutions, and impactful products aligns perfectly with my background in microservices, API-driven design, and enterprise system integration. I'm particularly excited about the opportunity to leverage my experience with Spring Boot, Quarkus, Kafka, and cloud platforms while contributing to systems that drive real business value. I'm eager to work in an environment that encourages innovation, continuous learning, and engineering-driven decision-making."
+        },
+        {
+          "front": "Where do you see yourself in the next 5 years?",
+          "back": "In five years, I see myself as a senior backend engineer or technical lead specializing in distributed systems, microservices architecture, and cloud-native platforms. I want to deepen my expertise in system design, event-driven architectures, and cloud infrastructure while leading engineering initiatives that drive scalability and innovation. I'm also interested in mentoring junior engineers, contributing to architectural decisions, and potentially exploring solutions architecture or platform engineering roles that combine technical depth with strategic impact."
+        },
+        {
+          "front": "Tell me about a time you went above and beyond",
+          "back": "Situation: At Deloitte, the Smart Logbook Service project required implementing microservices, but I was unfamiliar with Quarkus. Task: Deliver production-ready microservices within tight project timelines while learning a new framework. Action: I proactively studied Quarkus documentation, completed hands-on tutorials, and refactored the existing tech stack to leverage Quarkus features. I went beyond basic implementation by integrating KeyCloak security with JWT, setting up 3Scale for API management, and implementing comprehensive JUnit test cases to ensure code quality. I also documented the new architecture in Confluence to help future developers. Result: Successfully delivered core business logic for digital logbook processing on schedule, achieved secure inter-service communication compliant with regulatory standards, and enabled the team to adopt Quarkus best practices for future development."
+        },
+        {
+          "front": "How do you handle tight deadlines?",
+          "back": "I break down complex requirements into manageable tasks, prioritize based on business impact, and leverage Agile methodologies for iterative delivery. In the Guardian Life Insurance project, I managed Sprint goals in JIRA, delivered features incrementally, and maintained constant communication with stakeholders. I use automated testing with JUnit and CI/CD pipelines to catch issues early, and I focus on shipping core functionality first while planning for enhancements. This approach helped me deliver a 20% performance improvement while meeting all project deadlines."
+        },
+        {
+          "front": "Describe a time you took initiative",
+          "back": "Situation: At Capgemini, during the Guardian Life Insurance project, I noticed API response times were affecting user experience. Task: Improve system performance without explicit direction. Action: I took initiative to analyze database queries, implemented caching strategies, optimized backend APIs, and refactored inefficient code paths. I also proposed and implemented connection pooling improvements and streamlined data retrieval logic. Result: Achieved a 25% improvement in data retrieval speeds, which directly enhanced user experience. This proactive optimization became a reference point for performance improvements across other system modules."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Quarkus is a cloud-native Java framework designed specifically for building microservices with low memory footprint and fast startup times.",
+          "answer": true
+        },
+        {
+          "question": "When discussing your experience with KeyCloak and JWT, you should emphasize only the authentication aspect and avoid mentioning authorization or regulatory compliance.",
+          "answer": false
+        },
+        {
+          "question": "Demonstrating measurable impact like '25% faster data retrieval' or '20% performance increase' strengthens behavioral responses by providing concrete evidence of your contributions.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "title": "Technical Questions",
+      "icon": "Target",
+      "cards": [
+        {
+          "front": "Explain your experience with microservices architecture",
+          "back": "I have extensive hands-on experience building microservices using Spring Boot and Quarkus. At Deloitte, I developed Quarkus-based microservices for the Smart Logbook Service, implementing core business logic for digital logbook data processing. I've designed RESTful APIs for inter-service communication, implemented service discovery patterns, and handled deployment on OpenShift 4. I secured microservices using KeyCloak with JWT for authentication and authorization, and managed API traffic with 3Scale. I follow best practices including stateless design, domain-driven design principles, and event-driven communication patterns using Kafka."
+        },
+        {
+          "front": "What is your experience with event-driven architecture and Apache Kafka?",
+          "back": "I designed and developed a Healthcare Event Streaming System using Apache Kafka with Spring Boot microservices. I implemented Kafka producers and consumers with proper topic management and consumer groups to optimize throughput and fault tolerance. I handled real-time patient data exchange with event-driven processing, ensuring scalability and reliability. I integrated PostgreSQL for persistent storage and built Angular-based visualization for real-time event monitoring. I also secured and governed the exposed REST APIs using Apigee API Management."
+        },
+        {
+          "front": "How do you implement security in microservices?",
+          "back": "I implement multi-layered security following industry best practices. I've integrated KeyCloak for centralized identity and access management with JWT tokens for stateless authentication. I secure inter-service communication using OAuth 2.0 protocols and implement role-based access control (RBAC). I use 3Scale and Apigee for API gateway security, rate limiting, and traffic management. I ensure compliance with regulatory standards by implementing audit logging, data encryption in transit and at rest, and following OWASP security guidelines. I also conduct security scanning using tools like SonarQube and Nexus IQ."
+        },
+        {
+          "front": "Describe your experience with CI/CD and DevOps practices",
+          "back": "I've automated complete CI/CD workflows using Jenkins, Maven, Git, and OpenShift 4. At Deloitte, I managed build and deployment cycles with Maven, monitored code quality using SonarQube, and performed dependency scanning with Nexus IQ. I've containerized applications with Docker, orchestrated deployments on Kubernetes and OpenShift, and implemented automated testing with JUnit and Selenium. I follow GitOps principles, use JIRA for sprint management, and document processes in Confluence. I focus on creating repeatable, observable pipelines that ensure code quality, security, and reliable deployments."
+        },
+        {
+          "front": "What is your experience with cloud platforms?",
+          "back": "I have practical experience with both AWS and GCP. I'm certified as a Google Cloud Platform Associate Cloud Engineer and completed AWS Fundamentals training. I've deployed applications on cloud infrastructure, worked with cloud-native services, and understand concepts like auto-scaling, load balancing, and managed databases. In my Healthcare Event Streaming project, I designed the architecture to be cloud-ready with Kubernetes orchestration. I'm familiar with cloud deployment patterns, infrastructure as code concepts, and cloud security best practices."
+        },
+        {
+          "front": "How do you ensure code quality and testing in your projects?",
+          "back": "I implement comprehensive testing strategies using JUnit for unit testing, Selenium for integration testing, and follow test-driven development practices where appropriate. I curate test cases that ensure high code coverage and adherence to business logic. I use SonarQube for continuous code quality monitoring, addressing code smells, vulnerabilities, and technical debt. I conduct code reviews using Git pull requests, maintain coding standards, and document critical components in Confluence. I also use Nexus IQ for dependency vulnerability scanning to maintain secure dependencies."
+        },
+        {
+          "front": "Explain your experience with API design and management",
+          "back": "I've designed and built RESTful web services following REST principles and OpenAPI specifications. At Deloitte, I built secure APIs for real-time data exchange between DIS components, implementing intelligent routing that reduced duplication. I use API management platforms like 3Scale and Apigee for traffic management, access control, authentication, and monitoring. I implement proper versioning, error handling, pagination, and rate limiting. I've worked with both synchronous REST APIs and asynchronous messaging patterns using Kafka. I ensure APIs are well-documented, secured with JWT, and comply with enterprise governance standards."
+        },
+        {
+          "front": "What is your experience with databases and data management?",
+          "back": "I have hands-on experience with relational databases including MySQL, PostgreSQL, and Oracle SQL. At Capgemini, I worked extensively with MySQL for policy data management, optimizing queries to improve data retrieval speeds by 25%. I've designed database schemas, implemented indexing strategies, handled transactions, and optimized query performance. In my Healthcare Event Streaming project, I integrated PostgreSQL for persistent storage of event data. I understand database normalization, ACID properties, and connection pooling. I also have foundational knowledge of data analytics from my Master's degree, including data cleaning, visualization, and statistical analysis."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "OpenShift 4 is a Kubernetes-based container platform that provides enterprise features for deploying and managing containerized applications.",
+          "answer": true
+        },
+        {
+          "question": "In microservices architecture, using JWT tokens for authentication eliminates the need for any authorization or access control mechanisms.",
+          "answer": false
+        },
+        {
+          "question": "Apache Kafka's consumer groups enable parallel processing of messages while ensuring each message in a partition is processed by only one consumer in the group.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "title": "Project Highlights",
+      "icon": "Award",
+      "cards": [
+        {
+          "front": "Smart Logbook Service – Department of Agriculture (Deloitte)",
+          "back": "Contributed to Ireland's SFPA modernization project within the Digital Inspection System (DIS). Refactored and implemented microservices using Quarkus for processing digital logbook data to optimize fisheries control and seafood safety inspections. Built secure RESTful APIs with KeyCloak and JWT for inter-service authorization, ensuring regulatory compliance. Deployed on OpenShift 4, managed API traffic with 3Scale, and automated CI/CD using Jenkins, Maven, SonarQube, and Nexus IQ. Implemented comprehensive JUnit test cases and collaborated using Git, JIRA, and Confluence. Tech Stack: Java, Quarkus, KeyCloak, JWT, OpenShift 4, 3Scale, Jenkins, Maven, SonarQube, Nexus IQ, Git, JIRA, Confluence."
+        },
+        {
+          "front": "System Throughput Process – Guardian Life Insurance (Capgemini)",
+          "back": "Developed backend systems for policy creation and management, building features for new application workflows and underwriting validation processes. Engineered APIs that improved data retrieval speeds by 25% and delivered backend solutions that increased system performance by 20%. Specialized in policy generation using Java, Spring Boot, MySQL, and IGO e-app integration. Built front-end components using JSP and worked in an Agile/Scrum environment with JIRA for sprint management. Successfully delivered robust, production-grade solutions for a major U.S. insurance company. Tech Stack: Java, Spring Boot, MySQL, JSP, Microservices, JIRA, Agile/Scrum."
+        },
+        {
+          "front": "Healthcare Event Streaming System (Personal Project)",
+          "back": "Designed and developed a real-time healthcare data exchange platform using event-driven architecture with Apache Kafka. Implemented Kafka producer and consumer microservices with optimized topics and consumer groups for throughput, fault tolerance, and reliability. Integrated PostgreSQL for persistent storage and built a responsive Angular-based front-end for real-time patient event visualization. Secured and governed REST APIs using Apigee API Management for authentication and access control. Demonstrated expertise in building scalable, event-driven systems for healthcare applications. Tech Stack: Java, Spring Boot, Apache Kafka, Kubernetes, Angular, PostgreSQL, Apigee, Docker."
+        },
+        {
+          "front": "Smart Contract Analysis – Machine Learning Project (Master's)",
+          "back": "Developed a Python-based system to evaluate Solidity smart contract code for vulnerability detection. Utilized static analysis tools including Slither, SmartCheck, and Mythril to identify initial vulnerabilities. Trained predictive models using LSTM and CNN architectures to classify potential security risks. Created new labeled datasets for the ML community to advance smart contract security research. Combined blockchain security knowledge with deep learning techniques to deliver an innovative approach to automated vulnerability detection. Tech Stack: Python, LSTM, CNN, Solidity, Slither, SmartCheck, Mythril, Machine Learning."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "KeyCloak is an open-source identity and access management solution that supports protocols like OAuth 2.0, OpenID Connect, and SAML 2.0.",
+          "answer": true
+        },
+        {
+          "question": "In a Kafka architecture, increasing the number of partitions in a topic always guarantees better performance regardless of consumer group configuration.",
+          "answer": false
+        },
+        {
+          "question": "SonarQube integrates with CI/CD pipelines to provide continuous inspection of code quality, detecting bugs, code smells, and security vulnerabilities during the build process.",
+          "answer": true
+        }
+      ]
+    }
+  ]
+}

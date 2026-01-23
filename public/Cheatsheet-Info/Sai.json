@@ -1,0 +1,139 @@
+{
+  "name": "Sai Sri Pavan Arveti",
+  "role": "Finance & Business Analyst | Operations & Transformation Specialist",
+  "description": "Tailored to your experience in financial operations, business consulting, data-driven analysis, process transformation, and KPI-driven reporting across corporate and insurance sectors",
+  "sections": [
+    {
+      "title": "Behavioral Questions",
+      "icon": "Users",
+      "cards": [
+        {
+          "front": "Tell me about yourself",
+          "back": "I'm a finance and administration analyst with over 4 years of experience delivering measurable improvements in financial operations, reporting, and transformation initiatives. At Deloitte USI, I supported €3M+ monthly revenue operations using SAP, improved reporting accuracy by 15-20% through variance and root-cause analysis, and designed automated Excel dashboards for KPI tracking. At Go Digit General Insurance, I managed a €550M+ GWP portfolio, reduced payment turnaround by 15-20% through process automation, and supported statutory audits impacting €95M+ in financial statements. I hold an MSc in International Business from Maynooth University and bring strong skills in SQL, Python, Power BI, financial reporting, and process transformation. I'm passionate about using data-driven insights to drive operational efficiency and support strategic decision-making."
+        },
+        {
+          "front": "What are your strengths?",
+          "back": "My core strengths are data-driven financial analysis, KPI monitoring, and process transformation. I excel at analyzing large-scale financial operations, identifying inefficiencies, and delivering measurable improvements. At Deloitte, I improved reporting accuracy by 15-20% and enhanced KPI visibility through automated dashboards. At Go Digit, I reduced payment cycle time and strengthened vendor controls through expense ratio analysis and automation. I'm proficient in SQL, Python, Power BI, SAP, and advanced Excel, and have a strong track record of cross-functional collaboration, stakeholder engagement, and supporting finance transformation initiatives in fast-paced corporate environments."
+        },
+        {
+          "front": "What are your weaknesses?",
+          "back": "I tend to invest significant time in ensuring data accuracy and comprehensive analysis, which occasionally slows down initial delivery. However, I've learned to balance thoroughness with efficiency by setting clear milestones, prioritizing high-impact areas first, and using iterative approaches. This has helped me maintain quality while meeting tight deadlines in finance operations and transformation projects."
+        },
+        {
+          "front": "Why do you want to join us?",
+          "back": "I'm interested in organizations that value data-driven decision-making, operational excellence, and continuous improvement. Your focus on impactful financial operations, business consulting, and transformation aligns closely with my background in financial analysis, KPI monitoring, and process optimization. I'm excited to apply my expertise in financial reporting, data analysis, and stakeholder collaboration to drive measurable business outcomes and contribute to strategic initiatives."
+        },
+        {
+          "front": "Where do you see yourself in the next 5 years?",
+          "back": "In five years, I see myself as a senior finance or business analyst leading transformation initiatives, driving strategic decision-making through data insights, and managing cross-functional teams. I want to deepen my expertise in financial modeling, business intelligence, and process optimization while taking on greater responsibility in consulting or advisory roles that impact organizational strategy and operational efficiency."
+        },
+        {
+          "front": "Tell me about a time you went above and beyond",
+          "back": "Situation: At Deloitte, reporting accuracy was a challenge, impacting decision-making. Task: Improve financial reporting quality and KPI visibility. Action: I went beyond routine tasks by conducting deep-dive variance and root-cause analyses on month-end data, designing automated Q&A Excel dashboards for invoice quality tracking, and collaborating with teams to identify gaps in workflows. Result: Achieved 15-20% improvement in reporting accuracy, enhanced audit readiness, and provided leadership with real-time KPI visibility that strengthened operational decision-making."
+        },
+        {
+          "front": "How do you handle tight deadlines?",
+          "back": "I prioritize tasks based on business impact, break down complex processes into manageable milestones, and leverage automation wherever possible. At Go Digit, I managed €22M+ monthly payments while improving turnaround by 15-20% through process analysis and automation. I focus on delivering core requirements first, maintain clear communication with stakeholders, and use iterative approaches to ensure quality under time constraints."
+        },
+        {
+          "front": "Describe a time you took initiative",
+          "back": "Situation: At Go Digit, manual vendor payment processes were inefficient and error-prone. Task: Improve payment accuracy and reduce cycle time. Action: I proactively analyzed expense ratios, vendor aging, and payment workflows, identified bottlenecks, and collaborated with systems teams to automate classification and reconciliation processes. Result: Reduced manual effort by 25%, improved payment turnaround by 15-20%, and strengthened vendor payment controls across a €120M portfolio."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "The STAR method helps structure behavioral answers with Situation, Task, Action, and Result.",
+          "answer": true
+        },
+        {
+          "question": "Quantifiable metrics like '15-20% improvement' or '€3M+ monthly revenue' strengthen your responses.",
+          "answer": true
+        },
+        {
+          "question": "You should avoid mentioning tools like SAP, SQL, or Power BI when discussing your work experience.",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "title": "Technical Questions",
+      "icon": "Target",
+      "cards": [
+        {
+          "front": "Explain your experience with financial reporting and analysis",
+          "back": "I have extensive experience in financial reporting using SAP, Excel, and Power BI. At Deloitte, I supported €3M+ monthly revenue operations with 100% compliance, conducted variance and trend analysis to improve reporting accuracy by 15-20%, and designed automated dashboards for KPI tracking. At Go Digit, I managed financial operations for a €550M+ portfolio and supported statutory audits impacting €95M+ in financial statements. I focus on accuracy, compliance, and actionable insights."
+        },
+        {
+          "front": "What is your experience with data analysis and visualization tools?",
+          "back": "I'm proficient in SQL for data extraction and analysis, Python for automation and advanced analytics, and Power BI and Tableau for visualization and dashboarding. I've used these tools to analyze invoice cycle times, expense ratios, vendor aging, and KPI trends, delivering insights that drive operational decisions and process improvements in large-scale financial operations."
+        },
+        {
+          "front": "How do you approach KPI monitoring and dashboard design?",
+          "back": "I start by understanding business objectives and identifying critical metrics. I then design automated dashboards using Excel, Power BI, or Tableau that provide real-time visibility into performance. At Deloitte, I created Q&A Excel dashboards to track invoice quality and improve audit readiness. I focus on clarity, accuracy, and ensuring stakeholders can easily interpret data to make informed decisions."
+        },
+        {
+          "front": "Describe your experience with ERP systems and process transformation",
+          "back": "I have hands-on experience with SAP and Infor SunSystems for financial operations and reporting. I've supported ERP upgrades, conducted workflow analysis, identified process gaps, and redesigned invoice and expense classification systems. At Go Digit, I partnered with systems teams to align expense classification for a €120M vendor payment portfolio, reducing manual effort by 25% and improving payment controls."
+        },
+        {
+          "front": "What is your experience with variance analysis and root-cause identification?",
+          "back": "I regularly perform variance analysis to identify deviations between actual and expected financial performance. At Deloitte, I analyzed month-end data to conduct trend and root-cause analysis, which improved reporting accuracy by 15-20%. I drill down into data, validate assumptions, and collaborate with operational teams to address underlying issues and drive corrective actions."
+        },
+        {
+          "front": "How do you ensure compliance and audit readiness?",
+          "back": "I maintain accurate documentation, reconcile financial data regularly, and design control frameworks that ensure compliance. At Deloitte, I supported 100% compliance in €3M+ monthly operations and improved audit readiness through automated quality dashboards. At Go Digit, I handled GST reconciliation for statutory audits impacting €95M+ financial statements. I prioritize accuracy, transparency, and proactive risk management."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "SAP is an enterprise resource planning (ERP) system commonly used for financial operations.",
+          "answer": true
+        },
+        {
+          "question": "KPI dashboards should be designed to provide real-time visibility into business performance metrics.",
+          "answer": true
+        },
+        {
+          "question": "Variance analysis is only useful for identifying positive trends in financial data.",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "title": "Project Highlights",
+      "icon": "Award",
+      "cards": [
+        {
+          "front": "Analyst - Administrative Business Center, Deloitte USI",
+          "back": "Delivered end-to-end financial and reporting operations supporting €3M+ monthly revenue with 100% compliance using SAP. Improved reporting accuracy by 15-20% through variance and root-cause analysis. Designed automated Q&A Excel dashboards to track invoice quality, enhancing audit readiness and KPI visibility. Supported finance transformation by analyzing workflows, identifying gaps, and redesigning invoice and expense classification processes."
+        },
+        {
+          "front": "Finance Analyst, Go Digit General Insurance",
+          "back": "Managed financial operations for a €550M+ GWP insurance portfolio with accurate monthly payments of €22M+. Improved payment turnaround by 15-20% through expense ratio analysis, vendor aging tracking, and process automation. Supported statutory audits with GST reconciliation impacting €95M+ financial statements. Contributed to finance transformation reducing manual effort by 25% and strengthening vendor payment controls across a €120M portfolio."
+        },
+        {
+          "front": "Business Consulting Project – Celtic Horizon Tours, Ireland",
+          "back": "Delivered an international market entry strategy across 3+ continents using competitive benchmarking and financial feasibility analysis. Evaluated market potential, identified expansion opportunities, and provided actionable recommendations to support strategic decision-making and business growth in the tourism sector."
+        },
+        {
+          "front": "Unemployment Insurance Framework – India",
+          "back": "Designed a national-level unemployment insurance framework using fiscal impact analysis and funding modeling. Assessed long-term sustainability for unemployed youth through actuarial evaluation, policy design, and financial forecasting. Delivered recommendations to support policy implementation and economic resilience."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "SAP is a widely used ERP system for managing financial operations and reporting.",
+          "answer": true
+        },
+        {
+          "question": "Process transformation initiatives should aim to reduce manual effort and improve operational controls.",
+          "answer": true
+        },
+        {
+          "question": "Variance analysis is only relevant for monthly reporting and not useful for strategic decision-making.",
+          "answer": false
+        }
+      ]
+    }
+  ]
+}

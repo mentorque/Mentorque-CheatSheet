@@ -1,0 +1,883 @@
+<script type="text/javascript">
+        var gk_isXlsx = false;
+        var gk_xlsxFileLookup = {};
+        var gk_fileData = {};
+        function filledCell(cell) {
+          return cell !== '' && cell != null;
+        }
+        function loadFileData(filename) {
+        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+            try {
+                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
+                var firstSheetName = workbook.SheetNames[0];
+                var worksheet = workbook.Sheets[firstSheetName];
+
+                // Convert sheet to JSON to filter blank rows
+                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
+                // Filter out blank rows (rows where all cells are empty, null, or undefined)
+                var filteredData = jsonData.filter(row => row.some(filledCell));
+
+                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
+                var headerRowIndex = filteredData.findIndex((row, index) =>
+                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
+                );
+                // Fallback
+                if (headerRowIndex === -1 || headerRowIndex > 25) {
+                  headerRowIndex = 0;
+                }
+
+                // Convert filtered JSON back to CSV
+                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
+                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
+                return csv;
+            } catch (e) {
+                console.error(e);
+                return "";
+            }
+        }
+        return gk_fileData[filename] || "";
+        }
+        </script><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Mastery Guide - Komal Joshi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+
+        :root {
+            --text-primary: #1a202c;
+            --text-secondary: #4a5568;
+            --bg-white: #ffffff;
+            --bg-light: #f7fafc;
+            --border-light: rgba(0,0,0,0.08);
+            --shadow-soft: 0 4px 20px rgba(0,0,0,0.08);
+            --header-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Purple-blue gradient */
+            --section-header-bg: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%); /* Pink gradient */
+            --answer-color: #2d3748; /* Dark blue-gray for answers */
+            --bold-color: #e53e3e; /* Bright red for bold text */
+            --question-color: #3182ce; /* Blue for questions */
+            --card-bg: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); /* Pink-red gradient for cards */
+            --star-bg: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); /* Blue-cyan gradient */
+            --highlight-color: #38a169; /* Green for highlights */
+            --accent-color: #ed8936; /* Orange for accents */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: var(--text-primary);
+            line-height: 1.6;
+            font-size: 12px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: var(--header-bg);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: var(--shadow-soft);
+            text-align: center;
+            border: 3px solid #ffd700;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+            color: #ffd700; /* Gold color for main title */
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header .subtitle {
+            font-size: 1rem;
+            opacity: 0.9;
+            color: #ffeaa7; /* Light yellow for subtitle */
+        }
+
+        .contact-info {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: #a29bfe; /* Light purple for contact info */
+        }
+
+        .contact-info strong {
+            color: #ff7675; /* Coral for name */
+        }
+
+        .intro {
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+            text-align: center;
+            background: rgba(255,255,255,0.9);
+            padding: 15px;
+            border-radius: 10px;
+            color: var(--accent-color);
+            font-weight: 500;
+        }
+
+        h2.section-header {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 20px 0 15px;
+            padding: 10px;
+            background: var(--section-header-bg);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #6c5ce7; /* Purple for section headers */
+            border: 2px solid #a29bfe;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .section-icon {
+            font-size: 1.2rem;
+            color: #e17055; /* Orange for icons */
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 10px;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.95);
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: var(--shadow-soft);
+            border: 2px solid transparent;
+            background-clip: padding-box;
+            page-break-inside: avoid;
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--card-bg);
+            border-radius: 10px;
+            z-index: -1;
+            opacity: 0.1;
+        }
+
+        .card h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #6c5ce7; /* Purple for card titles */
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+            border-bottom: 2px solid #a29bfe;
+            padding-bottom: 5px;
+        }
+
+        .qa-item {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: rgba(116, 185, 255, 0.1);
+            border-radius: 8px;
+            border-left: 4px solid #74b9ff;
+        }
+
+        .question {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--question-color);
+            margin-bottom: 8px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .answer {
+            font-size: 0.9rem;
+            color: var(--answer-color);
+            line-height: 1.7;
+        }
+
+        .answer strong {
+            color: var(--bold-color);
+            font-weight: 700;
+        }
+
+        .star-framework {
+            background: var(--star-bg);
+            border: 3px solid #00cec9;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .star-framework::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255,255,255,0.8);
+            z-index: 1;
+        }
+
+        .star-framework > * {
+            position: relative;
+            z-index: 2;
+        }
+
+        .star-framework h3 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 15px;
+            color: #2d3436;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .star-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+
+        .star-step {
+            background: rgba(255,255,255,0.9);
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: var(--shadow-soft);
+            border: 2px solid #fd79a8;
+        }
+
+        .star-step strong {
+            font-size: 0.9rem;
+            font-weight: 700;
+            display: block;
+            margin-bottom: 5px;
+            color: #e84393; /* Pink for STAR method titles */
+        }
+
+        .star-step span {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            position: relative;
+            padding-left: 20px;
+        }
+
+        ul li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--highlight-color);
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        ul li strong {
+            color: var(--accent-color);
+            font-weight: 700;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.85rem;
+            color: white;
+            background: rgba(0,0,0,0.2);
+            padding: 15px;
+            border-radius: 10px;
+            border: 2px solid #ffeaa7;
+        }
+
+        /* Special styling for different card types */
+        .card:nth-child(4n+1) {
+            border-left: 5px solid #e17055;
+        }
+
+        .card:nth-child(4n+2) {
+            border-left: 5px solid #00b894;
+        }
+
+        .card:nth-child(4n+3) {
+            border-left: 5px solid #6c5ce7;
+        }
+
+        .card:nth-child(4n+4) {
+            border-left: 5px solid #fd79a8;
+        }
+
+        /* Content Navigation Styles */
+        .content-navigation {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .nav-block {
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            padding: 20px;
+            text-decoration: none;
+            color: inherit;
+            box-shadow: var(--shadow-soft);
+            transition: all 0.3s ease;
+            border: 3px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .nav-block::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0.1;
+            border-radius: 15px;
+            z-index: -1;
+            transition: opacity 0.3s ease;
+        }
+
+        .nav-block:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .nav-block:hover::before {
+            opacity: 0.2;
+        }
+
+        .behavioral-block {
+            border-color: #e17055;
+        }
+
+        .behavioral-block::before {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+        }
+
+        .technical-block {
+            border-color: #00b894;
+        }
+
+        .technical-block::before {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+
+        .projects-block {
+            border-color: #6c5ce7;
+        }
+
+        .projects-block::before {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .tips-block {
+            border-color: #fd79a8;
+        }
+
+        .tips-block::before {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .nav-icon {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .nav-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 8px;
+            color: #2d3436;
+        }
+
+        .nav-description {
+            font-size: 0.9rem;
+            text-align: center;
+            color: var(--text-secondary);
+            line-height: 1.4;
+        }
+
+        /* Smooth scrolling for navigation */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Highlight target sections */
+        .section-header:target {
+            background: linear-gradient(135deg, #ffd700 0%, #ffb347 100%);
+            color: #2d3436;
+            animation: highlight 2s ease-in-out;
+        }
+
+        @keyframes highlight {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+            100% { transform: scale(1); }
+        }
+
+        /* Highlight important project cards */
+        .card h3:contains("JPMorgan") {
+            color: #00b894;
+        }
+
+        .card h3:contains("Transcelestial") {
+            color: #e17055;
+        }
+
+        @media print {
+            body {
+                background: white;
+                font-size: 10px;
+            }
+
+            .container {
+                padding: 10px;
+            }
+
+            .header {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 1.5rem;
+            }
+
+            .card {
+                break-inside: avoid;
+                margin-bottom: 10px;
+            }
+
+            h2.section-header {
+                font-size: 1.2rem;
+                page-break-before: auto;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+
+            .qa-item {
+                margin-bottom: 10px;
+                padding: 10px;
+            }
+        }
+    
+</style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Interview Mastery Guide</h1>
+            <div class="subtitle">Comprehensive Preparation for Behavioral & Technical Interviews</div>
+            <div class="contact-info">
+                <div><strong>Komal Joshi</strong></div>
+                <div>Business Development Representative | Biotechnology & Business Graduate</div>
+                <div>Dublin, Ireland | +353 894145256</div>
+                <div>20komalkjoshi@gmail.com</div>
+            </div>
+        </div>
+
+        <!-- Introduction -->
+        <div class="intro">
+            <p>This interview cheatsheet is designed to help you, Komal Joshi, prepare for your upcoming interviews. It covers behavioral questions, technical questions related to your role, project highlights, and pro tips for interview success, all tailored to your experience as a Business Development Representative at Dilip Patil and Associates with a Master’s in Biotechnology and Business.</p>
+        </div>
+
+        <!-- Content Navigation -->
+        <h2 class="section-header"><span class="section-icon">📋</span> Quick Navigation</h2>
+        <div class="content-navigation">
+            <a href="#behavioral-questions" class="nav-block behavioral-block">
+                <div class="nav-icon">🎭</div>
+                <div class="nav-title">Behavioral Questions</div>
+                <div class="nav-description">STAR method examples, leadership, teamwork, conflict & adaptability</div>
+            </a>
+            <a href="#technical-questions" class="nav-block technical-block">
+                <div class="nav-icon">💻</div>
+                <div class="nav-title">Technical Questions</div>
+                <div class="nav-description">Sales/CRM metrics, BANT/ABM, forecasting & tool integrations</div>
+            </a>
+            <a href="#project-highlights" class="nav-block projects-block">
+                <div class="nav-icon">🚀</div>
+                <div class="nav-title">Project Highlights</div>
+                <div class="nav-description">Biosynth strategy & Novo Nordisk acquisition proposal summaries</div>
+            </a>
+            <a href="#pro-tips" class="nav-block tips-block">
+                <div class="nav-icon">🎯</div>
+                <div class="nav-title">Pro Tips</div>
+                <div class="nav-description">Interview best practices, research & follow-up essentials</div>
+            </a>
+        </div>
+
+        <!-- Behavioral Questions -->
+        <h2 class="section-header" id="behavioral-questions"><span class="section-icon">🎭</span> Behavioral Questions</h2>
+
+        <!-- STAR Framework -->
+        <div class="star-framework">
+            <h3>🌟 STAR Method Framework</h3>
+            <div class="star-steps">
+                <div class="star-step">
+                    <strong>Situation</strong>
+                    <span>Set context and background for your story</span>
+                </div>
+                <div class="star-step">
+                    <strong>Task</strong>
+                    <span>Describe your specific responsibility</span>
+                </div>
+                <div class="star-step">
+                    <strong>Action</strong>
+                    <span>Explain what you did specifically</span>
+                </div>
+                <div class="star-step">
+                    <strong>Result</strong>
+                    <span>Share measurable outcomes</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid">
+            <!-- Introduction & Fit -->
+            <div class="card">
+                <h3>Introduction & Fit</h3>
+                <div class="qa-item">
+                    <div class="question">Tell me about yourself</div>
+                    <div class="answer">I'm Komal, currently based in Dublin and recently completed my Master’s from UCD. Before that, I worked as a BDR at Dilip Patil & Associates, an architectural and valuation firm in Aurangabad, India. I was responsible for generating leads, booking meetings, and building strong relationships with clients — from developers to business owners. That experience helped me become someone who thrives under pressure, enjoys working with people, and understands how important it is to build long-term trust with customers. I’ve always loved collaborating with teammates too — whether it's sharing lead insights or helping someone else land a sale, because at the end of the day, we’re all working toward the same goal. I’m a very growth-focused person — always learning, improving, and keeping up with new sales techniques. In a fast-changing sales environment, I think that adaptability and curiosity are what drive consistent results.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">What are your strengths?</div>
+                    <div class="answer">One of my biggest strengths is my ability to build relationships and earn trust quickly. Whether I was working with customers at NEXT and SPAR or with the prospects as a BDR, I always made it a point to listen closely and understand what the person truly needed — not just what they asked for. That’s helped me turn cold leads into clients and even generate referrals without pushing too hard. I’m also very self-motivated — especially in unstructured environments. At Dilip Patil & Associates, I had no formal sales system or tools, but I stayed organized and hit my outreach goals consistently. (worked in a high responsible environment with no exact monitoring from a manager)</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">What are your weaknesses?</div>
+                    <div class="answer">As for a weakness — I used to be hesitant to ask for help. I’d try to figure everything out on my own, which sometimes slowed me down. But over time, I realized that reaching out to peers or mentors actually helps me grow faster and avoid avoidable mistakes. Since then, I’ve made it a habit to ask smart questions and learn from others, especially in areas like refining my messaging or handling objections.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">Where do you see yourself in the next 5 years?</div>
+                    <div class="answer">In five years, I see myself in a strategic role, either leading a high-performing sales team or working cross-functionally in a revenue or go-to-market strategy role. I want to build deep expertise not just in selling, but in how companies like ClickUp scale globally — from customer acquisition to retention to expansion. I’m passionate about learning, so in the short term, I want to master the BDR role, absorb as much as I can, and contribute consistently to pipeline growth. From there, I’d love to move into closing roles, take on more responsibility, and eventually support strategic decisions around sales ops, forecasting, or growth planning. What excites me about ClickUp is that it’s the kind of company where people who perform and stay curious can move fast — and I’d love to grow with the company long term.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">Why do you want to join us? (company principles)</div>
+                    <div class="answer">I want to work at ClickUp because I believe it's not just a productivity tool — it's a solution to the exact problem I’ve seen businesses struggle with firsthand: tool overload and disconnected workflows. When I worked at Dilip Patil & Associates, we used different tools for everything — Excel for tracking leads, WhatsApp for communication, and PDFs for proposals. It worked, but it was chaotic. ClickUp solves that — it brings everything into one platform: task management, docs, goals, team chat, and even CRM functionality. That kind of operational clarity is a game-changer, especially for fast-moving teams. What really makes ClickUp stand out to me is the balance between power and affordability. Unlike Salesforce or HubSpot, which can be too complex or expensive for smaller teams, ClickUp is flexible, scalable, and accessible — whether you're a freelancer or a Fortune 500 company. At $7/user, the value-to-price ratio is unbeatable. But beyond the product, I’m drawn to ClickUp’s culture of growth and innovation. I love being in fast-paced environments where I can grow constantly, adapt to new sales techniques, and contribute beyond just hitting numbers. I’m not just looking to sell — I want to help businesses adopt a platform that genuinely improves how they work. That’s something I’d be proud to stand behind every day.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">Why do you want to leave your current company?</div>
+                    <div class="answer">I’m grateful for the opportunities and experiences I've gained in my current role, but I’ve come to realize that it doesn’t fully align with my academic background and the skillset I’m passionate about developing. I’m now looking for a position that better matches my qualifications and allows me to grow in the direction I’ve always envisioned for my career.</div>
+                </div>
+            </div>
+
+            <!-- Leadership & Teamwork -->
+            <div class="card">
+                <h3>Leadership & Teamwork</h3>
+                <div class="qa-item">
+                    <div class="question">Tell me about a time you led a team</div>
+                    <div class="answer"><strong>Situation:</strong> At Dilip Patil & Associates, I led a team of junior sales reps on a lead generation campaign for new valuation services. <strong>Task:</strong> Coordinate outreach, track progress, and meet quarterly targets. <strong>Action:</strong> Organized daily check-ins, assigned territories based on strengths, and provided training on objection handling. <strong>Result:</strong> Exceeded targets by 25%, generating 150 qualified leads and building team confidence.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">How do you handle difficult team members?</div>
+                    <div class="answer"><strong>Situation:</strong> A team member was missing outreach targets, affecting group performance. <strong>Task:</strong> Improve their contribution without demotivating them. <strong>Action:</strong> Had a one-on-one conversation to understand their challenges, offered personalized coaching, and paired them with a high-performer for shadowing. <strong>Result:</strong> Their performance improved by 40%, and the team hit overall KPIs.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">Describe a conflict you resolved</div>
+                    <div class="answer"><strong>Situation:</strong> Conflict arose between sales and marketing teams over lead quality at Dilip Patil & Associates. <strong>Task:</strong> Align teams to improve pipeline. <strong>Action:</strong> Facilitated a joint meeting to discuss criteria, implemented shared BANT qualification guidelines, and set up weekly feedback loops. <strong>Result:</strong> Lead conversion increased by 30%, reducing tension and enhancing collaboration.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">How do you motivate your team?</div>
+                    <div class="answer"><strong>Situation:</strong> Team morale was low during a slow quarter. <strong>Task:</strong> Boost engagement and productivity. <strong>Action:</strong> Introduced recognition shout-outs in meetings, set small weekly goals with rewards, and shared success stories. <strong>Result:</strong> Outreach volume increased by 20%, and the team rebounded to meet quarterly goals.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">Can you give an example of how you delegate tasks?</div>
+                    <div class="answer"><strong>Situation:</strong> Managing a high-volume lead gen campaign with limited resources. <strong>Task:</strong> Distribute workload efficiently. <strong>Action:</strong> Delegated research to junior reps, cold calling to experienced ones, and follow-ups to myself for oversight. <strong>Result:</strong> Campaign generated 100+ leads, exceeding expectations through effective delegation.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">How do you ensure effective communication within your team?</div>
+                    <div class="answer"><strong>Situation:</strong> Remote team coordination was challenging during a project. <strong>Task:</strong> Maintain alignment. <strong>Action:</strong> Implemented daily Slack updates, weekly video calls, and a shared CRM dashboard for real-time progress. <strong>Result:</strong> Reduced miscommunications and improved team efficiency by 25%.</div>
+                </div>
+            </div>
+
+            <!-- Problem-Solving -->
+            <div class="card">
+                <h3>Problem-Solving</h3>
+                <div class="qa-item">
+                    <div class="question">Describe a challenging problem you faced and how you solved it</div>
+                    <div class="answer"><strong>Situation:</strong> Low lead conversion rates at Dilip Patil & Associates. <strong>Task:</strong> Improve pipeline quality. <strong>Action:</strong> Analyzed data to identify weak points, refined BANT criteria, and personalized outreach scripts. <strong>Result:</strong> Conversion rate increased from 15% to 30%, adding €200K to revenue.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">How do you approach troubleshooting technical issues?</div>
+                    <div class="answer"><strong>Situation:</strong> CRM data inaccuracies affecting forecasting. <strong>Task:</strong> Fix and prevent recurrence. <strong>Action:</strong> Audited entries, trained team on data input, and set up validation rules in Salesforce. <strong>Result:</strong> Data accuracy reached 100%, improving forecast reliability by 30%.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">Tell me about a time you made a quick decision under pressure</div>
+                    <div class="answer"><strong>Situation:</strong> Last-minute client objection during a demo scheduling call. <strong>Task:</strong> Salvage the opportunity. <strong>Action:</strong> Quickly addressed concerns with tailored value props and offered a flexible time slot. <strong>Result:</strong> Secured the meeting, leading to a closed deal worth €50K.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">How do you prioritize tasks with multiple deadlines?</div>
+                    <div class="answer"><strong>Situation:</strong> Juggling 100+ daily outreaches with follow-ups. <strong>Task:</strong> Meet all targets. <strong>Action:</strong> Used Eisenhower matrix to prioritize high-impact leads and set daily quotas. <strong>Result:</strong> Consistently surpassed KPIs by 20%.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">Describe a time you adapted to a significant project change</div>
+                    <div class="answer"><strong>Situation:</strong> Market shift required pivoting outreach strategy. <strong>Task:</strong> Adjust without losing momentum. <strong>Action:</strong> Researched new segments, updated scripts, and retrained the team. <strong>Result:</strong> Maintained lead flow, achieving 22% YoY sales increase.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">How do you handle failure or setbacks?</div>
+                    <div class="answer"><strong>Situation:</strong> Missed a monthly lead target due to poor response rates. <strong>Task:</strong> Recover and improve. <strong>Action:</strong> Analyzed campaign data, refined messaging, and increased personalization. <strong>Result:</strong> Next month exceeded targets by 25%.</div>
+                </div>
+            </div>
+
+            <!-- Innovation & Initiative -->
+            <div class="card">
+                <h3>Innovation & Initiative</h3>
+                <div class="qa-item">
+                    <div class="question">Tell me about a time you took initiative</div>
+                    <div class="answer"><strong>Situation:</strong> Noticed inefficient lead tracking at Dilip Patil & Associates. <strong>Task:</strong> Improve process. <strong>Action:</strong> Implemented a custom Excel dashboard for real-time metrics. <strong>Result:</strong> Enhanced data accuracy and forecast reliability by 30%.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">Describe an innovative solution you implemented</div>
+                    <div class="answer"><strong>Situation:</strong> Low engagement in cold outreach. <strong>Task:</strong> Boost response rates. <strong>Action:</strong> Developed hyper-personalized campaigns using ABM strategies. <strong>Result:</strong> Achieved 45% response rate, generating €28K in new ARR.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">How do you stay updated with industry trends?</div>
+                    <div class="answer"><strong>Situation:</strong> Sales landscape evolving rapidly. <strong>Task:</strong> Stay competitive. <strong>Action:</strong> Subscribed to sales podcasts, attended webinars, and joined LinkedIn groups. <strong>Result:</strong> Applied new techniques to increase lead conversion by 25%.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">Tell me about a time you went above and beyond</div>
+                    <div class="answer"><strong>Situation:</strong> Key client needed urgent valuation during off-hours. <strong>Task:</strong> Secure the deal. <strong>Action:</strong> Coordinated with team for immediate response and follow-up. <strong>Result:</strong> Closed €100K deal, strengthening client relationship.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">How do you encourage innovation in your team?</div>
+                    <div class="answer"><strong>Situation:</strong> Team stuck in traditional outreach methods. <strong>Task:</strong> Foster creativity. <strong>Action:</strong> Organized monthly idea-sharing sessions and piloted new tools. <strong>Result:</strong> Adopted multichannel strategies, boosting engagement by 40%.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">Can you give an example of improving a process?</div>
+                    <div class="answer"><strong>Situation:</strong> Manual lead qualification was time-consuming. <strong>Task:</strong> Streamline it. <strong>Action:</strong> Introduced BANT framework and automated scoring in CRM. <strong>Result:</strong> Reduced qualification time by 35%, improving pipeline efficiency.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technical Questions Related to Your Role -->
+        <h2 class="section-header" id="technical-questions"><span class="section-icon">💻</span> Technical Questions Related to Your Role</h2>
+        <div class="grid">
+            <!-- Sales & Lead Generation -->
+            <div class="card">
+                <h3>Sales & Lead Generation</h3>
+                <div class="qa-item">
+                    <div class="question">What is BANT qualification and how do you use it?</div>
+                    <div class="answer">
+                        <strong>Answer:</strong> BANT stands for Budget, Authority, Need, Timeline—a framework to qualify leads. At Dilip Patil & Associates, I used it to prioritize high-potential prospects.<br>
+                        <strong>How It Was Solved:</strong> Asked targeted questions during calls, scored leads, and focused efforts on those meeting criteria, boosting conversion by 30%.
+                    </div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">How do you handle objections in sales calls?</div>
+                    <div class="answer">
+                        <strong>Answer:</strong> Common objections include budget or timing. I empathize, reframe value, and provide evidence like case studies.<br>
+                        <strong>How It Was Solved:</strong> In a call with a hesitant client, addressed concerns with ROI data, securing a meeting that led to a deal.
+                    </div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">What metrics do you track for sales success?</div>
+                    <div class="answer">
+                        <strong>Answer:</strong> Lead volume, conversion rate, pipeline value, response rate. Tracked these daily at Dilip Patil & Associates.<br>
+                        <strong>How It Was Solved:</strong> Used CRM dashboards to monitor, adjusted strategies weekly, surpassing KPIs by 20%.
+                    </div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">Describe a multichannel outreach strategy</div>
+                    <div class="answer">
+                        <strong>Answer:</strong> Combine email, calls, LinkedIn, and events for broader reach. Implemented this for lead gen.<br>
+                        <strong>How It Was Solved:</strong> Sequenced touchpoints, personalized messages, achieving 45% response rate in targeted segments.
+                    </div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">How do you use CRM tools like Salesforce?</div>
+                    <div class="answer">
+                        <strong>Answer:</strong> For lead tracking, automation, reporting. Optimized processes in Salesforce for data accuracy.<br>
+                        <strong>How It Was Solved:</strong> Set up custom fields, workflows, ensuring 100% accuracy and 30% better forecasting.
+                    </div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">What is ABM and when to use it?</div>
+                    <div class="answer">
+                        <strong>Answer:</strong> Account-Based Marketing targets high-value accounts with personalized campaigns. Used for key prospects.<br>
+                        <strong>How It Was Solved:</strong> Identified top accounts, tailored outreach, increasing engagement by 40%.
+                    </div>
+                </div>
+            </div>
+
+            <!-- CRM & Tools -->
+            <div class="card">
+                <h3>CRM & Tools</h3>
+                <div class="qa-item">
+                    <div class="question">How do you maintain CRM data accuracy?</div>
+                    <div class="answer">
+                        <strong>Answer:</strong> Regular audits, standardized input, validation rules. Achieved 100% accuracy at Dilip Patil & Associates.<br>
+                        <strong>How It Was Solved:</strong> Trained team, automated checks, reducing errors and improving reporting.
+                    </div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">What’s the difference between HubSpot and Salesforce?</div>
+                    <div class="answer">
+                        <strong>Answer:</strong> HubSpot is user-friendly for inbound; Salesforce is robust for complex sales. Used both for different needs.<br>
+                        <strong>How It Was Solved:</strong> Leveraged HubSpot for marketing automation, Salesforce for advanced tracking.
+                    </div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">How do you use Excel for sales analysis?</div>
+                    <div class="answer">
+                        <strong>Answer:</strong> For metrics tracking, forecasting, pivot tables. Analyzed lead data to optimize campaigns.<br>
+                        <strong>How It Was Solved:</strong> Created dashboards, identified trends, boosting efficiency by 25%.
+                    </div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">Describe integrating CRM with other tools</div>
+                    <div class="answer">
+                        <strong>Answer:</strong> Integrate Zoho with email for automated follow-ups. Set up at Dilip Patil & Associates.<br>
+                        <strong>How It Was Solved:</strong> Used APIs, tested workflows, increasing responsiveness to 90%.
+                    </div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">How do you forecast sales pipeline?</div>
+                    <div class="answer">
+                        <strong>Answer:</strong> Analyze stages, conversion rates, historical data. Improved reliability by 30%.<br>
+                        <strong>How It Was Solved:</strong> Reviewed weekly, adjusted for risks, ensuring accurate projections.
+                    </div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">What role does AI play in sales tools?</div>
+                    <div class="answer">
+                        <strong>Answer:</strong> For lead scoring, personalization. Explored AI features in HubSpot for better targeting.<br>
+                        <strong>How It Was Solved:</strong> Implemented scoring models, prioritizing high-intent leads effectively.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Market Analysis & Strategy -->
+            <div class="card">
+                <h3>Market Analysis & Strategy</h3>
+                <div class="qa-item">
+                    <div class="question">How do you conduct market research?</div>
+                    <div class="answer">
+                        <strong>Answer:</strong> Use databases, surveys, competitor analysis. Researched for Biosynth project, projecting $46.9M revenue.<br>
+                        <strong>How It Was Solved:</strong> Gathered data, analyzed trends, developed targeted strategies.
+                    </div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">What is stakeholder mapping?</div>
+                    <div class="answer">
+                        <strong>Answer:</strong> Identifying key influencers for decisions. Used in Novo Nordisk proposal.<br>
+                        <strong>How It Was Solved:</strong> Mapped stakeholders, tailored engagement, supporting integration plans.
+                    </div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">How do you develop pricing models?</div>
+                    <div class="answer">
+                        <strong>Answer:</strong> Based on costs, value, competition. Created for PCI Pharma acquisition.<br>
+                        <strong>How It Was Solved:</strong> Analyzed data, tested scenarios, ensured long-term value.
+                    </div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">Describe building a partner ecosystem</div>
+                    <div class="answer">
+                        <strong>Answer:</strong> Network with intermediaries for referrals. Achieved 30-40% conversion.<br>
+                        <strong>How It Was Solved:</strong> Established cross-referral programs, maintained relationships.
+                    </div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">How do you analyze sales metrics?</div>
+                    <div class="answer">
+                        <strong>Answer:</strong> Track KPIs like conversion, response rates. Drove 22% YoY increase.<br>
+                        <strong>How It Was Solved:</strong> Used CRM reports, identified patterns, optimized strategies.
+                    </div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">What’s your approach to negotiation?</div>
+                    <div class="answer">
+                        <strong>Answer:</strong> Focus on value, find win-win solutions. Negotiated deals adding €750K revenue.<br>
+                        <strong>How It Was Solved:</strong> Prepared thoroughly, listened actively, closed effectively.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Highlights -->
+        <h2 class="section-header" id="project-highlights"><span class="section-icon">🚀</span> Project Highlights</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Business Strategy for Biosynth’s Staboly</h3>
+                <ul>
+                    <li><strong>Overview:</strong> Researched market demand for a synthetic BSA alternative.</li>
+                    <li><strong>Key Achievements:</strong> Projected $46.9M revenue by 2026.</li>
+                    <li><strong>Technical Aspects:</strong> Market analysis, biotech trends.</li>
+                    <li><strong>Challenges:</strong> Competitive landscape, demand forecasting.</li>
+                    <li><strong>Solutions:</strong> Data-driven research, stakeholder input.</li>
+                    <li><strong>Impact:</strong> Designed outreach strategies for biotech markets.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Strategic Acquisition Proposal for Novo Nordisk</h3>
+                <ul>
+                    <li><strong>Overview:</strong> Proposed vertical integration with PCI Pharma Services.</li>
+                    <li><strong>Key Achievements:</strong> Developed pricing models, engagement tactics.</li>
+                    <li><strong>Technical Aspects:</strong> Market research, stakeholder mapping.</li>
+                    <li><strong>Challenges:</strong> Complex integration, value creation.</li>
+                    <li><strong>Solutions:</strong> Analyzed synergies, planned long-term strategies.</li>
+                    <li><strong>Impact:</strong> Supported acquisition for enhanced operations.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Pro Tips for Interview Success -->
+        <h2 class="section-header" id="pro-tips"><span class="section-icon">🎯</span> Pro Tips for Interview Success</h2>
+        <div class="card">
+            <ul>
+                <li><strong>Practice the STAR Method:</strong> Structure behavioral answers with Situation, Task, Action, Result using specific examples from your experience.</li>
+                <li><strong>Know Your Resume:</strong> Be prepared to discuss any part, especially your roles and project achievements, in detail.</li>
+                <li><strong>Research the Company:</strong> Understand their business, challenges, and align your skills to their needs in your answers.</li>
+                <li><strong>Prepare Thoughtful Questions:</strong> Ask about the role or company to show interest and engagement.</li>
+                <li><strong>Present Professionally:</strong> Dress appropriately, arrive on time, and show confidence and enthusiasm throughout.</li>
+                <li><strong>Follow Up Post-Interview:</strong> Send a thank-you email reiterating your interest and appreciation for the opportunity.</li>
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Prepared on August 16, 2025, for Komal Joshi. Tailored to your experience and skills. Best of luck with your interviews!</p>
+        </div>
+    </div>
+</body>
+</html>

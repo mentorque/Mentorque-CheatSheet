@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 import { RotateCcw } from 'lucide-react';
 import { getIcon } from '@/lib/iconMap';
+import FlipCard from './FlipCard';
 
 const CheatSheet = () => {
   const { name } = useParams();
@@ -303,92 +304,83 @@ const CheatSheet = () => {
                 const isFlipped = flippedCards.has(cardKey);
 
                 return (
-                  <div
+                  <FlipCard
                     key={cardIndex}
-                    className="flip-card-container"
-                    onClick={() => handleCardFlip(currentSection, cardIndex)}
-                  >
-                    <div className={`flip-card-inner ${isFlipped ? 'flipped' : ''}`}>
-                      {/* Front of Card */}
-                      <div className="flip-card-front">
-                        <div className="relative w-full h-full backdrop-blur-xl bg-white/[0.02] border border-white/10 rounded-2xl p-6 text-center transition-all duration-500 hover:bg-white/[0.05] hover:border-white/20 hover:shadow-2xl hover:shadow-blue-400/10 before:absolute before:inset-0 before:rounded-2xl before:bg-gradient-to-br before:from-white/[0.08] before:via-transparent before:to-transparent before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-500 flex flex-col items-center justify-center">
-                          <div className="relative z-10">
-                            <h3 className="text-xl lg:text-2xl text-white mb-4 drop-shadow-sm">
-                              {card.front}
-                            </h3>
-                            <p className="text-gray-400 text-sm">Click to flip</p>
-                          </div>
-                          <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-blue-400/[0.03] via-transparent to-purple-600/[0.02] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                        </div>
-                      </div>
-
-                      {/* Back of Card */}
-                      <div className="flip-card-back">
-                        <div className="relative w-full h-full backdrop-blur-xl bg-white/[0.06] border-2 border-white/25 rounded-2xl p-6 shadow-2xl shadow-blue-400/20 overflow-y-auto">
-                          <div className="relative z-10">
-                            <div className="flex items-center justify-between mb-4">
-                              <h3 className="text-lg text-blue-400 font-semibold">
-                                {card.front}
-                              </h3>
-                              <RotateCcw className="w-5 h-5 text-gray-400" />
-                            </div>
-                            <p className="text-gray-200 text-base leading-relaxed whitespace-pre-line">
-                              {card.back}
-                            </p>
-                          </div>
-                          <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-blue-400/[0.08] via-transparent to-purple-600/[0.05]"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                    data={card}
+                    isFlipped={isFlipped}
+                    onFlip={() => handleCardFlip(currentSection, cardIndex)}
+                  />
                 );
               })}
             </div>
 
             {/* Navigation */}
-            <div className="flex justify-center items-center gap-4 mt-8">
-              {currentSection > 0 && (
-                <button
-                  onClick={() => {
-                    setCurrentSection(prev => prev - 1);
-                    setFlippedCards(new Set());
-                    setShowQuiz(false);
-                    setQuizComplete(false);
-                    setQuizAnswers({});
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }}
-                  className="px-6 py-3 bg-white/[0.05] text-white rounded-xl font-medium hover:bg-white/[0.1] transition-all duration-300 border border-white/10"
-                >
-                  Previous Section
-                </button>
-              )}
-              
-              {currentSection < sections.length - 1 && (
-                <button
-                  onClick={handleNextSection}
-                  className="px-6 py-3 bg-blue-400 text-white rounded-xl font-medium hover:bg-blue-500 transition-all duration-300 shadow-lg shadow-blue-400/30"
-                >
-                  Next Section →
-                </button>
-              )}
-
-              {currentSection === sections.length - 1 && (
-                <div className="text-center">
-                  <p className="text-gray-300 mb-2 text-lg">Congratulations, {data.name.split(' ')[0]}!</p>
-                  <p className="text-gray-400 mb-4 text-sm">You've completed all sections. Best of luck with your interviews!</p>
-                  <button
-                    onClick={() => {
-                      setCurrentSection(0);
-                      setFlippedCards(new Set());
-                      setShowQuiz(false);
-                      setQuizComplete(false);
-                      setQuizAnswers({});
-                      window.scrollTo({ top: 0, behavior: 'smooth' });
-                    }}
-                    className="px-6 py-3 bg-blue-400 text-white rounded-xl font-medium hover:bg-blue-500 transition-all duration-300 shadow-lg shadow-blue-400/30"
-                  >
-                    Review Again
-                  </button>
+            <div className="mt-8">
+              {currentSection === sections.length - 1 ? (
+                /* Last Section - Show Congratulations with Previous and Review buttons */
+                <div className="space-y-6">
+                  <div className="text-center">
+                    <p className="text-gray-300 mb-2 text-lg">Congratulations, {data.name.split(' ')[0]}!</p>
+                    <p className="text-gray-400 mb-6 text-sm">You've completed all sections. Best of luck with your interviews!</p>
+                  </div>
+                  <div className="flex justify-center items-center gap-4">
+                    {currentSection > 0 && (
+                      <button
+                        onClick={() => {
+                          setCurrentSection(prev => prev - 1);
+                          setFlippedCards(new Set());
+                          setShowQuiz(false);
+                          setQuizComplete(false);
+                          setQuizAnswers({});
+                          window.scrollTo({ top: 0, behavior: 'smooth' });
+                        }}
+                        className="px-6 py-3 bg-white/[0.05] text-white rounded-xl font-medium hover:bg-white/[0.1] transition-all duration-300 border border-white/10"
+                      >
+                        ← Previous Section
+                      </button>
+                    )}
+                    <button
+                      onClick={() => {
+                        setCurrentSection(0);
+                        setFlippedCards(new Set());
+                        setShowQuiz(false);
+                        setQuizComplete(false);
+                        setQuizAnswers({});
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                      }}
+                      className="px-6 py-3 bg-blue-400 text-white rounded-xl font-medium hover:bg-blue-500 transition-all duration-300 shadow-lg shadow-blue-400/30"
+                    >
+                      Review Again
+                    </button>
+                  </div>
+                </div>
+              ) : (
+                /* Not Last Section - Show Previous and Next buttons */
+                <div className="flex justify-center items-center gap-4">
+                  {currentSection > 0 && (
+                    <button
+                      onClick={() => {
+                        setCurrentSection(prev => prev - 1);
+                        setFlippedCards(new Set());
+                        setShowQuiz(false);
+                        setQuizComplete(false);
+                        setQuizAnswers({});
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                      }}
+                      className="px-6 py-3 bg-white/[0.05] text-white rounded-xl font-medium hover:bg-white/[0.1] transition-all duration-300 border border-white/10"
+                    >
+                      ← Previous Section
+                    </button>
+                  )}
+                  
+                  {currentSection < sections.length - 1 && (
+                    <button
+                      onClick={handleNextSection}
+                      className="px-6 py-3 bg-blue-400 text-white rounded-xl font-medium hover:bg-blue-500 transition-all duration-300 shadow-lg shadow-blue-400/30"
+                    >
+                      Next Section →
+                    </button>
+                  )}
                 </div>
               )}
             </div>

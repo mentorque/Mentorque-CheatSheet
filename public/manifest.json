@@ -1,8 +1,16 @@
 {
   "cheatsheets": [
     {
+      "name": "anoop-software-test-kumar",
+      "displayName": "Anoop Software Test Kumar"
+    },
+    {
       "name": "gokul-yadav",
       "displayName": "Gokul Yadav"
+    },
+    {
+      "name": "Johnson",
+      "displayName": "Johnson"
     },
     {
       "name": "nidhi-sharma",
@@ -13,8 +21,20 @@
       "displayName": "Reshu Agarwal"
     },
     {
+      "name": "Sai",
+      "displayName": "Sai"
+    },
+    {
       "name": "shresth-agarwal",
       "displayName": "Shresth Agarwal"
+    },
+    {
+      "name": "sumit-kumar",
+      "displayName": "Sumit Kumar"
+    },
+    {
+      "name": "Tejas-Singh-Rawat",
+      "displayName": "Tejas Singh Rawat"
     }
   ]
 }

@@ -1,214 +1,259 @@
 {
   "name": "Anoop Kumar",
-  "role": "Software Test Engineer",
-  "description": "Your interview prep—ISTQB certified, 5 years in test. Java/Python automation, API and backend testing, CI/CD. Built for real answers, not corporate speak.",
+  "role": "Quality Assurance Engineer",
+  "description": "Your interview prep—ISTQB certified, 5 years in QA. Selenium, Rest Assured, BDD/Cucumber, CI/CD (Jenkins, GitHub Actions). Built for real answers from your resume and call notes.",
   "sections": [
     {
-      "title": "Behavioral Questions",
+      "title": "Personalised Questions",
       "icon": "Users",
       "cards": [
         {
           "front": "Tell me about yourself",
-          "back": "I'm Anoop. Five years in test—right now at Cubic3 in Dublin. I do a lot of Selenium for UI and REST Assured for APIs, plus Java and Python automation. Before that, Integer and Amdocs—test plans, SQL checks, defect tracking in Jira. I like when QA sits with dev and product; that's where I work best. Did a Master's in Cloud Computing at NCI—DevOps, cloud architecture—so I think about how tests fit into pipelines, not just run in isolation."
+          "back": "I'm Anoop. Five years in QA—right now at Cubic3 in Dublin. I do E2E automation with Selenium, API testing with Postman and Rest Assured, and I've used BDD with Cucumber so user stories become executable scenarios. Before that, Integer and Amdocs—functional, regression, API and data validation, defect triage in Jira, TestRail for test management. I like shift-left: catching defects early and working with dev and product in Agile. I'm ISTQB certified and did an MSc in Cloud Computing at NCI—DevOps, cloud architecture—so I think about tests in pipelines, not just standalone."
         },
         {
-          "front": "What are your strengths?",
-          "back": "Automation and APIs. At Cubic3 I wired Selenium flows into Jenkins so we catch integration issues early instead of finding them in prod. I'm comfortable with REST Assured—built suites that check business logic and response shape, not just status codes. I also do data checks: SQL, reconciliation across systems. ISTQB and Jira defect flow—I care that things get logged, triaged, and closed properly so nothing slips."
+          "front": "What is software quality to you?",
+          "back": "Software quality to me is: the product does what we said it would, it doesn't break what used to work, and we can ship with confidence. That means clear acceptance criteria, good test coverage—functional, regression, API, data—and defects that get found early and fixed before prod. At Cubic3 we reduced manual intervention by 70% with automation and cut post-release pain; at Amdocs we reduced recurring defects by 30% with triage and RCA. Quality is not just 'no bugs'—it's traceability, clear defects, and a pipeline that gives fast feedback."
         },
         {
-          "front": "What are your weaknesses?",
-          "back": "I used to lean on manual testing—felt safer. But it didn't scale. So I pushed myself into Selenium, REST Assured, and putting tests into Jenkins. Now I mix both: automate what's repetitive, keep manual where judgment matters. I also got better at picking what to test first—risk and impact, not just coverage count."
+          "front": "How would you test positive and negative test scenarios for a system/app?",
+          "back": "Positive: valid inputs, happy path—does the app do what the requirement says? I design cases from acceptance criteria and user flows. Negative: invalid input, wrong format, missing fields, unauthorised access, edge values. At Integer we did functional and regression for critical workflows; I always added negative cases so we didn't just test 'sunny day'. For APIs with Rest Assured I assert on status codes and response body for both—e.g. 200 with correct data vs 400/401/500 with the right error message. Balance: enough positive to cover requirements, enough negative to catch real-world misuse."
         },
         {
-          "front": "Where do you see yourself in the next 5 years?",
-          "back": "Short term: get sharper on automation and cloud-based test infra—I did the Cloud Computing Master's so I can contribute to how tests run in pipelines. In five years I'd like to be in a lead or senior role—owning test strategy, helping juniors, and making calls on what we automate and why. I'm not chasing titles; I want to be the person who can say 'we should test this way' and back it up."
+          "front": "Puzzle: How would you cut a cake into 8 pieces with only 3 cuts?",
+          "back": "First cut: slice horizontally through the middle so you have two equal layers (2 pieces). Second cut: vertical cut through the centre so you have 4 pieces. Third cut: vertical cut perpendicular to the second, also through the centre—so you get 8 pieces. Key is the horizontal cut—it doubles the number of pieces you get from the two vertical cuts. (2 × 2 × 2 = 8.)"
         },
         {
-          "front": "Why do you want to join us? (company principles)",
-          "back": "I like places where QA is in the loop early—not just handed a build at the end. My background fits: automation, APIs, CI/CD. I've worked in teams that actually do Agile, not just stand-ups. I want to help shape how we test, not only run someone else's plan. If that's how you work, we'll fit."
+          "front": "What are different locator strategies?",
+          "back": "In Selenium we use: id (fast, unique when available), name, className, tagName, linkText / partialLinkText (for links), css selector, xpath. I prefer id or a stable css selector when the app gives one; xpath when I need to traverse the DOM or use text. At Cubic3 we had dynamic IDs in places—so we used css for structure (e.g. form > input[name='email']) or xpath when we had to match by text or hierarchy. I avoid brittle xpaths that depend on long chains or position unless there's no other option."
         },
         {
-          "front": "Why do you want to leave your current company?",
-          "back": "Cubic3's been good—I got to build automation and work in real CI/CD. I'm ready for more: performance testing, test strategy, maybe mentoring. I want a place where I can grow into that, not just execute. Honest answer."
+          "front": "Difference between CSS selector and XPath?",
+          "back": "CSS selector: compact, fast in most browsers, good for structure and attributes (e.g. div.container > input#email). Can't go up the DOM (no parent axis). XPath: can traverse up and sideways (parent, preceding-sibling), can use text (e.g. //button[text()='Submit']), and complex conditions. Slower in some engines. I use CSS when the path is simple and stable; XPath when I need text, order, or going up the tree. In our Selenium framework we default to CSS and fall back to XPath when necessary."
         },
         {
-          "front": "Tell me about a time you led a team",
-          "back": "Situation: At Cubic3 we had a big release and needed automation in place fast. Task: Run the QA side and get automation done without missing the deadline. Action: I figured out who did what—who knew REST Assured, who was stronger on Selenium—and assigned modules accordingly. Daily stand-ups, and I got test scripts into code review so quality didn't slip. Result: We automated 5+ projects, cut manual test time by about 40%, and smoke/regression in Jenkins caught issues before they hit staging."
+          "front": "When would you use CSS selector?",
+          "back": "When the element has a stable id, class, or attribute and the path is short—e.g. #login-btn, .submit-button, input[name='email']. CSS is usually faster and easier to read. I also use it for child/combinator when the structure is stable (e.g. form .field-group input). I avoid CSS when I need to find by visible text or when the only way is a long or fragile path; then I use XPath. At Cubic3 we preferred CSS for most UI selectors and kept XPath for dynamic or text-based cases."
         },
         {
-          "front": "How do you handle difficult team members?",
-          "back": "Situation: Someone on the team was writing weak API tests—wrong assertions, missing edge cases. Task: Improve their work without demotivating them. Action: I didn't just fix their code. We sat down; I showed them how I structure REST Assured tests and why. Paired them with someone stronger for a bit and wrote a short doc with examples. Result: Took a few weeks but their coverage and quality went up. They're solid now."
+          "front": "Scenario-based automation: How would you automate this scenario? (basic script)",
+          "back": "Example: 'User logs in and verifies dashboard loads.' I'd use Selenium with explicit waits (WebDriverWait) so we don't rely on fixed sleeps. Steps: 1) Open URL, 2) Find username/password (e.g. By.id or css), 3) Send keys, 4) Click login, 5) Wait for dashboard element (visibility or title), 6) Assert dashboard is displayed. I'd put selectors in a Page Object or constants so changes are in one place. At Cubic3 we used Page Object Model and TestNG; same idea—reusable methods per page, tests call them and assert. Basic script shape: driver get URL → find elements → sendKeys/click → wait → assert."
         },
         {
-          "front": "Describe a conflict you resolved",
-          "back": "Situation: QA and dev were fighting over env access and who deploys when; we were blocking each other. Task: Get both sides aligned so releases could move. Action: I got us in a room—what does QA actually need, what can dev live with—and we agreed on access and a simple policy. I also pushed smoke tests into Jenkins so we see breakages early instead of blaming each other. Result: Blockers dropped; releases got smoother."
+          "front": "Java OOPs concept and polymorphism",
+          "back": "OOPs: encapsulation (hide data, expose via methods), inheritance (subclass reuses superclass), polymorphism (same interface, different behaviour). Polymorphism: compile-time (overloading—same method name, different params) and runtime (overriding—subclass method replaces superclass when object is that subclass). In test code we use it: e.g. a generic 'click' in a base page class, overridden in a specific page if the click has extra steps; or overloaded methods for different input types. Keeps code DRY and easier to extend."
         },
         {
-          "front": "How do you motivate your team?",
-          "back": "Situation: Tough release, tight deadline—people were burnt. Task: Keep the team engaged and quality up. Action: I started calling out good automation work in stand-ups and did a short weekly share so we could learn from each other. Gave people a chance to pick automation tasks they actually wanted. Result: We hit the release and quality held. Morale picked up because we felt we were getting somewhere."
+          "front": "When do you use method overloading and overriding?",
+          "back": "Overloading: same method name, different parameter list—when you want one logical action with different inputs. E.g. fillField(String id, String value) vs fillField(By locator, String value). Use when the behaviour is the same but the way you identify the field or pass data differs. Overriding: subclass replaces superclass method—when you want the same method name but different implementation. E.g. LoginPage overrides BasePage's waitForLoad() to wait for a specific element. Use when the subclass has a different way to satisfy the same contract (e.g. 'page is loaded')."
         },
         {
-          "front": "Can you give an example of how you delegate tasks?",
-          "back": "Situation: Several projects, not enough people. Task: Get everything tested and out on time. Action: I split by strength—Selenium folks on UI flows, REST Assured people on APIs, others on SQL and data checks. I kept planning and coordination so nothing fell through. Result: We got everything out on time. Delegation only works if you match the work to who can do it—and you follow up."
+          "front": "Have you done API testing?",
+          "back": "Yes. At Cubic3 I automated API testing with Postman and Rest Assured—saved the team about 15 hours per week. At Integer I did REST API and backend data validation and we reduced post-release defects by 25%. At Amdocs I validated 120+ REST endpoints and backend data integrity—data-related production issues went down by 25%. I check status codes, response body (JSON), schema when needed, and business rules—not just 200 OK. I use Rest Assured for automation in the pipeline and Postman for exploratory and ad-hoc checks."
         },
         {
-          "front": "How do you ensure effective communication within your team?",
-          "back": "Situation: We were distributed and things got lost—QA didn't know what dev had ready, product didn't know test status. Task: Keep everyone aligned. Action: I pushed for daily stand-ups, a weekly test summary in Confluence, and Jira kept up to date. Syncs with product and dev so we're on the same page. Result: Fewer surprises, fewer 'I thought you were testing that' moments."
+          "front": "HTTP methods",
+          "back": "GET: fetch resource, no body, idempotent. POST: create or submit data, has body, not idempotent. PUT: replace resource at URI, idempotent. PATCH: partial update. DELETE: remove resource, idempotent. In API tests I use GET for read-only checks, POST for create/login, PUT/PATCH for updates, DELETE for cleanup or negative tests. With Rest Assured we do e.g. given().when().get(path).then().assertThat().statusCode(200).body(\"key\", equalTo(value))."
         },
         {
-          "front": "Describe a challenging problem you faced and how you solved it",
-          "back": "Situation: At Amdocs we had too many bugs escaping to prod—customers complained, fix costs went up. Task: Cut post-release defects and fix costs. Action: I looked at what was actually breaking—same areas, same types of flows. We had gaps in test coverage there. I wrote test plans for those critical paths and got regression automated so we ran it every build. Result: Post-release defects and fix costs went down about 20%. Took a few months to get it in place."
+          "front": "Scenario-based API automation: Write a basic script in Rest Assured",
+          "back": "Example: GET user and assert name and status. Basic shape: given() base URI and any headers/auth, when() get(\"/users/1\"), then() statusCode(200), body(\"name\", equalTo(\"John\")), body(\"active\", equalTo(true)). For POST: given() body(jsonMap).contentType(JSON), when() post(\"/users\"), then() statusCode(201). I use RestAssured.given().baseUri(baseUrl).when().get(path).then().assertThat().statusCode(200).body(...). At Cubic3 we had such scripts in the pipeline; we also used Response object to parse and do multiple assertions."
         },
         {
-          "front": "How do you approach troubleshooting technical issues?",
-          "back": "Situation: Tests were flaking in Jenkins—sometimes pass, sometimes fail. Nobody trusted the pipeline. Task: Find root cause and make the pipeline reliable. Action: I went through logs and found timing and env issues—tests assuming things were ready when they weren't. I refactored the flaky ones and added retries where it made sense. Result: Stability went up to the high 90s. Took judgment—retry everything and you hide real bugs; retry only where it's safe."
+          "front": "How would you make assertion?",
+          "back": "In Rest Assured: .then().assertThat().statusCode(200).body(\"field\", equalTo(value)) or hasItems for arrays. For multiple fields I chain body() or use JsonPath: Response res = get(path); then assertEquals(res.path(\"id\"), 1). In Selenium: assertTrue(driver.findElement(By.id(\"dashboard\")).isDisplayed()) or explicit wait until condition then assert. I use TestNG assertEquals, assertTrue, assertNotNull. I keep assertions clear—one logical check per assert where possible—and meaningful messages so failures are easy to debug."
         },
         {
-          "front": "Tell me about a time you made a quick decision under pressure",
-          "back": "Situation: We found a serious bug right before sign-off. Task: Decide whether we could fix and ship on time. Action: I had to call it—how bad, how fast can we fix, what do we regression-test after the fix. I worked with dev on the fix and ran a focused regression—not everything, but the areas that could be affected. Gave stakeholders a clear risk view. Result: We fixed it, validated, and shipped on time. You have to decide under pressure and communicate it plainly."
+          "front": "Why do you want to work with Mastercard?",
+          "back": "I want to work at a place where quality and scale matter—payments and fintech have to be reliable and secure. My background fits: API and backend validation, automation in CI/CD, defect triage and RCA, and working with dev and product in Agile. I like when QA is involved early and testing is part of the pipeline, not an afterthought. Mastercard's scale and impact would push me to grow in test strategy, automation, and maybe performance and security testing. I'd like to contribute to that."
         },
         {
-          "front": "How do you prioritize tasks with multiple deadlines?",
-          "back": "Situation: Five projects, overlapping dates. Task: Ship all of them on time without dropping quality. Action: I couldn't test everything equally. I went risk-based—what breaks the most, what's most visible to users. Automated the repetitive bits so we had time for the tricky ones. Kept stakeholders in the loop on what we were covering and what we were not. Result: We shipped all of them on time. Trade-off was explicit—not hidden."
-        },
-        {
-          "front": "Describe a time you adapted to a significant project change",
-          "back": "Situation: Requirements changed in the middle of a sprint—big shift. Task: Adapt without losing the sprint. Action: I had to re-scope tests, drop some cases, add new ones, and tell the team what was in and out. Automation plans shifted too. Result: We still hit the sprint. You learn to pivot without panicking; communication is the main thing."
-        },
-        {
-          "front": "How do you handle failure or setbacks?",
-          "back": "Situation: Our automation framework broke right when we needed it for a release. Delays, pressure. Task: Fix it and stop it happening again. Action: I did root cause—found where we'd cut corners in the framework. Fixed it and added checks so we'd see similar issues earlier. Result: Next releases went fine. I also made a note: don't assume the framework is solid; test and monitor it too."
-        },
-        {
-          "front": "Tell me about a time you took initiative",
-          "back": "Situation: At Integer we were running the same manual tests over and over—slow, boring, easy to miss things. Task: Improve testing speed and coverage. Action: I proposed automating the repeatable bits: Selenium for the web portal, REST Assured for APIs. Built the suites and got them into the pipeline. Result: Manual effort dropped by about a third; we could release faster and cover more."
-        },
-        {
-          "front": "Describe an innovative solution you implemented",
-          "back": "Situation: We were manually checking builds every day—tedious and easy to miss. Task: Catch integration and regression issues earlier. Action: I put smoke tests into Jenkins so they ran on every build and on demand. Set up alerts when something failed. Result: We see issues early now. Manual check time dropped a lot; quality went up because we catch things before they spread."
-        },
-        {
-          "front": "How do you stay updated with industry trends?",
-          "back": "Situation: Testing changes fast—new tools, new ways of working. Task: Stay useful and not get stuck. Action: I did ISTQB, then the Cloud Computing Master's. I follow webinars and QA communities and try new automation tools when I can. I brought data-driven testing and CI/CD integration into how we work. Result: Efficiency went up. You have to keep learning or you get stuck."
-        },
-        {
-          "front": "Tell me about a time you went above and beyond",
-          "back": "Situation: Production issue came up off-hours. Needed validation fast so we could decide: fix now or wait. Task: Get a clear answer so the business could decide. Action: I got with dev, ran the tests that mattered—including regression on the affected area—and wrote a short report so the call could be made. Result: We fixed and validated quickly. Minimized impact. You don't need a novel; you need clear, actionable info."
-        },
-        {
-          "front": "How do you encourage innovation in your team?",
-          "back": "Situation: Team was mostly manual—couldn't scale. Task: Get more automation in without forcing it. Action: I ran monthly automation sessions, shared how I do things, and we tried REST Assured and reusable frameworks. Some people took to it; others needed more time. Result: Coverage and release speed went up. You can't force it—you show the value and make it easy to try."
-        },
-        {
-          "front": "Can you give an example of improving a process?",
-          "back": "Situation: At Amdocs we were managing test cases in spreadsheets and docs—messy, hard to trace. Task: Get test management under control. Action: I helped bring in Testrail: migrated cases, trained the team, set some simple rules so we used it consistently. Took a bit of pushback at first. Result: Efficiency and traceability improved; collaboration got easier because we had one place to look."
+          "front": "Do you have questions?",
+          "back": "Good ones to ask: How does QA work with dev and product—shift-left, acceptance criteria, who owns test strategy? What does the test automation stack look like—Selenium, API, CI/CD? How do you handle regression and release sign-off? What are the biggest quality challenges right now? How do you measure test effectiveness? Asking these shows you care about fit and how you can add value."
         }
       ],
       "quiz": [
-        {
-          "question": "The STAR method stands for Situation, Task, Action, and Result.",
-          "answer": true
-        },
-        {
-          "question": "When answering behavioral questions, you should avoid using specific examples from your work experience.",
-          "answer": false
-        },
-        {
-          "question": "Quantifiable achievements like '40% reduction' or '50% improvement' make your answers more credible.",
-          "answer": true
-        }
+        { "question": "ISTQB stands for International Software Testing Qualifications Board.", "answer": true },
+        { "question": "CSS selectors can traverse up the DOM like XPath.", "answer": false },
+        { "question": "Rest Assured is used for API test automation.", "answer": true }
       ]
     },
     {
-      "title": "Technical Questions",
-      "icon": "Target",
+      "title": "Personalised Questions by Mentor – Behavioural",
+      "icon": "Users",
       "cards": [
         {
-          "front": "What is the difference between functional, regression, and smoke testing?",
-          "back": "Functional = does this feature do what we said it would? Regression = did we break anything that used to work? Smoke = can we even run the app and hit the main paths? At Cubic3 we used all three: functional for new stuff, automated regression in Jenkins so we run it every build, smoke on daily builds so we know if it's worth testing further. Smoke first, then functional, regression in parallel—that's how we ordered it."
+          "front": "Describe a situation where you had to sign off a release but still had quality concerns. What data did you use to make the final call?",
+          "back": "Situation: We had a release with one medium defect in a non-critical flow and time pressure. Task: Decide whether to ship or hold. Action: I looked at defect trend—was it new or known?—and which user journey was affected. I ran a focused regression on that area and the critical paths, and checked if we had a fix ETA. I documented residual risk and got product and dev aligned. Result: We shipped with a known-issue note and a follow-up fix in the next sprint. Data I used: defect severity, scope of impact, regression results, and business priority—not gut feel."
         },
         {
-          "front": "Explain your experience with Selenium WebDriver automation",
-          "back": "Selenium drives the browser—click, type, assert. I use it for user journeys: login, do the main flows, check the outcome. At Cubic3 we hooked those into Jenkins so they run on schedule and on demand. Chose Selenium because we're Java/Python and it's well supported; the trade-off is flakiness if you don't handle waits and dynamic content. We had to refactor a few tests for that."
+          "front": "Tell me about a time when you caught a critical defect very late in the cycle. How did you handle stakeholder communication and prioritization?",
+          "back": "Situation: At Amdocs we found a critical defect close to release in a flow that had 'passed' earlier—env or data had changed. Task: Communicate clearly and get a fix or defer call. Action: I documented repro, impact, and which builds were affected. I raised it in the triage, showed the repro to dev, and gave a short risk summary to the lead and product. We agreed to either fix and re-run a focused suite or slip the release for that fix. Result: We fixed it, ran targeted regression, and shipped. I made sure stakeholders had the same picture so we could prioritize together."
         },
         {
-          "front": "What is BDD and how have you used it?",
-          "back": "BDD is Given-When-Then—plain language so product and dev can read the scenarios. I use it when acceptance criteria are clear and we want tests that double as documentation. In Agile we wrote scenarios that matched user stories so everyone could see what 'done' meant. Not every test needs BDD; I use it where it helps alignment, skip it for low-level or purely technical checks."
+          "front": "Can you share an example where your testing directly prevented a production issue? What signals helped you detect it early?",
+          "back": "Situation: At Cubic3 we had API automation in the pipeline that ran on every build. Task: Catch regressions before they reach staging or prod. Action: The suite caught a change where an endpoint started returning 500 for a valid payload—dev had broken a dependency. The failure was in the pipeline within minutes of the commit. I tagged the commit and notified dev with the failing request/response. Result: Fix went in the same day; the bug never reached prod. Signals: automated API tests in CI, clear failure message and request/response in the report—so we could detect and debug fast."
         },
         {
-          "front": "Describe data-driven testing and its benefits",
-          "back": "Same test, different data—so you're not copy-pasting test cases for every input. At Cubic3 we had backend flows that had to work for many transaction types. I put the scenarios in data (CSV or params) and one test looped over them. Coverage went up without writing hundreds of tests. Downside: when it fails you have to trace which row or scenario broke."
+          "front": "Describe a time when your automation suite became unstable or flaky. How did you identify root causes and improve reliability?",
+          "back": "Situation: At Cubic3 some Selenium tests started failing intermittently in Jenkins. Task: Find root cause and make the suite stable. Action: I looked at failure patterns—same tests, same areas. Checked logs and found timing issues: elements used before they were ready, and one env-specific URL. I added explicit waits (WebDriverWait) where we were relying on implicit wait or sleep, and moved config to env variables. I also added a retry only for a few known flaky checks, not globally. Result: Stability went up; we didn't hide real failures. Took a few sprints to refactor the worst offenders."
         },
         {
-          "front": "What is the STLC and how do you follow it?",
-          "back": "STLC is the testing side of the lifecycle: understand requirements, plan tests, design cases, run them, report, close. I don't treat it as a rigid checklist—we're in Agile—but I do make sure we have a plan, cases traceable to requirements, and a clear view of what's done. At Cubic3 we did that for 5+ projects; the discipline is in planning and traceability, not in doing every phase in a fixed order."
+          "front": "Tell me about a scenario where automation was not the right solution. How did you justify your testing approach?",
+          "back": "Situation: A one-off data migration with complex rules and no repeat run. Task: Validate it without over-investing. Action: I argued against full automation—script would be used once and would need heavy maintenance for the migration logic. I proposed a structured manual checklist plus a few SQL/data checks we could run. We documented the approach and got sign-off. Result: We validated the migration on time; automation would have delayed us. I justified it with: frequency of run, cost of automation vs manual, and risk—so the team understood it was a conscious choice."
         },
         {
-          "front": "How do you handle defect lifecycle management?",
-          "back": "Find it, log it, prioritize, assign, fix, retest, close. We use Jira so everyone sees status. At Cubic3 I made sure nothing sat in 'in progress' forever—we had a simple rule: no release sign-off until critical/high are verified closed. I also pushed for clear repro steps and environment info so dev didn't waste time guessing. Good defect hygiene saves everyone time."
+          "front": "Have you ever refactored an existing automation framework? What problems were you solving and what design decisions did you make?",
+          "back": "Situation: At Cubic3 we had scripts with duplicated selectors and no clear page structure. Task: Make the suite maintainable and easier to extend. Action: I introduced a Page Object Model—one class per major page/screen, elements and basic actions there, tests only calling those methods. I moved test data to config or constants so env and test data weren't hardcoded. For API, I grouped requests by feature and reused base spec (URI, auth). Result: New tests were quicker to write; when the UI changed we updated one place. Design decision: POM + shared base and config over keeping everything in test methods."
         },
         {
-          "front": "Explain your experience with REST API testing",
-          "back": "I check endpoints: right status, right shape of response, and that the business logic holds—not just 200 OK. I use REST Assured because we're on Java and it reads like natural assertions. At Cubic3 I built suites that hit the main APIs, assert on JSON structure and key fields, and flag when something drifts. We also had a few performance checks so we'd see regressions."
+          "front": "Describe a situation where automated tests blocked a CI/CD pipeline. How did you debug and resolve the issue under time pressure?",
+          "back": "Situation: Pipeline started failing on a Rest Assured suite; release was planned that day. Task: Find out if it was product bug or test/env issue and unblock. Action: I ran the failing tests locally and checked the response—saw a schema change the test didn't expect. I confirmed with dev; they had changed a field name. I updated the assertion to match the new contract and added a short comment in the test. Result: Pipeline went green; we released. Under pressure I focused on: run locally, compare actual vs expected, confirm with dev, then fix test or escalate bug—so we didn't guess."
         },
         {
-          "front": "How do you validate backend data integrity?",
-          "back": "After an API or UI action I'll hit the DB and check: did the right row change? Do the numbers add up across systems? At Cubic3 we had flows that touched multiple systems—I wrote queries to reconcile data so we knew nothing was lost or duplicated. PostgreSQL and MySQL. You need to know enough SQL to ask the right questions; I'm not a DBA but I can validate what the app claims to do."
+          "front": "Tell me about a time when build failures were frequent. What changes did you introduce to stabilize the pipeline?",
+          "back": "Situation: At Cubic3 we had frequent red builds—mix of real failures and flaky tests. Task: Restore trust in the pipeline. Action: I separated smoke (fast, critical path) from full regression. Smoke ran on every build; full regression on schedule or before release. I fixed the flakiest tests (waits, env, data) and added retries only where we'd agreed it was safe. I also set up a simple dashboard so the team could see trend: real fail vs flaky. Result: Build failures became actionable; we could tell 'real bug' from 'test issue' and the pipeline stabilized."
         },
         {
-          "front": "What is the difference between REST and SOAP APIs?",
-          "back": "REST: HTTP verbs, JSON or XML, stateless. SOAP: XML, WSDL, more rigid. We had both at Integer—REST for most services, SOAP for a couple of legacy ones. Postman for exploratory and one-off checks; REST Assured for automated REST. For SOAP I used Postman and sometimes SoapUI. Same idea: right request, right response, and that errors return what we expect."
+          "front": "Can you describe how you worked with developers to shift testing earlier in the pipeline?",
+          "back": "Situation: Testing used to happen after dev said 'done.' Task: Shift testing left so we caught issues earlier. Action: I pushed for API tests to run on every build—dev got feedback in minutes. We agreed on contract: what the API should return so both dev and QA could rely on it. I joined refinement to clarify acceptance criteria and added BDD scenarios (Cucumber) so we had executable requirements. We also ran smoke on the test env as soon as build was deployed. Result: Defects were found in the same sprint; at Amdocs we reduced post-release defect resolution cost by 20% with shift-left."
         },
         {
-          "front": "How do you test error handling in APIs?",
-          "back": "I deliberately break things: bad input, missing params, wrong auth, 5xx. Does the API return the right status and message? At Integer we had cases where error handling was inconsistent—wrong status codes or no message. I added negative tests so we'd catch that. Edge cases and errors are where a lot of bugs hide."
+          "front": "Share an example where acceptance criteria were unclear. How did you ensure adequate test coverage?",
+          "back": "Situation: A user story said 'user can filter results' but didn't define filter behaviour or edge cases. Task: Get to testable criteria without blocking. Action: I asked in refinement: filter by which fields? Multiple filters? Empty result? I wrote down assumptions and got product to confirm or correct. I turned that into BDD scenarios (Given/When/Then) so we had a shared definition of done. I added tests for the agreed cases plus a few edge cases we'd discussed. Result: Coverage matched what we'd agreed; less rework. I ensured adequacy by clarifying first, then designing tests from that."
         },
         {
-          "front": "Describe your experience with Postman",
-          "back": "Postman for exploring and ad-hoc calls—quick to try different payloads and headers. I keep collections for the main APIs so the team can run them manually when needed. For automation we use REST Assured in code so it lives in the pipeline. Postman can run collections in CI too, but we preferred keeping everything in the same repo and language. At Integer we used both: Postman to design, REST Assured to automate."
+          "front": "Describe a sprint where testing timelines were compressed. What trade-offs did you make and why?",
+          "back": "Situation: Scope increased mid-sprint but the release date didn't move. Task: Ship with acceptable quality. Action: I prioritised by risk: critical path and high-impact areas first. I automated the repetitive checks so we had time for exploratory and edge cases. I dropped low-risk, rarely-used flows from this sprint and documented them as debt for the next. I kept product and dev in the loop so the trade-off was explicit. Result: We shipped on time; known gaps were recorded and planned. Trade-off was: depth in critical areas, less in low-risk ones—and we said so."
         },
         {
-          "front": "How do you test backend business logic?",
-          "back": "I don't just check that the API responds—I check that the outcome is correct. E.g. if the rule is 'discount only if order > 100', I send orders above and below and assert the right discount. At Cubic3 we had flows with calculations and state changes; I wrote tests that covered the rules, not just happy path. Sometimes I cross-check with DB or another service to make sure the full flow is correct."
+          "front": "Tell me about a conflict with a developer or product owner regarding a defect severity. How did you resolve it?",
+          "back": "Situation: I logged a defect as high; dev said medium. We disagreed on user impact. Task: Get to a shared view so we could prioritise correctly. Action: I showed the repro and which user journey was affected and how often it could happen. Dev showed why they thought it was edge case. We brought product in—they decided based on business impact. We agreed on severity and updated the ticket. Result: No lingering disagreement; we also agreed on a short severity guideline (user impact, frequency) for next time so we had a reference."
         },
         {
-          "front": "Explain your experience with Jenkins for test automation",
-          "back": "Jenkins runs our builds and we run tests in the same pipeline—smoke on every build, full regression on schedule or on demand. At Cubic3 I hooked Selenium and REST Assured into Jenkins so we didn't have to remember to run them. We also watched daily/nightly builds; if smoke failed we knew before anyone started testing. Chose Jenkins because it was already there and flexible; the downside is maintaining jobs and plugins."
+          "front": "Describe a time when the same defect kept recurring. How did you perform root-cause analysis and prevent future occurrences?",
+          "back": "Situation: At Amdocs we had a defect that came back in a few releases—same area, similar symptom. Task: Find root cause and stop it recurring. Action: I led a short RCA: we looked at code changes, test coverage for that area, and whether the fix had been incomplete. We found the fix was local but the underlying design allowed the same mistake elsewhere. We added regression tests that covered the scenario and the team did a small refactor to remove the trap. Result: Recurring defects in that area dropped; at Amdocs we reduced recurring defects by 30% across releases with triage and RCA."
         },
         {
-          "front": "What is your experience with GitHub Actions?",
-          "back": "GitHub Actions = CI/CD in the repo. Triggers on push, PR, schedule. I used it in my Master's for a microservices project: build, test, deploy in one workflow. Good for smaller teams and open source; no separate Jenkins server. At work we're on Jenkins, but I'd use Actions if we were greenfield and on GitHub. Simpler to start; you trade some flexibility for less ops."
-        },
-        {
-          "front": "How do you integrate automated tests into CI/CD pipelines?",
-          "back": "Tests run in the same pipeline as the build. Smoke on every run—fast, critical path only. Full regression on a schedule or before release so we don't block every commit. At Cubic3 we had it in Jenkins: build → smoke → if green, deploy to test env → regression. You want fast feedback; long suites can run async so dev isn't waiting. Trade-off is how much you run on every commit vs. nightly."
-        },
-        {
-          "front": "Describe your experience with Azure DevOps",
-          "back": "Azure DevOps gives you repos, pipelines, boards—all in one. I've used it for build and test pipelines: same idea as Jenkins, different UI and config. Pipelines run tests on commit or schedule; we monitored build health and test results there. Good if you're already in the Microsoft stack; otherwise Jenkins or GitHub Actions might be simpler. I'm comfortable in any of them."
-        },
-        {
-          "front": "How do you monitor build health and test results?",
-          "back": "I watch build and test results—daily/nightly runs, smoke on every build. If something fails we get an alert and someone looks. At Cubic3 we had Jenkins; I checked the dashboard and dug into logs when tests failed. You learn to tell flaky from real: same test failing vs. new failure. We also kept a simple report so the team knew build health without opening Jenkins."
-        },
-        {
-          "front": "What is your approach to test automation strategy?",
-          "back": "I automate what runs often and what hurts most when it breaks. High risk + high frequency first—main flows, critical APIs. Then regression that we run before every release. I don't automate everything; some tests are better manual or one-off. At Cubic3 we had: smoke in pipeline, API and E2E in Jenkins on schedule and on demand. Strategy = what to automate, in what order, and how fast they need to run so the pipeline stays useful."
+          "front": "Can you talk about a situation where you had to lead defect triage and communicate release risk to leadership?",
+          "back": "Situation: At Amdocs we had a release with several open defects; leadership wanted a go/no-go view. Task: Lead triage and present release risk clearly. Action: I ran triage with dev and product: we classified each defect (severity, impact, fix effort) and decided fix now vs defer. I summarised: count by severity, which are fixed, which we're accepting, and what we're monitoring. I put that in a short deck and presented to the lead: 'We have X high, Y medium; we're fixing A and B before release; C we're accepting with this mitigation.' Result: Leadership had a clear picture; we released with known risk documented. I made sure the message was factual and actionable."
         }
       ],
       "quiz": [
+        { "question": "STAR stands for Situation, Task, Action, Result.", "answer": true },
+        { "question": "Shift-left means testing happens only after development is complete.", "answer": false },
+        { "question": "Defect triage helps prioritise which bugs to fix before release.", "answer": true }
+      ]
+    },
+    {
+      "title": "Personalised Questions by Mentor – Technical & Advanced",
+      "icon": "Target",
+      "cards": [
         {
-          "question": "Selenium WebDriver is used for automating web browser interactions.",
-          "answer": true
+          "front": "How would you design a test strategy for an end-to-end user journey involving UI, APIs, and database validation?",
+          "back": "I'd split by layer but keep the journey in mind. UI: Selenium for main flows and critical paths—login, key actions, logout. APIs: Rest Assured for the same journey at API level—faster and stable. DB: after key actions, run SQL checks—did the right rows change, do totals match? I'd run UI smoke on every build, API + DB checks in the pipeline too; full E2E less often (e.g. nightly or pre-release). At Cubic3 we had UI automation in CI/CD and API automation; we used SQL for data validation on 120+ endpoints at Amdocs. Strategy: automate at each layer, orchestrate so the journey is covered, and use CI to run the right mix at the right frequency."
         },
         {
-          "question": "REST APIs use XML exclusively for data exchange.",
-          "answer": false
+          "front": "Given a microservices-based system, how would you decide what to test at UI vs API vs integration level?",
+          "back": "UI: user-facing flows and critical paths—login, main workflows, key error messages. API: each service's contract and behaviour—happy path, errors, schema. Integration: services talking to each other—e.g. order service + payment service. I'd test contracts at API level (fast, stable), integration where services meet, and UI for what the user actually sees. My MSc Cloud Computing project was CI/CD for microservices; we tested at API and integration level in the pipeline and kept UI for critical paths. Decision rule: if it's about 'does this service do what it says,' test at API; if it's 'do these two work together,' integration; if it's 'does the user get the right screen,' UI."
         },
         {
-          "question": "CI/CD pipelines help in continuous validation throughout the development lifecycle.",
-          "answer": true
+          "front": "How do you ensure regression coverage without slowing down the CI pipeline?",
+          "back": "I separate fast feedback from full regression. In CI I run smoke and a subset of API/UI tests that are quick and stable—maybe 10–15 minutes. Full regression runs on a schedule (e.g. nightly) or on demand before release. I also parallelise where we can (e.g. TestNG parallel, or split suites). At Cubic3 we had smoke on every build and regression in Jenkins on schedule; that kept CI fast while still giving us coverage. I prune tests that are redundant or too flaky so the suite stays useful. Trade-off: not every test in every build—only what gives the most value for the time."
+        },
+        {
+          "front": "How do you handle dynamic elements, waits, and synchronization issues in Selenium?",
+          "back": "Dynamic elements: I avoid relying on full xpath or position; I use stable attributes (id, data-*, aria) or short css/xpath. If IDs are dynamic, I use class + attribute or a unique parent. Waits: I use explicit waits (WebDriverWait with ExpectedConditions) for the element or state I need—e.g. visibility, clickable—instead of Thread.sleep. I set a reasonable timeout and a clear condition so we fail fast with a meaningful message. Sync: after actions that change the page (click, submit), I wait for the next expected state (e.g. next page or loading to disappear) before asserting. At Cubic3 we had flakiness from timing; introducing explicit waits and stable locators fixed most of it."
+        },
+        {
+          "front": "What design patterns have you used in Selenium frameworks (e.g. Page Object Model)? Why?",
+          "back": "Page Object Model: one class per page/screen, elements and basic actions (click, type) there, tests only call those methods. Benefit: when the UI changes we update one place; tests stay readable. I also use a base page for common stuff (wait for load, common header/footer). At Cubic3 we refactored to POM for maintainability. I've seen factories for creating pages and dependency injection for driver/config—we kept it simple with POM + base page. Reason: we needed something the team could extend without duplicating selectors and logic."
+        },
+        {
+          "front": "How would you debug a Selenium test that passes locally but fails in Jenkins?",
+          "back": "I'd check: 1) Env—different OS, browser version, or URL in Jenkins. 2) Timing—Jenkins may be slower; add or adjust explicit waits. 3) Paths and config—file paths, env variables, test data that differ in CI. 4) Concurrency—if tests run in parallel, shared state or order can cause flakiness. I run the same test in Jenkins with the same config locally if possible, or add logging/screenshots on failure. At Cubic3 we had failures from env-specific URLs and timing; we moved config to env vars and strengthened waits and got consistent results."
+        },
+        {
+          "front": "How do you validate business logic at the API layer beyond just status codes?",
+          "back": "I assert on the response body: right fields, correct values for the scenario (e.g. order total = sum of items), and relationships (e.g. user id in response matches request). I use Rest Assured: .body(\"total\", equalTo(100)), .body(\"items.size()\", equalTo(3)). For complex logic I might run multiple requests and assert on the combined outcome. I also validate error responses—wrong input returns 400 with the right message. At Cubic3 and Amdocs we checked business rules at the API layer so we weren't only checking 200 OK."
+        },
+        {
+          "front": "How would you design negative and edge-case scenarios for REST APIs?",
+          "back": "Negative: invalid body (missing required field, wrong type), invalid auth (no token, expired, wrong), invalid IDs (non-existent, wrong format), and boundary values (empty string, very long, special chars). Edge: duplicate submit, concurrent requests, optional fields null vs omitted. I design from the API contract and real misuse. With Rest Assured I do given().body(invalidPayload).when().post().then().statusCode(400).body(\"error\", containsString(\"expected message\")). At Integer we added negative tests for APIs and saw fewer production issues from bad input."
+        },
+        {
+          "front": "How do you handle authentication, headers, and token refresh in automated API tests?",
+          "back": "I use a base spec or filter in Rest Assured: set base URI, default headers (Content-Type, Accept), and auth. For token-based: I call login once (or use a fixture), get the token, and add it to subsequent requests (e.g. header \"Authorization\", \"Bearer \" + token). For refresh: if a test runs long I check expiry and re-login or refresh when needed. I keep auth in one place so we don't repeat it in every test. At Cubic3 we had a shared spec for auth and headers so the suite stayed maintainable."
+        },
+        {
+          "front": "How do you validate error handling and fault tolerance in backend services?",
+          "back": "I trigger error cases: invalid input (4xx), server error (5xx), and timeouts or dependency failure if we can simulate. I assert on status code and response body (error code, message). For fault tolerance I might use mocks or stubs to simulate a dependency failing and check that the service degrades gracefully (e.g. retry, fallback, or clear error). In cloud/microservices (from my MSc) we thought about retries and circuit breakers—tests can verify that the service doesn't hang and returns a defined behaviour when dependencies fail."
+        },
+        {
+          "front": "Describe how you validate data consistency across multiple backend systems.",
+          "back": "I run the same business flow and then check each system that should have been updated: e.g. order created in one DB, payment record in another, inventory updated. I use SQL or API calls to each system and assert that the data matches—same IDs, amounts, statuses. At Amdocs we validated REST APIs and backend data across systems; we reduced data-related production issues by 25%. I also check reconciliation: do totals and counts match across systems after a batch or sync?"
+        },
+        {
+          "front": "Write a scenario where SQL validation is critical even when API responses look correct.",
+          "back": "Example: API returns 200 and says 'Order created.' SQL validation is critical to confirm the order row exists with the right amount, status, and user_id; that inventory was decremented; and that audit tables were written. Another case: bulk import. API might return success for the whole batch, but only some rows were committed due to a partial failure. Querying the DB shows which rows made it and which didn't. So: whenever the truth is in the database and the API could be out of sync or only partially correct, I add SQL checks."
+        },
+        {
+          "front": "How do you handle test data setup and cleanup in database-driven tests?",
+          "back": "Setup: I create the minimum data needed—e.g. insert a test user and an order in a known state—via SQL scripts or API calls before the test. I use transactions where possible so the test rolls back and doesn't leave data. Cleanup: I delete or reset the test data in @AfterMethod or a finally block so the next run doesn't see stale data. I sometimes use unique IDs (e.g. timestamp or UUID) so parallel tests don't clash. At Integer we had tests that relied on DB state; we had small setup scripts and made sure cleanup ran so suites were repeatable."
+        },
+        {
+          "front": "How would you integrate automated smoke and regression tests into a Jenkins or GitHub Actions pipeline?",
+          "back": "Smoke: run on every build after deploy to test env—fast, critical path only (e.g. login, one main flow). Regression: run on schedule (e.g. nightly) or on a pre-release branch. In Jenkins I'd add a stage after build: deploy to test env, then run smoke; optionally trigger regression as a separate job. In GitHub Actions I'd add a job that runs after build: run smoke, and a scheduled workflow for full regression. At Cubic3 we had UI automation in CI/CD with Jenkins; at NCI I used GitHub Actions for a microservices project—same idea, different tool."
+        },
+        {
+          "front": "What criteria would you use to decide whether a pipeline should fail or continue on test failures?",
+          "back": "Smoke/critical path: fail the pipeline—if smoke fails, the build is not fit for further testing. For full regression I might let the pipeline report failure but not block deploy if we have a separate release gate and we're only informing. Criteria: severity of failing tests (critical vs minor), whether it's a known flaky test, and whether we've agreed to 'fail on any' or 'fail on critical only.' At Cubic3 we failed on smoke failure so we didn't deploy broken builds; for nightly regression we failed the job but release decision was based on triage."
+        },
+        {
+          "front": "How do you manage environment-specific configurations in automated tests?",
+          "back": "I keep config out of the code: env variables or config files per env (e.g. dev, staging, prod). Base URL, DB connection, credentials come from config. In Java I might use a properties file or env; in Rest Assured I set baseUri from a variable. In CI we inject env-specific values so the same tests run against different envs. At Cubic3 we had env-specific URLs and credentials in config so we could run the same suite in different environments without changing code."
+        },
+        {
+          "front": "How does testing change for cloud-native or microservice-based applications?",
+          "back": "More focus on contracts between services, integration, and deployment. I test each service's API (contract), then integration where they interact. I think about resiliency—retries, timeouts, circuit breakers—and test failure scenarios. Deployments are more frequent so automation in the pipeline is critical. My MSc in Cloud Computing covered this; we had a microservices-style app and tested at API and integration level in GitHub Actions. Difference from monolith: more moving parts, so contract and integration tests matter; also env and config (e.g. service discovery) need to be right."
+        },
+        {
+          "front": "What challenges do you see in testing distributed systems, and how do you mitigate them?",
+          "back": "Challenges: flakiness from network or timing, partial failures, and data consistency across services. Mitigation: use timeouts and retries in tests where appropriate; test failure paths (e.g. one service down) with mocks or chaos-style tests; validate data in each system after a flow. I also keep tests focused—contract tests for each service, integration tests for the main flows—so we know where a failure came from. From my cloud coursework: designing for failure and testing it is part of the approach."
+        },
+        {
+          "front": "How would you test resiliency, retries, and failure scenarios in cloud applications?",
+          "back": "I'd simulate failure: mock a dependency to return 500 or timeout, or use a test double. Then assert that the service retries (if that's the design), backs off, or returns a clear error and doesn't hang. I might use contract tests to ensure the service still obeys its API under failure. For retries I'd check logs or metrics to see retry count and success after recovery. My MSc touched on this—testing that the system degrades gracefully and recovers when dependencies come back."
+        },
+        {
+          "front": "A nightly regression suddenly starts failing across multiple test cases. How do you approach debugging?",
+          "back": "I'd check: 1) What changed—recent deploy, config change, dependency update? 2) Common factor—same area, same env, same data? 3) Run a few failing tests locally with the same config to see the actual error. 4) Look at logs and screenshots—do we see a login failure, a missing element, or a changed API response? I don't fix every test blindly; I find the root cause (e.g. one API change broke many tests) and fix that. At Cubic3 we had a few nights where many tests failed; usually one change (e.g. auth or base URL) was the cause."
+        },
+        {
+          "front": "How do you differentiate between test issues, environment issues, and actual product defects?",
+          "back": "Test issue: wrong assertion, brittle locator, or bad test data—fix the test. Env issue: wrong URL, missing service, or bad config—fix the env or config. Product defect: correct test and env but the app behaves wrong—raise a bug. I run the test locally and in the same env as CI; I check the actual response or screen vs what the test expects. If the app is wrong, I have a defect; if the test or env is wrong, I fix that. Logs and screenshots help—e.g. 'expected 200, got 500' with response body tells you it's likely product."
+        },
+        {
+          "front": "How do you measure the effectiveness of your test automation suite?",
+          "back": "I look at: 1) Defects found by automation vs escaped to prod—are we catching real bugs? 2) Time saved—manual effort before vs after (at Cubic3 we had 70% manual reduction, 15 hrs/week saved on API testing). 3) Feedback time—how fast does the pipeline tell us something's broken? 4) Maintenance cost—how often do we fix flaky or broken tests? 5) Coverage—are critical paths and risks covered? I don't just count tests; I care whether the suite catches important issues and stays reliable."
+        },
+        {
+          "front": "What engineering principles do you follow while writing test code?",
+          "back": "DRY: shared methods, page objects, base specs—no copy-paste. Readable names and structure so others can understand. One logical assertion or action per step where possible. Independent tests: no shared state so they can run in any order or parallel. Stable and meaningful failures: good waits and clear messages. I treat test code as production code—review, refactor, and keep it maintainable. At Cubic3 we used POM and shared Rest Assured spec; we refactored when we saw duplication or fragility."
+        },
+        {
+          "front": "How would you design a scalable automation framework for multiple teams and projects?",
+          "back": "I'd have a core framework: base classes, config, reporting, and maybe a standard way to define tests (e.g. BDD with Cucumber so product can read scenarios). Each team or project adds its own pages, API clients, and test data. Shared libraries for common actions (login, API auth, DB helpers). Config and env per project so we don't hardcode. Documentation and examples so new teams can onboard. Design decisions: modular so teams don't step on each other; consistent patterns (e.g. POM, base spec) so everyone knows where to put things."
+        },
+        {
+          "front": "How do you ensure your tests remain maintainable as the product scales?",
+          "back": "I use patterns (POM, base spec) so UI or API changes are fixed in one place. I keep selectors and test data out of test methods. I prune redundant or flaky tests so the suite doesn't become a burden. I document why tests exist and what they cover so we don't keep obsolete tests. As the product grows I might split suites (smoke vs regression, by area) so we can run what we need. At Cubic3 we refactored to POM and shared config so that as we added flows, we didn't double the maintenance."
         }
+      ],
+      "quiz": [
+        { "question": "Page Object Model improves test maintainability.", "answer": true },
+        { "question": "Smoke tests should run only once per release.", "answer": false },
+        { "question": "Contract testing is used for microservices.", "answer": true }
       ]
     },
     {
@@ -217,26 +262,17 @@
       "cards": [
         {
           "front": "Automated Testing Framework at Cubic3",
-          "back": "Built the automation setup for enterprise apps at Cubic3.\n\n• Selenium for E2E user journeys—hooked into Jenkins so they run on schedule and on demand.\n• REST Assured suites for APIs—business logic, response shape, a few performance checks.\n• Java/Python, SQL for data validation.\n\nChallenges: 5+ projects, flaky tests at first, getting dev and QA to trust the pipeline.\n\nWhat we did: data-driven tests where it made sense, smoke on every build, regression in Jenkins. Refactored flaky tests; added retries only where safe. Outcome: we catch integration and regression earlier, less manual grind, releases got smoother."
+          "back": "Built the automation setup for enterprise apps at Cubic3.\n\n• Selenium for E2E user journeys—hooked into Jenkins so they run on schedule and on demand; reduced manual intervention by 70%.\n• REST Assured + Postman for API testing—saved team ~15 hours per week; business logic and response validation.\n• BDD with Cucumber—user stories into executable scenarios; better clarity and less rework with product.\n• UI automation in CI/CD—smoke and regression on every build; manual testing reduced by 60%.\n• Jira for defects; collaboration with dev on repro and RCA.\n\nChallenges: flaky tests at first, env and timing. We fixed with explicit waits, stable locators, and env-based config. Outcome: faster feedback, fewer escapes to prod."
         },
         {
-          "front": "CI/CD Pipeline Development for Microservices",
-          "back": "Master's project: CI/CD for a microservices-style app using GitHub Actions.\n\n• Build, test, deploy in one workflow.\n• GitHub Actions—no separate Jenkins; everything in the repo.\n• Cloud Architecture and Scalable Cloud Programming modules fed into how I designed it.\n\nChallenges: learning how microservices deploy, making the pipeline reliable, not overcomplicating it.\n\nWhat I did: kept the workflow simple—build → test → deploy—and made sure tests ran before deploy. Learned a lot about modern CI/CD and cloud-native thinking. Useful for when we do similar stuff at work."
+          "front": "CI/CD and Shift-Left (Integer & Amdocs)",
+          "back": "Integer: Functional, regression, API and data validation for critical workflows. REST API and backend validation—post-release defects down 25%. Requirements-to-test traceability in TestRail—coverage visibility up 25%. Sprint reports and close work with dev—another 25% reduction in post-release defects.\n\nAmdocs: Manual and automated web/API tests; TestRail and Jira. Shift-left—critical defects found early; post-release defect resolution cost down 20%. Validated 120+ REST endpoints and backend data—data-related production issues down 25%. Led defect triage and RCA with cross-functional teams—recurring defects down 30%. Agile ceremonies for requirements, acceptance criteria, and test effort."
         }
       ],
       "quiz": [
-        {
-          "question": "Automated testing frameworks improve testing efficiency and enable early defect detection.",
-          "answer": true
-        },
-        {
-          "question": "CI/CD pipelines are only used for deployment, not for testing.",
-          "answer": false
-        },
-        {
-          "question": "GitHub Actions can be used to build, test, and deploy microservices.",
-          "answer": true
-        }
+        { "question": "Automated testing frameworks improve efficiency and enable early defect detection.", "answer": true },
+        { "question": "CI/CD pipelines are only for deployment, not testing.", "answer": false },
+        { "question": "BDD helps align QA and product on acceptance criteria.", "answer": true }
       ]
     }
   ]

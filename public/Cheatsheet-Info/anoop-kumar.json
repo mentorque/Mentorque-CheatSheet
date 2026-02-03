@@ -9,7 +9,7 @@
       "cards": [
         {
           "front": "Tell me about yourself",
-          "back": "I'm Anoop. Five years in QA—right now at Cubic3 in Dublin. I do E2E automation with Selenium, API testing with Postman and Rest Assured, and I've used BDD with Cucumber so user stories become executable scenarios. Before that, Integer and Amdocs—functional, regression, API and data validation, defect triage in Jira, TestRail for test management. I like shift-left: catching defects early and working with dev and product in Agile. I'm ISTQB certified and did an MSc in Cloud Computing at NCI—DevOps, cloud architecture—so I think about tests in pipelines, not just standalone."
+          "back": "I'm Anoop. Five years in QA—right now at Cubic3 in Dublin. I do E2E automation with Selenium, API testing with Postman and Rest Assured, and I've used BDD with Cucumber so user stories become executable scenarios. Before that, Integer and Amdocs—functional, regression, API and data validation, defect triage in Jira, TestRail for test management. I like shift-left: catching defects early and working with dev and product in Agile. I'm ISTQB certified and did an MSc in Cloud Computing at NCI—DevOps, cloud architecture—so I think about tests in pipelines, not just standalone. I focus on core skills I can speak to confidently—automation, API testing, CI/CD—rather than tailoring my story for each role."
         },
         {
           "front": "What is software quality to you?",
@@ -69,7 +69,7 @@
         },
         {
           "front": "Do you have questions?",
-          "back": "Good ones to ask: How does QA work with dev and product—shift-left, acceptance criteria, who owns test strategy? What does the test automation stack look like—Selenium, API, CI/CD? How do you handle regression and release sign-off? What are the biggest quality challenges right now? How do you measure test effectiveness? Asking these shows you care about fit and how you can add value."
+          "back": "Good ones to ask: How does QA work with dev and product—shift-left, acceptance criteria, who owns test strategy? What does the test automation stack look like—Selenium, API, CI/CD? How do you handle regression and release sign-off? What are the biggest quality challenges right now? How do you measure test effectiveness? Asking these shows you care about fit and how you can add value. In a competitive market I try to differentiate by being specific about what I've done—concrete examples, STAR-style—and by asking questions that show I've thought about the role and the team."
         }
       ],
       "quiz": [
@@ -84,7 +84,7 @@
       "cards": [
         {
           "front": "Describe a situation where you had to sign off a release but still had quality concerns. What data did you use to make the final call?",
-          "back": "Situation: We had a release with one medium defect in a non-critical flow and time pressure. Task: Decide whether to ship or hold. Action: I looked at defect trend—was it new or known?—and which user journey was affected. I ran a focused regression on that area and the critical paths, and checked if we had a fix ETA. I documented residual risk and got product and dev aligned. Result: We shipped with a known-issue note and a follow-up fix in the next sprint. Data I used: defect severity, scope of impact, regression results, and business priority—not gut feel."
+          "back": "Situation: We had a release with one medium defect in a non-critical flow and time pressure. Task: Decide whether to ship or hold. Action: I looked at defect trend—was it new or known?—and which user journey was affected. I ran a focused regression on that area and the critical paths, and checked if we had a fix ETA. I documented residual risk and got product and dev aligned. Result: We shipped with a known-issue note and a follow-up fix in the next sprint. Data I used: defect severity, scope of impact, regression results, and business priority—not gut feel. (Tip: I keep this answer in STAR so the story is clear and I don't ramble.)"
         },
         {
           "front": "Tell me about a time when you caught a critical defect very late in the cycle. How did you handle stakeholder communication and prioritization?",

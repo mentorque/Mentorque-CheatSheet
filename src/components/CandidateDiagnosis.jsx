@@ -1,12 +1,14 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Loader2, ArrowLeft } from 'lucide-react';
+import { Loader2, ArrowLeft, ChevronLeft, ChevronRight } from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
 
 const CandidateDiagnosis = () => {
   const { name } = useParams();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [data, setData] = useState(null);
+  const [currentSection, setCurrentSection] = useState(0);
 
   useEffect(() => {
     const loadData = async () => {
@@ -69,6 +71,8 @@ const CandidateDiagnosis = () => {
   }
 
   const sections = data.sections || [];
+  const section = sections[currentSection];
+  const totalSections = sections.length;
 
   return (
     <div className="min-h-screen bg-black">
@@ -92,25 +96,44 @@ const CandidateDiagnosis = () => {
           </p>
         </div>
 
-        {/* 8 Sections */}
-        <div className="space-y-8">
-          {sections.map((section, index) => (
-            <div
-              key={index}
-              className="backdrop-blur-xl bg-white/[0.02] border border-white/10 rounded-2xl p-6"
-            >
+        {/* Section content with chevron navigation */}
+        {section && (
+          <>
+            <div className="backdrop-blur-xl bg-white/[0.02] border border-white/10 rounded-2xl p-6 mb-6">
               <h2 className="text-xl font-semibold text-blue-400 mb-4">
-                {index + 1}. {section.title}
+                {currentSection + 1}. {section.title}
               </h2>
-              <div
-                className="text-gray-300 text-base leading-relaxed whitespace-pre-wrap"
-                style={{ whiteSpace: 'pre-wrap' }}
-              >
-                {section.content}
+              <div className="text-gray-300 text-base leading-relaxed [&_strong]:text-white [&_strong]:font-semibold [&_ul]:list-disc [&_ul]:list-inside [&_ul]:mb-4 [&_ul]:space-y-1 [&_ol]:list-decimal [&_ol]:list-inside [&_ol]:mb-4 [&_p]:mb-2 [&_h3]:text-white [&_h3]:font-medium [&_h3]:mt-4 [&_h3]:mb-2">
+                <ReactMarkdown>
+                  {section.content}
+                </ReactMarkdown>
               </div>
             </div>
-          ))}
-        </div>
+
+            {/* Chevron navigation */}
+            <div className="flex items-center justify-between">
+              <button
+                onClick={() => setCurrentSection((p) => Math.max(0, p - 1))}
+                disabled={currentSection === 0}
+                className="flex items-center gap-2 px-4 py-2 rounded-xl bg-white/[0.05] text-white disabled:opacity-30 disabled:cursor-not-allowed hover:bg-white/[0.1] transition-colors"
+              >
+                <ChevronLeft className="w-5 h-5" />
+                Previous
+              </button>
+              <span className="text-gray-400 text-sm">
+                {currentSection + 1} of {totalSections}
+              </span>
+              <button
+                onClick={() => setCurrentSection((p) => Math.min(totalSections - 1, p + 1))}
+                disabled={currentSection === totalSections - 1}
+                className="flex items-center gap-2 px-4 py-2 rounded-xl bg-white/[0.05] text-white disabled:opacity-30 disabled:cursor-not-allowed hover:bg-white/[0.1] transition-colors"
+              >
+                Next
+                <ChevronRight className="w-5 h-5" />
+              </button>
+            </div>
+          </>
+        )}
       </div>
     </div>
   );

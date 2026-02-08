@@ -5,6 +5,7 @@ import TestValidator from './components/TestValidator';
 import CheatSheetList from './components/CheatSheetList';
 import DiagnosisList from './components/DiagnosisList';
 import CandidateDiagnosis from './components/CandidateDiagnosis';
+import DiagnosisWelcome from './components/DiagnosisWelcome';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
           <Route path="/" element={<Welcome />} />
           <Route path="/list" element={<CheatSheetList />} />
           <Route path="/test" element={<TestValidator />} />
-          <Route path="/Candidate-diagnosis" element={<DiagnosisList />} />
+          <Route path="/Candidate-diagnosis" element={<DiagnosisWelcome />} />
+          <Route path="/Candidate-diagnosis/list" element={<DiagnosisList />} />
           <Route path="/Candidate-diagnosis/:name" element={<CandidateDiagnosis />} />
           <Route path="/:name" element={<CheatSheet />} />
         </Routes>

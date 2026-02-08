@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Loader2, ArrowLeft, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Loader2, ChevronLeft, ChevronRight } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 
 const CandidateDiagnosis = () => {
@@ -60,10 +60,10 @@ const CandidateDiagnosis = () => {
           <h1 className="text-4xl font-bold mb-4">Diagnosis not found</h1>
           <p className="text-gray-400 mb-6">{error}</p>
           <Link
-            to="/Candidate-diagnosis"
+            to="/Candidate-diagnosis/list"
             className="inline-block px-6 py-3 bg-blue-400 text-white rounded-xl font-medium hover:bg-blue-500 transition-colors"
           >
-            ← Back to List
+            View Diagnoses
           </Link>
         </div>
       </div>
@@ -77,15 +77,16 @@ const CandidateDiagnosis = () => {
   return (
     <div className="min-h-screen bg-black">
       <div className="max-w-4xl mx-auto py-8 px-4 sm:px-6 md:px-8">
+        {/* Logo at top - same as homepage, appropriate size */}
+        <div className="flex items-center justify-center gap-3 mb-8">
+          <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
+            <div className="w-6 h-6 bg-black rounded-sm"></div>
+          </div>
+          <span className="text-white font-bold text-2xl">Mentorque</span>
+        </div>
+
         {/* Header */}
         <div className="mb-8">
-          <Link
-            to="/Candidate-diagnosis"
-            className="inline-flex items-center gap-2 text-gray-400 hover:text-white mb-6 transition-colors"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back to List
-          </Link>
           <h1 className="text-3xl font-bold text-white mb-2">
             Interview Prep Prescription
           </h1>

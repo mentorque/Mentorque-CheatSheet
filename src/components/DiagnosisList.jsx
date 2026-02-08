@@ -73,10 +73,10 @@ const DiagnosisList = () => {
 
         <div className="mt-12 text-center">
           <Link
-            to="/"
+            to="/Candidate-diagnosis"
             className="inline-block px-6 py-3 bg-white/10 text-white rounded-xl font-medium hover:bg-white/20 transition-colors"
           >
-            ← Back to Home
+            ← Back
           </Link>
         </div>
       </div>

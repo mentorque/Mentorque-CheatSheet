@@ -1,7 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Loader2, ChevronLeft, ChevronRight } from 'lucide-react';
-import ReactMarkdown from 'react-markdown';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
+import Lottie from 'lottie-react';
+import DiagnosisSection from './diagnosis/DiagnosisSection';
+
+const SECTION_TRANSITION_MS = 600;
 
 const CandidateDiagnosis = () => {
   const { name } = useParams();
@@ -9,6 +12,15 @@ const CandidateDiagnosis = () => {
   const [error, setError] = useState(null);
   const [data, setData] = useState(null);
   const [currentSection, setCurrentSection] = useState(0);
+  const [transitioning, setTransitioning] = useState(false);
+  const [lottieData, setLottieData] = useState(null);
+
+  useEffect(() => {
+    fetch('/note.json')
+      .then((r) => r.json())
+      .then(setLottieData)
+      .catch(() => setLottieData(null));
+  }, []);
 
   useEffect(() => {
     const loadData = async () => {
@@ -42,12 +54,27 @@ const CandidateDiagnosis = () => {
     loadData();
   }, [name]);
 
+  const goToSection = useCallback((targetIndex) => {
+    if (transitioning) return;
+    setTransitioning(true);
+    setTimeout(() => {
+      setCurrentSection(targetIndex);
+      setTransitioning(false);
+    }, SECTION_TRANSITION_MS);
+  }, [transitioning]);
+
   if (loading) {
     return (
       <div className="min-h-screen bg-black flex items-center justify-center">
         <div className="text-center">
-          <Loader2 className="w-12 h-12 text-blue-400 animate-spin mx-auto mb-4" />
-          <div className="text-white text-xl">Loading diagnosis...</div>
+          {lottieData ? (
+            <div className="w-52 h-52 mx-auto flex items-center justify-center rounded-2xl bg-white/[0.04] border border-white/10 p-4">
+              <Lottie animationData={lottieData} loop style={{ width: '100%', height: '100%' }} />
+            </div>
+          ) : (
+            <div className="w-12 h-12 border-2 border-blue-400 border-t-transparent rounded-full animate-spin mx-auto mb-4" />
+          )}
+          <div className="text-white text-xl mt-4">Loading diagnosis...</div>
         </div>
       </div>
     );
@@ -100,22 +127,29 @@ const CandidateDiagnosis = () => {
         {/* Section content with chevron navigation */}
         {section && (
           <>
-            <div className="backdrop-blur-xl bg-white/[0.02] border border-white/10 rounded-2xl p-6 mb-6">
-              <h2 className="text-xl font-semibold text-blue-400 mb-4">
-                {currentSection + 1}. {section.title}
-              </h2>
-              <div className="text-gray-300 text-base leading-relaxed [&_strong]:text-white [&_strong]:font-semibold [&_ul]:list-disc [&_ul]:list-inside [&_ul]:mb-4 [&_ul]:space-y-1 [&_ol]:list-decimal [&_ol]:list-inside [&_ol]:mb-4 [&_p]:mb-2 [&_h3]:text-white [&_h3]:font-medium [&_h3]:mt-4 [&_h3]:mb-2">
-                <ReactMarkdown>
-                  {section.content}
-                </ReactMarkdown>
-              </div>
+            <div className="backdrop-blur-xl bg-white/[0.02] border border-white/10 rounded-2xl p-6 mb-6 min-h-[320px] relative">
+              {transitioning && lottieData && (
+                <div className="absolute inset-0 flex items-center justify-center bg-black/60 backdrop-blur-sm rounded-2xl z-10">
+                  <div className="w-40 h-40 flex items-center justify-center rounded-xl bg-white/[0.05] border border-white/10 p-3">
+                    <Lottie animationData={lottieData} loop style={{ width: '100%', height: '100%' }} />
+                  </div>
+                </div>
+              )}
+              {!transitioning && (
+                <>
+                  <h2 className="text-xl font-semibold text-blue-400 mb-4">
+                    {currentSection + 1}. {section.title}
+                  </h2>
+                  <DiagnosisSection section={section} />
+                </>
+              )}
             </div>
 
             {/* Chevron navigation */}
             <div className="flex items-center justify-between">
               <button
-                onClick={() => setCurrentSection((p) => Math.max(0, p - 1))}
-                disabled={currentSection === 0}
+                onClick={() => goToSection(Math.max(0, currentSection - 1))}
+                disabled={currentSection === 0 || transitioning}
                 className="flex items-center gap-2 px-4 py-2 rounded-xl bg-white/[0.05] text-white disabled:opacity-30 disabled:cursor-not-allowed hover:bg-white/[0.1] transition-colors"
               >
                 <ChevronLeft className="w-5 h-5" />
@@ -125,8 +159,8 @@ const CandidateDiagnosis = () => {
                 {currentSection + 1} of {totalSections}
               </span>
               <button
-                onClick={() => setCurrentSection((p) => Math.min(totalSections - 1, p + 1))}
-                disabled={currentSection === totalSections - 1}
+                onClick={() => goToSection(Math.min(totalSections - 1, currentSection + 1))}
+                disabled={currentSection === totalSections - 1 || transitioning}
                 className="flex items-center gap-2 px-4 py-2 rounded-xl bg-white/[0.05] text-white disabled:opacity-30 disabled:cursor-not-allowed hover:bg-white/[0.1] transition-colors"
               >
                 Next

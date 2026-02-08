@@ -2,10 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import CheatSheet from './components/CheatSheet';
 import Welcome from './components/Welcome';
 import TestValidator from './components/TestValidator';
-import CheatSheetList from './components/CheatSheetList';
-import DiagnosisList from './components/DiagnosisList';
+import DeveloperList from './components/DeveloperList';
 import CandidateDiagnosis from './components/CandidateDiagnosis';
-import DiagnosisWelcome from './components/DiagnosisWelcome';
 
 function App() {
   return (
@@ -13,12 +11,10 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<Welcome />} />
-          <Route path="/list" element={<CheatSheetList />} />
+          <Route path="/developer/list" element={<DeveloperList />} />
           <Route path="/test" element={<TestValidator />} />
-          <Route path="/Candidate-diagnosis" element={<DiagnosisWelcome />} />
-          <Route path="/Candidate-diagnosis/list" element={<DiagnosisList />} />
+          <Route path="/Cheatsheet/:name" element={<CheatSheet />} />
           <Route path="/Candidate-diagnosis/:name" element={<CandidateDiagnosis />} />
-          <Route path="/:name" element={<CheatSheet />} />
         </Routes>
       </div>
     </Router>

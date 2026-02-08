@@ -69,16 +69,16 @@
     {
       "title": "Expected Outcome",
       "sectionType": "expectedOutcome",
-      "currentScore": 4.5,
-      "targetScore": 7,
-      "maxScore": 10,
+      "currentScore": 3.3,
+      "targetScore": 4.5,
+      "maxScore": 5,
       "metrics": [
-        { "label": "Resume walkthrough", "current": "2.8", "target": "7+/10" },
-        { "label": "Technical depth", "current": "3.5", "target": "7+/10" },
-        { "label": "DSA articulation", "current": "4", "target": "7+/10" },
-        { "label": "Behavioral + Technical", "current": "3", "target": "7+/10" }
+        { "label": "Resume walkthrough", "current": "2.8", "target": "4.5" },
+        { "label": "Technical depth", "current": "3.5", "target": "4.5" },
+        { "label": "DSA articulation", "current": "4", "target": "4.5" },
+        { "label": "Behavioral + Technical", "current": "3", "target": "4.5" }
       ],
-      "content": "**After completing this plan, you will be able to:**\n\n- Explain every resume project's technical architecture in 90 seconds on a whiteboard\n- Handle 3-4 layers of follow-up questions without panic or vagueness\n- Articulate trade-offs (latency vs consistency, sync vs async, SQL vs NoSQL) fluently\n- Structure behavioral answers with specific technical details and measurable outcomes\n- Solve medium DSA problems while verbalizing approach, constraints, and complexity\n\n**Measurable improvement:**\n- Mock 4 score: 7/10 or higher across all sections\n- Zero answers containing \"I think,\" \"probably,\" \"maybe\" without follow-up confidence recovery\n- Can explain all 4 resume projects without looking at resume\n\n**You will still struggle with:**\n- Very hard DSA problems (DP, advanced graphs) under time pressure\n- System design at distributed systems scale (this requires separate deep-dive)\n- Behavioral questions about conflict or failure if you fabricate instead of using real examples"
+      "content": "**After completing this plan, you will be able to:**\n\n- Explain every resume project's technical architecture in 90 seconds on a whiteboard\n- Handle 3-4 layers of follow-up questions without panic or vagueness\n- Articulate trade-offs (latency vs consistency, sync vs async, SQL vs NoSQL) fluently\n- Structure behavioral answers with specific technical details and measurable outcomes\n- Solve medium DSA problems while verbalizing approach, constraints, and complexity\n\n**Measurable improvement:**\n- Mock 4 score: 4.5/5 or higher across all sections\n- Zero answers containing \"I think,\" \"probably,\" \"maybe\" without follow-up confidence recovery\n- Can explain all 4 resume projects without looking at resume\n\n**You will still struggle with:**\n- Very hard DSA problems (DP, advanced graphs) under time pressure\n- System design at distributed systems scale (this requires separate deep-dive)\n- Behavioral questions about conflict or failure if you fabricate instead of using real examples"
     },
     {
       "title": "How to Use This Plan",
@@ -87,7 +87,7 @@
         { "icon": "FileCheck", "title": "Complete Section 4 preparation before Mock 1", "content": "No exceptions—diagram and verbal prep for all projects" },
         { "icon": "FileText", "title": "Document every question you struggled with", "content": "After each mock, write down the exact questions and your weak answers" },
         { "icon": "RotateCcw", "title": "Re-practice failed questions within 24 hours", "content": "Don't wait—fix gaps immediately" },
-        { "icon": "Target", "title": "Do NOT proceed until previous mock scores 7/10+", "content": "Each mock is a gate; pass before moving on" }
+        { "icon": "Target", "title": "Do NOT proceed until previous mock scores 4.5/5+", "content": "Each mock is a gate; pass before moving on" }
       ],
       "mentorSteps": [
         { "icon": "FileCheck", "title": "Follow mock instructions exactly", "content": "Do not make them easier" },
@@ -95,7 +95,7 @@
         { "icon": "FileText", "title": "Provide written feedback on specific failures", "content": "After each mock" },
         { "icon": "Ban", "title": "Reset expectations", "content": "Passing Mock 4 means interview-ready, not guaranteed to pass real interviews" }
       ],
-      "content": "**Non-negotiable rule:**\nIf you fail Mock 4 (score <7/10), repeat Mocks 2-4 in Week 5. \n\n**Timeline:**\n- Week 1: Section 4 preparation\n- Week 2: Mocks 1-2\n- Week 3: Mock 3\n- Week 4: Mock 4\n- Week 5: Buffer for repetition if needed\n\nStart Section 4 preparation today. Email your mentor when BeThere architecture diagram is complete."
+      "content": "**Non-negotiable rule:**\nIf you fail Mock 4 (score <4.5/5), repeat Mocks 2-4 in Week 5. \n\n**Timeline:**\n- Week 1: Section 4 preparation\n- Week 2: Mocks 1-2\n- Week 3: Mock 3\n- Week 4: Mock 4\n- Week 5: Buffer for repetition if needed\n\nStart Section 4 preparation today. Email your mentor when BeThere architecture diagram is complete."
     }
   ]
 }

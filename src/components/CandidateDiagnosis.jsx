@@ -87,10 +87,10 @@ const CandidateDiagnosis = () => {
           <h1 className="text-4xl font-bold mb-4">Diagnosis not found</h1>
           <p className="text-gray-400 mb-6">{error}</p>
           <Link
-            to="/Candidate-diagnosis/list"
+            to="/developer/list"
             className="inline-block px-6 py-3 bg-blue-400 text-white rounded-xl font-medium hover:bg-blue-500 transition-colors"
           >
-            View Diagnoses
+            View Developer Resources
           </Link>
         </div>
       </div>

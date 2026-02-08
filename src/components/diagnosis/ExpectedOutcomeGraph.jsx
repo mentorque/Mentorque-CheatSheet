@@ -1,9 +1,16 @@
 import { ArrowRight, TrendingUp } from 'lucide-react';
 
-const ExpectedOutcomeGraph = ({ currentScore = 4.5, targetScore = 7, maxScore = 10, metrics = [] }) => {
+// Target logic: <4 → 4.5, 4 to 4.5 → 4.5, ≥4.5 → 5
+const getTarget = (current, maxScore = 5) => {
+  if (current >= 4.5) return 5;
+  return 4.5;
+};
+
+const ExpectedOutcomeGraph = ({ currentScore = 0, targetScore: targetProp, maxScore = 5, metrics = [] }) => {
+  const targetScore = targetProp ?? getTarget(currentScore, maxScore);
   const currentPct = (currentScore / maxScore) * 100;
   const targetPct = (targetScore / maxScore) * 100;
-  const increase = targetScore - currentScore;
+  const increase = Math.round((targetScore - currentScore) * 10) / 10;
 
   return (
     <div className="space-y-6">
@@ -37,7 +44,7 @@ const ExpectedOutcomeGraph = ({ currentScore = 4.5, targetScore = 7, maxScore = 
           <span className="text-green-400 font-semibold flex items-center gap-1">
             <TrendingUp className="w-4 h-4" />
             Target: {targetScore}/{maxScore}
-            <span className="text-blue-400 text-sm font-normal">(+{increase} increase)</span>
+            <span className="text-blue-400 text-sm font-normal">(+{increase} point{increase !== 1 ? 's' : ''} increase)</span>
           </span>
         </div>
       </div>

@@ -138,13 +138,6 @@ const CheatSheet = () => {
           <p className="text-lg text-gray-400 mb-6">
             Maybe it's a typo? Check the name and try again.
           </p>
-          
-          <a
-            href="/developer/list"
-            className="inline-block px-6 py-3 bg-blue-400 text-white rounded-xl font-medium hover:bg-blue-500 transition-all duration-300 shadow-lg shadow-blue-400/30"
-          >
-            View Developer Resources
-          </a>
         </div>
       </div>
     );

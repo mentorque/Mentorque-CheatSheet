@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Lottie from 'lottie-react';
 import DiagnosisSection from './diagnosis/DiagnosisSection';
@@ -86,12 +86,6 @@ const CandidateDiagnosis = () => {
         <div className="text-center text-white max-w-2xl">
           <h1 className="text-4xl font-bold mb-4">Diagnosis not found</h1>
           <p className="text-gray-400 mb-6">{error}</p>
-          <Link
-            to="/developer/list"
-            className="inline-block px-6 py-3 bg-blue-400 text-white rounded-xl font-medium hover:bg-blue-500 transition-colors"
-          >
-            View Developer Resources
-          </Link>
         </div>
       </div>
     );

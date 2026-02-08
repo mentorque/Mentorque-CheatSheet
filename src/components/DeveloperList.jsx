@@ -74,10 +74,12 @@ const DeveloperList = () => {
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {cheatsheets.map((cs) => (
-                <Link
+                <a
                   key={cs.name}
-                  to={`/Cheatsheet/${cs.name}`}
-                  className="group backdrop-blur-xl bg-white/[0.02] border border-white/10 rounded-2xl p-6 hover:bg-white/[0.05] hover:border-white/20 transition-all"
+                  href={`/Cheatsheet/${cs.name}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group backdrop-blur-xl bg-white/[0.02] border border-white/10 rounded-2xl p-6 hover:bg-white/[0.05] hover:border-white/20 transition-all block"
                 >
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 bg-blue-400/20 rounded-lg flex items-center justify-center group-hover:bg-blue-400/30 transition-colors">
@@ -90,7 +92,7 @@ const DeveloperList = () => {
                       <p className="text-gray-400 text-sm">{cs.name}.json</p>
                     </div>
                   </div>
-                </Link>
+                </a>
               ))}
             </div>
           )}
@@ -107,10 +109,12 @@ const DeveloperList = () => {
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {diagnoses.map((d) => (
-                <Link
+                <a
                   key={d.name}
-                  to={`/Candidate-diagnosis/${d.name}`}
-                  className="group backdrop-blur-xl bg-white/[0.02] border border-white/10 rounded-2xl p-6 hover:bg-white/[0.05] hover:border-white/20 transition-all"
+                  href={`/Candidate-diagnosis/${d.name}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group backdrop-blur-xl bg-white/[0.02] border border-white/10 rounded-2xl p-6 hover:bg-white/[0.05] hover:border-white/20 transition-all block"
                 >
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 bg-blue-400/20 rounded-lg flex items-center justify-center group-hover:bg-blue-400/30 transition-colors">
@@ -123,7 +127,7 @@ const DeveloperList = () => {
                       <p className="text-gray-400 text-sm">{d.name}.json</p>
                     </div>
                   </div>
-                </Link>
+                </a>
               ))}
             </div>
           )}

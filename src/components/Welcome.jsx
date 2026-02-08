@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 const Welcome = () => {
   return (
     <div className="min-h-screen bg-black flex items-center justify-center">
@@ -10,12 +8,6 @@ const Welcome = () => {
           </div>
           <span className="text-white font-bold text-5xl">Mentorque</span>
         </div>
-        <Link
-          to="/developer/list"
-          className="inline-block px-6 py-3 bg-white/10 text-white rounded-xl font-medium hover:bg-white/20 transition-colors"
-        >
-          View Developer Resources
-        </Link>
       </div>
     </div>
   );

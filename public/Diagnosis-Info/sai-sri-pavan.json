@@ -1,0 +1,101 @@
+{
+  "name": "Sai Sri Pavan Arveti",
+  "email": "saisripavanarveti@gmail.com",
+  "targetRole": "Finance and Business Consulting",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": ["Resume & Experience Clarity", "Answer Structure", "Technical Readiness", "Role-Specific Technical", "Behavioural Story"],
+        "values": [4, 3.6, 4.1, 3.4, 4],
+        "maxValue": 5
+      },
+      "content": "**Core Issue:** Strong quantitative and process experience undermined by structural communication gaps and role-specific depth articulation.\n\nYour Resume & Experience Clarity (4/5) and Technical Readiness (4.1/5) indicate you can describe what you did—but your Answer Structure (3.6/5) and Role-Specific Technical Readiness (3.4/5) sit in the danger zone. You deliver metrics (15–25% improvements, €3M+ revenue, 100% compliance) but struggle to explain *why* you chose certain approaches, *what* alternatives you rejected, and *how* your methodology connects to business outcomes under pressure.\n\n**What this means:**\n- You can articulate SAP workflows, variance analysis, and automation—but may falter when asked: \"Why this ERP module over another?\", \"How did you validate the 15–20% improvement?\", \"What's the root cause methodology behind your trend analysis?\"\n- Interviewers will probe: \"Walk me through your invoice cycle time analysis for €5M+ operations\", \"How did you design the Q&A Excel dashboards?\", \"What trade-offs did you make in the finance transformation?\"\n- You will stumble on follow-ups because you haven't practiced verbalizing analytical reasoning and decision frameworks for your own projects\n\n**Primary Risk Confirmed:** Behavioural Story Risk amplifies this—you cannot structure clear STAR narratives around financial decisions and consulting outcomes, making every answer feel metric-heavy but insight-light."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Resume walkthrough (15–20 min):**\n- Interviewer asks: \"Walk me through your SAP financial operations supporting €3M+ monthly revenue\"\n- You describe deliverables (100% compliance, invoice cycle analysis) instead of *how* you built the controls and *why* you chose that approach\n- Follow-up: \"How did you ensure 100% compliance? What would break first under scale?\"\n- You pause, give vague answer about \"following processes\"\n- Red flag raised: candidate doesn't own the methodology behind their own metrics\n\n**Case / Scenario (30–45 min):**\n- Problem: \"Design a KPI dashboard for a €500M insurance portfolio\"\n- You jump to tools (Power BI, Excel) without clarifying requirements, stakeholders, or success metrics\n- Solution works for basic reporting but misses variance analysis, audit trail, and stakeholder-specific views\n- Interviewer asks: \"How would this scale across 5 business units with different reporting cycles?\"\n- You freeze—experience from Go Digit exists but you can't connect it under pressure\n\n**Behavioral + Technical Blend:**\n- \"Tell me about a time you drove process improvement in finance\"\n- Your answer: \"We improved reporting accuracy by 15–20% through variance and root-cause analysis\"\n- Missing: What specifically broke? What methodology did you use? Why that approach over alternatives? How did you validate the improvement? What was the baseline?\n- Interviewer conclusion: delivered results, didn't own the analytical framework"
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        { "week": "Week 1-2", "title": "Resume analytical depth preparation", "content": "Prepare methodology diagrams and verbal explanations for each project" },
+        { "week": "Week 2-3", "title": "Structured answer articulation", "content": "Practice explaining approach, trade-offs, and outcomes aloud" },
+        { "week": "Week 3-4", "title": "Follow-up depth handling + STAR structure fusion", "content": "Combine analytical depth with STAR format for behavioral questions" },
+        { "week": "Week 4", "title": "Full simulation loop", "content": "Complete mock interview cycle" }
+      ],
+      "content": "Complete each phase before moving to the next. Do not skip ahead."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep Prescription",
+      "sectionType": "content",
+      "content": "**Deloitte USI – Administrative Business Center**\n\nWhat interviewers will probe:\n- \"Explain your end-to-end financial operations using SAP for €3M+ monthly revenue\"\n- \"How did you achieve 100% compliance? What controls did you design?\"\n- \"Walk me through your invoice cycle time analysis across €5M+ operations\"\n- \"How did the Q&A Excel dashboards improve audit readiness? What logic drives them?\"\n\nWhere you'll struggle:\n- Cannot draw process flow or control framework on whiteboard from memory\n- Cannot explain methodology behind 15–20% reporting accuracy improvement\n- Cannot justify tool choices (SAP vs Excel vs Power BI) for specific use cases\n\nPreparation required:\n1. Diagram full flow: data source → SAP module → reporting → audit trail\n2. Document methodology: trend analysis, variance analysis, root-cause framework\n3. List 3 alternative approaches you considered and why you rejected them\n4. Prepare answer: \"How did you validate the 15–20% improvement?\" with baseline, sample size, and measurement approach\n5. Practice explaining this in 90 seconds, then 3 minutes with details\n\n---\n\n**Go Digit General Insurance – Finance Analyst**\n\nWhat interviewers will probe:\n- \"How did you manage €550M+ GWP portfolio with €22M+ monthly payments?\"\n- \"15–20% payment turnaround improvement—show me the analysis\"\n- \"How did you support statutory audits for €95M+ financial statements?\"\n- \"25% manual effort reduction—what did you automate and why?\"\n\nWhere you'll struggle:\n- \"Expense ratio analysis\" and \"vendor ageing\" are phrases without methodological substance\n- Cannot defend the 15–20% or 25% numbers with specific before/after, sample size, or assumptions\n- Cannot explain alignment between systems and business teams for expense classification\n\nPreparation required:\n1. Document the payment cycle: trigger → validation → approval → payment → reconciliation\n2. Explain vendor ageing methodology: how you calculated it, what thresholds you used\n3. Prepare answer: \"Why 25% manual reduction?\" with specific automation scope and measurement\n4. Mock scenario: Interviewer says \"15–20% seems broad\"—defend with granular metrics or admit limitations\n\n---\n\n**Celtic Horizon Tours – Business Consulting Project**\n\nWhat interviewers will probe:\n- \"Walk me through your international market entry strategy across 3+ continents\"\n- \"How did competitive benchmarking inform your financial feasibility analysis?\"\n- \"What was the framework for evaluating market entry?\"\n- \"What alternatives did you reject and why?\"\n\nWhere you'll struggle:\n- \"Competitive benchmarking\" and \"financial feasibility\" are high-level without step-by-step methodology\n- Cannot explain how you structured the analysis or validated assumptions\n\nPreparation required:\n1. Document the framework: market selection → competitive analysis → feasibility model → recommendation\n2. Prepare 2–3 concrete examples of benchmarks used and how they shaped the recommendation\n3. Practice: \"Here's the structure I used, here's why, here's what I'd change\"\n\n---\n\n**Unemployment Insurance Framework – India**\n\nWhat interviewers will probe:\n- \"How did you design the fiscal impact analysis and funding model?\"\n- \"What methodology did you use for long-term sustainability assessment?\"\n- \"How is this different from existing unemployment schemes?\"\n\nWhere you'll struggle:\n- Cannot explain the modelling approach, assumptions, or sensitivity analysis\n- \"Fiscal impact\" and \"funding modelling\" need concrete methodology\n\nPreparation required:\n1. Document the model structure: inputs, assumptions, outputs, sensitivity\n2. Prepare answer to: \"What would break your model?\" with key variables and edge cases"
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Finance / Consulting Question Framework**\n\nUse this structure for every answer:\n\n1. **Restate + Clarify (10 sec):** \"So you're asking how I approached [specific problem]—just to confirm, you want to know [scope]?\"\n2. **Context (20 sec):** \"In [project], we needed [requirement] because [business constraint]\"\n3. **Approach (40 sec):** \"I chose [methodology/solution] over [alternative] because [trade-off]. Here's how it works: [step 1, 2, 3]\"\n4. **Outcome (20 sec):** \"This resulted in [metric/result]. If I were to redo it, I'd consider [improvement]\"\n5. **Invite Follow-up (5 sec):** \"Does that answer your question or should I go deeper into [specific area]?\"\n\n**Behavioral + Technical Fusion**\n\nFor \"Tell me about a time you drove process improvement\":\n\n**Bad (your current pattern):**\n\"We improved reporting accuracy by 15–20% through variance and root-cause analysis. It helped the team.\"\n\n**Fixed:**\n\"At Deloitte, month-end reporting had inconsistencies that delayed stakeholder decisions by 2–3 days. I diagnosed the root cause—manual reconciliation across 3 data sources with no single source of truth. I designed a variance analysis framework that tracked discrepancies by category, built automated Q&A Excel dashboards to flag outliers, and established a root-cause checklist. This reduced reporting errors by 18% measured against our prior quarter baseline, and cut review time by 40%. The trade-off was increased upfront setup—which I justified by documenting the ROI in audit readiness.\"\n\n**Notice the difference:**\n- Specific problem (delays, inconsistencies)\n- Root cause (manual reconciliation, no SSoT)\n- Solution with methodology (variance framework, dashboards, checklist)\n- Measurable outcome (18%, 40%)\n- Self-awareness (trade-off, ROI)\n\nPractice rewriting 5 resume bullet points in this format."
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            { "timing": "Week 2, Day 1", "label": "Mock 1: Resume Deep-Dive Finance Walkthrough", "duration": "45 minutes", "objective": "Force you to explain methodology and decision frameworks for Deloitte and Go Digit projects." },
+            { "timing": "Week 2, Day 5", "label": "Mock 2: Case / Scenario with Articulation", "duration": "50 minutes", "objective": "Design a KPI dashboard or reporting framework. Do NOT jump to tools—clarify requirements, propose approaches, discuss trade-offs." },
+            { "timing": "Week 3, Day 3", "label": "Mock 3: Follow-up Depth Probing + Behavioral Technical", "duration": "45 minutes", "objective": "Resume follow-up gauntlet (25 min) + Behavioral question (20 min)." },
+            { "timing": "Week 4, Day 2", "label": "Mock 4: Full Interview Simulation", "duration": "60 minutes", "objective": "Full format: intro → resume → finance/case question → behavioral → questions." }
+          ]
+        },
+        {
+          "title": "Focus Areas by Mock",
+          "type": "bar",
+          "data": [
+            { "label": "Mock 1: Analytical depth", "value": 8, "max": 10 },
+            { "label": "Mock 2: Structured articulation", "value": 7, "max": 10 },
+            { "label": "Mock 3: Follow-up handling", "value": 8, "max": 10 },
+            { "label": "Mock 4: Full simulation", "value": 10, "max": 10 }
+          ]
+        }
+      ],
+      "content": "**Mentor Instructions for Mock 1:**\n- Pick Deloitte: \"Walk me through your SAP financial operations and 100% compliance\"\n- After initial answer, probe: Draw the process flow, How did you validate the 15–20% improvement?, What methodology for root-cause analysis?, Show me the dashboard logic\n- Then switch to Go Digit: \"Explain your payment turnaround improvement and vendor ageing analysis\"\n\n**Mentor Instructions for Mock 2:**\n- Do NOT let candidate jump to Power BI or Excel immediately\n- Force them to: Clarify stakeholders and success metrics, Propose 2–3 reporting approaches, Discuss trade-offs (real-time vs batch, granularity vs performance), Only then describe implementation\n\n**Mentor Instructions for Mock 3:**\n- Part 1: Keep probing until candidate says \"I don't know\" or provides weak answer\n- Part 2: \"Tell me about the hardest analytical challenge you faced and how you resolved it\"\n\n**Mentor Instructions for Mock 4:**\n- Full format: Tell me about yourself → Resume walkthrough → Finance/case question → Behavioral question → Do you have questions?"
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 3.8,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        { "label": "Resume walkthrough", "current": "4", "target": "4.5" },
+        { "label": "Analytical depth", "current": "3.6", "target": "4.5" },
+        { "label": "Structured articulation", "current": "3.4", "target": "4.5" },
+        { "label": "Behavioral + Technical", "current": "4", "target": "4.5" }
+      ],
+      "content": "**After completing this plan, you will be able to:**\n\n- Explain every resume project's methodology and decision framework in 90 seconds on a whiteboard\n- Handle 3–4 layers of follow-up questions without panic or vagueness\n- Articulate trade-offs (accuracy vs speed, automation vs control, granularity vs simplicity) fluently\n- Structure behavioral answers with specific analytical details and measurable outcomes\n- Approach case/scenario questions with clarify → propose → trade-off before implementation\n\n**Measurable improvement:**\n- Mock 4 score: 4.5/5 or higher across all sections\n- Zero answers containing \"I think,\" \"probably,\" \"maybe\" without follow-up confidence recovery\n- Can explain all 4 resume projects without looking at resume\n\n**You will still struggle with:**\n- Complex multi-business-unit consolidation scenarios under time pressure\n- Advanced SQL or Python technical depth (this requires separate deep-dive)\n- Behavioral questions about conflict or failure if you fabricate instead of using real examples"
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        { "icon": "FileCheck", "title": "Complete Section 4 preparation before Mock 1", "content": "No exceptions—methodology and verbal prep for all projects" },
+        { "icon": "FileText", "title": "Document every question you struggled with", "content": "After each mock, write down the exact questions and your weak answers" },
+        { "icon": "RotateCcw", "title": "Re-practice failed questions within 24 hours", "content": "Don't wait—fix gaps immediately" },
+        { "icon": "Target", "title": "Do NOT proceed until previous mock scores 4.5/5+", "content": "Each mock is a gate; pass before moving on" }
+      ],
+      "mentorSteps": [
+        { "icon": "FileCheck", "title": "Follow mock instructions exactly", "content": "Do not make them easier" },
+        { "icon": "AlertCircle", "title": "Probe until candidate breaks or admits knowledge boundary", "content": "Find the limit" },
+        { "icon": "FileText", "title": "Provide written feedback on specific failures", "content": "After each mock" },
+        { "icon": "Ban", "title": "Reset expectations", "content": "Passing Mock 4 means interview-ready, not guaranteed to pass real interviews" }
+      ],
+      "content": "**Non-negotiable rule:**\nIf you fail Mock 4 (score <4.5/5), repeat Mocks 2-4 in Week 5.\n\n**Timeline:**\n- Week 1: Section 4 preparation\n- Week 2: Mocks 1-2\n- Week 3: Mock 3\n- Week 4: Mock 4\n- Week 5: Buffer for repetition if needed\n\nStart Section 4 preparation today. Email your mentor when Deloitte SAP process flow diagram is complete."
+    }
+  ]
+}

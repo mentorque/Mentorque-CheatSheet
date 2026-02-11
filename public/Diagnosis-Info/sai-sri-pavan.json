@@ -53,7 +53,7 @@
     {
       "title": "Interview Answer Construction Guidance",
       "sectionType": "content",
-      "content": "**Project:** Improving payment cycle time by 15-20% at Go Digit.\n\n**Baseline Answer (Score 3.6 - Structural Weakness):**\n\"At Go Digit, I was a Finance Analyst. I looked at vendor ageing and expense ratios for our large portfolio. I worked with systems teams to make sure vendor payments were classified right. By analyzing the invoice cycles, I was able to reduce the payment cycle time by about 20% which helped our liquidity.\"\n\n**Fixed Answer (Score 4.5+ - Strategic & Structured):**\n\"Managing a €550M portfolio at Go Digit, I identified a bottleneck in our liquidity management: vendor payment cycles were inconsistent. (Situation) I performed a deep-dive analysis into vendor ageing and expense classification for a €120M vendor segment. (Task) Utilizing SQL and Advanced Excel, I isolated three specific process lags in the approval workflow and automated the tracking of payment milestones. (Action) This reduced our cycle time by 20%, which directly improved our working capital efficiency and strengthened our governance during €95M+ audits. (Result)\"\n\n**Justification:** The \"Fixed\" version directly addresses the Answer Structure by following a logical flow and boosts Role-Specific Technical credibility by linking the \"Action\" (SQL/Automation) to the \"Business Impact\" (Liquidity/Working Capital)."
+      "content": "**Project:** Improving payment cycle time by 15-20% at Go Digit.\n\n**Baseline Answer (Score 3.6 - Structural Weakness):**\n\"At Go Digit, I was a Finance Analyst. I looked at vendor ageing and expense ratios for our large portfolio. I worked with systems teams to make sure vendor payments were classified right. By analyzing the invoice cycles, I was able to reduce the payment cycle time by about 20% which helped our liquidity.\"\n\n**Fixed Answer (Score 4.5+ - Strategic & Structured):**\n\"Managing a €550M portfolio at Go Digit, I identified a bottleneck in our liquidity management: vendor payment cycles were inconsistent. (Situation) I performed a deep-dive analysis into vendor ageing and expense classification for a €120M vendor segment. (Task) Utilizing SQL and Advanced Excel, I isolated three specific process lags in the approval workflow and automated the tracking of payment milestones. (Action) This reduced our cycle time by 20%, which directly improved our working capital efficiency and strengthened our governance during €95M+ audits. (Result)\"\n\n**Justification:** The \"Fixed\" version directly addresses the Answer Structure by following a logical STAR flow and boosts Role-Specific Technical credibility by linking the \"Action\" (SQL/Automation) to the \"Business Impact\" (Liquidity/Working Capital)."
     },
     {
       "title": "High-Risk Questions (The Landmines)",
@@ -111,15 +111,15 @@
       "title": "Expected Outcome",
       "sectionType": "expectedOutcome",
       "currentScore": 3.8,
-      "targetScore": 4.6,
+      "targetScore": 4.5,
       "maxScore": 5,
       "metrics": [
-        { "label": "Resume walkthrough", "current": "4", "target": "4.6" },
-        { "label": "Answer Structure", "current": "3.6", "target": "4.6" },
-        { "label": "Role-Specific Technical", "current": "3.4", "target": "4.6" },
-        { "label": "Behavioral + Technical", "current": "4", "target": "4.6" }
+        { "label": "Resume walkthrough", "current": "4", "target": "4.5" },
+        { "label": "Answer Structure", "current": "3.6", "target": "4.5" },
+        { "label": "Role-Specific Technical", "current": "3.4", "target": "4.5" },
+        { "label": "Behavioral + Technical", "current": "4", "target": "4.5" }
       ],
-      "content": "**Target Average Score: 4.6**\n\n**Measurable Change:**\n\n- Move from \"I used SAP\" to \"I leveraged SAP to ensure 100% compliance in a €3M monthly portfolio\".\n- Bridge the \"Unemployment Insurance Project\" from a school project to a masterclass in scenario modeling.\n- The \"After\" Persona: A \"Strategic Financial Architect\" who not only manages data but understands the capital-intensive levers of the business."
+      "content": "**Target Average Score: 4.5**\n\n**Measurable Change:**\n\n- Move from \"I used SAP\" to \"I leveraged SAP to ensure 100% compliance in a €3M monthly portfolio\".\n- Bridge the \"Unemployment Insurance Project\" from a school project to a masterclass in scenario modeling.\n- The \"After\" Persona: A \"Strategic Financial Architect\" who not only manages data but understands the capital-intensive levers of the business."
     },
     {
       "title": "How to Use This Plan",

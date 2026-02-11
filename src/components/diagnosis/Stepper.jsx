@@ -1,3 +1,5 @@
+import ReactMarkdown from 'react-markdown';
+
 const Stepper = ({ steps = [] }) => {
   return (
     <div className="space-y-0">
@@ -19,7 +21,9 @@ const Stepper = ({ steps = [] }) => {
             </div>
             <h4 className="text-white font-medium mb-1">{step.title}</h4>
             {step.content && (
-              <p className="text-gray-400 text-sm">{step.content}</p>
+              <div className="text-gray-400 text-sm [&_strong]:text-white [&_strong]:font-semibold [&_p]:mb-1">
+                <ReactMarkdown>{step.content}</ReactMarkdown>
+              </div>
             )}
           </div>
         </div>

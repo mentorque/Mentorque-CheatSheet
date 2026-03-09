@@ -1,0 +1,139 @@
+{
+  "name": "Palak Dwivedi",
+  "role": "Full-Stack Developer | MERN Stack & AWS",
+  "description": "Tailored to your experience in MERN stack development, AI integration, cloud deployment, and building full-stack web applications with React, Node.js, Express, and MongoDB.",
+  "sections": [
+    {
+      "title": "Behavioral Questions",
+      "icon": "Users",
+      "cards": [
+        {
+          "front": "Tell me about yourself",
+          "back": "I'm a final-year Computer Science and Engineering student at VIT with a CGPA of 8.11. I build full-stack MERN applications and have experience with React, Node.js, Express, MongoDB, and AWS. I've built HeritageAI—an AI-driven cultural heritage explorer—TradeUp, a trading platform, and a job listing app with location-based search. I'm an AWS Certified Cloud Practitioner, contributed to Social Summer of Code 2025, and mentor for GirlScript Summer of Code 2025. I've also led PR for VITronix and coordinated cultural events as Secretary of Mharo Rajasthan Club, and I'm a state-level badminton player from Rajasthan."
+        },
+        {
+          "front": "What are your strengths?",
+          "back": "My strengths are full-stack delivery with the MERN stack, clean architecture, and taking projects from frontend-only to production-ready. I've implemented JWT authentication, RESTful APIs, and AI integration with the OpenAI API. I'm comfortable with MongoDB for structured and unstructured data, deployment on Vercel and AWS, and version control with Git. My extracurricular roles—Secretary and PR Lead—show I can coordinate events and communicate clearly with teams and stakeholders."
+        },
+        {
+          "front": "What are your weaknesses?",
+          "back": "I sometimes over-focus on getting the architecture right before shipping. I've learned to balance this by setting clear milestones and deploying incrementally—for example, moving the job listing app to Vercel with environment-based settings. Solving 300+ LeetCode problems has also helped me reduce debugging time and ship faster."
+        },
+        {
+          "front": "Why do you want to join us?",
+          "back": "I want to work on products that reach real users and scale. Your focus on full-stack development and modern tech aligns with my experience building MERN apps, integrating AI, and deploying on the cloud. I'm excited to contribute to backend and frontend systems while growing in system design and collaboration."
+        },
+        {
+          "front": "Where do you see yourself in the next 5 years?",
+          "back": "In five years, I see myself as a strong full-stack or backend engineer working on scalable web applications and cloud-native systems. I want to deepen my expertise in system design, AWS, and AI integration, and continue mentoring—as I do with GirlScript Summer of Code—while contributing to high-impact product decisions."
+        },
+        {
+          "front": "Tell me about a time you went above and beyond",
+          "back": "Situation: As Secretary of Mharo Rajasthan Club, we needed to boost engagement. Task: Coordinate cultural events that would appeal to a large student base. Action: I led the coordination of 3+ events with 600+ attendees and focused on clear communication and follow-up. Result: Drove a 25% increase in student engagement and strengthened the club's presence on campus."
+        },
+        {
+          "front": "How do you handle tight deadlines?",
+          "back": "I break work into milestones and ship in phases. For HeritageAI and TradeUp, I moved from idea to deployed app by prioritizing core features first—AI conversational queries and trading data—then adding auth and polish. I use Git for version control and keep the codebase modular so I can iterate without blocking on one big release."
+        },
+        {
+          "front": "Describe a time you took initiative",
+          "back": "Situation: The job listing project started as frontend-only. Task: Make it production-ready with backend and deployment. Action: I built RESTful APIs with Node.js and Express, added location-based search with real-time UI updates, and deployed the frontend on Vercel with environment-based backend config. Result: Delivered a full-stack app users could use to search jobs by location."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "The STAR method (Situation, Task, Action, Result) is useful for answering behavioral questions.",
+          "answer": true
+        },
+        {
+          "question": "When discussing projects like HeritageAI or TradeUp, you should avoid mentioning specific tech (e.g. MERN, JWT).",
+          "answer": false
+        },
+        {
+          "question": "Mentioning measurable outcomes (e.g. 25% increase in engagement, 300+ LeetCode problems) strengthens your answers.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "title": "Technical Questions",
+      "icon": "Target",
+      "cards": [
+        {
+          "front": "Explain your experience with the MERN stack",
+          "back": "I have hands-on experience building full-stack apps with MongoDB, Express, React, and Node.js. HeritageAI, TradeUp, and the job listing app are all MERN. I use Express for RESTful APIs, React for modular UIs with Tailwind/Bootstrap, Node for the server, and MongoDB for user data, transactions, and storing AI conversation context. I focus on clean architecture and scalability."
+        },
+        {
+          "front": "What is your experience with authentication?",
+          "back": "I designed and developed a secure authentication system for HeritageAI using JWT-based authentication, with user registration and login. I understand token-based auth, protecting routes, and storing user state on the client while keeping the backend stateless."
+        },
+        {
+          "front": "How do you work with MongoDB?",
+          "back": "I've used MongoDB for structured and unstructured data: user profiles, transactions, trading records, and AI conversation storage. I ensure efficient storage and retrieval, and I've managed data consistency across user interactions and real-time updates in the job listing and TradeUp projects."
+        },
+        {
+          "front": "What is your experience with APIs and AI integration?",
+          "back": "I integrated the OpenAI API into HeritageAI to deliver real-time, context-aware responses about Rajasthan's heritage. I built the backend to handle API calls, manage context, and structure responses. I've also built RESTful APIs with Node and Express for job filtering and trading data."
+        },
+        {
+          "front": "How do you handle deployment and cloud?",
+          "back": "I deployed the job listing frontend on Vercel and configured the backend for cloud deployment with environment-based settings. I'm an AWS Certified Cloud Practitioner and use Git and GitHub for version control. I focus on repeatable, environment-aware deployments."
+        },
+        {
+          "front": "Describe your approach to frontend development",
+          "back": "I build scalable React frontends with modular, reusable components and use Tailwind CSS and Bootstrap for responsive UIs. I've delivered consistent experiences across devices and integrated real-time updates—for example, location-based search in the job app—with clean state management and API integration."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "JWT is commonly used for stateless authentication in web applications.",
+          "answer": true
+        },
+        {
+          "question": "MongoDB is a relational database that uses SQL for queries.",
+          "answer": false
+        },
+        {
+          "question": "In a MERN app, Express typically runs on the server and React runs in the browser.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "title": "Project Highlights",
+      "icon": "Award",
+      "cards": [
+        {
+          "front": "HeritageAI – AI-Driven Cultural Heritage Explorer",
+          "back": "Built a full-stack MERN web application enabling users to explore Rajasthan's cultural heritage through AI-driven conversational queries. Integrated the OpenAI API for real-time, context-aware responses about traditions, history, food, and royal heritage. Implemented JWT-based user registration and login. Managed structured and unstructured data in MongoDB for user interactions. Tech Stack: React, Node.js, Express, MongoDB, OpenAI API, JWT."
+        },
+        {
+          "front": "TradeUp – Full-Stack Trading Platform",
+          "back": "Developed TradeUp, a full-stack trading platform using the MERN stack, enabling users to interact with trading data through a secure, responsive web interface. Built a scalable React frontend with modular, reusable components. Integrated MongoDB for user data, transactions, and trading records. Transitioned the project from frontend-only to a production-ready full-stack system with clean architecture and scalability. Tech Stack: React, Node.js, Express, MongoDB."
+        },
+        {
+          "front": "Job Listing Web Application",
+          "back": "Developed a full-stack job listing web application using the MERN stack with location-based search. Implemented filtering by city or region with real-time UI updates. Designed RESTful APIs with Node.js and Express to fetch and filter job data. Deployed the frontend on Vercel and configured the backend for cloud deployment with environment-based settings. Tech Stack: React, Node.js, Express, MongoDB, Vercel."
+        },
+        {
+          "front": "Extracurricular & Additional Achievements",
+          "back": "Secretary, Mharo Rajasthan Club (Apr 2024–Apr 2025): coordinated 3+ cultural events with 600+ attendees, 25% increase in student engagement. PR Team Lead, VITronix Club (Aug 2024–Apr 2025): led PR for multiple events, 500+ participants. State Badminton Player, Rajasthan. Contributor, Social Summer of Code 2025; Mentor, GirlScript Summer of Code 2025. 300+ LeetCode problems; 1000+ inputs on Google Crowdsource (level 18). AWS Certified Cloud Practitioner (Mar 2025)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "HeritageAI uses the OpenAI API to power conversational queries about Rajasthan's heritage.",
+          "answer": true
+        },
+        {
+          "question": "TradeUp was built as a backend-only application without a React frontend.",
+          "answer": false
+        },
+        {
+          "question": "The job listing app includes location-based search and was deployed on Vercel.",
+          "answer": true
+        }
+      ]
+    }
+  ]
+}

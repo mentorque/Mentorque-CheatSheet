@@ -1,0 +1,175 @@
+{
+  "name": "Nitish Joshi",
+  "email": "nitishjoshi04@gmail.com",
+  "targetRole": "Software Developer",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": ["Resume & Experience Clarity", "Answer Structure", "Technical Readiness", "Role-Specific Technical", "Behavioural Story"],
+        "values": [2.8, 2.2, 3.0, 2.5, 3.2],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: The \"Technical Readiness\" Backend Executor.**\n\nNitish, your profile presents a sharp contrast. On paper, you are a backend Software Developer with real production experience at Softel Solutions and strong academic + teaching exposure at Maynooth University, backed by concrete impact numbers (30% fewer billing corrections, 20% faster issue resolution, 25% fewer query failures). However, your Answer Structure score of 2.2 and Role-Specific Technical score of 2.5 reveal a **Technical Readiness Risk**: you risk sounding like someone who executes tasks rather than someone who owns backend systems end-to-end.\n\n**The Mapping Rule Analysis:**\n\nWhile you clearly describe what you did (e.g., \"Reduced manual billing corrections by 30%\", \"Designed a fault-tolerant notification system\"), a 2.2 in Answer Structure suggests you may struggle when an interviewer probes into the *why* behind design decisions and the *how* of correctness, failure handling, and scalability. You risk sounding like a \"Backend Executor\" who followed patterns, rather than a systems thinker who can defend architecture, trade-offs, and production readiness.\n\nThis \"Technical Depth Just-Enough\" persona is your primary hurdle; you look like a strong backend candidate on the page, but you might sound like a mid-level implementer in the hot seat."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: The Resume Walkthrough (15m)**\n\n**The Red Flag:** \"Nitish, walk me through how you reduced manual billing corrections by 30% at Softel Solutions. What exactly was broken before, and how did your changes fix it?\"\n\n**Justification:** With an Answer Structure of 2.2, you are statistically likely to describe steps (\"I wrote Python logic\", \"I changed queries\") instead of a structured STAR story: legacy problem → specific defects → design choices → validation → measured impact.\n\n---\n\n**Scenario B: The Backend/System Design Case (45m)**\n\n**The Red Flag:** \"Explain how your fault-tolerant notification system ensures idempotency and guarantees that users don’t receive duplicate emails or lose messages under failures.\"\n\n**Justification:** Your Technical Readiness 3.0 shows you can talk about concepts like retries, dead-letter queues, and backoff, but Role-Specific Technical 2.5 indicates a gap when defending exact mechanisms (idempotency keys, transactional boundaries, failure modes under load).\n\n---\n\n**Scenario C: The Behavioural + Technical Blend**\n\n**The Red Flag:** \"Tell me about a time you had to push back on a design choice—maybe around query optimization or API design. What was the conflict and what changed because of you?\"\n\n**Justification:** With a Behavioural Story score of 3.2, you likely have good material (TA mentoring, defect reduction, student/game testing), but the conflict and resolution may get buried under technical detail, weakening the sense that you lead decisions rather than just support them."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "The \"Backend STAR\" Drill",
+          "content": "Convert every backend bullet (Softel, notification system, e-commerce, games) into a 60-second STAR pitch: legacy problem, design choice, validation method, and metric. **Score Target:** Answer Structure 2.2 → 4.0"
+        },
+        {
+          "week": "Week 2",
+          "title": "Systems & Failure-Mode Deep-Dive",
+          "content": "For each project, document failure modes (retries, dead letters, duplicate messages, transaction failures) and how your design handles them. **Score Target:** Role-Specific Technical 2.5 → 4.0"
+        },
+        {
+          "week": "Week 3",
+          "title": "Metrics, Baselines, and Validation",
+          "content": "Attach numbers to every claim: how 30% billing reduction was measured, what 20% faster issue resolution means, how game effectiveness was validated with 100+ students. **Score Target:** Resume Clarity 2.8 → 4.2, Technical Readiness 3.0 → 4.2"
+        },
+        {
+          "week": "Week 4",
+          "title": "The Pressure Test",
+          "content": "Mock interviews that simulate backend rounds: API design, data modeling, concurrency, and a behavioural conflict focused on production incidents. **Score Target:** Overall Average → 4.5"
+        }
+      ],
+      "content": "Complete each phase before moving to the next. Do not skip ahead."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Project 1: Fault-Tolerant Notification System (Email / SMS / Push)**\n\n**Interviewer Probe:** \"Walk me through an end-to-end flow for a notification. Where do you ensure idempotency? What happens if Kafka (or your queue) goes down mid-batch?\"\n\n**Likely Struggle:** Mapping to your Role-Specific Technical (2.5), you might describe high-level features (\"retries\", \"dead-letter queue\") but not specify idempotency keys, ordering guarantees, poison message handling, or exactly where you store delivery state.\n\n**Prep Drill:** Write down the exact flow: event ingestion → routing → persistence → delivery → acknowledgment → retries. Define: what key identifies uniqueness, where you log attempts, how you prevent replays after retries, and how you monitor DLQs.\n\n---\n\n**Project 2: Headless E-Commerce Platform**\n\n**Interviewer Probe:** \"Your e-commerce backend handles carts, checkout, and payments. How do you ensure data consistency across orders, inventory, and payments—especially under concurrent requests?\"\n\n**Likely Struggle:** You may focus on \"transactions and concurrency\" at a conceptual level, but struggle to explain isolation levels, idempotent endpoints, or how you avoid double-charging or overselling inventory.\n\n**Prep Drill:** For each operation (add-to-cart, checkout, payment confirmation), define the transaction boundaries, failure rollbacks, and idempotent identifiers. Be able to say: \"I used transactional DB design with proper isolation, enforced invariants on the order + inventory tables, and made payment callbacks idempotent by storing a unique payment reference.\"\n\n---\n\n**Project 3: Web-Based Educational Games for Computational Thinking**\n\n**Interviewer Probe:** \"How did you validate that your games actually improved computational thinking for 6–12 year olds? What did you measure with those 100+ students?\"\n\n**Likely Struggle:** Because this is an academic-style project, you may stay at the level of \"we tested with 100+ students\" instead of clearly explaining experiment setup, baselines, and how you interpreted the data.\n\n**Prep Drill:** Describe the test design: pre/post assessments, metrics (completion rate, error rate, time to solve), and what statistical or observational method you used to claim effectiveness. Practice a 60-second summary with explicit numbers."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Project:** Reducing manual billing corrections by 30% at Softel Solutions.\n\n**Baseline Answer (Score 2.2 - Structural Weakness):**\n\"At Softel Solutions, I worked on a billing system. I improved the Python logic and optimized queries. This reduced manual billing corrections by 30% and helped the team.\"\n\n**Fixed Answer (Score 4.5+ - Strategic & Structured):**\n\"At Softel Solutions, municipal billing teams were manually correcting frequent tax and invoice errors, causing delays and inconsistent reporting. (Situation) I needed to reduce these corrections while keeping the logic compliant with tax rules and city workflows. (Task) I refactored the Python-based business logic to centralize tax calculations, tightened validation rules, and optimized the underlying SQL queries with proper indexing and join restructuring. (Action) After deploying the changes and monitoring three billing cycles, manual correction tickets dropped by 30% and query failure rates decreased by 25%, which directly improved billing accuracy and cut issue resolution time by 20%. (Result)\"\n\n**Justification:** The \"Fixed\" version directly addresses Answer Structure by following a STAR flow and strengthens Technical Readiness by tying backend changes (logic + queries) to measurable impact."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "\"Walk me through your design for the fault-tolerant notification system. How do you guarantee exactly-once or at least-once delivery semantics?\" **(Risk: Role-Specific Technical 2.5)**\n\n\"How do you prevent customers from being double-charged or oversold inventory in your headless e-commerce platform under concurrent checkout requests?\" **(Risk: Technical Readiness 3.0)**\n\n\"Explain how you diagnosed and fixed a real production incident at Softel. What logs or metrics did you rely on, and what changed in the system afterward?\" **(Risk: Technical Readiness 3.0)**\n\n\"What specific metrics did you track to claim a 30% reduction in manual billing corrections and a 20% faster issue resolution time?\" **(Risk: Resume Clarity 2.8)**\n\n\"Tell me about a time you disagreed with a teammate or stakeholder about an API or schema design. How did you resolve it?\" **(Risk: Behavioural Story 3.2)**\n\n\"In your educational games project, how did you ensure the games were effective for ages 6–12 rather than just fun?\" **(Risk: Answer Structure 2.2)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: The Diagnostic Backend Walkthrough",
+              "duration": "45 minutes",
+              "objective": "High-level resume + backend project flow. Raise Answer Structure score."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: System Design & Failure Modes",
+              "duration": "50 minutes",
+              "objective": "Notification system, e-commerce flows, and data consistency. Push hard on failure handling and idempotency."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: Production Incidents & Behavioural Depth",
+              "duration": "45 minutes",
+              "objective": "Real incidents from Softel + conflict stories from teaching/mentoring."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: Full Backend Simulation",
+              "duration": "60 minutes",
+              "objective": "Intro → resume → deep follow-ups → small system design → behavioural question under time pressure."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            { "label": "Session 1: Answer Structure", "value": 9, "max": 10 },
+            { "label": "Session 2: Technical Readiness", "value": 8, "max": 10 },
+            { "label": "Session 3: Behavioral + Incidents", "value": 7, "max": 10 },
+            { "label": "Session 4: Full simulation", "value": 10, "max": 10 }
+          ]
+        }
+      ],
+      "content": "**Session 1: The Diagnostic Backend Walkthrough**\n\n**Focus:** High-level flow for Softel, notification system, e-commerce, and games.\n\n**Mentor Push:** Interrupt frequently with \"Why this design?\" and \"How did you validate impact?\" to expose gaps.\n\n---\n\n**Session 2: System Design & Failure Modes**\n\n**Focus:** Notification pipeline, idempotency, data consistency, and transaction design.\n\n**Mentor Push:** Simulate failures: duplicate events, partial failures, DB downtime. Candidate must walk through recovery.\n\n---\n\n**Session 3: Production Incidents & Behavioural Depth**\n\n**Focus:** Real incidents (Softel) + mentoring conflicts (reviewing 30+ PRs, guiding teams).\n\n**Mentor Push:** Demand specific logs, metrics, and decisions; no generic \"we fixed it\" answers.\n\n---\n\n**Session 4: Full Backend Simulation**\n\n**Focus:** Realistic backend interview pacing.\n\n**Mentor Push:** Combine all themes—architecture, metrics, incidents, and conflict—in one continuous interview."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 2.25,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        { "label": "Resume walkthrough", "current": "2.8", "target": "4.5" },
+        { "label": "Answer Structure", "current": "2.2", "target": "4.5" },
+        { "label": "Role-Specific Technical", "current": "2.5", "target": "4.5" },
+        { "label": "Behavioral + Technical", "current": "3.2", "target": "4.5" }
+      ],
+      "content": "**Target Average Score: 4.5**\n\n**Measurable Change:**\n\n- Move from \"I implemented a notification system\" to \"I designed an event-driven notification pipeline with retries, idempotency keys, and DLQs that reduced failed or duplicate notifications under load, validated with metrics and logs\".\n- Move from \"I worked on billing\" to \"I refactored billing logic and SQL for tax workflows, reducing manual corrections by 30%, query failures by 25%, and issue resolution time by 20% with clear before/after baselines\".\n- The \"After\" Persona: A \"Production-Ready Backend Engineer\" who explains system behavior, failure handling, and metrics—not just technologies used."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Complete Week 1 Backend STAR Drill before Session 1",
+          "content": "No exceptions—convert every backend bullet into a 60-second STAR pitch with metrics. This directly targets your Answer Structure score (2.2→4.0)."
+        },
+        {
+          "icon": "FileText",
+          "title": "Document every high-risk backend question",
+          "content": "After each session, write down system-design and failure-mode questions you struggled with. Identify patterns: idempotency, transactions, metrics, or incident handling."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Re-practice failed questions within 24 hours",
+          "content": "Don't wait—fix gaps immediately. If you struggled with \"How do you ensure exactly-once?\", prepare a concrete answer with architecture and trade-offs before the next session."
+        },
+        {
+          "icon": "Target",
+          "title": "Do NOT proceed until previous session scores 4.5/5+",
+          "content": "Each session is a gate; pass before moving on. If Session 2 score is below 4.5/5, your backend depth isn't ready—repeat Week 2 prep before running more mocks."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Follow session instructions exactly",
+          "content": "Do not make them easier. The push points are designed to expose backend depth gaps. Softer questions will not surface true readiness."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Probe until candidate hits a knowledge boundary",
+          "content": "Find the limit. If candidate says \"I don't know\", document it. Focus on idempotency, transactions, failure handling, and metrics—these are current bottlenecks."
+        },
+        {
+          "icon": "FileText",
+          "title": "Provide written feedback on backend gaps",
+          "content": "After each session, provide written feedback: which questions were weak, which systems were unclear, and what preparation is needed before the next round."
+        },
+        {
+          "icon": "Ban",
+          "title": "Reset expectations",
+          "content": "Passing Session 4 means backend-interview ready, not guaranteed offers. Real interviews vary; use this plan as a readiness bar, not a promise."
+        }
+      ],
+      "content": "**Non-negotiable rule:**\nIf you fail Session 4 (score <4.5/5), repeat Sessions 2–4 in Week 5. Do not apply to backend roles until you can defend each system under probing.\n\n**Timeline:**\n- Week 1: Backend STAR Drill (Softel + projects)\n- Week 2: Sessions 1–2 (Diagnostic + System Design & Failures)\n- Week 3: Session 3 (Incidents + Behavioural Depth)\n- Week 4: Session 4 (Full Backend Simulation)\n- Week 5: Buffer for repetition if needed\n\nStart Week 1 Backend STAR Drill today. Email your mentor when you've completed STAR pitches and one-page designs for all key projects."
+    }
+  ]
+}
+

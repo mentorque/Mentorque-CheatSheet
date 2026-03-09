@@ -1,0 +1,174 @@
+{
+  "name": "Palak Dwivedi",
+  "email": "dwivedipalak761@gmail.com",
+  "targetRole": "Software Developer",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": ["Resume & Experience Clarity", "Answer Structure", "Technical Readiness", "Role-Specific Technical", "Behavioural Story"],
+        "values": [2.8, 2.2, 3.0, 2.5, 3.2],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: The \"Builder Who Can’t Explain\".**\n\nPalak, your resume shows solid execution: 3 MERN projects with decent scope, AWS Certified Cloud Practitioner, 300+ LeetCode problems, and strong extracurricular impact (600+ attendees, 25% engagement lift). However, your Answer Structure score of 2.2 and Role-Specific Technical score of 2.5 indicate a high risk that you will *sound* weaker than you are when an interviewer probes for reasoning, trade-offs, and ownership.\n\n**The Mapping Rule Analysis:**\n\nYour bullets mostly say **what** you built (“scalable React frontend”, “JWT auth”, “MongoDB storage”) but rarely explain **why** you chose those designs, how you measured success, or what you would change at scale. This makes follow-up questions dangerous: \"Why MongoDB over PostgreSQL for TradeUp?\" or \"How did you secure JWT tokens?\" can quickly expose gaps.\n\nThis \"Implementation-Only\" persona is the main issue: you can build, but you don’t yet *defend decisions* like a Software Developer in an interview."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: The Resume Walkthrough (15–20m)**\n\n**The Red Flag:** \"Walk me through HeritageAI. Why did you choose JWT, and how did you store and protect tokens on the client?\"\n\n**Justification:** With Answer Structure 2.2, you may list features (login, OpenAI API, MongoDB) without a clear story: requirements → decision → trade-off → result. Interviewers interpret that as shallow ownership.\n\n---\n\n**Scenario B: The System Design Follow-up (20–30m)**\n\n**The Red Flag:** \"TradeUp has transactions. How do you handle data consistency, validation, and preventing duplicate orders?\"\n\n**Justification:** Your Technical Readiness 3.0 shows implementation ability, but a 2.5 Role-Specific Technical suggests missing production thinking (idempotency, validation layers, error handling, rate limits, basic security).\n\n---\n\n**Scenario C: The DSA-to-Project Bridge (10–15m)**\n\n**The Red Flag:** \"You solved 300+ LeetCode. Where did you apply those ideas in your projects?\"\n\n**Justification:** Right now your DSA effort is disconnected from your projects. Interviewers want to hear real examples: search/filtering, pagination, caching, debouncing, indexing, complexity, and how you would scale."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "The \"Why\" Rewrite Drill",
+          "content": "Rewrite every project bullet into: Problem → Why this approach → Trade-off → Result. Add at least 2 measurable outcomes per project. **Score Target:** Resume Clarity 2.8 → 4.0, Answer Structure 2.2 → 4.0"
+        },
+        {
+          "week": "Week 2",
+          "title": "Project Defense (Deep-Dive)",
+          "content": "For each MERN project, prepare answers for: data model, API design, auth/security, performance, failure modes, testing. **Score Target:** Role-Specific Technical 2.5 → 4.0"
+        },
+        {
+          "week": "Week 3",
+          "title": "DSA-to-Real-Project Mapping",
+          "content": "Connect LeetCode to features you built: search/filtering, pagination, rate limiting, caching, indexing. Be able to state time/space complexity for key flows. **Score Target:** Technical Readiness 3.0 → 4.2"
+        },
+        {
+          "week": "Week 4",
+          "title": "Pressure Test (Mocks)",
+          "content": "High-speed mock interviews: resume walkthrough + follow-up probing + one small system design + one behavioral conflict story. **Score Target:** Overall Average → 4.5"
+        }
+      ],
+      "content": "Complete each phase before moving to the next. Do not skip ahead."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Project 1: HeritageAI — AI Conversational Heritage Explorer**\n\n**Interviewer Probe:** \"How did you manage conversation context? What did you store in MongoDB, and how did you prevent prompt injection or unsafe outputs?\"\n\n**Likely Struggle:** You may describe calling the OpenAI API, but not the design: request/response shape, context window strategy, validation/sanitization, rate limiting, error handling.\n\n**Prep Drill:** Document the backend flow: auth → request payload → context fetch → OpenAI call → response transform → persistence. Prepare: \"I stored user queries + system context + timestamps; I limited context length, validated inputs, handled OpenAI failures with retries/backoff, and logged errors.\"\n\n---\n\n**Project 2: TradeUp — Trading Platform (MERN)**\n\n**Interviewer Probe:** \"Why MongoDB for trading records? How do you guarantee order integrity and prevent duplicates?\"\n\n**Likely Struggle:** Trading use cases invite questions about consistency, idempotency, validation rules, and data modeling. Without clear decisions, your answers will feel like generic CRUD.\n\n**Prep Drill:** Create a data model (Users, Orders, Trades, Positions). Define constraints and integrity checks. Prepare: \"I used unique order IDs, server-side validation, and idempotent create endpoints; I would add indexes on userId + createdAt and use transactions where needed.\"\n\n---\n\n**Project 3: Job Listing App — Location-Based Search**\n\n**Interviewer Probe:** \"How did you implement search and filtering? What is the complexity? How would you scale it to 1M jobs?\"\n\n**Likely Struggle:** You may say \"filter by city\" but not discuss indexing, pagination, debouncing, caching, or query design.\n\n**Prep Drill:** Prepare a scalable version: indexed fields (location, title), pagination, server-side filtering, caching. Prepare: \"I used server-side filtering with pagination; for scale I’d add indexes on location and normalize location data; I’d debounce the UI and cache popular queries.\""
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Project:** JWT authentication for HeritageAI.\n\n**Baseline Answer (Score 2.2 - Structural Weakness):**\n\"I built login and signup using JWT. Users can register and log in. It is secure.\"\n\n**Fixed Answer (Score 4.5+ - Strategic & Structured):**\n\"In HeritageAI, we needed secure authentication so each user’s chat history and queries were private. (Situation) I implemented JWT-based auth with a register/login flow and protected backend routes. (Task) I designed the API so tokens are issued on login, validated on each request, and userId is derived from the token rather than client input. (Action) I added server-side validation and clear error handling for invalid/expired tokens, and I structured MongoDB collections so user data is scoped by userId. (Result) This enabled secure, user-specific data access and a clean stateless backend that’s easy to deploy.\"\n\n**Justification:** This turns \"I used JWT\" into a defensible decision: requirement → design → security posture → outcome."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "\"Why did you choose MongoDB for TradeUp? What would change if you used PostgreSQL?\" **(Risk: Role-Specific Technical 2.5)**\n\n\"How do you store and protect JWT tokens on the client, and how do you handle token expiry?\" **(Risk: Answer Structure 2.2)**\n\n\"What are the top 3 failure modes in HeritageAI (OpenAI downtime, rate limits, timeouts)? What’s your fallback?\" **(Risk: Technical Readiness 3.0)**\n\n\"Show me your data model for TradeUp. Where do you enforce validation and prevent duplicate orders?\" **(Risk: Role-Specific Technical 2.5)**\n\n\"In the job listing app, how would you scale location search to 1M jobs and 10k searches/sec?\" **(Risk: DSA-to-project mapping)**\n\n\"What did you measure to prove your projects were successful (latency, errors, adoption)?\" **(Risk: Resume Clarity 2.8)**\n\n\"Tell me about a time you disagreed with a teammate or stakeholder and how you resolved it.\" **(Risk: Behavioural Story 3.2)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: Resume + Project Defense",
+              "duration": "45 minutes",
+              "objective": "Force structured answers (Problem → Why → Trade-off → Result) for HeritageAI, TradeUp, Job App."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: Backend + Security Follow-ups",
+              "duration": "50 minutes",
+              "objective": "JWT flow, route protection, validation, error handling, and data model integrity."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: DSA-to-Product + Scaling",
+              "duration": "45 minutes",
+              "objective": "Map LeetCode to real features: search, pagination, indexing, caching, complexity; scale job search."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: Full Interview Simulation",
+              "duration": "60 minutes",
+              "objective": "Intro → resume → deep follow-ups → mini system design → behavioral conflict story."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            { "label": "Session 1: Answer Structure", "value": 9, "max": 10 },
+            { "label": "Session 2: Role-specific depth", "value": 8, "max": 10 },
+            { "label": "Session 3: DSA to projects", "value": 7, "max": 10 },
+            { "label": "Session 4: Full simulation", "value": 10, "max": 10 }
+          ]
+        }
+      ],
+      "content": "**Session 1: Resume + Project Defense**\n\n**Focus:** Convert each project into a 90-second pitch: Problem → Why these choices → Trade-offs → Result.\n\n**Mentor Push:** Interrupt with \"Why?\" after every tech choice (MongoDB, JWT, OpenAI, Vercel). No tool-listing answers allowed.\n\n---\n\n**Session 2: Backend + Security Follow-ups**\n\n**Focus:** JWT flow, protected routes, validation, and failure handling.\n\n**Mentor Push:** Ask for concrete details: token expiry, error responses, input validation, duplicate prevention.\n\n---\n\n**Session 3: DSA-to-Product + Scaling**\n\n**Focus:** Scale the job search to large datasets; connect LeetCode patterns to features.\n\n**Mentor Push:** Demand time/space complexity and a scaling plan (pagination, indexing, caching, debouncing).\n\n---\n\n**Session 4: Full Interview Simulation**\n\n**Focus:** Real interview pacing.\n\n**Mentor Push:** One behavioral conflict story must be from real experience (club leadership, PR work), not a generic answer."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 2.7,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        { "label": "Resume walkthrough", "current": "2.8", "target": "4.5" },
+        { "label": "Answer Structure", "current": "2.2", "target": "4.5" },
+        { "label": "Role-Specific Technical", "current": "2.5", "target": "4.5" },
+        { "label": "Behavioral + Technical", "current": "3.2", "target": "4.5" }
+      ],
+      "content": "**Target Average Score: 4.5**\n\n**Measurable Change:**\n\n- Move from \"Built TradeUp using MERN\" to \"Designed TradeUp’s data model (Users/Orders/Trades), added server-side validation and idempotent order creation, and indexed common queries (userId + createdAt) for fast history lookups\".\n- Move from \"Implemented JWT login\" to \"Implemented JWT auth with protected routes, validation, and expiry handling; designed user-scoped data access so the client cannot query other users’ records\".\n- The \"After\" Persona: A \"Product-Minded Software Developer\" who explains decisions, trade-offs, and scale considerations—not just the tech stack."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Rewrite all project bullets into the Why-format",
+          "content": "For each bullet: Problem → Why this choice → Trade-off → Result. Add 2 measurable outcomes per project (latency, users, errors, throughput, time saved)."
+        },
+        {
+          "icon": "FileText",
+          "title": "Create a one-page \"Project Defense\" sheet per project",
+          "content": "Include: architecture diagram, data model, API list, auth flow, error handling, and scaling plan. Use it to answer follow-ups quickly."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Re-practice failed questions within 24 hours",
+          "content": "If you get stuck on \"Why MongoDB?\" or \"How do you secure JWT?\", write the answer and rehearse it until it’s crisp and specific."
+        },
+        {
+          "icon": "Target",
+          "title": "Do NOT proceed until mock scores reach 4.5/5+",
+          "content": "Each session is a gate. If you cannot defend project choices under probing, repeat Week 2 drills before doing full simulations."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Follow the push points exactly",
+          "content": "Do not accept tool-listing answers. Ask \"why\" and \"what trade-off\" until the candidate can defend the decision."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Probe failure modes and security",
+          "content": "Force concrete thinking: validation, idempotency, error handling, token expiry, rate limiting, and data access boundaries."
+        },
+        {
+          "icon": "FileText",
+          "title": "Give written feedback with examples",
+          "content": "For every weak answer, provide a stronger example answer structure. Track improvements per score area each week."
+        },
+        {
+          "icon": "Ban",
+          "title": "Reset expectations",
+          "content": "Passing mocks means interview-ready, not guaranteed to pass. Keep pressure realistic and vary questions to prevent memorization."
+        }
+      ],
+      "content": "**Non-negotiable rule:**\nIf Session 4 score is <4.5/5, repeat Sessions 2–4 in the next week. Do not apply until you can defend each project under follow-up pressure.\n\n**Timeline:**\n- Week 1: Why-format rewrite + measurable outcomes\n- Week 2: Session 1–2 (Project defense + security follow-ups)\n- Week 3: Session 3 (DSA-to-project scaling)\n- Week 4: Session 4 (Full simulation)\n\nStart Week 1 today. Send your rewritten bullets and one-page project defense sheets before Session 1."
+    }
+  ]
+}

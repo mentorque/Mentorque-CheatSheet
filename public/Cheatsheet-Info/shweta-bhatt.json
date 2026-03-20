@@ -1,0 +1,139 @@
+{
+    "name": "Shweta Bhatt (PRINCE2, CSPO)",
+    "role": "Project Management Professional (IT, EdTech, Retail, HR) | PRINCE2 & CSPO",
+    "description": "Project Management Professional with 3+ years of experience delivering cross-functional projects across IT, EdTech, Retail, and HR. Skilled in driving end-to-end project lifecycles and governance using Jira, Confluence, and Power BI to improve visibility and decision-making. Proven impact including up to 30% efficiency gains, reducing operational loss by €5,000 through inventory lifecycle management, and improving CSAT by 40% through agile product alignment, user stories, and stakeholder coordination.",
+    "sections": [
+      {
+        "title": "Behavioral Questions",
+        "icon": "Users",
+        "cards": [
+          {
+            "front": "Tell me about yourself",
+            "back": "I’m a PRINCE2- and CSPO-trained Project Management Professional with 3+ years of experience coordinating cross-functional delivery across IT, EdTech, Retail, and HR. I focus on making projects measurable and well-governed: using Jira for execution, Confluence for documentation, and Power BI to track KPIs. I’ve delivered outcomes like reducing €5,000 in operational loss through stricter FIFO inventory lifecycle management, and improving CSAT by 40% by translating user research into structured user stories and agile execution."
+          },
+          {
+            "front": "What are your strengths?",
+            "back": "My strengths are stakeholder management, clear governance, and turning ambiguity into structured delivery plans. I’m confident building artifacts like PID documents, RACI matrices, and RAID logs to align teams and reduce execution risk. I also communicate clearly across levels, from mentoring resources to presenting status, milestones, and OKRs to senior leadership. On delivery, I use Jira and Power BI to create visibility that translates into measurable efficiency gains."
+          },
+          {
+            "front": "What are your weaknesses?",
+            "back": "Early on, I sometimes spent extra time perfecting the documentation and reporting structure before the team had fully validated the assumptions. I’ve learned to balance completeness with speed by prioritizing the “minimum viable governance” first, then iterating based on feedback and decision cadence. This has helped me deliver earlier while still keeping quality and compliance strong."
+          },
+          {
+            "front": "Why do you want to join us?",
+            "back": "I want to join an organization that values measurable delivery and strong product alignment. My background fits environments where cross-functional collaboration matters and where agile execution is paired with governance and risk management. I’m excited to bring my experience in KPI-driven reporting with Power BI, structured stakeholder alignment using RACI/PID, and customer-focused delivery that improves satisfaction and reduces operational friction."
+          },
+          {
+            "front": "Where do you see yourself in the next 5 years?",
+            "back": "In five years, I see myself leading larger cross-functional programs with ownership across delivery, governance, and continuous improvement. I’d like to deepen my expertise in operating models for IT and product teams—especially around agile planning, risk governance, and metrics-driven decision-making. I also want to mentor project teams and contribute to engineering-adjacent delivery practices that strengthen outcomes like CSAT and operational efficiency."
+          },
+          {
+            "front": "Tell me about a time you went above and beyond",
+            "back": "At Dunnes Stores, I went beyond day-to-day tracking when I identified inventory mismanagement as the root cause of recurring leakage. I helped implement a strict FIFO-based stock lifecycle and standardized task tracking to eliminate restocking delays. The result was 100% inventory accuracy during peak shifts and a €5,000 reduction in operational loss—because I treated the issue as a full lifecycle process, not just a one-time fix."
+          },
+          {
+            "front": "How do you handle tight deadlines?",
+            "back": "I break delivery into milestone-based increments and use Jira to keep execution visible and accountable. For risk control under time pressure, I maintain a living RAID log and use clear ownership through RACI so blockers don’t linger. I also keep communication tight—status updates, short check-ins, and structured documentation—so stakeholders stay aligned and we can adjust scope without losing momentum."
+          },
+          {
+            "front": "Describe a time you took initiative",
+            "back": "In my EdTech role, I noticed data visibility gaps in the recruitment funnel and took initiative to engineer Power BI dashboards for KPI trend monitoring. That initiative improved operational workflow efficiency by 15% by making performance and bottlenecks easier to see and act on. I paired the analytics with structured project governance (PID and RACI) so the team could make faster, clearer decisions."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "The STAR method stands for Situation, Task, Action, and Result.",
+            "answer": true
+          },
+          {
+            "question": "If you have concrete metrics (like €5,000 loss reduction), you should avoid mentioning them in behavioral answers.",
+            "answer": false
+          },
+          {
+            "question": "Using structured artifacts like PID, RACI, and RAID can make stakeholder alignment more effective.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "title": "Technical Questions",
+        "icon": "Target",
+        "cards": [
+          {
+            "front": "How do you manage the project lifecycle and documentation?",
+            "back": "I drive lifecycle execution by combining Jira for delivery tracking with Confluence for documentation. I create and maintain the core governance artifacts (PID, RAID log, and RACI) to ensure scope clarity, ownership, risk visibility, and audit-ready documentation. This helps teams move faster because decisions are recorded and responsibilities are explicit."
+          },
+          {
+            "front": "How do you handle risk management?",
+            "back": "I maintain a centralized RAID log and review it regularly in sync points or sprint-related ceremonies. Risks and issues are tracked with owners and mitigation actions, while dependencies and assumptions are documented to reduce surprises. This approach helped me manage cross-functional delivery dependencies and keep momentum in Jira."
+          },
+          {
+            "front": "Explain your stakeholder management approach.",
+            "back": "I use RACI to clarify who is Responsible, Accountable, Consulted, and Informed for key deliverables. I also keep alignment through structured communication cadences—status reports, milestone tracking, and OKRs when relevant. For governance and compliance, I ensure required documentation exists and that ownership is agreed early."
+          },
+          {
+            "front": "How do you use analytics/reporting in project delivery?",
+            "back": "I build KPI-focused dashboards in Power BI to provide trend visibility and decision support. For example, I engineered dashboards to eliminate recruitment funnel data visibility gaps and improve workflow efficiency. When needed, I also work with SQL to support data extraction and validation for reliable reporting."
+          },
+          {
+            "front": "How do you apply Agile/PRINCE2 in practice?",
+            "back": "I work in Agile rhythms to support iterative delivery (including Scrum ceremonies) while also using PRINCE2-style governance thinking to maintain control, risk management, and accountability. In roles where CSAT and user outcomes matter, I translate insights into user stories and ensure the team has clear priorities and measurable success criteria."
+          },
+          {
+            "front": "What’s your approach to change management?",
+            "back": "I manage change by clarifying impact early—what changes, why it changes, who is affected, and how success will be measured. I rely on documentation updates, stakeholder alignment through RACI, and risk tracking so changes don’t break delivery. I’ve used continuous improvement practices to standardize workflows and reduce operational friction over time."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "A RAID log typically includes Risks, Assumptions, Issues, and Dependencies.",
+            "answer": true
+          },
+          {
+            "question": "A RACI matrix is used to define Responsible, Accountable, Consulted, and Informed stakeholders for tasks.",
+            "answer": true
+          },
+          {
+            "question": "Confluence is primarily used as a transactional database for application data storage.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "title": "Project Highlights",
+        "icon": "Award",
+        "cards": [
+          {
+            "front": "Dunnes Stores – FIFO Inventory Lifecycle & Loss Reduction",
+            "back": "Implemented a strict FIFO-based stock lifecycle and standardized task tracking to eliminate restocking delays and improve operational reliability. Resulted in 100% inventory accuracy during peak shifts and reduced quarterly financial leakage by €5,000. Also supported productivity by leading and mentoring 6+ new resources through delegation and process training."
+          },
+          {
+            "front": "InterviewBit – Power BI KPIs & Recruitment Funnel Visibility",
+            "back": "Engineered Power BI dashboards to remove recruitment funnel data visibility gaps, enabling KPI trend monitoring and faster operational decisions. Outcome: 15% increase in operational workflow efficiency. Strengthened cross-functional alignment using a Project Initiation Document (PID) and a RACI matrix across 5 departments."
+          },
+          {
+            "front": "InterviewBit – Agile Delivery, RAID Governance & CSAT Improvements",
+            "back": "Optimized placement program delivery and forecasting by facilitating Scrum ceremonies and maintaining a centralized RAID log for dependencies and team velocity in Jira. Improved CSAT by 40% by converting user interview insights into structured user stories and aligning product features with real user needs. Also reduced manual HR processing effort by 30% by turning recruiter feedback into structured technical requirements for internal automation."
+          },
+          {
+            "front": "Royal Press & Sunflower Recycling – Campaign Delivery & Grant-Funded Planning",
+            "back": "Delivered 6+ end-to-end marketing campaigns on time and within budget, meeting 100% of client delivery deadlines and expanding annual revenue by 40% through onboarding 8 new clients via the 'Client Connect' initiative. Later, supported grant-funded growth for Sunflower Recycling by developing an integrated business plan, B2B marketing framework, and social media strategy using Trello and Canva."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "FIFO inventory practices can reduce mismanagement by ensuring older stock is used first.",
+            "answer": true
+          },
+          {
+            "question": "Scrum ceremonies are only required for fully Waterfall delivery models.",
+            "answer": false
+          },
+          {
+            "question": "Turning user interview insights into structured user stories can improve CSAT by aligning features to user needs.",
+            "answer": true
+          }
+        ]
+      }
+    ]
+  }

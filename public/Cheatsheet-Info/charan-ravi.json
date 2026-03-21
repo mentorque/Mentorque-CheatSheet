@@ -1,0 +1,139 @@
+{
+    "name": "Charan Gorentla Ravi",
+    "role": "Cloud Engineer | AWS, DevOps & Platform Reliability",
+    "description": "Cloud Engineer with ~3 years of experience operating production-grade AWS platforms supporting 100K+ users. Strong in CI/CD, Terraform, Docker, Kubernetes, monitoring, incident response, and cloud security (IAM, VPC, access controls), with Python and SQL for automation and data efficiency. AWS Solutions Architect – Associate and HashiCorp Terraform Associate (ongoing). Stamp 1G – No Sponsorship Required.",
+    "sections": [
+      {
+        "title": "Behavioral Questions",
+        "icon": "Users",
+        "cards": [
+          {
+            "front": "Tell me about yourself",
+            "back": "I’m a Cloud Engineer with about three years of experience running production AWS platforms for enterprise workloads serving 100K+ users. I focus on reliability, performance, and safe change: monitoring and incident management, root-cause analysis, CI/CD, and infrastructure automation with Terraform and Python. At Capgemini Engineering, I improved active usage by 22% through better availability and monitoring, cut API latency by 21% and increased throughput by 17% by analysing metrics and bottlenecks, and automated provisioning to cut environment setup time by 40%. I also hold AWS Solutions Architect – Associate and I’m pursuing Terraform Associate. Outside work, my MSc thesis built Spark-based pipelines for risk analysis from thousands of news articles, and I built a real-time fire-detection pipeline with Python, TensorFlow, and OpenCV."
+          },
+          {
+            "front": "What are your strengths?",
+            "back": "I’m strong at production operations and platform engineering: reading metrics and logs to find real bottlenecks, tightening reliability with validation and access controls, and automating repetitive infrastructure work. I’m comfortable across the AWS core (EC2, S3, RDS, IAM, VPC, load balancing) and DevOps tooling (Terraform, Docker, Kubernetes, CI/CD). I combine that with scripting in Python and Shell and data work in SQL when it improves pipelines or reporting—like optimising queries across 40+ datasets to improve efficiency and cut manual reporting effort by 30%."
+          },
+          {
+            "front": "What are your weaknesses?",
+            "back": "I sometimes dive deep into technical root-cause analysis before I’ve fully socialised the user-facing impact and timeline with stakeholders. I’ve improved by pairing technical findings with a short incident summary: customer impact, mitigation, ETA, and follow-up actions. That keeps reliability work transparent while still fixing the underlying platform issue."
+          },
+          {
+            "front": "Why do you want to join us?",
+            "back": "I want to work where cloud platforms are business-critical and engineering quality matters—strong SRE practices, secure AWS foundations, and mature CI/CD. My background matches teams that care about uptime, latency, cost-aware infrastructure, and safe automation. I’m motivated to keep growing in cloud architecture, Kubernetes operations, and incident-driven reliability while contributing hands-on in production."
+          },
+          {
+            "front": "Where do you see yourself in the next 5 years?",
+            "back": "In five years I see myself as a senior cloud or platform engineer (or tech lead path) owning reliability for large-scale systems: SLOs, incident prevention, infrastructure standards, and secure multi-account AWS patterns. I want deeper expertise in observability, performance engineering, and zero-downtime releases, and to mentor others on Terraform modules, pipeline design, and production debugging."
+          },
+          {
+            "front": "Tell me about a time you went above and beyond",
+            "back": "Situation: Our production platform had recurring operational friction and performance pain across critical workflows. Task: Improve stability and measurable performance for 100K+ users. Action: I analysed application and infrastructure metrics end-to-end, identified bottlenecks, optimised database queries and data access across 40+ datasets, and strengthened production with structured validation, access controls, and better service error handling. Result: We reduced API response latency by 21%, improved throughput by 17%, cut manual reporting effort by 30%, and reduced recurring operational issues—while active usage improved by 22% because the platform felt more dependable."
+          },
+          {
+            "front": "How do you handle tight deadlines?",
+            "back": "I prioritise by blast radius: customer-facing outages and security issues first, then SLA risks. I use monitoring and logs to avoid guesswork, implement the smallest safe change that restores stability, and communicate clearly. For delivery work like releases or infra changes, I rely on CI/CD, repeatable Terraform, and rollback paths so we can move fast without gambling production—similar to how we sustained 99.85% uptime across many services."
+          },
+          {
+            "front": "Describe a time you took initiative",
+            "back": "Situation: Environment provisioning and infra changes were slow and inconsistent. Task: Make infrastructure repeatable and faster for the team. Action: I automated cloud provisioning with Terraform and Python and maintained CI/CD pipelines and containerised releases across 14+ cloud services. Result: Environment setup time dropped by 40%, deployments became repeatable, and we helped sustain 99.85% production uptime while reducing toil for the team."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "The STAR method stands for Situation, Task, Action, and Result.",
+            "answer": true
+          },
+          {
+            "question": "In a platform reliability interview, you should avoid mentioning concrete outcomes like '21% latency reduction' or '99.85% uptime' if they are true.",
+            "answer": false
+          },
+          {
+            "question": "Pairing metrics (latency, throughput, uptime) with what you changed (queries, validation, access controls) makes cloud operations stories more credible.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "title": "Technical Questions",
+        "icon": "Target",
+        "cards": [
+          {
+            "front": "Explain your experience with AWS and cloud operations",
+            "back": "I’ve operated AWS-hosted enterprise platforms at scale (100K+ users) using core services like EC2, S3, RDS, IAM, VPC, and load balancing. My work spans production support, performance analysis, access governance, and reliability improvements driven by monitoring and structured operational practices."
+          },
+          {
+            "front": "How do you approach CI/CD and release management?",
+            "back": "I maintain CI/CD pipelines and deployment workflows for containerised applications across multiple cloud services. The goal is repeatable, auditable releases with clear rollback paths—this helped sustain 99.85% uptime in production while enabling frequent, safer changes."
+          },
+          {
+            "front": "What is your experience with Infrastructure as Code?",
+            "back": "I automate infrastructure provisioning with Terraform (and supporting Python tooling), reducing manual setup and making environments consistent. I’m also pursuing HashiCorp Terraform Associate to deepen modules, state management, workspaces, and safe plan/apply workflows."
+          },
+          {
+            "front": "How do you improve reliability and handle incidents?",
+            "back": "I use system monitoring, dashboards, and log analysis to accelerate root-cause analysis. I focus on eliminating recurring issues by adding validation, tighter access controls, and better error handling in critical workflows—reducing operational toil and improving stability."
+          },
+          {
+            "front": "How do you use Python and SQL in cloud engineering?",
+            "back": "I use Python for automation and operational scripting, and SQL for optimising queries and data access patterns. In production, I improved pipeline efficiency across 40+ datasets and reduced manual reporting effort by 30% by fixing inefficient data access and reporting paths."
+          },
+          {
+            "front": "What is your experience with containers and Kubernetes?",
+            "back": "I work with Docker for containerised releases and Kubernetes as part of modern deployment and platform operations. This fits into broader goals: scalable services, consistent environments, and reliable rollouts integrated with CI/CD."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "IAM in AWS is used to manage identities and permissions for accessing AWS resources.",
+            "answer": true
+          },
+          {
+            "question": "Terraform is a common Infrastructure-as-Code tool for provisioning and managing cloud infrastructure declaratively.",
+            "answer": true
+          },
+          {
+            "question": "A VPC is primarily a NoSQL database service on AWS.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "title": "Project Highlights",
+        "icon": "Award",
+        "cards": [
+          {
+            "front": "Capgemini – Cloud Platform Operations & Reliability (100K+ users)",
+            "back": "Operated cloud-hosted enterprise platforms serving 100K+ users; improved active usage by 22% through reliable availability and performance monitoring. Analysed metrics to reduce API latency by 21% and increase throughput by 17%. Optimised SQL and data access across 40+ datasets, improving pipeline efficiency and cutting manual reporting effort by 30%. Strengthened production with validation, access controls, and error handling to reduce recurring operational issues."
+          },
+          {
+            "front": "Capgemini – Cloud Infrastructure Automation & DevOps",
+            "back": "Automated cloud provisioning with Terraform and Python, cutting environment setup time by 40%. Maintained CI/CD pipelines and containerised releases across 14+ cloud services. Used logs and dashboards for incident investigation and faster root-cause analysis, supporting 99.85% production uptime."
+          },
+          {
+            "front": "AI Risk Analysis Platform (MSc Thesis)",
+            "back": "Built scalable data processing pipelines with Python and Apache Spark to transform 5,000+ news articles into structured datasets for automated risk analysis and downstream analytics. Tools: Python, Spark, SQL, APIs."
+          },
+          {
+            "front": "Realtime Fire Detection Platform",
+            "back": "Developed a real-time image processing pipeline to detect wildfire events from streaming feeds and trigger automated alerts using Python, TensorFlow, and OpenCV, with cloud integration for operational delivery."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Apache Spark is commonly used for large-scale distributed data processing (e.g., transforming thousands of articles into structured datasets).",
+            "answer": true
+          },
+          {
+            "question": "OpenCV is typically used as a relational database for storing user accounts in AWS IAM.",
+            "answer": false
+          },
+          {
+            "question": "TensorFlow can be used to build ML models for image-based detection tasks like fire/wildfire detection.",
+            "answer": true
+          }
+        ]
+      }
+    ]
+  }

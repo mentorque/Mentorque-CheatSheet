@@ -1,0 +1,180 @@
+{
+    "name": "Aishwarya Rajguru",
+    "email": "aishwarya.rajguru007@gmail.com",
+    "targetRole": "Digital Marketing",
+    "sections": [
+      {
+        "title": "Diagnosis Summary",
+        "sectionType": "spider",
+        "spiderGraph": {
+          "labels": [
+            "Resume & Experience Clarity",
+            "Answer Structure",
+            "Technical Readiness",
+            "Role-Specific Technical",
+            "Behavioural Story"
+          ],
+          "values": [4.0, 3.6, 3.7, 3.2, 3.5],
+          "maxValue": 5
+        },
+        "content": "**Primary Risk: Behavioural Story Risk (despite a strong profile foundation).**\n\nAishwarya, your profile has a strong baseline for Digital Marketing with a solid Resume & Experience Clarity score (4.0) and decent technical depth (3.7). The key risk is that interview impact may flatten when stories are not delivered with enough conflict, ownership, and measurable outcomes under pressure.\n\nYour score pattern suggests you can describe work, but in high-stakes rounds you may miss the \"decision-making narrative\" interviewers want: what changed, what trade-off you made, and how your action directly moved metrics. This is why Behavioural Story Risk is flagged as the primary bottleneck.\n\n**Mapping Rule Insight:**\n- You have enough capability to clear screening and mid-level rounds.\n- To convert consistently, your responses must move from descriptive to outcome-led storytelling with clear business context.\n- If this is fixed, your profile can perform at a significantly higher band in Digital Marketing interviews."
+      },
+      {
+        "title": "How This Risk Shows Up in Interviews",
+        "sectionType": "content",
+        "content": "**Scenario A: Resume Walkthrough**\n\n**Red Flag Prompt:** \"Walk me through one campaign you are most proud of and exactly what changed because of your work.\"\n\n**Likely Breakdown:** You may explain campaign steps and tools, but not clearly frame baseline, intervention, and business result in a tight STAR flow.\n\n---\n\n**Scenario B: Role-Specific Marketing Deep Dive**\n\n**Red Flag Prompt:** \"How do you diagnose underperforming campaigns and decide whether to change targeting, creatives, or budget?\"\n\n**Likely Breakdown:** With Role-Specific Technical at 3.2, answers may stay conceptual without a precise optimization sequence, decision criteria, or KPI hierarchy.\n\n---\n\n**Scenario C: Stakeholder/Pressure Question**\n\n**Red Flag Prompt:** \"Tell me about a time a campaign was not performing and you had to convince stakeholders to pivot.\"\n\n**Likely Breakdown:** Story may miss conflict and influence moments (who disagreed, what evidence you used, how alignment was achieved), reducing leadership signal."
+      },
+      {
+        "title": "Priority Fix Order",
+        "sectionType": "stepper",
+        "steps": [
+          {
+            "week": "Week 1",
+            "title": "Behavioural Story Upgrade (STAR + Metrics)",
+            "content": "Convert each major resume bullet into a 60-90 second STAR response with one clear metric, one decision, and one stakeholder action. **Score Target:** Behavioural Story 3.5 -> 4.4"
+          },
+          {
+            "week": "Week 2",
+            "title": "Role-Specific Marketing Playbooks",
+            "content": "Prepare structured frameworks for funnel diagnosis, campaign optimization, segmentation, creative testing, and budget reallocation. **Score Target:** Role-Specific Technical 3.2 -> 4.3"
+          },
+          {
+            "week": "Week 3",
+            "title": "Answer Precision Under Time Pressure",
+            "content": "Practice 45-second and 90-second answer formats for common interview prompts. Focus on concise structure and clear impact statements. **Score Target:** Answer Structure 3.6 -> 4.5"
+          },
+          {
+            "week": "Week 4",
+            "title": "Final Pressure Mock",
+            "content": "Run full simulation with rapid follow-up probes on attribution logic, KPI prioritization, and stakeholder influence stories. **Score Target:** Overall interview band >= 4.5"
+          }
+        ],
+        "content": "Follow sequence strictly. Behavioural story clarity must improve before advanced technical defense can translate into interview wins."
+      },
+      {
+        "title": "Resume-Anchored Technical Prep",
+        "sectionType": "content",
+        "content": "**Use your resume highlights directly (replace placeholders with exact bullets before final submission):**\n\n**Highlight 1: [Paste key bullet point from resume]**\n- **Interviewer Probe:** \"What was the baseline, what did you change, and what metric moved?\"\n- **Prep Drill:** State pre-change metric, intervention, and post-change metric in one flow.\n\n**Highlight 2: [Paste key bullet point from resume]**\n- **Interviewer Probe:** \"How did you validate that performance improvement was due to your action and not seasonality/noise?\"\n- **Prep Drill:** Explain cohort/time-window comparison and one control variable.\n\n**Highlight 3: [Paste key bullet point from resume]**\n- **Interviewer Probe:** \"What trade-off did you make between CAC, CTR, CVR, and retention?\"\n- **Prep Drill:** Define priority KPI by campaign objective and justify optimization order.\n\n**Highlight 4: [Paste key bullet point from resume]**\n- **Interviewer Probe:** \"How did you align creative, targeting, and messaging with business goals?\"\n- **Prep Drill:** Show cross-functional loop: insight -> hypothesis -> test -> decision -> result."
+      },
+      {
+        "title": "Interview Answer Construction Guidance",
+        "sectionType": "content",
+        "content": "**Prompt:** \"Tell me about a campaign that did not perform initially and what you did next.\"\n\n**Baseline Answer (Current Risk Pattern):**\n\"The campaign was underperforming, so I changed creatives and targeting, and performance improved.\"\n\n**Fixed Answer (4.5+ Quality):**\n\"In one digital campaign, CTR was healthy but conversion was weak, indicating post-click friction rather than top-funnel demand. (Situation) I owned diagnosis and optimization in a tight timeline. (Task) I reviewed audience segments, landing-page behavior, and message match, then ran structured A/B tests on ad copy and landing variants while reallocating spend to higher-intent cohorts. I presented weekly evidence to stakeholders and aligned the content team on revised messaging. (Action) Conversion rate improved and wasted spend reduced, while overall campaign efficiency improved against objective KPI. (Result)\"\n\n**Why this works:** It demonstrates diagnosis logic, execution ownership, stakeholder influence, and measurable business impact in one structured narrative."
+      },
+      {
+        "title": "High-Risk Questions (The Landmines)",
+        "sectionType": "content",
+        "content": "\"Walk me through one campaign end-to-end: objective, audience, channel mix, KPI tree, and final business impact.\" **(Risk: Answer Structure 3.6)**\n\n\"How do you decide whether to optimize targeting, creatives, bidding, or landing experience first?\" **(Risk: Role-Specific Technical 3.2)**\n\n\"Tell me about a time stakeholders disagreed with your recommendation. How did you influence the decision?\" **(Risk: Behavioural Story 3.5)**\n\n\"What is your approach to balancing CAC with conversion quality and retention?\" **(Risk: Role-Specific Technical 3.2)**\n\n\"How do you validate campaign lift and avoid misleading conclusions from vanity metrics?\" **(Risk: Technical Readiness 3.7)**\n\n\"Give me an example where your first strategy failed. What did you change and why?\" **(Risk: Behavioural Story 3.5)**"
+      },
+      {
+        "title": "Mock Interview Plan (Mentor-Led)",
+        "sectionType": "mockGraphs",
+        "graphs": [
+          {
+            "title": "Mock Interview Timeline",
+            "type": "timeline",
+            "data": [
+              {
+                "timing": "Week 2, Day 1",
+                "label": "Session 1: Story Compression & Clarity",
+                "duration": "45 minutes",
+                "objective": "Fix behavioural story flow using STAR + metrics."
+              },
+              {
+                "timing": "Week 2, Day 4",
+                "label": "Session 2: Marketing Technical Defense",
+                "duration": "50 minutes",
+                "objective": "KPI trees, funnel diagnosis, channel optimization logic."
+              },
+              {
+                "timing": "Week 3, Day 2",
+                "label": "Session 3: Stakeholder Influence Round",
+                "duration": "45 minutes",
+                "objective": "Conflict handling, persuasion, cross-functional alignment."
+              },
+              {
+                "timing": "Week 4, Day 1",
+                "label": "Session 4: Final Pressure Simulation",
+                "duration": "60 minutes",
+                "objective": "Rapid-fire mixed round for final readiness validation."
+              }
+            ]
+          },
+          {
+            "title": "Focus Areas by Session",
+            "type": "bar",
+            "data": [
+              { "label": "Session 1: Behavioural Story", "value": 9, "max": 10 },
+              { "label": "Session 2: Role-Specific Technical", "value": 9, "max": 10 },
+              { "label": "Session 3: Stakeholder Communication", "value": 8, "max": 10 },
+              { "label": "Session 4: Full Interview Simulation", "value": 10, "max": 10 }
+            ]
+          }
+        ],
+        "content": "**Session 1:** Tight storytelling with measurable outcomes.\n\n**Session 2:** Deep-dive into campaign optimization decisions and KPI prioritization.\n\n**Session 3:** Behavioral conflict + stakeholder influence scenarios.\n\n**Session 4:** Full-pressure simulation with follow-up probes and score validation."
+      },
+      {
+        "title": "Expected Outcome",
+        "sectionType": "expectedOutcome",
+        "currentScore": 3.5,
+        "targetScore": 4.5,
+        "maxScore": 5,
+        "metrics": [
+          { "label": "Resume walkthrough", "current": "4.0", "target": "4.5" },
+          { "label": "Answer Structure", "current": "3.6", "target": "4.5" },
+          { "label": "Role-Specific Technical", "current": "3.2", "target": "4.4" },
+          { "label": "Behavioural Story", "current": "3.5", "target": "4.5" }
+        ],
+        "content": "**Target Average Score: 4.5**\n\n**Measurable Change Expected:**\n- Responses become structured, concise, and metric-backed.\n- Campaign decisions are defended using clear KPI logic and optimization sequencing.\n- Behavioural stories show ownership, conflict handling, and influence—not just execution steps.\n\n**After Persona:** A confident Digital Marketing candidate who can connect strategy, execution, and business impact under interview pressure."
+      },
+      {
+        "title": "How to Use This Plan",
+        "sectionType": "howToUse",
+        "candidateSteps": [
+          {
+            "icon": "FileCheck",
+            "title": "Replace placeholders with real resume bullets",
+            "content": "Paste your top 4 quantified highlights into the technical prep section before mock practice."
+          },
+          {
+            "icon": "FileText",
+            "title": "Track weak questions after every session",
+            "content": "Maintain a log: question, weak answer, corrected answer, confidence rating."
+          },
+          {
+            "icon": "RotateCcw",
+            "title": "Re-practice within 24 hours",
+            "content": "Any failed question must be rewritten and re-delivered the next day."
+          },
+          {
+            "icon": "Target",
+            "title": "Gate progress by score",
+            "content": "Do not move to final simulation until Session 2 and Session 3 both cross 4.3/5."
+          }
+        ],
+        "mentorSteps": [
+          {
+            "icon": "FileCheck",
+            "title": "Probe for business logic, not jargon",
+            "content": "Push the candidate to explain why they chose each optimization action."
+          },
+          {
+            "icon": "AlertCircle",
+            "title": "Stress-test stakeholder scenarios",
+            "content": "Interrupt with objections to evaluate influence and clarity under pressure."
+          },
+          {
+            "icon": "FileText",
+            "title": "Give written improvement loops",
+            "content": "Provide precise feedback tied to score dimensions after each mock."
+          },
+          {
+            "icon": "Ban",
+            "title": "No early sign-off",
+            "content": "Interview-ready status only after final pressure simulation reaches target band."
+          }
+        ],
+        "content": "**Main Rule:** Consistency beats one good mock. Repeat weak rounds until scores stabilize above target.\n\n**Suggested Timeline:**\n- Week 1: Story drills + bullet-to-STAR conversion\n- Week 2: Sessions 1-2\n- Week 3: Session 3\n- Week 4: Session 4\n- Week 5: Buffer for repetition if needed\n\n**Session Notes Placeholder:** [Insert your main gaps observed during session here before final export.]"
+      }
+    ]
+  }

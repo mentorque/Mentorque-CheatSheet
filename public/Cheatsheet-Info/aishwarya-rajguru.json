@@ -1,0 +1,139 @@
+{
+    "name": "Aishwarya Rajguru",
+    "role": "Digital Marketing Specialist | Paid Media, Performance Marketing & CRO",
+    "description": "Digital marketing professional with 2+ years of experience driving growth through paid digital channels across Media, Energy, and Real Estate. Strong in paid social, full-funnel acquisition strategy, CRO, budget optimization, and performance reporting—improving PPC performance by 10%, increasing website traffic by 20%, lifting email open rates by 10% and CTR by 12%, and running 5+ A/B tests to improve conversion rates by 8%. Experienced with Google Ads/Analytics, Meta Ads Manager, LinkedIn Campaign Manager, Twitter Ads, Sprout Social, Hootsuite, and reporting with PowerBI/Tableau; basic Python and SQL. Also grew social pages organically to 20K+ followers.",
+    "sections": [
+      {
+        "title": "Behavioral Questions",
+        "icon": "Users",
+        "cards": [
+          {
+            "front": "Tell me about yourself",
+            "back": "I’m Aishwarya Rajguru, a digital marketing professional with over two years of experience in performance marketing and paid social. I’ve managed multi-channel campaigns, optimized budgets for ROI/ROAS, and built reporting that ties outcomes to CPL, CPA, CTR, and conversions. In my current role at Yuno Energy, I managed social platforms, improved PPC performance by 10%, and generated more leads through social media ads. I’ve also worked on SEO content and website updates with developers to improve UX, and supported email marketing in Mailchimp—helping grow customers by 4% and running A/B tests. Earlier, as a Marketing Data Analyst, I tracked a 20% traffic increase using Google Analytics, improved email open rates by 10% and CTR by 12% through segmentation and testing, and ran 5+ A/B tests that improved conversion rates by 8%."
+          },
+          {
+            "front": "What are your strengths?",
+            "back": "My strengths are performance-driven execution and structured optimization. I’m comfortable working full-funnel: audience targeting, creative and copy iteration, landing-page considerations, and budget decisions based on CPL/CPA/ROAS. I also bring an analytics mindset—using tools like Google Analytics and platform dashboards to monitor CTR, conversions, and reach, then translating insights into clear actions like segmentation changes, subject line tests, and creative refreshes."
+          },
+          {
+            "front": "What are your weaknesses?",
+            "back": "I sometimes spend extra time refining reports and dashboards because I want the narrative and metrics to be very clear. I’ve improved by sharing a fast first version with the key KPI movements and recommended actions, then iterating on visualization and deeper cuts (like cohort breakdowns) after stakeholders align on the direction."
+          },
+          {
+            "front": "Why do you want to join us?",
+            "back": "I’m looking for a role where performance marketing and experimentation are core to growth, and where insights directly influence creative, targeting, and product/landing-page experience. Your focus on measurable outcomes aligns with how I work—diagnosing funnel drop-offs, running A/B tests, and optimizing toward CPL/CPA/ROI while keeping brand and messaging consistent."
+          },
+          {
+            "front": "Where do you see yourself in the next 5 years?",
+            "back": "In five years, I want to be a performance marketing lead owning full-funnel growth across paid social and search, with strong experimentation and measurement practices. I’d like to deepen my expertise in attribution, lifecycle growth, and CRO, and become known for building repeatable testing frameworks that consistently improve CPL/CPA and revenue impact."
+          },
+          {
+            "front": "Tell me about a time you went above and beyond",
+            "back": "Situation: At Yuno Energy, we needed to improve lead generation while keeping branding consistent and building trust on social. Task: Drive performance improvements without sacrificing brand quality. Action: I created and managed content across two social accounts (company updates and office culture), optimized social ads, monitored customer feedback via Trustpilot/Google Reviews using Hootsuite, and responded quickly to messages to protect brand sentiment. Result: PPC performance improved by 10% and lead generation increased through social media ads, while engagement grew through consistent content and trust-building videos."
+          },
+          {
+            "front": "How do you handle tight deadlines?",
+            "back": "I prioritize by impact on the main KPI—usually CPL/CPA, conversion rate, or lead volume—then execute in short testing cycles. I’ll ship a focused set of changes (like creative refresh + audience split + budget reallocation), monitor early indicators (CTR, CPC, landing engagement), and report back quickly with what to scale or stop. This keeps delivery fast while still being data-driven."
+          },
+          {
+            "front": "Describe a time you took initiative",
+            "back": "Situation: In my Marketing Data Analyst role, email performance had room to improve beyond generic sends. Task: Increase engagement and clicks using data. Action: I proactively introduced segmentation based on historical campaign behavior, ran A/B tests on subject lines and content, and added more personalized recommendations. Result: Email open rates increased by 10% and CTR improved by 12%, and the team had clearer guidance on which message variants to use going forward."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Aishwarya improved email open rates by 10% through segmentation and A/B testing in her Marketing Data Analyst role.",
+            "answer": true
+          },
+          {
+            "question": "For paid social optimization, it’s best to judge performance only by impressions and ignore CPL/CPA and conversions.",
+            "answer": false
+          },
+          {
+            "question": "Managing two different social accounts (company updates vs office culture) can help build both brand trust and engagement if messaging is kept consistent.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "title": "Technical Questions",
+        "icon": "Target",
+        "cards": [
+          {
+            "front": "How do you optimize paid campaigns for CPL/CPA and ROI/ROAS?",
+            "back": "I start by aligning on the objective and KPI (lead volume, CPL/CPA, ROAS), then break down performance by audience, creative, placement, and funnel stage. I run controlled A/B tests, refresh creatives when fatigue shows, and reallocate budget toward segments with stronger conversion efficiency. I also use landing-page and message-match checks for CRO so I’m not only optimizing clicks but improving conversions."
+          },
+          {
+            "front": "Which tools have you used for paid media and measurement?",
+            "back": "I’ve worked with Google Ads and Google Analytics for search and web measurement, and Meta Ads Manager, LinkedIn Campaign Manager, and Twitter Ads for paid social. For social publishing and monitoring, I’ve used Hootsuite and Sprout Social. For reporting and visualization, I’ve used PowerBI, Tableau, and Microsoft Fabric."
+          },
+          {
+            "front": "How do you use Google Analytics to find growth opportunities?",
+            "back": "I analyze channel/source performance (paid, organic, social), behavior metrics, and conversion paths to identify what drives quality traffic versus bounce-heavy traffic. In my previous role, I used Google Analytics to track a 20% increase in website traffic and identify key sources, which helped focus optimization decisions on the channels and content producing the best outcomes."
+          },
+          {
+            "front": "How do you run A/B tests for ads or email?",
+            "back": "I define one primary metric (e.g., CTR, CVR, CPL, open rate), isolate one variable per test (subject line, creative, CTA, audience), and keep the rest consistent. I run tests long enough to get directional confidence, then document learnings and apply the winning variant. I’ve led A/B tests across 5+ email campaigns and social ads, improving conversion rates by 8% through data-driven adjustments."
+          },
+          {
+            "front": "What is your approach to full-funnel acquisition strategy?",
+            "back": "I map the funnel from awareness to conversion and retention signals, then match channel and messaging to intent. I monitor top-of-funnel health (reach, CTR) but focus decisions on downstream outcomes (conversions, CPL/CPA, ROI). If CTR is strong but conversions lag, I shift attention to CRO—landing-page experience, message match, and audience quality."
+          },
+          {
+            "front": "How do you build performance reports stakeholders actually use?",
+            "back": "I keep reporting tied to decisions: what changed, what moved, and what action is recommended. I summarize KPIs (CTR, conversions, CPA/CPL, reach) with a short narrative, then add cut-level detail (by audience, creative, placement) so the team can scale winners. I’m comfortable presenting this through dashboards or weekly snapshots, using PowerBI/Tableau when needed."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Aishwarya has experience using both Google Analytics and Meta Ads Manager for tracking and optimizing digital performance.",
+            "answer": true
+          },
+          {
+            "question": "CTR measures clicks relative to impressions, and it can be high even when conversion rate is low due to post-click friction.",
+            "answer": true
+          },
+          {
+            "question": "Running multiple changes at once in an A/B test (copy, creative, audience, landing page) makes it easier to know exactly what caused the performance difference.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "title": "Project Highlights",
+        "icon": "Award",
+        "cards": [
+          {
+            "front": "Yuno Energy – Digital Marketing Specialist (Paid Social, SEO, Email)",
+            "back": "Managed social media platforms for 6+ months with consistent branding and growing engagement. Improved PPC performance by 10% and generated more leads through social media ads. Created social video content to build brand trust and managed two accounts (company updates and office culture). Worked on SEO content and website updates with developers to improve UX, improved rankings, and helped list the company on third-party platforms like Bonkers and Switcher.ie. Used Hootsuite to track interactions and monitored Trustpilot/Google Reviews, responding to customer messages. Ran email marketing in Mailchimp, increased customers by 4%, and executed A/B tests."
+          },
+          {
+            "front": "Ashtapailu Media Service LTD – Marketing Data Analyst (Analytics & Experimentation)",
+            "back": "Used Google Analytics to track a 20% increase in website traffic over a quarter and identified key sources (paid, organic, social). Improved email open rates by 10% through segmentation and A/B testing and improved CTR by 12% by optimizing subject lines, content, and personalized recommendations. Tracked KPIs like CTR (5%), conversions (2.5%), and social reach (25,000+ impressions/week) to enable real-time optimization. Led A/B tests across 5+ email campaigns and social ads, improving conversion rates by 8% through data-driven adjustments."
+          },
+          {
+            "front": "TCR Innovation – Social Media Executive Intern (Paid Social & Creative Testing)",
+            "back": "Optimized paid social campaigns using A/B testing and audience targeting to improve engagement and lead generation, increasing CTR by 10%. Ran A/B testing across 5+ campaigns to improve creatives, targeting, and messaging. Designed creatives in Canva and edited Reels to increase brand visibility and engagement."
+          },
+          {
+            "front": "Freelance & University Sports Team – Social & Outreach",
+            "back": "Supported sponsorship outreach and event communications via email for Mumbai University’s sports team. Freelanced for a local cake shop, creating social media posts and running ads to grow online presence and generate leads."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Aishwarya’s work includes improving PPC performance by 10% and growing customers by 4% via Mailchimp email marketing.",
+            "answer": true
+          },
+          {
+            "question": "PowerBI and Tableau are ad platforms used to run campaigns directly (similar to Meta Ads Manager).",
+            "answer": false
+          },
+          {
+            "question": "Tracking weekly reach (e.g., 25,000+ impressions) alongside CTR and conversions helps connect visibility to performance outcomes.",
+            "answer": true
+          }
+        ]
+      }
+    ]
+  }

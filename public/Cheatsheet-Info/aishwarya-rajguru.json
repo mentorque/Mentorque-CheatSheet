@@ -2,6 +2,7 @@
 {
     "name": "Aishwarya Rajguru",
     "role": "Digital Marketing Specialist | Paid Media, Performance Marketing & CRO",
+    "note": "The answers provided in this cheatsheet are for reference only and should not be memorized word-for-word. They are meant to help you understand the structure of a good response and how to frame your answers effectively during the interview.",
     "description": "Digital marketing professional with 2+ years of experience driving growth through paid digital channels across Media, Energy, and Real Estate. Strong in paid social, full-funnel acquisition strategy, CRO, budget optimization, and performance reporting—improving PPC performance by 10%, increasing website traffic by 20%, lifting email open rates by 10% and CTR by 12%, and running 5+ A/B tests to improve conversion rates by 8%. Experienced with Google Ads/Analytics, Meta Ads Manager, LinkedIn Campaign Manager, Twitter Ads, Sprout Social, Hootsuite, and reporting with PowerBI/Tableau; basic Python and SQL. Also grew social pages organically to 20K+ followers.",
     "sections": [
       {
@@ -10,35 +11,35 @@
         "cards": [
           {
             "front": "Tell me about yourself",
-            "back": "I’m Aishwarya Rajguru, a digital marketing professional with over two years of experience in performance marketing and paid social. I’ve managed multi-channel campaigns, optimized budgets for ROI/ROAS, and built reporting that ties outcomes to CPL, CPA, CTR, and conversions. In my current role at Yuno Energy, I managed social platforms, improved PPC performance by 10%, and generated more leads through social media ads. I’ve also worked on SEO content and website updates with developers to improve UX, and supported email marketing in Mailchimp—helping grow customers by 4% and running A/B tests. Earlier, as a Marketing Data Analyst, I tracked a 20% traffic increase using Google Analytics, improved email open rates by 10% and CTR by 12% through segmentation and testing, and ran 5+ A/B tests that improved conversion rates by 8%."
+            "back": "I'm Aishwarya Rajguru, and I come from a digital marketing background where I've mainly been working on paid campaigns and performance marketing. Over the last couple of years, I've worked on running ads, tracking performance, and improving metrics like CTR, conversions, and ROI. What I really enjoy is the data side of it — understanding what's working, what's not, and then tweaking campaigns accordingly. That's also one of the reasons I decided to pursue my Master's in Data Analytics. Right now, I'm looking for roles where I can combine both — marketing and data — and work on more impact-driven campaigns."
           },
           {
             "front": "What are your strengths?",
-            "back": "My strengths are performance-driven execution and structured optimization. I’m comfortable working full-funnel: audience targeting, creative and copy iteration, landing-page considerations, and budget decisions based on CPL/CPA/ROAS. I also bring an analytics mindset—using tools like Google Analytics and platform dashboards to monitor CTR, conversions, and reach, then translating insights into clear actions like segmentation changes, subject line tests, and creative refreshes."
+            "back": "One of my strengths is that I don't just run campaigns blindly — I like to understand the numbers behind them. For example, if a campaign isn't performing well, I'll usually go back, look at the data, check what's not working — whether it's targeting, creatives, or something else — and then try to improve it. I'm also quite consistent with my work. Once I take ownership of something, I make sure I follow it through and keep improving it."
           },
           {
             "front": "What are your weaknesses?",
-            "back": "I sometimes spend extra time refining reports and dashboards because I want the narrative and metrics to be very clear. I’ve improved by sharing a fast first version with the key KPI movements and recommended actions, then iterating on visualization and deeper cuts (like cohort breakdowns) after stakeholders align on the direction."
+            "back": "One thing I've noticed about myself is that earlier I used to overthink decisions, especially when it came to analyzing campaign performance. I would spend a bit too much time trying to make everything perfect before taking action. But over time, I've gotten better at making quicker decisions based on key metrics instead of over-analyzing everything."
           },
           {
             "front": "Why do you want to join us?",
-            "back": "I’m looking for a role where performance marketing and experimentation are core to growth, and where insights directly influence creative, targeting, and product/landing-page experience. Your focus on measurable outcomes aligns with how I work—diagnosing funnel drop-offs, running A/B tests, and optimizing toward CPL/CPA/ROI while keeping brand and messaging consistent."
+            "back": "I'm looking for a role where I can do more than just execution — I want to be involved in decision-making as well. From what I understand, your team focuses a lot on performance and data-driven strategies, which is something I really enjoy working on. So I feel this role would give me the right exposure to grow and also contribute meaningfully."
           },
           {
             "front": "Where do you see yourself in the next 5 years?",
-            "back": "In five years, I want to be a performance marketing lead owning full-funnel growth across paid social and search, with strong experimentation and measurement practices. I’d like to deepen my expertise in attribution, lifecycle growth, and CRO, and become known for building repeatable testing frameworks that consistently improve CPL/CPA and revenue impact."
+            "back": "I don't have a very fixed plan, but broadly I see myself growing into a more strategic role in digital marketing. I'd like to work on bigger campaigns, take more ownership, and be involved in planning as well — not just execution. At the same time, I want to keep building my analytical skills because I think that's what really helps in making better decisions."
           },
           {
             "front": "Tell me about a time you went above and beyond",
-            "back": "Situation: At Yuno Energy, we needed to improve lead generation while keeping branding consistent and building trust on social. Task: Drive performance improvements without sacrificing brand quality. Action: I created and managed content across two social accounts (company updates and office culture), optimized social ads, monitored customer feedback via Trustpilot/Google Reviews using Hootsuite, and responded quickly to messages to protect brand sentiment. Result: PPC performance improved by 10% and lead generation increased through social media ads, while engagement grew through consistent content and trust-building videos."
+            "back": "There was a time when I was working on a campaign where the initial requirement was just to manage and optimise it. But while working on it, I noticed certain patterns in the data that could actually help improve overall engagement. So I went ahead and analysed it further and shared those insights with the team, which wasn't really part of the original scope. That helped us make better decisions and improve performance."
           },
           {
             "front": "How do you handle tight deadlines?",
-            "back": "I prioritize by impact on the main KPI—usually CPL/CPA, conversion rate, or lead volume—then execute in short testing cycles. I’ll ship a focused set of changes (like creative refresh + audience split + budget reallocation), monitor early indicators (CTR, CPC, landing engagement), and report back quickly with what to scale or stop. This keeps delivery fast while still being data-driven."
+            "back": "Usually, when I have tight deadlines, I try to break things down into smaller tasks and focus on what's most important first. I also make sure I don't get stuck trying to make everything perfect — I focus on getting the work done efficiently and then improving if needed. And if something feels like it might get delayed, I try to communicate it early."
           },
           {
             "front": "Describe a time you took initiative",
-            "back": "Situation: In my Marketing Data Analyst role, email performance had room to improve beyond generic sends. Task: Increase engagement and clicks using data. Action: I proactively introduced segmentation based on historical campaign behavior, ran A/B tests on subject lines and content, and added more personalized recommendations. Result: Email open rates increased by 10% and CTR improved by 12%, and the team had clearer guidance on which message variants to use going forward."
+            "back": "In one of my roles, I noticed that a lot of reporting was being done manually, which was taking up a lot of time. So I tried to simplify and streamline that process using tools I was already familiar with. It wasn't something I was asked to do, but it ended up saving time and made things easier for the team."
           }
         ],
         "quiz": [
@@ -47,7 +48,7 @@
             "answer": true
           },
           {
-            "question": "For paid social optimization, it’s best to judge performance only by impressions and ignore CPL/CPA and conversions.",
+            "question": "For paid social optimization, it's best to judge performance only by impressions and ignore CPL/CPA and conversions.",
             "answer": false
           },
           {
@@ -62,11 +63,11 @@
         "cards": [
           {
             "front": "How do you optimize paid campaigns for CPL/CPA and ROI/ROAS?",
-            "back": "I start by aligning on the objective and KPI (lead volume, CPL/CPA, ROAS), then break down performance by audience, creative, placement, and funnel stage. I run controlled A/B tests, refresh creatives when fatigue shows, and reallocate budget toward segments with stronger conversion efficiency. I also use landing-page and message-match checks for CRO so I’m not only optimizing clicks but improving conversions."
+            "back": "I start by aligning on the objective and KPI (lead volume, CPL/CPA, ROAS), then break down performance by audience, creative, placement, and funnel stage. I run controlled A/B tests, refresh creatives when fatigue shows, and reallocate budget toward segments with stronger conversion efficiency. I also use landing-page and message-match checks for CRO so I'm not only optimizing clicks but improving conversions."
           },
           {
             "front": "Which tools have you used for paid media and measurement?",
-            "back": "I’ve worked with Google Ads and Google Analytics for search and web measurement, and Meta Ads Manager, LinkedIn Campaign Manager, and Twitter Ads for paid social. For social publishing and monitoring, I’ve used Hootsuite and Sprout Social. For reporting and visualization, I’ve used PowerBI, Tableau, and Microsoft Fabric."
+            "back": "I've worked with Google Ads and Google Analytics for search and web measurement, and Meta Ads Manager, LinkedIn Campaign Manager, and Twitter Ads for paid social. For social publishing and monitoring, I've used Hootsuite and Sprout Social. For reporting and visualization, I've used PowerBI, Tableau, and Microsoft Fabric."
           },
           {
             "front": "How do you use Google Analytics to find growth opportunities?",
@@ -74,7 +75,7 @@
           },
           {
             "front": "How do you run A/B tests for ads or email?",
-            "back": "I define one primary metric (e.g., CTR, CVR, CPL, open rate), isolate one variable per test (subject line, creative, CTA, audience), and keep the rest consistent. I run tests long enough to get directional confidence, then document learnings and apply the winning variant. I’ve led A/B tests across 5+ email campaigns and social ads, improving conversion rates by 8% through data-driven adjustments."
+            "back": "I define one primary metric (e.g., CTR, CVR, CPL, open rate), isolate one variable per test (subject line, creative, CTA, audience), and keep the rest consistent. I run tests long enough to get directional confidence, then document learnings and apply the winning variant. I've led A/B tests across 5+ email campaigns and social ads, improving conversion rates by 8% through data-driven adjustments."
           },
           {
             "front": "What is your approach to full-funnel acquisition strategy?",
@@ -82,7 +83,7 @@
           },
           {
             "front": "How do you build performance reports stakeholders actually use?",
-            "back": "I keep reporting tied to decisions: what changed, what moved, and what action is recommended. I summarize KPIs (CTR, conversions, CPA/CPL, reach) with a short narrative, then add cut-level detail (by audience, creative, placement) so the team can scale winners. I’m comfortable presenting this through dashboards or weekly snapshots, using PowerBI/Tableau when needed."
+            "back": "I keep reporting tied to decisions: what changed, what moved, and what action is recommended. I summarize KPIs (CTR, conversions, CPA/CPL, reach) with a short narrative, then add cut-level detail (by audience, creative, placement) so the team can scale winners. I'm comfortable presenting this through dashboards or weekly snapshots, using PowerBI/Tableau when needed."
           }
         ],
         "quiz": [
@@ -118,12 +119,12 @@
           },
           {
             "front": "Freelance & University Sports Team – Social & Outreach",
-            "back": "Supported sponsorship outreach and event communications via email for Mumbai University’s sports team. Freelanced for a local cake shop, creating social media posts and running ads to grow online presence and generate leads."
+            "back": "Supported sponsorship outreach and event communications via email for Mumbai University's sports team. Freelanced for a local cake shop, creating social media posts and running ads to grow online presence and generate leads."
           }
         ],
         "quiz": [
           {
-            "question": "Aishwarya’s work includes improving PPC performance by 10% and growing customers by 4% via Mailchimp email marketing.",
+            "question": "Aishwarya's work includes improving PPC performance by 10% and growing customers by 4% via Mailchimp email marketing.",
             "answer": true
           },
           {

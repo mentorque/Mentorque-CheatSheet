@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { useParams } from 'react-router-dom';
-import { RotateCcw } from 'lucide-react';
+import { Info } from 'lucide-react';
 import { getIcon } from '@/lib/iconMap';
 import FlipCard from './FlipCard';
 
@@ -171,6 +171,14 @@ const CheatSheet = () => {
               <p className="text-gray-400 text-xs sm:text-sm max-w-2xl mx-auto">
                 {data.description}
               </p>
+              {data.note && (
+                <div className="flex justify-center mt-3">
+                  <p className="inline-flex items-start gap-1.5 max-w-xl text-left text-[11px] text-gray-500/80 leading-relaxed">
+                    <Info className="h-3 w-3 shrink-0 mt-0.5 text-gray-500/60" strokeWidth={2} aria-hidden />
+                    <span>{data.note}</span>
+                  </p>
+                </div>
+              )}
             </div>
           </div>
         </div>

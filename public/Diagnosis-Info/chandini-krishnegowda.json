@@ -1,0 +1,180 @@
+{
+  "name": "Chandini Krishnegowda",
+  "email": "Chandini.krishnegowda99@gmail.com",
+  "targetRole": "Software Engineer (Frontend / Full-Stack)",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": [
+          "Resume & Experience Clarity",
+          "Answer Structure",
+          "Technical Readiness",
+          "Role-Specific Technical",
+          "Behavioural Story"
+        ],
+        "values": [1.6, 1.2, 1.7, 2.4, 1.75],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: Structuring Risk (Answer Structure + narrative packaging).**\n\nChandini, your profile on paper is strong for a Software Engineer: 2+ years at TCS on Nutanix Prism DRaaS and Johnson & Johnson–aligned products, concrete impact numbers (~25% fewer UI bugs, ~35% performance gain, 8+ REST integrations), modern stack (React, TypeScript, Redux, testing, CI/CD), and a PGDM in Business Analytics plus an ML project with clear metrics. **The gap is not “whether you did the work”—it is whether you can deliver it in an interview with a tight arc:** situation → decision → trade-off → proof.\n\nYour **Answer Structure score (1.2)** is the structural bottleneck. Even with **Role-Specific Technical at 2.4** (your relative strength), answers may still **sound fragmented** under follow-ups: interviewers hear features and tools before they hear **problem, constraint, your ownership, and measurable outcome**. **Resume & Experience Clarity (1.6)** and **Technical Readiness (1.7)** suggest the resume has substance, but live delivery may not yet **sequence** complexity (API design, state, performance, testing) in a way that feels senior.\n\n**Mapping Rule Insight:**\n- You are positioned to clear **technical fact** questions once answers are **framed**.\n- Until structuring improves, you risk being read as **junior in communication** despite **mid-level in delivery**.\n- Fixing **STAR + one metric + one trade-off per story** first will lift **Behavioural Story (1.75)** and **Resume clarity** together with answer structure."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: Resume Walkthrough**\n\n**Red Flag Prompt:** \"Walk me through the Nutanix Prism DRaaS work—what did the user see, what APIs powered it, and what changed because of your UI work?\"\n\n**Likely Breakdown:** You may list React, Redux, and \"many REST endpoints\" without a **single narrative spine**: user job-to-be-done → data flow → what broke before → what you changed → before/after metric (e.g. load time, bug rate, release reliability).\n\n---\n\n**Scenario B: Frontend / System Thinking**\n\n**Red Flag Prompt:** \"You said you improved performance by ~35% with lazy loading and modularization—how did you measure that, and what was still slow after your first pass?\"\n\n**Likely Breakdown:** With **Technical Readiness 1.7**, you might quote the headline number but struggle to **defend methodology** (what trace or KPI: TTI, bundle size, Lighthouse, custom marks) and **iteration** (second bottleneck you found). That reads as **assertion without inspection**.\n\n---\n\n**Scenario C: Behavioural + Ownership**\n\n**Red Flag Prompt:** \"Tell me about a time production or UAT went wrong around your UI or an API integration. What did you do first?\"\n\n**Likely Breakdown:** **Behavioural Story 1.75** often shows up as **missing conflict**: who was blocked, what you owned vs escalated, what evidence you used. Without that, the story stays **task-complete** instead of **impact-complete**."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "The 60-Second STAR Skeleton (TCS + projects only)",
+          "content": "For each top resume bullet (Nutanix DRaaS, J&J/My Concerta, performance, CI/CD, testing), write: **Problem (1 line) → Your scope (1 line) → Action (2 lines, tools only as proof) → Metric (1 line).** No bullet longer than 60 seconds spoken. **Score Target:** Answer Structure 1.2 → 3.5"
+        },
+        {
+          "week": "Week 2",
+          "title": "Role-Specific Technical Defense (Frontend + API + quality)",
+          "content": "Prepare **deep dives**: Redux state boundaries across modules, how you reduced UI bugs (~25%)—what class of bugs, how you caught them (tests, reviews), REST integration patterns (error handling, loading, retries), and CI/CD (Jenkins/GitHub Actions) as **risk reduction**, not tool names. **Score Target:** Role-Specific Technical 2.4 → 4.0, Technical Readiness 1.7 → 3.8"
+        },
+        {
+          "week": "Week 3",
+          "title": "Metrics That Survive Cross-Examination",
+          "content": "For **35% performance** and **25% bug reduction**, define **baseline, measurement window, and caveats** (device, route, release). Same for ML project: **93% precision / 80% recall**—what dataset, what problem, what leakage risks. **Score Target:** Resume & Experience Clarity 1.6 → 3.8"
+        },
+        {
+          "week": "Week 4",
+          "title": "Pressure Mocks (Mixed: resume + coding + behaviour)",
+          "content": "Full rounds with **rapid follow-ups**: \"Why Redux here?\" \"What if API latency doubles?\" \"What would you cut if scope halved?\" **Score Target:** Overall band ≥ 4.0, Behavioural Story 1.75 → 4.0"
+        }
+      ],
+      "content": "Follow sequence strictly. **Do not** add new projects until every TCS/J&J story passes the 60-second STAR test with one metric and one trade-off."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Highlight 1: Nutanix Prism DRaaS — monitoring UI, 8+ REST endpoints, real-time VDI metrics**\n\n- **Interviewer Probe:** \"Draw the data path from user action to what renders on screen. Where does state live, and how do you avoid stale metrics?\"\n- **Prep Drill:** One diagram: **component tree → Redux slice(s) → API layer → polling/refresh strategy → error/empty states**.\n\n---\n\n**Highlight 2: ~35% performance improvement (lazy loading + modularization)**\n\n- **Interviewer Probe:** \"What was the **before** bundle or TTI, what did you lazy-load, and what remained the bottleneck?\"\n- **Prep Drill:** Name **one** profiling step (DevTools, Lighthouse, or build analyzer) and **one** follow-up optimization after lazy loading.\n\n---\n\n**Highlight 3: ~25% reduction in UI-related bug reports — stability and predictable state**\n\n- **Interviewer Probe:** \"What **categories** of bugs disappeared—race conditions, undefined state, bad props? How did tests catch them?\"\n- **Prep Drill:** Tie to **Jest + RTL** with one example test type (e.g. async user flow, regression on critical path).\n\n---\n\n**Highlight 4: J&J / Vodafone CSM — multilingual site, Redux across modules, GPS/maps**\n\n- **Interviewer Probe:** \"How did you split Redux modules and avoid circular dependencies or duplicate sources of truth?\"\n- **Prep Drill:** **Ownership boundary** per module + **one** integration pain with backend and how you resolved it.\n\n---\n\n**Highlight 5: ML project — mental health & physical activity (93% precision, 80% recall)**\n\n- **Interviewer Probe:** \"Why those models? How did you handle class imbalance? What would break your recall number in production?\"\n- **Prep Drill:** **Problem formulation → features → validation strategy → honest limitation** in 90 seconds."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Prompt:** \"Tell me about a meaningful technical win from your Nutanix or enterprise dashboard work.\"\n\n**Baseline Answer (Structuring Risk pattern):**\n\"I worked on React and TypeScript with Redux and consumed many REST APIs. I improved performance using lazy loading and modularized the code. We also used Jenkins for deployment.\"\n\n**Fixed Answer (4.0+ quality):**\n\"Enterprise users needed reliable visibility into DRaaS health; the dashboard had grown heavy and slow to interact with. (Situation) I owned front-end stability and load experience for monitoring views that pulled from multiple services. (Task) I modularized monolithic sections, introduced lazy loading for non-critical routes, and tightened Redux usage so state updates stayed predictable as we integrated 8+ REST endpoints. (Action) UI-related bug reports dropped by about 25% and we measured a large improvement in load/interaction after reducing initial bundle work—around 35% in the metrics we tracked for key views. (Result)\"\n\n**Why this works:** Problem → ownership → mechanism → **quantified** outcome, without drowning in tool soup."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "\"Walk me through your Redux architecture across modules—what is global vs local state, and how do you prevent inconsistency?\" **(Risk: Role-Specific Technical 2.4 / Answer Structure 1.2)**\n\n\"You integrated 8+ REST APIs—how did you handle errors, retries, and loading states so the UI never lies to the user?\" **(Risk: Technical Readiness 1.7)**\n\n\"How did you **prove** the 35% performance improvement wasn’t noise? What did you measure, on what build?\" **(Risk: Resume & Experience Clarity 1.6)**\n\n\"Describe a production or UAT issue caused by a front-end or API contract mismatch. Who did you work with, and what changed in process?\" **(Risk: Behavioural Story 1.75)**\n\n\"Compare your approach on Nutanix work vs J&J multilingual work—what was different in complexity?\" **(Risk: Answer Structure 1.2)**\n\n\"Your ML project claims 93% precision—what’s the business cost of false positives vs false negatives here?\" **(Risk: Technical Readiness 1.7)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: Resume Arc & STAR Compression",
+              "duration": "45 minutes",
+              "objective": "Nutanix + J&J stories with strict timeboxing; no digression."
+            },
+            {
+              "timing": "Week 2, Day 4",
+              "label": "Session 2: Frontend + API Depth",
+              "duration": "50 minutes",
+              "objective": "Redux, REST reliability, performance measurement, testing strategy."
+            },
+            {
+              "timing": "Week 3, Day 2",
+              "label": "Session 3: Behavioural + Incident / Conflict",
+              "duration": "45 minutes",
+              "objective": "Ownership under ambiguity; CI/CD and quality; cross-team alignment."
+            },
+            {
+              "timing": "Week 4, Day 1",
+              "label": "Session 4: Full Simulation",
+              "duration": "60 minutes",
+              "objective": "Mixed round: intro → deep resume → one behavioural → one technical follow-through."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            { "label": "Session 1: Answer Structure", "value": 10, "max": 10 },
+            { "label": "Session 2: Role-Specific Technical", "value": 9, "max": 10 },
+            { "label": "Session 3: Behavioural Story", "value": 8, "max": 10 },
+            { "label": "Session 4: Full simulation", "value": 10, "max": 10 }
+          ]
+        }
+      ],
+      "content": "**Session 1:** Enforce structure—if the candidate drifts, reset to STAR.\n\n**Session 2:** Push on **how** not **what**: measurement, failure modes, API behaviour.\n\n**Session 3:** Demand **conflict, decision, and evidence** in every story.\n\n**Session 4:** Replicate real pacing and interruption patterns."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 1.29,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        { "label": "Resume & Experience Clarity", "current": "1.6", "target": "4.5" },
+        { "label": "Answer Structure", "current": "1.2", "target": "4.5" },
+        { "label": "Technical Readiness", "current": "1.7", "target": "4.5" },
+        { "label": "Role-Specific Technical", "current": "2.4", "target": "4.5" }
+      ],
+      "content": "**Target Average Score: 4.5** (from a ~1.29 baseline on the composite diagnostic).\n\n**Measurable Change Expected:**\n- Answers open with **context and ownership**, not tool lists.\n- **Metrics** (35%, 25%, API count) are tied to **method and timeframe**.\n- **Technical follow-ups** get **layered** answers: behaviour under latency, errors, and releases.\n\n**After Persona:** A Software Engineer who sounds as **structured** as the systems she ships—**credible on React, APIs, quality, and delivery in Agile**."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Record every mock answer (audio)",
+          "content": "Listen for the first 30 seconds: if tools appear before problem/impact, rewrite and repeat."
+        },
+        {
+          "icon": "FileText",
+          "title": "One-page cheat sheet per project",
+          "content": "Nutanix DRaaS, J&J/My Concerta, ML project: STAR + metrics + top 5 probes each."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Re-run failed questions in 24 hours",
+          "content": "Same prompt until structure is automatic—structuring is the primary risk."
+        },
+        {
+          "icon": "Target",
+          "title": "Gate on Answer Structure first",
+          "content": "Do not chase advanced system-design tangents until Session 1 narratives score 4.0+ with your mentor."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Interrupt for structure",
+          "content": "If STAR collapses, stop and restart the question—train the habit, not the content."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Stress-test numbers",
+          "content": "Ask \"how measured?\" and \"what if that metric is wrong?\" on every quantified claim."
+        },
+        {
+          "icon": "FileText",
+          "title": "Written feedback: one fix per story",
+          "content": "After each session: exact rewrite instructions for the weakest 2 answers."
+        },
+        {
+          "icon": "Ban",
+          "title": "No early sign-off",
+          "content": "Readiness only after Session 4 holds at target band under pressure."
+        }
+      ],
+      "content": "**Main Rule:** Structuring risk is fixed by **repetition with constraints**, not by reading more theory.\n\n**Suggested Timeline:**\n- Week 1: STAR skeleton for all key bullets\n- Week 2: Sessions 1–2\n- Week 3: Session 3\n- Week 4: Session 4\n- Week 5: Buffer if scores lag\n\n**Session Notes Placeholder:** [Insert observed gaps: e.g. timeboxing, metric defense, Redux explanation, incident stories.]"
+    }
+  ]
+}

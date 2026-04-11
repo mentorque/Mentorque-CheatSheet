@@ -1,0 +1,180 @@
+{
+  "name": "Shubham Alone",
+  "email": "shubham.alone7799@gmail.com",
+  "targetRole": "Operations & Quality Engineer | Manufacturing Excellence",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": [
+          "Resume & Experience Clarity",
+          "Answer Structure",
+          "Technical Readiness",
+          "Role-Specific Technical",
+          "Behavioural Story"
+        ],
+        "values": [2.4, 2.4, 2.2, 2.4, 1.75],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: Communication & Confidence Risk (ownership + behavioural signal under pressure).**\n\nShubham, your profile reads credibly for **operations and quality in manufacturing**: shop-floor leadership (14-person team), measurable line and adherence gains, **NCR/corrective-action** discipline, **5S/Kaizen**, heavy **documentation & audit** rigor (130+ quality documents, **98% audit compliance**), cross-functional coordination, plus **SAP MM** and Coursera supply-chain grounding. **Technical Readiness (2.2)** sits slightly below your other mid-band scores—often where **method vocabulary** (SPC, CAPA, 8D, control plans) meets **live explanation** under follow-up.\n\nThe standout gap is **Behavioural Story (1.75)**—your lowest dimension. In interviews this typically shows up as **undersold ownership**: you *did* the work (KPI huddles, NCR closures, project reviews) but may **sound like a participant** instead of the person who **prioritized, decided, and drove** the outcome. **Communication & Confidence Risk** means interviewers may **under-weight** your resume because delivery feels **hesitant, generic, or metric-light** when probed.\n\n**Mapping Rule Insight:**\n- Your **Resume & Experience Clarity (2.4)** and **Role-Specific Technical (2.4)** give enough raw material for screening.\n- To convert, answers must **pair every KPI with a decision you owned** and **one conflict or trade-off** (capacity vs quality, speed vs documentation, client vs internal standard).\n- Confidence here is **trained**: louder isn’t the fix—**crisper structure + proof** is."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: The \"Tell me about yourself\" / Ops arc**\n\n**Red Flag Prompt:** \"Walk me through your time at Track Components—what were you accountable for on the floor versus what the line leads owned?\"\n\n**Likely Breakdown:** You may describe **activities** (huddles, reviews, documents) without a **clear accountability line**: what **only you** could escalate, approve, or stop the line for—and **what metric moved** because of it.\n\n---\n\n**Scenario B: Quality system depth**\n\n**Red Flag Prompt:** \"You closed 3–4 NCRs monthly and cut repeat non-conformance by 12% in six weeks—**how** did you know repeat issues were the same root cause, and what changed in the work instruction?\"\n\n**Likely Breakdown:** With **Technical Readiness 2.2**, you might stay at **story level** and struggle to **sequence** root-cause method, verification, and **sustainment** (training, audit spot-checks). That reads as **buzzwords** without **system thinking**.\n\n---\n\n**Scenario C: Stakeholder / pressure**\n\n**Red Flag Prompt:** \"Give me a time production and quality disagreed on releasing a batch. What did you push for, and what was the result?\"\n\n**Likely Breakdown:** **Behavioural Story 1.75** shows up as **missing tension**: no named stakeholder, no trade-off, no **before/after**. Without conflict, you sound **nice** but not **influential**."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "Ownership Language + STAR for Top 5 Bullets",
+          "content": "Rewrite Track Components + Unitech highlights as **60-second STAR**: **I owned / I decided / I escalated** (one per story) + **one number**. Drop filler adjectives. **Score Target:** Behavioural Story 1.75 → 3.5"
+        },
+        {
+          "week": "Week 2",
+          "title": "Quality & Ops Technical Defense (NCR, 5S, KPI, SAP MM)",
+          "content": "Prepare crisp definitions you can say in **20 seconds**: NCR vs CAPA, how you **verify** corrective action, how **5S/Kaizen** tied to the **7% adherence** or **20% line** improvement, and **SAP MM** PR-PO-GR-IR in your own project words. **Score Target:** Technical Readiness 2.2 → 3.8, Role-Specific Technical 2.4 → 4.0"
+        },
+        {
+          "week": "Week 3",
+          "title": "Answer Structure Under Interruption",
+          "content": "Practice **Problem → What I owned → Steps → Metric → Risk if we didn’t act** in **45 seconds**. Mentor interrupts mid-answer; you **finish the metric** before elaborating. **Score Target:** Answer Structure 2.4 → 4.0"
+        },
+        {
+          "week": "Week 4",
+          "title": "Pressure Mocks (Ops + Quality + Graduate story)",
+          "content": "Full simulation: Galway master’s tie-in to **why ops in Ireland**, Unitech planning discipline, Magson internship ownership. **Score Target:** Overall band ≥ 4.0, Resume clarity 2.4 → 4.2"
+        }
+      ],
+      "content": "Sequence matters: **behavioural ownership first**—without it, technical depth won’t register as leadership potential."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Highlight 1: Track Components — 14-person shop-floor quality, ~20% line performance, KPI huddles, ~7% adherence**\n\n- **Interviewer Probe:** \"Which KPIs were on the huddle board, and what **one** downtime action did you prioritize when two lines competed for the same maintenance window?\"\n- **Prep Drill:** Name **3 KPIs** + **one real trade-off** you navigated.\n\n---\n\n**Highlight 2: NCRs 3–4/month, repeat non-conformance −12% in 6 weeks, work instructions**\n\n- **Interviewer Probe:** \"Walk me from **detection** to **closure**—who signs off, what proves effectiveness?\"\n- **Prep Drill:** **One** NCR storyline: symptom → root cause tool (5 Why / fishbone—pick what you used) → corrective action → how you **proved** repeat issues stopped.\n\n---\n\n**Highlight 3: 130+ quality documents, 98% audit compliance**\n\n- **Interviewer Probe:** \"What failed most often in audits before, and what **process** changed in how you authored or controlled documents?\"\n- **Prep Drill:** Link **document control** to **traceability** and **one audit finding** you eliminated.\n\n---\n\n**Highlight 4: Unitech — planning, on-time delivery +8%, Tally dashboard, −10 hrs/week manual reporting**\n\n- **Interviewer Probe:** \"What did the dashboard change in **decisions**, not just reporting?\"\n- **Prep Drill:** **Before/after** decision example in **one sentence**.\n\n---\n\n**Highlight 5: SAP MM project — PR-PO-GR-IR, inventory**\n\n- **Interviewer Probe:** \"Where could stock or procurement go wrong in your design, and how did you **reconcile** GR-IR?\"\n- **Prep Drill:** **Happy path + one exception path** (e.g. partial delivery, price mismatch) in plain language."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Prompt:** \"Tell me about a time you improved quality or line performance at Track Components.\"\n\n**Baseline Answer (Communication & Confidence pattern):**\n\"I worked with the team on quality and we did KPI meetings and 5S. We improved performance and reduced issues. I also worked on documents for audits.\"\n\n**Fixed Answer (4.0+ quality):**\n\"We had recurring line stoppages and quality noise that showed up in downtime and repeat non-conformances. (Situation) I was accountable for shop-floor quality with a 14-person team, so I needed to improve flow without losing audit traceability. (Task) I ran daily KPI huddles focused on top downtime drivers, aligned corrective actions with operations, and drove weekly reviews using 5S and Kaizen to tighten handoffs. (Action) I also led root-cause work on NCRs—roughly 3–4 a month—updated work instructions where repeat issues appeared, and within about six weeks repeat non-conformance dropped by around 12%, while line performance improved materially alongside stronger adherence. (Result)\"\n\n**Why this works:** **Ownership verbs**, **specific mechanisms**, **numbers**, and a **clear timeline**—confidence follows structure."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "\"How do you prioritize when **OTD** pressure conflicts with **quality hold**?\" **(Risk: Behavioural Story 1.75)**\n\n\"Explain **how** you measured the 20% line improvement and ruled out normal variance.\" **(Risk: Technical Readiness 2.2)**\n\n\"What is your **role** versus the production manager’s in a daily KPI huddle?\" **(Risk: Resume & Experience Clarity 2.4)**\n\n\"Walk me through **SAP MM** PR to IR—where do **you** intervene in a real plant?\" **(Risk: Role-Specific Technical 2.4)**\n\n\"Describe a **failed** corrective action—what did you change in the approach?\" **(Risk: Behavioural Story 1.75)**\n\n\"How did Galway **Master’s in International Management** change how you lead ops versus India experience?\" **(Risk: Answer Structure 2.4)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: Ownership & STAR (Track + Unitech)",
+              "duration": "45 minutes",
+              "objective": "Every story ends with metric + your decision—not team effort only."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: Quality System & SAP MM",
+              "duration": "50 minutes",
+              "objective": "NCR/CAPA, documentation, audit logic; SAP MM flow and exceptions."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: Conflict & Stakeholder Pressure",
+              "duration": "45 minutes",
+              "objective": "Production vs quality, client vs internal standard, escalation paths."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: Full Ops/Quality Simulation",
+              "duration": "60 minutes",
+              "objective": "Intro → deep resume → behavioural → technical follow-through."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            { "label": "Session 1: Behavioural + Confidence", "value": 10, "max": 10 },
+            { "label": "Session 2: Technical Readiness", "value": 9, "max": 10 },
+            { "label": "Session 3: Stakeholder conflict", "value": 9, "max": 10 },
+            { "label": "Session 4: Full simulation", "value": 10, "max": 10 }
+          ]
+        }
+      ],
+      "content": "**Session 1:** Ruthless edit of **I** vs **we**; mentor flags vague teamwork.\n\n**Session 2:** No acronyms without **one plain-English consequence**.\n\n**Session 3:** No story without **tension** and **resolution metric**.\n\n**Session 4:** Mixed Ireland + India narrative coherence."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 3.14,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        { "label": "Resume & Experience Clarity", "current": "2.4", "target": "4.5" },
+        { "label": "Answer Structure", "current": "2.4", "target": "4.5" },
+        { "label": "Technical Readiness", "current": "2.2", "target": "4.5" },
+        { "label": "Behavioural Story", "current": "1.75", "target": "4.5" }
+      ],
+      "content": "**Target Average Score: 4.5** (from a ~3.14 baseline on the composite diagnostic).\n\n**Measurable Change Expected:**\n- **Ownership** is explicit in every major example; **metrics** survive \"how did you measure that?\"\n- **Quality stories** include **method + verification**, not only outcomes.\n- **Communication** reads as **calm and precise**, not loud—**confidence through preparation**.\n\n**After Persona:** An **Operations & Quality Engineer** who sounds **accountable**, **audit-aware**, and **stakeholder-capable**—aligned with manufacturing hiring bars in Ireland and EU-quality expectations."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Record three stories only (refine, don’t expand)",
+          "content": "Track NCR win, KPI huddle win, Unitech dashboard win—until each is under 90 seconds with metrics."
+        },
+        {
+          "icon": "FileText",
+          "title": "Log confidence triggers",
+          "content": "Note when you rush, apologize, or trail off—fix with pause + headline metric."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Repeat weak prompts daily",
+          "content": "Conflict questions and \"prove the number\" questions until boringly fluent."
+        },
+        {
+          "icon": "Target",
+          "title": "Gate on Behavioural Story",
+          "content": "Do not add new frameworks until Session 1 stories score 4.0+ on ownership."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Demand named conflict",
+          "content": "If a story has no disagreement, it’s not ready—push for a real ops tension."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Probe metrics until concrete",
+          "content": "Baseline, period, measurement method—no hand-waving on % improvements."
+        },
+        {
+          "icon": "FileText",
+          "title": "Feedback in three bullets",
+          "content": "After each mock: one fix for ownership, one for evidence, one for closing impact."
+        },
+        {
+          "icon": "Ban",
+          "title": "No sign-off on enthusiasm alone",
+          "content": "Readiness = structured answers under interruption, not positive energy."
+        }
+      ],
+      "content": "**Main Rule:** Communication & confidence in hiring is mostly **clarity under stress**—train with **interruptions** and **timeboxes**.\n\n**Suggested Timeline:**\n- Week 1: Three STAR stories + ownership language\n- Week 2: Sessions 1–2\n- Week 3: Session 3\n- Week 4: Session 4\n- Week 5: Buffer if behavioural score lags\n\n**Session Notes Placeholder:** [Insert: confidence dips, vague KPIs, SAP depth gaps, Ireland narrative.] "
+    }
+  ]
+}

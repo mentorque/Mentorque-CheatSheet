@@ -1,0 +1,175 @@
+{
+  "name": "Shubham Patil",
+  "email": "patilshubham3124@gmail.com",
+  "targetRole": "Business Analyst / Data Analyst",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": ["Resume & Experience Clarity", "Answer Structure", "Technical Readiness", "Role-Specific Technical", "Behavioural Story"],
+        "values": [3.4, 3.4, 3.3, 3.0, 2.5],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: The \"Executor Who Can't Tell the Story\".**\n\nShubham, your resume shows solid, real delivery: 4 dashboards owned at TCS, 7 KPIs built from scratch, client-facing UAT sessions, BRDs and user stories written in Azure DevOps, and a Grade A performance rating. However, your Behavioural Story score of 2.5 and Role-Specific Technical score of 3.0 indicate a high risk that you will come across as someone who *did the work* but cannot **own the narrative** in an interview room.\n\n**The Mapping Rule Analysis:**\n\nYour resume bullets are strong on outcomes (\"more reliable dashboards\", \"better operational decision-making\") but weak on *conflict, judgment, and personal impact*. BA/DA interviews — especially at mid-to-senior level — heavily test situational judgment: \"Tell me about a time a stakeholder pushed back on your analysis.\" or \"How did you prioritise between two competing requirements?\" These require a structured story you own, not a project description.\n\nYour Role-Specific Technical gap (3.0) also means follow-up questions on data modeling, SQL query design, dashboard performance, or KPI methodology can catch you unprepared.\n\nThis \"Process Follower\" persona is the central issue: interviewers need to see you as someone who makes decisions and navigates ambiguity — not just someone who delivers well when told what to do."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: The \"Tell Me About Yourself\" Opening (5–10m)**\n\n**The Red Flag:** \"Walk me through your TCS experience. What was the biggest challenge you personally solved?\"\n\n**Justification:** With Behavioural Story 2.5, you risk delivering a project summary instead of a personal narrative with conflict, judgment, and resolution. Interviewers hear \"I was assigned dashboards\" rather than \"I identified the root cause, proposed the fix, and convinced the team.\"\n\n---\n\n**Scenario B: The Stakeholder Conflict Probe (10–15m)**\n\n**The Red Flag:** \"Tell me about a time a business stakeholder disagreed with your data or your recommendation. How did you handle it?\"\n\n**Justification:** Your UAT and client-facing experience gives you the raw material, but without a rehearsed STAR structure, you will likely describe the situation and skip the tension, your judgment call, and what changed because of *you*.\n\n---\n\n**Scenario C: The Technical Follow-Up (15–20m)**\n\n**The Red Flag:** \"You mentioned fixing Snowflake SQL pipelines. Walk me through the logic — what was broken, how did you diagnose it, and what did the fixed query look like?\"\n\n**Justification:** Role-Specific Technical 3.0 means you understand the tools, but interviewers may probe for query structure, data modeling decisions, performance reasoning, or KPI methodology — areas where \"I fixed it\" is not enough."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "The STAR Story Bank — Build 6 Stories",
+          "content": "Map your TCS experience into 6 STAR stories: one conflict with a stakeholder, one time you took initiative, one failure/lesson, one ambiguous problem you clarified, one time you influenced a decision, one time you delivered under pressure. **Score Target:** Behavioural Story 2.5 → 4.0"
+        },
+        {
+          "week": "Week 2",
+          "title": "Resume \"So What\" Rewrite + KPI Drill",
+          "content": "Rewrite every bullet using: Problem → Your specific action → Measurable result. Prepare a 2-minute verbal walkthrough of your KPI design rationale for the call and medical survey dashboards. **Score Target:** Resume Clarity 3.4 → 4.5, Answer Structure 3.4 → 4.5"
+        },
+        {
+          "week": "Week 3",
+          "title": "Technical Depth — SQL, Snowflake, Power BI",
+          "content": "Prepare to explain: one non-trivial SQL query you wrote (joins, aggregations, window functions), how you structured data flows in Snowflake, how you designed KPIs end-to-end from business requirement to dashboard metric, and how you would diagnose a dashboard that is showing wrong numbers. **Score Target:** Role-Specific Technical 3.0 → 4.2, Technical Readiness 3.3 → 4.2"
+        },
+        {
+          "week": "Week 4",
+          "title": "Pressure Test — Full Mock Interviews",
+          "content": "Full-length mock: resume walkthrough → stakeholder conflict probe → technical follow-up on a dashboard → role motivation + 5-year plan. All answers must be under 2 minutes and structured. **Score Target:** Overall Average → 4.5"
+        }
+      ],
+      "content": "Complete each phase before moving to the next. Do not start Week 3 until your STAR stories can be delivered without hesitation."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Experience Block 1: Snowflake SQL Pipeline Fixes**\n\n**Interviewer Probe:** \"Walk me through the data flow issue you resolved. What was the root cause — schema mismatch, transformation logic, null handling? Show me what you changed.\"\n\n**Likely Struggle:** You may say \"I analysed and fixed the pipeline\" without being able to describe the actual query logic, the error pattern, or the before/after state. This collapses your strongest resume bullet.\n\n**Prep Drill:** Reconstruct one actual query fix. Prepare: \"The issue was [specific cause — e.g. a JOIN producing fan-out that inflated row counts]. I identified it by [tracing the transformation step by step, comparing row counts at each stage]. I fixed it by [rewriting the aggregation with a CTE / adding a deduplication step]. After the fix, [dashboard metric X aligned with source system].\"\n\n---\n\n**Experience Block 2: Call & Medical Survey Dashboards — 7 KPIs**\n\n**Interviewer Probe:** \"Walk me through how you designed the KPIs. Who defined the business question? How did you turn it into a metric? What was your data source?\"\n\n**Likely Struggle:** You may describe the dashboard visually (charts, filters) rather than the KPI logic: business question → metric definition → data model → aggregation rule → validation.\n\n**Prep Drill:** For at least 3 of your 7 KPIs, document: business question it answers, formula/logic, data source and grain, edge cases handled. Prepare: \"The stakeholder needed visibility into [X]. I defined the KPI as [formula]. I sourced data from [table/layer in Snowflake]. I validated by [cross-checking with the source system report].\"\n\n---\n\n**Experience Block 3: BRDs, User Stories, and Azure DevOps Backlog**\n\n**Interviewer Probe:** \"How did you translate a business requirement into a user story? Give me a specific example — the requirement and the user story you wrote.\"\n\n**Likely Struggle:** Vague answers like \"I gathered requirements and wrote user stories\" without showing the structure: acceptance criteria, edge cases, prioritisation rationale.\n\n**Prep Drill:** Reconstruct one specific user story from TCS. Format: \"As a [persona], I want [action] so that [outcome]. Acceptance criteria: [3 specific, testable conditions].\" Be ready to explain why you prioritised it in the sprint."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Situation:** Stakeholder challenge during UAT at TCS.\n\n**Baseline Answer (Score 2.5 — No Story Arc):**\n\"I did UAT with clients and got feedback. I incorporated the feedback and the dashboard was approved.\"\n\n**Fixed Answer (Score 4.5+ — Full STAR with Judgment):**\n\"During UAT for the call dashboard, the client flagged that one metric was significantly higher than their internal report. (Situation) My task was to validate the discrepancy and resolve it before sign-off — the client had a board presentation in three days. (Task) I traced the pipeline and found the SQL aggregation was counting calls at the raw event level rather than the session level — a definition mismatch between our data model and their internal system. I documented both definitions, presented the comparison to the client, and we agreed on updating our logic to match their business definition. I rewrote the aggregation and re-validated the numbers same day. (Action) The dashboard was approved on time. The client also asked us to apply the same fix to two other metrics, which we handled in the same sprint. (Result)\"\n\n**Justification:** This turns a passive \"I did UAT\" into a moment where you identified a problem, made a judgment call, communicated clearly, and delivered under pressure — the exact persona a BA interviewer is looking for."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "\"Tell me about a time a stakeholder disagreed with your analysis or your data. How did you handle it?\" **(Risk: Behavioural Story 2.5)**\n\n\"Walk me through a Snowflake SQL query you wrote for the dashboards. What were the joins and why?\" **(Risk: Role-Specific Technical 3.0)**\n\n\"How do you decide which KPIs to build? Who defines them — you or the business?\" **(Risk: Answer Structure 3.4 — must show judgment, not just execution)**\n\n\"How would you handle a situation where the business wants a metric that you believe is misleading or poorly defined?\" **(Risk: Behavioural Story 2.5)**\n\n\"You moved from a technical internship to a full analyst role at TCS. Tell me about a time you had to learn quickly to keep up.\" **(Risk: Behavioural Story 2.5)**\n\n\"Your resume mentions Power BI and Tableau. When would you use one over the other?\" **(Risk: Role-Specific Technical 3.0)**\n\n\"What does your MSc in Business Analytics add to your TCS experience? Why did you go back to study?\" **(Risk: Resume Clarity — must be a sharp, confident answer, not generic)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 2",
+              "label": "Session 1: Resume Walkthrough + Story Bank",
+              "duration": "45 minutes",
+              "objective": "Deliver structured resume walkthrough (Problem → Action → Result) and test 3 STAR stories from the bank under follow-up pressure."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: Stakeholder + Conflict Scenarios",
+              "duration": "50 minutes",
+              "objective": "Force judgment-heavy behavioural questions: disagreements, ambiguous requirements, competing priorities, and push for specificity on what Shubham personally decided."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: Technical Deep-Dive (SQL + KPI + BI)",
+              "duration": "45 minutes",
+              "objective": "Probe SQL query logic, Snowflake pipeline design, KPI methodology, and Power BI vs Tableau trade-offs — all anchored to actual TCS work."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: Full Interview Simulation",
+              "duration": "60 minutes",
+              "objective": "End-to-end mock: intro → resume walkthrough → stakeholder conflict story → technical follow-up → role motivation and career plan."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            { "label": "Session 1: Resume Narrative", "value": 9, "max": 10 },
+            { "label": "Session 2: Behavioural Depth", "value": 10, "max": 10 },
+            { "label": "Session 3: Technical Grounding", "value": 8, "max": 10 },
+            { "label": "Session 4: Full Simulation", "value": 10, "max": 10 }
+          ]
+        }
+      ],
+      "content": "**Session 1: Resume Walkthrough + Story Bank**\n\n**Focus:** Every project block must be delivered as a structured narrative. No listing. No passive descriptions.\n\n**Mentor Push:** After every statement, ask \"What did *you* specifically decide here?\" and \"What would have happened if you hadn't done that?\"\n\n---\n\n**Session 2: Stakeholder + Conflict Scenarios**\n\n**Focus:** Shubham has the raw material — UAT feedback, client-facing work, cross-team coordination. The goal is shaping that into stories with real tension and personal judgment.\n\n**Mentor Push:** Reject any answer that uses \"we\" without explaining what Shubham personally owned. Force \"I\" — \"I decided\", \"I pushed back\", \"I identified\".\n\n---\n\n**Session 3: Technical Deep-Dive**\n\n**Focus:** SQL pipeline logic, KPI design rationale, BI tool selection.\n\n**Mentor Push:** Ask for a specific query. If Shubham can't reconstruct one, that's a session failure — reschedule the technical prep and repeat.\n\n---\n\n**Session 4: Full Simulation**\n\n**Focus:** Real interview pacing — 60 minutes, no hints, no softening.\n\n**Mentor Push:** Score every answer 1–5 live. End the session with written feedback and a go/no-go decision on application readiness."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 3.12,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        { "label": "Resume & Experience Clarity", "current": "3.4", "target": "4.5" },
+        { "label": "Answer Structure", "current": "3.4", "target": "4.5" },
+        { "label": "Technical Readiness", "current": "3.3", "target": "4.2" },
+        { "label": "Role-Specific Technical", "current": "3.0", "target": "4.2" },
+        { "label": "Behavioural Story", "current": "2.5", "target": "4.5" }
+      ],
+      "content": "**Target Average Score: 4.5**\n\n**Measurable Change:**\n\n- Move from \"I fixed SQL pipelines and improved dashboards\" to \"I diagnosed a data aggregation error in a Snowflake pipeline that was inflating a key business metric, rewrote the transformation logic, and validated the fix against source data — reducing stakeholder escalations on that dashboard to zero.\"\n- Move from \"I did UAT with clients\" to \"During a UAT sign-off session, I identified a metric definition mismatch between our model and the client's system, surfaced the trade-offs clearly, and drove alignment on the correct definition before the board presentation.\"\n- The \"After\" Persona: A **Decisive Business Analyst** who narrates their experience with clear ownership, technical grounding, and evidence of stakeholder judgment — not just someone who \"supported\" a team."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Build your STAR story bank this week — 6 stories minimum",
+          "content": "Cover: stakeholder conflict, initiative taken, failure and lesson, ambiguous requirement clarified, decision you influenced, delivery under pressure. Write each one out in full before the first mock session."
+        },
+        {
+          "icon": "FileText",
+          "title": "Create a one-page \"Technical Evidence\" sheet",
+          "content": "Document one real SQL query (joins, logic, what it solved), 3 KPI definitions with formulas and data sources, and one dashboard troubleshooting walkthrough. This is your reference for Session 3."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Record yourself answering and review within 24 hours",
+          "content": "For every behavioural question you fumble, write the improved answer and say it aloud three times. The goal is fluency, not memorisation — the story must feel owned, not recited."
+        },
+        {
+          "icon": "Target",
+          "title": "Do NOT apply to target roles before Session 4 clearance",
+          "content": "If your mock score is below 4.0/5 in Behavioural Story after Session 2, pause applications and repeat the story-building drill. Applying before you're ready burns your best opportunities."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Enforce the \"I\" rule strictly in Sessions 1 and 2",
+          "content": "Every time Shubham says \"we\", stop and ask \"What did you specifically own or decide in that moment?\" Do not let team-level descriptions pass as personal answers."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Force technical reconstruction in Session 3",
+          "content": "Ask for an actual SQL query. If Shubham cannot reconstruct one from memory, mark Session 3 as incomplete and set a repeat before Session 4. Technical depth must be grounded in real work."
+        },
+        {
+          "icon": "FileText",
+          "title": "Give written scores and a specific \"better answer\" after each session",
+          "content": "For every answer that scores below 4, write a model answer using Shubham's actual experience. Track score improvement per skill area week-on-week."
+        },
+        {
+          "icon": "Ban",
+          "title": "Session 4 is a hard go/no-go gate",
+          "content": "Score every question live. If the final average is below 4.0/5, do not give a green light to apply. Reset with a one-week repeat of Sessions 2–3 before reassessing."
+        }
+      ],
+      "content": "**Non-negotiable rule:**\nShubham's gap is not knowledge — it's narration. Every drill, every mock, every written exercise must force him to say 'I decided', 'I identified', 'I pushed back'. Passive delivery is the only thing standing between his strong experience and a strong interview.\n\n**Timeline:**\n- Week 1: Build 6 STAR stories + rewrite resume bullets with \"So What\"\n- Week 2: Session 1 (resume narrative) + Session 2 (conflict and judgment)\n- Week 3: Session 3 (SQL + KPI + BI technical depth)\n- Week 4: Session 4 (full simulation + go/no-go decision)\n\nStart the STAR story bank today. Share it with your mentor before Session 1."
+    }
+  ]
+}

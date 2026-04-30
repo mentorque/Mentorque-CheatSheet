@@ -1,0 +1,120 @@
+{
+  "name": "Anushka Anil Padwal",
+  "email": "anushkapadwal02@gmail.com",
+  "targetRole": "Data Analyst",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": ["Resume & Experience Clarity", "Answer Structure", "Technical Readiness", "Role-Specific Technical", "Behavioural Story"],
+        "values": [2.2, 2.4, 2.4, 2.5, 2.5],
+        "maxValue": 5
+      },
+      "content": "**Core Issue:** Resume Articulation Risk — strong execution signals, weak explanation layer.\n\nYour profile shows solid hands-on exposure (Power BI dashboards, 50K+ dataset handling, ML models), but your Resume & Experience Clarity (2.2/5) and Answer Structure (2.4/5) indicate a critical issue: you cannot clearly explain what you built, why you built it, and what impact it had.\n\n**What this means:**\n- You rely on buzzwords (\"analysed data\", \"identified trends\", \"built dashboard\") instead of structured explanations\n- You cannot break down your projects into problem → approach → insight → business impact\n- Interviewers will quickly realize you did the work but don’t deeply own the thinking behind it\n\n**Primary Risk Confirmed:** You will pass resume screening but fail during the first 10–15 minutes of technical + project discussion."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Resume Walkthrough (First 15 mins):**\n- Interviewer: \"Tell me about your Power BI dashboards\"\n- Your answer: \"I built dashboards to track engagement and revenue metrics\"\n- Follow-up: \"What specific metrics? What problem were you solving?\"\n- You give generic answers like \"to improve decision-making\"\n- **Red flag:** No clarity on business problem or impact\n\n**Project Deep Dive:**\n- \"Explain your Netflix Content Dashboard\"\n- You describe features (genres, ratings, filters)\n- Missed: Why was this built? What decision did it enable?\n- Follow-up: \"What insight did you discover that wasn’t obvious before?\"\n- You struggle → signals shallow analytical thinking\n\n**Technical + Analytical Question:**\n- \"How did you analyse 50,000 customer records?\"\n- You say: \"Using SQL and Python\"\n- Missing: data pipeline, cleaning steps, analysis method, hypothesis\n- Interviewer conclusion: tool user, not problem solver\n\n**Behavioral + Analytical Blend:**\n- \"Tell me about a data-driven decision you influenced\"\n- Your answer stays generic without numbers or outcome\n- Interviewer conclusion: lacks ownership and impact thinking"
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "Resume Story Conversion",
+          "content": "Convert every bullet point into Problem → Approach → Insight → Impact format"
+        },
+        {
+          "week": "Week 2",
+          "title": "Project Deep-Dive Preparation",
+          "content": "Prepare structured explanations for all projects with metrics and reasoning"
+        },
+        {
+          "week": "Week 3",
+          "title": "Analytical Thinking Verbalization",
+          "content": "Practice explaining how you think, not just what you did"
+        },
+        {
+          "week": "Week 4",
+          "title": "Mock Interview Simulation",
+          "content": "Full interview flow with resume + case + behavioral"
+        }
+      ],
+      "content": "Do not move to the next stage without mastering the previous one."
+    },
+    {
+      "title": "Resume-Anchored Prep Prescription",
+      "sectionType": "content",
+      "content": "**SynccIT Data Analyst Role** \n\nWhat interviewers will probe:\n- \"What business problem did your dashboards solve?\"\n- \"How did you define success metrics?\"\n- \"What insight led to improved engagement?\"\n\nWhere you'll struggle:\n- Cannot explain *why* metrics were chosen\n- Cannot connect analysis to business decisions\n\nPreparation:\n1. For each dashboard → define problem clearly (e.g., \"stakeholders lacked visibility into retention trends\")\n2. List exact KPIs used (CTR, retention rate, churn %)\n3. Explain one key insight and its impact\n\n---\n\n**Netflix Content Analysis Project**\n\nWhat interviewers will probe:\n- \"What was the key insight from 8,700 titles?\"\n- \"What decision would Netflix take using your dashboard?\"\n\nWhere you'll struggle:\n- Focus on visuals, not insights\n\nPreparation:\n1. Identify 2–3 strong insights (e.g., regional content dominance, genre shifts)\n2. Convert them into business decisions (\"increase investment in X genre\")\n\n---\n\n**COVID-19 Prediction Model**\n\nWhat interviewers will probe:\n- \"Which model did you use and why?\"\n- \"How accurate was your prediction?\"\n\nWhere you'll struggle:\n- Cannot justify model choice or evaluation metric\n\nPreparation:\n1. Explain model selection (ARIMA / regression / etc.)\n2. Define evaluation metrics (RMSE, MAE)\n\n---\n\n**Cardiovascular Disease Prediction**\n\nWhat interviewers will probe:\n- \"What features influenced prediction most?\"\n- \"How would this be used in real healthcare?\"\n\nPreparation:\n1. List key features (age, BP, cholesterol)\n2. Explain model interpretability (feature importance)\n\n---\n\n**Core Gap Summary:**\nYou describe *what you built* but not *what problem you solved or what insight you generated*."
+    },
+    {
+      "title": "Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Use this structure for every answer:**\n\n1. **Problem:** What was the business or analytical problem?\n2. **Approach:** What data + tools + methods did you use?\n3. **Insight:** What did you discover?\n4. **Impact:** What changed because of it?\n\n**Bad Answer (Current Pattern):**\n\"I built a Power BI dashboard to analyse data\"\n\n**Fixed Answer:**\n\"At SynccIT, stakeholders lacked visibility into customer retention trends. I analysed 50,000+ records using SQL and Power BI to track retention and engagement KPIs. I identified that repeat engagement dropped after week 3, which led the marketing team to introduce targeted campaigns, improving engagement efficiency.\"\n\n**Key Shift:**\n- From tool-based explanation → impact-based explanation\n\nPractice rewriting all projects using this structure."
+    },
+    {
+      "title": "High-Risk Questions",
+      "sectionType": "content",
+      "content": "- \"What was the most impactful insight you generated?\"\n- \"How did your dashboard influence a business decision?\"\n- \"Walk me through your data analysis step-by-step\"\n- \"What would happen if your data was incomplete or biased?\"\n- \"How do you validate your analysis?\"\n\nThese questions directly expose your articulation gap."
+    },
+    {
+      "title": "Mock Interview Plan",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Timeline",
+          "type": "timeline",
+          "data": [
+            { "timing": "Week 2 Day 1", "label": "Mock 1: Resume Deep Dive", "duration": "45 min", "objective": "Explain all projects clearly" },
+            { "timing": "Week 2 Day 5", "label": "Mock 2: Analytical Thinking", "duration": "45 min", "objective": "Explain data decisions and insights" },
+            { "timing": "Week 3 Day 3", "label": "Mock 3: Behavioral + Analytical", "duration": "45 min", "objective": "Structured storytelling" },
+            { "timing": "Week 4 Day 2", "label": "Mock 4: Full Simulation", "duration": "60 min", "objective": "End-to-end interview" }
+          ]
+        },
+        {
+          "title": "Focus Areas",
+          "type": "bar",
+          "data": [
+            { "label": "Resume clarity", "value": 9, "max": 10 },
+            { "label": "Analytical thinking", "value": 8, "max": 10 },
+            { "label": "Storytelling", "value": 8, "max": 10 },
+            { "label": "Full interview", "value": 10, "max": 10 }
+          ]
+        }
+      ],
+      "content": "Mocks will aggressively test clarity, not just knowledge."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 2.4,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        { "label": "Resume articulation", "current": "2.2", "target": "4.5" },
+        { "label": "Answer clarity", "current": "2.4", "target": "4.5" },
+        { "label": "Analytical depth", "current": "2.5", "target": "4.5" }
+      ],
+      "content": "**After this plan, you will:**\n- Clearly explain every project in structured format\n- Convert analysis into business impact stories\n- Handle follow-up questions without confusion\n\n**Measurable Result:**\n- Mock 4 score ≥ 4.5/5\n- Zero vague answers like \"improved decision-making\" without proof"
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        { "icon": "FileCheck", "title": "Rewrite all projects", "content": "Use Problem → Approach → Insight → Impact" },
+        { "icon": "FileText", "title": "Practice daily", "content": "Speak answers aloud" },
+        { "icon": "RotateCcw", "title": "Fix weak answers immediately", "content": "Within 24 hours" },
+        { "icon": "Target", "title": "Do not skip mocks", "content": "Each is mandatory" }
+      ],
+      "mentorSteps": [
+        { "icon": "AlertCircle", "title": "Challenge vague answers", "content": "Force clarity" },
+        { "icon": "FileText", "title": "Give specific feedback", "content": "Point exact gaps" },
+        { "icon": "Ban", "title": "Do not simplify questions", "content": "Maintain pressure" }
+      ],
+      "content": "Discipline matters more than knowledge in this case."
+    }
+  ]
+}

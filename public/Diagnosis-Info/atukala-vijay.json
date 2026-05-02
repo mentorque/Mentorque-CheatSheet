@@ -1,0 +1,164 @@
+{
+  "name": "Atukala Vijay",
+  "email": "vijayatukala@gmail.com",
+  "targetRole": "Fixed Income / Data Analyst",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": ["Resume & Experience Clarity", "Answer Structure", "Technical Readiness", "Role-Specific Technical", "Behavioural Story"],
+        "values": [2.8, 3, 3.4, 2.8, 3],
+        "maxValue": 5
+      },
+      "content": "**Core Issue: Resume Articulation Risk with shallow financial reasoning depth.**\n\nYou have strong exposure to fixed income operations and data validation at LSEG, but your Resume & Experience Clarity (2.8/5) and Role-Specific Technical (2.8/5) indicate a major gap in explaining financial concepts and decision-making depth.\n\n**What this means:**\n- You describe work in terms of tasks (\"validated securities\", \"handled exceptions\") instead of financial impact or methodology\n- You lack structured explanations of fixed income concepts like yield curves, duration, pricing models\n- Interviewers will probe deeper into \"how\" and \"why\", where you are likely to give surface-level answers\n\n**Primary Risk Confirmed:** Resume Articulation Risk — your experience is strong, but you cannot convert it into compelling, technically grounded interview answers."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Resume Walkthrough:**\n- \"Explain your role at LSEG\"\n- You say: \"I validated fixed income securities and handled exceptions\"\n- Follow-up: \"How did you validate pricing? What models or logic did you use?\"\n- You struggle to explain yield-based pricing or data validation frameworks\n\n**Technical Finance Questions:**\n- \"What is the relationship between yield curves and bond prices?\"\n- You give textbook definition but cannot connect it to your project or work\n\n**Case/Scenario Questions:**\n- \"A bond price suddenly deviates from market — how would you investigate?\"\n- You mention \"checking data\" but fail to structure investigation (source, model, market movement, credit changes)\n\n**Behavioral + Analytical:**\n- \"Tell me about a time you improved a process\"\n- You say: \"I created validation rules in Excel\"\n- Missing: What problem? What was broken? What logic did you design? What impact beyond % improvement?"
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "Resume Deep Dive + Financial Concept Mapping",
+          "content": "Map each resume bullet to financial concepts and reasoning"
+        },
+        {
+          "week": "Week 2",
+          "title": "Answer Structuring (Finance + Data)",
+          "content": "Practice structured answers with financial logic and examples"
+        },
+        {
+          "week": "Week 3",
+          "title": "Scenario-Based Problem Solving",
+          "content": "Practice real-world financial problem cases"
+        },
+        {
+          "week": "Week 4",
+          "title": "Mock Interview Execution",
+          "content": "Full interview simulation with technical + behavioral blend"
+        }
+      ],
+      "content": "Follow strictly. Do not skip financial concept clarity phase."
+    },
+    {
+      "title": "Resume-Anchored Prep Prescription",
+      "sectionType": "content",
+      "content": "**Fixed Income Data Analyst (LSEG)**\n\nWhat interviewers will probe:\n- \"How do you validate bond pricing?\"\n- \"What factors affect fixed income pricing?\"\n- \"Explain your reconciliation framework\"\n\nWhere you'll struggle:\n- Cannot explain bond pricing formula (yield, coupon, duration)\n- Cannot connect reconciliation work to financial risk impact\n- Cannot explain why inconsistencies happen in market data\n\nPreparation required:\n1. Learn bond pricing logic: yield vs price inverse relationship\n2. Explain duration, convexity, and yield curve impact\n3. Break down your reconciliation process step-by-step\n4. Prepare answer: \"How does incorrect pricing affect downstream systems?\"\n\n---\n\n**Automation & Validation Framework (Excel + Power BI)**\n\nWhat interviewers will probe:\n- \"What rules did you implement?\"\n- \"How did you detect anomalies?\"\n- \"What logic reduced manual effort?\"\n\nWhere you'll struggle:\n- Cannot explain rule design logic\n- Cannot quantify how anomalies were detected\n- Cannot discuss edge cases\n\nPreparation required:\n1. List 5 example validation rules with logic\n2. Explain anomaly detection approach\n3. Show before vs after workflow\n4. Prepare metrics explanation (30% effort reduction)\n\n---\n\n**Yield Curve Analysis Project**\n\nWhat interviewers will probe:\n- \"Explain yield curve regimes\"\n- \"How do interest rates affect bond funds?\"\n- \"What econometric models did you use?\"\n\nWhere you'll struggle:\n- Cannot explain econometric model intuition\n- Cannot connect analysis to real-world investment decisions\n\nPreparation required:\n1. Explain normal, inverted, flat yield curves\n2. Connect interest rate changes to bond returns\n3. Simplify econometric explanation (not formula-heavy)\n4. Prepare: \"How would a portfolio manager use your analysis?\""
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Finance Answer Framework**\n\n1. Context: What was the financial problem?\n2. Approach: What method/model did you use?\n3. Reasoning: Why this method?\n4. Outcome: What impact?\n5. Reflection: What would you improve?\n\n**Bad Answer (Current Pattern):**\n\"I validated securities and handled exceptions\"\n\n**Improved Answer:**\n\"At LSEG, I worked on validating fixed income securities where pricing inconsistencies could impact institutional portfolios. I designed validation checks comparing yields, credit ratings, and benchmark curves. When discrepancies appeared, I traced them to data source mismatches or delayed rating updates. This reduced operational risk by 15% and improved pricing accuracy for downstream systems used by firms like BlackRock.\"\n\n**Key Fix:**\n- Add financial reasoning\n- Add structured explanation\n- Add impact"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 2",
+              "label": "Mock 1: Resume + Financial Depth",
+              "duration": "45 minutes",
+              "objective": "Explain LSEG work with financial logic"
+            },
+            {
+              "timing": "Week 2, Day 6",
+              "label": "Mock 2: Finance + Scenario Questions",
+              "duration": "45 minutes",
+              "objective": "Handle bond pricing and risk scenarios"
+            },
+            {
+              "timing": "Week 3, Day 4",
+              "label": "Mock 3: Behavioral + Analytical",
+              "duration": "45 minutes",
+              "objective": "Structured STAR answers with metrics"
+            },
+            {
+              "timing": "Week 4, Day 3",
+              "label": "Mock 4: Full Simulation",
+              "duration": "60 minutes",
+              "objective": "End-to-end interview readiness"
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Mock",
+          "type": "bar",
+          "data": [
+            { "label": "Mock 1: Financial clarity", "value": 8, "max": 10 },
+            { "label": "Mock 2: Scenario handling", "value": 8, "max": 10 },
+            { "label": "Mock 3: Behavioral structure", "value": 7, "max": 10 },
+            { "label": "Mock 4: Full performance", "value": 10, "max": 10 }
+          ]
+        }
+      ],
+      "content": "Focus on financial reasoning depth in all mocks."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 3,
+      "targetScore": 4.3,
+      "maxScore": 5,
+      "metrics": [
+        { "label": "Resume articulation", "current": "2.8", "target": "4.5" },
+        { "label": "Financial depth", "current": "3.2", "target": "4.5" },
+        { "label": "Scenario handling", "current": "3", "target": "4.2" },
+        { "label": "Behavioral clarity", "current": "3", "target": "4.3" }
+      ],
+      "content": "**After completing this plan, you will:**\n- Explain fixed income concepts with real-world linkage\n- Structure answers with financial reasoning\n- Handle scenario-based questions confidently\n- Convert operational experience into analytical narratives"
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Map all resume bullets to financial concepts",
+          "content": "No vague explanations allowed"
+        },
+        {
+          "icon": "FileText",
+          "title": "Practice structured answers daily",
+          "content": "Use finance answer framework"
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Revise weak answers within 24 hours",
+          "content": "Immediate improvement cycle"
+        },
+        {
+          "icon": "Target",
+          "title": "Reach 4.3+ in mocks before interviews",
+          "content": "Do not rush applications"
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "AlertCircle",
+          "title": "Probe financial depth aggressively",
+          "content": "Focus on reasoning, not definitions"
+        },
+        {
+          "icon": "FileText",
+          "title": "Give specific feedback",
+          "content": "Highlight weak explanations"
+        },
+        {
+          "icon": "Ban",
+          "title": "Avoid generic feedback",
+          "content": "Tie everything to resume"
+        }
+      ],
+      "content": "Strict execution required. No skipping fundamentals."
+    }
+  ]
+}

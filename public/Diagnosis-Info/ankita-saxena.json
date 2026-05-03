@@ -1,0 +1,165 @@
+{
+  "name": "Ankita Saxena",
+  "email": "ankitasaxena.idea@gmail.com",
+  "targetRole": "Data Engineering / Analytics",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": [
+          "Resume & Experience Clarity",
+          "Answer Structure",
+          "Technical Readiness",
+          "Role-Specific Technical",
+          "Behavioural Story"
+        ],
+        "values": [3.6, 3.2, 3.2, 2.6, 2],
+        "maxValue": 5
+      },
+      "content": "**Core Issue: Communication & Confidence Risk (Primary)**\n\nYou have strong industry experience (4+ years across HCL, CBRE, Fractal, Deloitte ecosystem), but your ability to *communicate depth, ownership, and decision-making* is significantly weaker than your actual capability.\n\n**What this means:**\n- Your resume shows high-impact work (ETL pipelines, Azure OpenAI, Power BI scaling), but in interviews you are likely to sound execution-focused rather than ownership-driven\n- Your answers lack structured storytelling and conviction, especially when explaining impact or technical decisions\n- Behavioural Story score (2/5) indicates weak articulation of leadership, conflict resolution, and ownership moments\n\n**Primary Risk Confirmed:**\nInterviewers will perceive you as a \"supporting contributor\" rather than a \"driving engineer/consultant\", even when your work suggests otherwise."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Resume Walkthrough (15–20 min):**\n- You explain: \"I implemented Azure OpenAI pipeline for call classification\"\n- Missing: Why this approach? What alternatives? What trade-offs?\n- Follow-up: \"How did you design the pipeline?\"\n- You describe steps vaguely instead of architecture → signals shallow ownership\n\n**Project Deep Dive:**\n- \"You reduced ETL time by 66%—how exactly?\"\n- Likely answer: \"Optimized queries and used Spark\"\n- Missing: Partitioning strategy? Execution plan? Bottleneck identification?\n- Result: Interviewer assumes optimization was guided, not owned\n\n**Behavioral Questions:**\n- \"Tell me about a time you influenced stakeholders\"\n- Your answer focuses on task execution (workshops, dashboards)\n- Missing: Conflict, persuasion, resistance handling, decision ownership\n- Red flag: Low leadership signal despite consulting experience\n\n**Confidence Signal Breakdown:**\n- Frequent hedging language: \"I think\", \"we tried\", \"it helped\"\n- Lack of quantified justification behind claims\n- No clear stance when defending decisions"
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "Structured communication foundation",
+          "content": "Learn and apply structured answer frameworks (STAR + Technical layering)"
+        },
+        {
+          "week": "Week 2",
+          "title": "Project deep-dive articulation",
+          "content": "Break down each major project into architecture, decisions, trade-offs"
+        },
+        {
+          "week": "Week 3",
+          "title": "Behavioral story strengthening",
+          "content": "Prepare 5 strong leadership/conflict stories with measurable outcomes"
+        },
+        {
+          "week": "Week 4",
+          "title": "Confidence + mock execution",
+          "content": "Simulate interviews with strict probing and eliminate hesitation"
+        }
+      ],
+      "content": "Do not move to the next stage until answers feel structured and repeatable without hesitation."
+    },
+    {
+      "title": "Resume-Anchored Prep Prescription",
+      "sectionType": "content",
+      "content": "**Azure OpenAI Pipeline (MJ Scannell Safety)**\n\nWhat will be asked:\n- \"Explain your pipeline architecture end-to-end\"\n- \"Why Azure OpenAI vs traditional NLP?\"\n- \"How did you reduce processing time from 1 day to 15 minutes?\"\n\nWhere you'll struggle:\n- Lack of architectural clarity (data flow, ingestion, processing layers)\n- Cannot explain latency improvements in technical terms\n\nPreparation:\n1. Draw pipeline: ingestion → preprocessing → model inference → storage → visualization\n2. Identify bottleneck before optimization\n3. Explain scaling strategy and cost trade-offs\n\n---\n\n**ETL Optimization (HCL Tech)**\n\nWhat will be asked:\n- \"How did you achieve 66% performance improvement?\"\n- \"What Spark optimizations did you apply?\"\n\nWhere you'll struggle:\n- Generic answers like \"optimized queries\"\n\nPreparation:\n1. Learn partitioning, caching, and execution plan basics\n2. Explain before vs after architecture\n3. Quantify improvements with reasoning\n\n---\n\n**Power BI + Stakeholder Work (Fractal, CBRE)**\n\nWhat will be asked:\n- \"How did you handle conflicting stakeholder requirements?\"\n- \"How did you decide KPI definitions?\"\n\nWhere you'll struggle:\n- Weak behavioral storytelling\n\nPreparation:\n1. Prepare 2 conflict stories\n2. Show decision-making, not just execution\n3. Add measurable impact\n\n---\n\n**ESG Analytics Project (Deloitte)**\n\nWhat will be asked:\n- \"Explain medallion architecture implementation\"\n- \"How did you ensure 98% data integrity?\"\n\nPreparation:\n1. Break into Bronze-Silver-Gold layers\n2. Explain validation checks and data quality metrics\n3. Connect to business outcome"
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Your Current Pattern (Weak):**\n\"I worked on ETL pipelines and improved performance using Spark.\"\n\n**Fixed Structure:**\n\"In our ETL pipeline at HCL, processing time was ~6 hours due to inefficient joins and lack of partitioning. I identified the bottleneck using execution plans and optimized it by partitioning data on frequently queried columns and caching intermediate results. This reduced runtime by 66% while improving downstream query latency by ~50%. The trade-off was increased memory usage, which we controlled through cluster tuning.\"\n\n**Use this framework:**\n1. Problem (clear, quantified)\n2. Action (technical + decision)\n3. Trade-off (very important)\n4. Outcome (measurable)\n5. Reflection (what you'd improve)\n\n**Behavioral Fix:**\nAlways include:\n- Conflict or challenge\n- Your decision\n- Impact\n- What changed because of you"
+    },
+    {
+      "title": "High-Risk Questions",
+      "sectionType": "content",
+      "content": "- \"Walk me through your Azure OpenAI pipeline architecture\"\n- \"How exactly did you achieve 66% ETL improvement?\"\n- \"Tell me about a disagreement with a stakeholder\"\n- \"Why did you choose Spark over traditional ETL tools?\"\n- \"How do you ensure data quality in production pipelines?\"\n- \"Explain one project where you made a key technical decision\"\n\nThese questions directly expose your communication and confidence gaps."
+    },
+    {
+      "title": "Mock Interview Plan",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2 Day 1",
+              "label": "Mock 1: Resume Deep Dive",
+              "duration": "45 min",
+              "objective": "Force structured explanation of projects"
+            },
+            {
+              "timing": "Week 2 Day 5",
+              "label": "Mock 2: Technical Depth",
+              "duration": "50 min",
+              "objective": "Probe architecture and trade-offs"
+            },
+            {
+              "timing": "Week 3 Day 3",
+              "label": "Mock 3: Behavioral + Technical",
+              "duration": "45 min",
+              "objective": "Test storytelling and confidence"
+            },
+            {
+              "timing": "Week 4 Day 2",
+              "label": "Mock 4: Full Simulation",
+              "duration": "60 min",
+              "objective": "End-to-end interview readiness"
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas",
+          "type": "bar",
+          "data": [
+            { "label": "Communication", "value": 9, "max": 10 },
+            { "label": "Technical Depth", "value": 7, "max": 10 },
+            { "label": "Behavioral", "value": 8, "max": 10 },
+            { "label": "Confidence", "value": 10, "max": 10 }
+          ]
+        }
+      ],
+      "content": "Mocks must focus on breaking vague answers and forcing structured articulation."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 3.1,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        { "label": "Communication", "current": "3.2", "target": "4.5" },
+        { "label": "Technical articulation", "current": "3.2", "target": "4.5" },
+        { "label": "Behavioral storytelling", "current": "2", "target": "4.5" },
+        { "label": "Confidence", "current": "2.5", "target": "4.5" }
+      ],
+      "content": "**After this plan:**\n- You will sound like a decision-maker, not executor\n- You will explain projects with clarity and confidence\n- You will handle follow-ups without hesitation\n- You will present strong leadership signals\n\n**Key shift:** From \"I worked on\" → \"I drove and decided\""
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Prepare all projects in depth",
+          "content": "Before Mock 1"
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Fix weak answers immediately",
+          "content": "Within 24 hours"
+        },
+        {
+          "icon": "Target",
+          "title": "Achieve 4.5+ before moving ahead",
+          "content": "No shortcuts"
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "AlertCircle",
+          "title": "Probe deeply",
+          "content": "Do not accept vague answers"
+        },
+        {
+          "icon": "FileText",
+          "title": "Give specific feedback",
+          "content": "After each mock"
+        }
+      ],
+      "content": "**Rule:** If Mock 4 < 4.5, repeat cycle.\n\nStart immediately with project breakdown."
+    }
+  ]
+}

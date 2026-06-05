@@ -1,0 +1,174 @@
+{
+  "name": "Teja Achutha",
+  "email": "Tejaachutha06@gmail.com",
+  "targetRole": "Data Analyst",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": ["Resume & Experience Clarity", "Answer Structure", "Technical Readiness", "Role-Specific Technical", "Behavioural Story"],
+        "values": [2, 2.2, 2.9, 1.8, 1.75],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: The \"Communication & Confidence\" Analyst with an Undersold Resume.**\n\nTeja, on paper you look like a strong Ireland-market candidate: 3+ years at Haven Ventures, MSc Data Science & Statistical Learning from University of Limerick, AWS Solutions Architect certification, Stamp 1G availability, and headline outcomes (€300K–€600K weekly sales pipeline, 15,000+ lead conversions, 50,000+ weekly data points in Power BI, 60% HR workload reduction). The tools stack is credible—Python, SQL, Power BI, Tableau, NLP, predictive modelling, AWS.\n\nHowever, your Resume & Experience Clarity score of **2.0** alongside Role-Specific Technical **1.8** and Behavioural Story **1.75** reveals a severe **Communication & Confidence Risk**: your resume *oversells* relative to what you can defend live. Interviewers will probe the €300K pipeline, segmentation models, and NLP pipelines—and if answers lack structure, metrics, or personal ownership, you will look like someone who inherited outcomes rather than drove them.\n\n**The Mapping Rule Analysis:**\n\nTechnical Readiness (2.9) shows you know analytics concepts at a surface level, but Role-Specific Technical (1.8) indicates you struggle when asked *how* clustering was chosen, *how* lead scoring was validated, or *what* precision/recall looked like on fraud detection. Answer Structure (2.2) means STAR flow collapses under pressure. Behavioural Story (1.75)—your lowest score—suggests stakeholder partnership bullets (Sales, Marketing, Operations) read well on the page but do not become convincing conflict-and-impact stories in the room.\n\nThis \"Big Numbers on Paper, Small Answers in Person\" persona is your primary hurdle: Dublin hiring managers will expect you to narrate Haven Ventures like a commercial owner, not a tool operator."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: The Resume Walkthrough (10–15m)**\n\n**The Red Flag:** \"Teja, walk me through how your lead scoring pipeline supported a €300K–€600K weekly pipeline and 15,000+ conversions. What was your model, how did you measure success, and what was *your* specific contribution?\"\n\n**Justification:** Resume Clarity at 2.0 means impressive metrics may sound unverifiable or team-owned when spoken aloud. With Answer Structure at 2.2, you risk listing Python/SQL steps without baseline → method → validation → commercial result.\n\n---\n\n**Scenario B: The Technical / ML Follow-Up (20–30m)**\n\n**The Red Flag:** \"You built customer segmentation with Scikit-learn—what algorithm did you use, how many segments, what features, and how did Marketing act differently per segment?\"\n\n**Justification:** Role-Specific Technical 1.8 is a critical gap. Follow-ups on clustering vs. classification, feature selection, model evaluation, and business activation will expose shallow depth—you may default to \"I used Python and Power BI\" without methodological defence.\n\n---\n\n**Scenario C: The Behavioural + Stakeholder Probe (10–15m)**\n\n**The Red Flag:** \"Tell me about a time Sales or Marketing disagreed with your data definitions or KPI framework. What was the conflict, what did you recommend, and what changed because of you?\"\n\n**Justification:** Behavioural Story 1.75 is your weakest dimension. You have cross-functional KPI work, but without rehearsed STAR structure the tension, your judgment, and measurable resolution disappear—you describe collaboration, not leadership."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "Resume Truth Audit + STAR Bank",
+          "content": "For every Haven Ventures bullet, write: Problem → Your action → Validation method → Metric. Build 6 STAR stories (lead scoring, segmentation, NLP sentiment, Power BI KPIs, HR automation, stakeholder KPI alignment). Record each in 90 seconds. **Score Target:** Resume Clarity 2.0 → 3.5, Answer Structure 2.2 → 3.8"
+        },
+        {
+          "week": "Week 2",
+          "title": "Commercial Metric Defence",
+          "content": "Defend €300K–€600K pipeline, 15,000+ conversions, and 50,000+ weekly data points: definitions, baselines, timeframes, data sources, and your role vs. team. **Score Target:** Role-Specific Technical 1.8 → 3.5, Resume Clarity 2.0 → 4.0"
+        },
+        {
+          "week": "Week 3",
+          "title": "ML & NLP Technical Depth",
+          "content": "Prepare verbal defences for segmentation (algorithm, features, evaluation), NLP sentiment pipeline (NLTK/Googletrans workflow, multilingual handling), and fraud detection (preprocessing, features, model metrics). One SQL query + one DAX measure explained aloud. **Score Target:** Technical Readiness 2.9 → 4.2, Role-Specific Technical 1.8 → 4.0"
+        },
+        {
+          "week": "Week 4",
+          "title": "The Pressure Test",
+          "content": "Full Ireland DA mock: Tell Me About Yourself → Haven Ventures commercial walkthrough → ML follow-up → behavioural stakeholder conflict → Stamp 1G / AWS / UL MSc motivation. No notes, no vague team language. **Score Target:** Overall Average → 4.5"
+        }
+      ],
+      "content": "Complete each phase before moving to the next. Week 1 is mandatory—your resume numbers require proof, not repetition."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Experience: Haven Ventures — Lead Scoring & €300K–€600K Weekly Pipeline**\n\n**Interviewer Probe:** \"How did your lead scoring model work? What features, what threshold, how did 15+ tele-calling agents use the output, and how did you tie scores to pipeline value?\"\n\n**Likely Struggle:** Mapping to Role-Specific Technical (1.8), you may cite \"Python and SQL pipelines\" without feature list, scoring logic, conversion attribution, or how €300K–€600K was calculated weekly.\n\n**Prep Drill:** Document: (1) lead definition and data source, (2) features (recency, engagement, demographic, sentiment signals), (3) scoring formula or model type, (4) agent workflow, (5) conversion tracking over 3 years. Practice: \"We scored leads 0–100 using [features]; agents prioritised top decile lists refreshed [frequency]; conversions were verified via [method], contributing to 15,000+ over 3 years with pipeline value tracked as [definition].\"\n\n---\n\n**Experience: Customer Segmentation (Scikit-learn) — 15,000+ Conversions**\n\n**Interviewer Probe:** \"Clustering or classification—which did you use and why? How many segments, what features, and what did Marketing do differently for each?\"\n\n**Likely Struggle:** You might say \"segmentation enabled targeted outreach\" without algorithm choice, silhouette/elbow rationale, or campaign actions per segment.\n\n**Prep Drill:** Name algorithm (K-Means, RF classifier, etc.), features, segment count, evaluation metric, and one example campaign change per segment tied to conversion lift.\n\n---\n\n**Experience: NLP Sentiment Pipeline (NLTK, Googletrans)**\n\n**Interviewer Probe:** \"How did you handle multilingual sentiment at scale? What preprocessing, what sentiment scoring, and how did insights reduce churn indicators?\"\n\n**Likely Struggle:** Tool names without pipeline steps: tokenisation, translation accuracy risks, sentiment aggregation, and how Marketing changed targeting.\n\n**Prep Drill:** Draw pipeline: ingest → language detect → translate → tokenise → score → aggregate by segment → dashboard in Power BI. Define one churn indicator you moved and how you measured it.\n\n---\n\n**Experience: HR CV Screening Automation (60% Workload Reduction)**\n\n**Interviewer Probe:** \"What did the Python regex/Pandas pipeline actually do? How did you measure 7 days → 3 days, and what errors did you watch for?\"\n\n**Likely Struggle:** Generic \"automation saved time\" without rules, volume, accuracy checks, or HR feedback loop.\n\n**Prep Drill:** Specify fields extracted, rejection rules, weekly CV volume, before/after turnaround measurement, and false-positive handling.\n\n---\n\n**Project: Fintech Fraud Detection**\n\n**Interviewer Probe:** \"What model did you use, how did you handle class imbalance, and what metric proved you reduced manual review?\"\n\n**Likely Struggle:** \"Statistical ML project\" framing without precision/recall, threshold choice, or business cost of false negatives.\n\n**Prep Drill:** Document preprocessing, features, model comparison, evaluation metrics, and what % of cases still needed manual review after deployment."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Experience:** Lead scoring pipeline supporting €300K–€600K weekly pipeline at Haven Ventures.\n\n**Baseline Answer (Score 2.2 — Communication & Confidence Weakness):**\n\"At Haven Ventures I worked on lead scoring using Python and SQL. I built pipelines for the sales team. We had tele-calling agents and I gave them lead lists. It helped conversions and the pipeline was around €300K to €600K per week. I also made Power BI dashboards.\"\n\n**Fixed Answer (Score 4.5+ — Structured & Confident):**\n\"Haven Ventures' sales team was calling unqualified leads—conversion rates were low and agents wasted time on poor-fit prospects. (Situation) I was asked to build a repeatable scoring system that prioritised leads most likely to convert. (Task) I engineered a Python and SQL pipeline that joined CRM, engagement, and demographic data, applied a weighted scoring model based on [specific features], and refreshed ranked lists daily for 15+ tele-calling agents. (Action) We tracked verified conversions weekly in Power BI dashboards across 50,000+ data points; over three years this contributed to 15,000+ verified conversions and supported a €300K–€600K weekly pipeline by ensuring agents focused on the highest-propensity segments first. (Result)\"\n\n**Justification:** The fixed version uses STAR, defines *your* engineering work, connects scoring to commercial outcomes, and sounds defensible under follow-up—targeting Resume Clarity, Answer Structure, and Role-Specific Technical gaps."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "\"How exactly did you calculate €300K–€600K weekly pipeline value—what revenue definition, what data source, and what was your personal contribution vs. the wider sales team?\" **(Risk: Resume Clarity 2.0)**\n\n\"Walk me through your Scikit-learn segmentation model—algorithm, features, segment count, and how you validated it wasn't random noise.\" **(Risk: Role-Specific Technical 1.8)**\n\n\"How did you attribute 15,000+ conversions to your data work—not just sales effort?\" **(Risk: Resume Clarity 2.0 + Communication)**\n\n\"Explain your multilingual NLP pipeline end-to-end. Where does Googletrans introduce error and how did you QA sentiment scores?\" **(Risk: Role-Specific Technical 1.8)**\n\n\"Tell me about a time Marketing or Sales pushed back on your KPI definitions. What was the conflict and how did you resolve it?\" **(Risk: Behavioural Story 1.75)**\n\n\"Your fraud detection project—what was precision and recall, and how did you choose the decision threshold?\" **(Risk: Role-Specific Technical 1.8)**\n\n\"Why Ireland, why now—you have Stamp 1G and AWS cert; how does Haven Ventures experience transfer to a Dublin DA role?\" **(Risk: Answer Structure 2.2)**\n\n\"How did you reduce CV screening from 7 days to 3 days—what automation rules, what volume, and how did HR validate quality?\" **(Risk: Technical Readiness 2.9)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: Tell Me About Yourself + Haven Ventures Walkthrough",
+              "duration": "45 minutes",
+              "objective": "Defend commercial metrics (pipeline, conversions) with STAR structure. Raise Resume Clarity and Answer Structure."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: ML & Analytics Deep-Dive",
+              "duration": "50 minutes",
+              "objective": "Segmentation, lead scoring, NLP sentiment, fraud detection. Push on algorithms, validation, and business activation."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: Behavioural + Cross-Functional Stakeholders",
+              "duration": "45 minutes",
+              "objective": "Sales/Marketing/Operations KPI alignment, conflict stories, personal ownership. Target Behavioural Story 1.75 → 4.0."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: Full Ireland DA Simulation",
+              "duration": "60 minutes",
+              "objective": "Resume + technical + behavioural + visa/cert motivation under pressure. Gate before applications."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            { "label": "Session 1: Metrics + Structure", "value": 10, "max": 10 },
+            { "label": "Session 2: Role-Specific ML Depth", "value": 10, "max": 10 },
+            { "label": "Session 3: Behavioural + Stakeholders", "value": 10, "max": 10 },
+            { "label": "Session 4: Full simulation", "value": 10, "max": 10 }
+          ]
+        }
+      ],
+      "content": "**Session 1: Tell Me About Yourself + Haven Ventures Walkthrough**\n\n**Focus:** 90-second intro (UL MSc + Haven Ventures commercial impact + Stamp 1G availability) and two STAR stories with defended metrics.\n\n**Mentor Push:** Stop team-language (\"we did\"). Require \"I built / I defined / I validated\" for every claim. Interrupt vague €300K answers—demand calculation method.\n\n---\n\n**Session 2: ML & Analytics Deep-Dive**\n\n**Focus:** Segmentation, lead scoring, NLP pipeline, Power BI KPIs (50,000+ weekly points), fraud detection project.\n\n**Mentor Push:** Ask \"How do you know?\" after every number. If Teja cannot explain algorithm or validation, assign one-page technical defence before Session 3.\n\n---\n\n**Session 3: Behavioural + Cross-Functional Stakeholders**\n\n**Focus:** KPI framework alignment across Sales/Marketing/Operations; times data changed a campaign or hiring decision.\n\n**Mentor Push:** Reject generic partnership answers. Demand conflict, your recommendation, and measurable outcome.\n\n---\n\n**Session 4: Full Ireland DA Simulation**\n\n**Focus:** Realistic Dublin hiring loop—commercial DA narrative, SQL/Python, ML summary, behavioural, right-to-work.\n\n**Mentor Push:** Simulate scepticism on big resume numbers. Pass only if mock average ≥ 4.5/5."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 2.1,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        { "label": "Resume walkthrough", "current": "2", "target": "4.5" },
+        { "label": "Answer Structure", "current": "2.2", "target": "4.5" },
+        { "label": "Role-Specific Technical", "current": "1.8", "target": "4.5" },
+        { "label": "Behavioural + Confidence", "current": "1.75", "target": "4.5" }
+      ],
+      "content": "**Target Average Score: 4.5**\n\n**Measurable Change:**\n\n- Move from \"€300K–€600K pipeline and 15,000+ conversions\" as headline claims to defended narratives with definitions, baselines, validation, and personal ownership.\n- Move from \"segmentation and NLP in Python\" to named algorithms, features, evaluation metrics, and specific Marketing/Sales actions per segment.\n- The \"After\" Persona: A **confident commercial Data Analyst** who sounds as strong live as the resume reads—able to defend ML, KPIs, and stakeholder impact under Ireland interview pressure."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Complete Week 1 Resume Truth Audit before Session 1",
+          "content": "Every Haven Ventures metric needs a one-paragraph defence you can deliver without notes. No Session 1 until €300K pipeline and 15,000+ conversions have clear definitions."
+        },
+        {
+          "icon": "FileText",
+          "title": "One-page technical defence per ML/NLP project",
+          "content": "Segmentation, lead scoring, sentiment pipeline, fraud detection—each gets: problem, data, method, metrics, business action. Fix gaps within 24 hours of each mock."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Daily out-loud drill (10 minutes)",
+          "content": "Practice the fixed lead-scoring answer daily. Ireland interviews punish hesitation on commercial numbers—pace and clarity matter as much as content."
+        },
+        {
+          "icon": "Target",
+          "title": "Do NOT mass-apply until Session 4 ≥ 4.5/5",
+          "content": "Resume Clarity 2.0 + Role-Specific Technical 1.8 will fail screens despite strong credentials. Use mocks as gates."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Challenge every big number",
+          "content": "€300K–€600K, 15,000+, 50,000+ weekly points, 60% HR reduction—probe until validated or honestly bounded. Do not let impressive resume language substitute for proof."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Force personal ownership language",
+          "content": "Replace \"we\" with \"I\" in every story. Behavioural 1.75 requires explicit conflict and resolution—not team summaries."
+        },
+        {
+          "icon": "FileText",
+          "title": "Written feedback: content + delivery",
+          "content": "Track weekly movement on Resume Clarity, Role-Specific Technical, and Behavioural. Note filler words, trailing endings, and unverifiable claims."
+        },
+        {
+          "icon": "Ban",
+          "title": "Reset expectations",
+          "content": "Passing Session 4 means interview-competitive, not guaranteed offers. Dublin market also tests domain fit and live technical depth—keep pressure realistic."
+        }
+      ],
+      "content": "**Non-negotiable rule:**\nIf Session 4 score is <4.5/5, repeat Sessions 2–4 in Week 5. Do not mass-apply to Ireland DA roles until commercial metrics and ML depth are defensible live.\n\n**Timeline:**\n- Week 1: Resume truth audit + 6 STAR recordings\n- Week 2: Sessions 1–2 (Walkthrough + ML deep-dive)\n- Week 3: Session 3 (Behavioural + stakeholders)\n- Week 4: Session 4 (Full simulation)\n- Week 5: Buffer for repetition if needed\n\nStart Week 1 today. Email your mentor when all metric defences and STAR recordings are complete."
+    }
+  ]
+}

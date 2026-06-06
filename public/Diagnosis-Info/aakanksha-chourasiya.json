@@ -1,0 +1,174 @@
+{
+  "name": "Aakanksha Chourasiya",
+  "email": "aakankshachourasiya15@gmail.com",
+  "targetRole": "Business Analyst",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": ["Resume & Experience Clarity", "Answer Structure", "Technical Readiness", "Role-Specific Technical", "Behavioural Story"],
+        "values": [3.4, 2.8, 3.2, 2.8, 2.75],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: The \"Communication & Confidence\" Business Analyst.**\n\nAakanksha, your profile is genuinely strong for the Ireland market: MSc Business Analytics (First-Class Honours, University of Limerick), Microsoft PL-300 and AZ-900 certified, Google Data Analytics certified, and 2+ years across Changepay (50,000+ transactional records, zero critical reporting errors, pricing and expansion influence), Three Ireland (80+ Salesforce cases resolved weekly, governance and data-quality improvements for a public sector client), and Indaco Jeans Factory (18% inventory discrepancy reduction). Your Resume & Experience Clarity score of 3.4 reflects credible, well-structured experience on the page.\n\nHowever, your Answer Structure (2.8), Role-Specific Technical (2.8), and Behavioural Story (2.75) reveal a **Communication & Confidence Risk**: you know the work, but under interview pressure you may sound less decisive, less structured, and less personally owning than your resume and certifications suggest.\n\n**The Mapping Rule Analysis:**\n\nTechnical Readiness (3.2) shows you can discuss BI tools, SQL, Salesforce, and analytics workflows, but Role-Specific Technical (2.8) indicates follow-ups may expose gaps—defending a specific DAX measure, explaining how you validated zero critical errors at Changepay, or walking through your Salesforce case-resolution workflow at Three Ireland. Answer Structure (2.8) means STAR flow can weaken when interrupted. Behavioural Story (2.75) suggests stakeholder stories (onshore/offshore alignment, vendor performance recommendations, business simulation team lead) may read as collaboration rather than *your* judgment and impact.\n\nThis \"Certified and Capable, But Not Yet Commanding\" persona is your primary hurdle: Ireland BA interviews will expect PL-300-level narrative confidence—you must sound like the analyst who influenced pricing decisions and fixed public-sector reporting risk, not someone who cleaned data behind the scenes."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: The Resume Walkthrough (10–15m)**\n\n**The Red Flag:** \"Aakanksha, walk me through how you analysed 50,000+ Changepay transaction records and influenced pricing and expansion decisions. What did you find and what changed because of you?\"\n\n**Justification:** With Answer Structure at 2.8, you may describe dashboards and data cleaning without a crisp narrative: business problem → analysis method → insight → decision → outcome. Interviewers hear activity, not commercial impact.\n\n---\n\n**Scenario B: The Technical / BI Follow-Up (20–30m)**\n\n**The Red Flag:** \"You're PL-300 certified—explain one DAX measure you built for revenue-by-campus tracking. How did you handle data modelling, and how did you validate zero critical errors in executive reports?\"\n\n**Justification:** Role-Specific Technical 2.8 means certification may outpace live defence. Follow-ups on Power Query steps, data validation rules, or SQL logic behind failure-rate analysis can expose hesitation.\n\n---\n\n**Scenario C: The Behavioural + Stakeholder Probe (10–15m)**\n\n**The Red Flag:** \"Tell me about a time onshore and offshore teams disagreed on data, or a senior stakeholder challenged your analysis. What was the conflict, what did you recommend, and what changed?\"\n\n**Justification:** Behavioural Story 2.75 is your relative weak point. You have rich material (Three Ireland cross-team data discrepancies, Changepay vendor performance insights, business simulation leadership), but without rehearsed STAR structure the tension and your personal judgment get lost."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "STAR Story Bank + Opening Confidence",
+          "content": "Build 6 STAR stories: Changepay pricing/expansion insight, zero-error reporting validation, transaction failure pattern discovery, Three Ireland Salesforce governance fix, onshore/offshore data alignment, business simulation leadership (1st of 18 teams). Record each in 90 seconds. **Score Target:** Answer Structure 2.8 → 4.0, Behavioural Story 2.75 → 3.8"
+        },
+        {
+          "week": "Week 2",
+          "title": "PL-300 Defence Drill",
+          "content": "Prepare verbal walkthroughs: one Power BI data model, one DAX measure, one Power Query transformation, and your validation process for executive reports. Tie each to Changepay or Three Ireland. **Score Target:** Role-Specific Technical 2.8 → 4.2"
+        },
+        {
+          "week": "Week 3",
+          "title": "Domain Deep-Dives (Fintech + Retail + Telecom)",
+          "content": "Defend Changepay payment failure analysis, Indaco ERP/HubSpot reconciliation (18% discrepancy reduction), and Three Ireland Salesforce case patterns. Practice one SQL query and one stakeholder narrative aloud. **Score Target:** Technical Readiness 3.2 → 4.3, Resume Clarity 3.4 → 4.5"
+        },
+        {
+          "week": "Week 4",
+          "title": "The Pressure Test",
+          "content": "Full Ireland BA mock: Tell Me About Yourself → Changepay commercial walkthrough → Power BI/Salesforce technical → behavioural stakeholder conflict → MSc/PL-300/career pivot motivation. No notes, no trailing endings. **Score Target:** Overall Average → 4.5"
+        }
+      ],
+      "content": "Complete each phase before moving to the next. Week 1 builds the confidence foundation everything else depends on."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Experience: Changepay — 50,000+ Transaction Analysis & Pricing Influence**\n\n**Interviewer Probe:** \"What specific trends did you find in order and payment failures? How did leadership use your dashboards to change pricing or campus expansion?\"\n\n**Likely Struggle:** Mapping to Role-Specific Technical (2.8), you may say \"I built Power BI dashboards\" without naming metrics, failure definitions, campus/vendor comparisons, or the exact decision that changed.\n\n**Prep Drill:** Document: (1) data sources and volume, (2) key metrics (failure rate, peak order times, revenue by campus/vendor), (3) one insight that changed a decision, (4) validation for zero critical errors. Practice: \"I analysed 50k+ payment records, tracked failure rates by campus and vendor, surfaced that [Campus X / Vendor Y] drove [Z]% of failures—leadership used this to [pricing/expansion action].\"\n\n---\n\n**Experience: Changepay — Zero Critical Errors in Executive Reports**\n\n**Interviewer Probe:** \"How exactly did you validate merchant and delivery data before reports reached senior stakeholders? What checks caught errors and what was your QA process?\"\n\n**Likely Struggle:** Claiming \"zero critical errors\" without describing validation steps, reconciliation rules, or escalation when vendor data was inconsistent.\n\n**Prep Drill:** List: data sources, cleaning rules, cross-checks between vendor and campus datasets, sign-off process, and one example error you caught before it reached leadership.\n\n---\n\n**Experience: Three Ireland — 80+ Salesforce Cases Weekly & Governance**\n\n**Interviewer Probe:** \"Walk me through how you analyse and resolve Salesforce data cases for a public sector client. What patterns did you find in reporting trackers, and what process improvement did you propose?\"\n\n**Likely Struggle:** Describing \"80+ cases weekly\" without root cause categories, pattern detection method, or the specific governance fix you recommended.\n\n**Prep Drill:** Write: case types, detection method (tracker analysis, Salesforce fields), stakeholder groups involved, proposed workflow change, and how data consistency improved for leadership reporting.\n\n---\n\n**Experience: Three Ireland — Onshore/Offshore Data Discrepancies**\n\n**Interviewer Probe:** \"What caused recurring delays between onshore and offshore teams, and what targeted fixes did you recommend?\"\n\n**Likely Struggle:** Generic \"collaboration\" without naming the discrepancy type, investigation steps, or measurable improvement in process consistency.\n\n**Prep Drill:** STAR story: specific data mismatch → investigation method → stakeholder conversation → fix adopted → operational outcome.\n\n---\n\n**Experience: Indaco Jeans Factory — ERP & HubSpot Reconciliation (18% Reduction)**\n\n**Interviewer Probe:** \"How did you identify inventory discrepancies between ERP and HubSpot, and how did you measure the 18% reduction?\"\n\n**Likely Struggle:** Stating \"built dashboards\" without reconciliation logic, baseline discrepancy rate, or how production planning used the consolidated view.\n\n**Prep Drill:** Define data sources, mismatch types, dashboard metrics, baseline vs. after measurement, and one operational decision supported by the reports."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Experience:** Influencing pricing and expansion decisions from Changepay transaction analysis.\n\n**Baseline Answer (Score 2.8 — Communication & Confidence Weakness):**\n\"At Changepay I was a Junior Business Analyst. I worked with transaction and payment data. I built Power BI dashboards for leadership about revenue and orders. I found some trends and helped with pricing decisions. We had zero errors in reports and I validated merchant data.\"\n\n**Fixed Answer (Score 4.5+ — Structured & Confident):**\n\"Changepay leadership lacked visibility into which campuses and vendors were underperforming—failed transactions were hurting student experience but weren't tracked systematically. (Situation) I needed to turn 50,000+ order and payment records into weekly decision-ready insight. (Task) I validated and cleaned merchant and delivery data across vendors and campus locations, built Power BI dashboards tracking transaction volumes, peak order times, and revenue by campus and vendor, and enforced a QA process that achieved zero critical errors before every executive report. (Action) The analysis showed [specific campus/vendor pattern], which directly informed pricing adjustments and expansion prioritisation for underperforming locations. (Result)\"\n\n**Justification:** The fixed version uses STAR, names *your* analysis and validation, ties dashboards to commercial decisions, and sounds PL-300-credible under follow-up."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "\"Walk me through one DAX measure you built at Changepay—what business question did it answer and how did you validate it?\" **(Risk: Role-Specific Technical 2.8)**\n\n\"How exactly did you achieve zero critical errors across all executive reports—what was your QA process?\" **(Risk: Role-Specific Technical 2.8)**\n\n\"What recurring patterns did you find across Three Ireland reporting trackers, and what governance improvement did you propose?\" **(Risk: Resume Clarity 3.4 — must defend live)**\n\n\"Tell me about resolving onshore/offshore data discrepancies—what was the conflict and what fix did you recommend?\" **(Risk: Behavioural Story 2.75)**\n\n\"How did you measure the 18% inventory discrepancy reduction at Indaco—what was the baseline and reconciliation method?\" **(Risk: Technical Readiness 3.2)**\n\n\"Tell me about a time you pushed back on a stakeholder's interpretation of operational data.\" **(Risk: Behavioural Story 2.75)**\n\n\"You led a team to 1st place in an 18-team business simulation—what was *your* decision that changed the outcome?\" **(Risk: Answer Structure 2.8)**\n\n\"Why Business Analyst in Ireland after a Fashion Technology undergrad—how does your path connect?\" **(Risk: Communication & Confidence)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: Tell Me About Yourself + Changepay Walkthrough",
+              "duration": "45 minutes",
+              "objective": "Build opening confidence and STAR flow on commercial impact. Raise Answer Structure."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: Power BI, SQL & Salesforce Deep-Dive",
+              "duration": "50 minutes",
+              "objective": "DAX, Power Query, data validation, Salesforce case workflow. Push PL-300-level defence."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: Behavioural + Stakeholder Impact",
+              "duration": "45 minutes",
+              "objective": "Three Ireland cross-team alignment, Changepay vendor influence, simulation leadership. Target Behavioural Story 2.75 → 4.0."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: Full Ireland BA Simulation",
+              "duration": "60 minutes",
+              "objective": "Resume + technical + behavioural + career narrative under pressure. Gate before applications."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            { "label": "Session 1: Structure + Confidence", "value": 8, "max": 10 },
+            { "label": "Session 2: PL-300 / SQL / Salesforce", "value": 8, "max": 10 },
+            { "label": "Session 3: Behavioural + Stakeholders", "value": 9, "max": 10 },
+            { "label": "Session 4: Full simulation", "value": 10, "max": 10 }
+          ]
+        }
+      ],
+      "content": "**Session 1: Tell Me About Yourself + Changepay Walkthrough**\n\n**Focus:** 90-second intro (MSc UL First-Class + PL-300 + Changepay/Three Ireland arc) and two STAR stories with commercial metrics.\n\n**Mentor Push:** Stop filler and rushed endings. Interrupt tool-listing—require Problem → Insight → Decision → Result for every Changepay claim.\n\n---\n\n**Session 2: Power BI, SQL & Salesforce Deep-Dive**\n\n**Focus:** Campus transaction dashboards, revenue KPIs, validation for zero errors, Salesforce case resolution patterns, ERP/HubSpot reconciliation logic.\n\n**Mentor Push:** Ask \"Show me the logic\" for DAX and SQL. If Aakanksha cites PL-300 without live explanation, assign one-page technical defence before Session 3.\n\n---\n\n**Session 3: Behavioural + Stakeholder Impact**\n\n**Focus:** Onshore/offshore data alignment at Three Ireland, Changepay vendor performance influence, public sector client reporting pressure, simulation team leadership.\n\n**Mentor Push:** Reject \"we collaborated\" answers. Demand: \"What did *you* recommend? Who disagreed? What changed?\"\n\n---\n\n**Session 4: Full Ireland BA Simulation**\n\n**Focus:** Realistic hiring loop—commercial BA narrative, Power BI/SQL/Salesforce, behavioural, Fashion Technology → BA career pivot story.\n\n**Mentor Push:** Simulate interruption and silence. Pass only if mock average ≥ 4.5/5."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 3.0,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        { "label": "Resume walkthrough", "current": "3.4", "target": "4.5" },
+        { "label": "Answer Structure", "current": "2.8", "target": "4.5" },
+        { "label": "Role-Specific Technical", "current": "2.8", "target": "4.5" },
+        { "label": "Behavioural + Confidence", "current": "2.75", "target": "4.5" }
+      ],
+      "content": "**Target Average Score: 4.5**\n\n**Measurable Change:**\n\n- Move from \"I built Power BI dashboards\" to \"I modelled [tables/relationships], wrote [DAX measure] to track [KPI], validated with [QA process], and leadership used it to [pricing/expansion decision].\"\n- Move from \"I resolved Salesforce cases\" to a defended workflow: case types, pattern analysis, governance recommendation, and improved public-sector reporting reliability.\n- The \"After\" Persona: A **confident PL-300-backed Business Analyst** who narrates commercial impact clearly, defends BI and Salesforce methodology under pressure, and owns stakeholder stories—not someone who hides behind certifications or team language."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Complete Week 1 STAR bank before Session 1",
+          "content": "Six stories recorded on video (90 sec each). No Session 1 until Changepay pricing influence and Three Ireland governance stories are crisp without notes."
+        },
+        {
+          "icon": "FileText",
+          "title": "PL-300 cheat sheet — one page per work example",
+          "content": "For Changepay and Three Ireland: data model sketch, one DAX measure, one validation rule. Rehearse aloud daily."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Re-practice failed questions within 24 hours",
+          "content": "After each mock, fix hesitation on DAX, SQL joins, Salesforce workflows, or behavioural conflict questions immediately—confidence gaps compound."
+        },
+        {
+          "icon": "Target",
+          "title": "Do NOT mass-apply until Session 4 ≥ 4.5/5",
+          "content": "Answer Structure 2.8 and Behavioural 2.75 will lose offers despite strong credentials. Use mocks as gates."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Coach delivery, not just content",
+          "content": "Aakanksha has strong material—push pace, eye contact, and decisive endings. Restart any answer that trails off without a Result."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Test certification vs. live skill",
+          "content": "PL-300 should mean she can explain DAX and data modelling on the spot. Probe until live skill matches cert level."
+        },
+        {
+          "icon": "FileText",
+          "title": "Written feedback: structure + ownership",
+          "content": "Track weekly movement on Answer Structure and Behavioural. Flag \"we\" language and unsubstantiated metrics."
+        },
+        {
+          "icon": "Ban",
+          "title": "Reset expectations",
+          "content": "Passing Session 4 means interview-competitive, not guaranteed offers. Ireland BA market also tests domain fit and right-to-work—keep mocks realistic."
+        }
+      ],
+      "content": "**Non-negotiable rule:**\nIf Session 4 score is <4.5/5, repeat Sessions 2–4 in Week 5. Do not mass-apply to Ireland BA roles until PL-300-level answers match live performance.\n\n**Timeline:**\n- Week 1: STAR story bank + video self-review\n- Week 2: Sessions 1–2 (Walkthrough + Power BI/SQL/Salesforce deep-dive)\n- Week 3: Session 3 (Behavioural + stakeholders)\n- Week 4: Session 4 (Full simulation)\n- Week 5: Buffer for repetition if needed\n\nStart Week 1 today. Email your mentor when all six STAR recordings are complete."
+    }
+  ]
+}

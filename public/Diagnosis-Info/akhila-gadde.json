@@ -1,0 +1,223 @@
+{
+  "name": "Akhila Gadde",
+  "email": "akhilagadde2023@gmail.com",
+  "targetRole": "Cloud & DevOps Developer",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": [
+          "Resume & Experience Clarity",
+          "Answer Structure",
+          "Technical Readiness",
+          "Role-Specific Technical",
+          "Behavioural Story"
+        ],
+        "values": [
+          3.8,
+          3,
+          3.2,
+          3,
+          2.5
+        ],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: Communication & Confidence Risk.**\n\nAkhila, your profile has the ingredients of a strong Cloud and DevOps candidate: 2.6 years of delivery experience, hands-on CI/CD exposure, AWS infrastructure work, containerization, production support, and a recent MSc in Cloud Computing. Your Resume & Experience Clarity score of 3.8 shows that the raw material is credible and relevant.\n\nThe risk is not that you lack experience. The risk is that your strongest work may sound smaller than it is when interviewers ask follow-up questions. Your Answer Structure score of 3.0, Role-Specific Technical score of 3.0, Behavioural Story score of 2.5, and separate confidence signal of 2.5 point to a pattern: you can name tools and outcomes, but may hesitate when asked to defend design choices, explain tradeoffs, or turn production incidents into confident ownership stories.\n\n**The Interview Mapping Rule:**\n\nFor DevOps roles, interviewers do not only ask, \"Have you used Jenkins, AWS, Docker, or Kubernetes?\" They ask, \"Why this architecture? What failed? How did you debug it? How did you make the release safer? What metric proved the improvement?\" If your answer stays at tool level, your 99.9% uptime, 30% deployment failure reduction, and 25% MTTR improvement may sound like resume claims instead of engineering evidence.\n\nYour goal is to move from a \"supportive DevOps contributor\" persona to a \"confident cloud delivery engineer\" persona who can explain incidents, automation, CI/CD, infrastructure, and business impact in a structured way."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: The DevOps Resume Walkthrough**\n\n**The Red Flag:** \"Walk me through your Accenture work on Jenkins pipelines and production incidents for Dyson.\"\n\n**Why It Hurts:** With Answer Structure at 3.0 and confidence at 2.5, you may list responsibilities: Jenkins, logs, defects, deployments, support. That is not enough for a DevOps interview. The interviewer needs a clear story: the deployment problem, the failure pattern, the change you made, and the measurable reliability gain.\n\n---\n\n**Scenario B: The Cloud Architecture Probe**\n\n**The Red Flag:** \"For StyleUp or PolicyCloud, why did you use Lambda, EC2, S3, API Gateway, Elastic Beanstalk, CodePipeline, and CodeBuild? What tradeoffs did you consider?\"\n\n**Why It Hurts:** Your Technical Readiness score of 3.2 shows a workable base, but Role-Specific Technical at 3.0 suggests you may describe the stack without explaining architecture decisions. Cloud roles expect reasoning around scalability, availability, cost, deployment frequency, failure recovery, and observability.\n\n---\n\n**Scenario C: The Production Incident Story**\n\n**The Red Flag:** \"Tell me about a time you handled a high-pressure escalation or production issue.\"\n\n**Why It Hurts:** Your current Teleperformance and Accenture experience gives you strong material, but Behavioural Story at 2.5 suggests the ownership arc may be underdeveloped. If the answer does not include pressure, stakeholder communication, root cause, action, and prevention, the interviewer may see you as reactive support instead of a reliable operations engineer."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "Structure Every DevOps Story",
+          "content": "Convert each major resume bullet into a 60-90 second STAR+Metric answer: problem, system context, action, tool choice, metric, and prevention. Focus on Jenkins pipeline failures, MTTR reduction, operational reporting automation, and AWS provisioning. Score Target: Answer Structure 3.0 to 4.2."
+        },
+        {
+          "week": "Week 2",
+          "title": "Cloud Architecture Decision Drill",
+          "content": "Prepare architecture explanations for StyleUp, PolicyCloud, and Infosys AWS projects. For every AWS service mentioned, write why it was used, what alternative existed, and how it affected scalability, availability, cost, or delivery speed. Score Target: Role-Specific Technical 3.0 to 4.2."
+        },
+        {
+          "week": "Week 3",
+          "title": "CI/CD and Incident Deep Dive",
+          "content": "Build detailed answers for Jenkins, GitHub Actions, CodePipeline, CodeBuild, SonarQube, log analysis, deployment failures, and MTTR. Practice explaining the root cause, debugging path, rollback or fix, and prevention mechanism. Score Target: Technical Readiness 3.2 to 4.4."
+        },
+        {
+          "week": "Week 4",
+          "title": "Confidence Under Pressure",
+          "content": "Run rapid-fire mocks focused on follow-up depth. The goal is to answer without shrinking, guessing, or over-explaining. Use crisp boundaries: what you did, what the team did, what you would improve now. Score Target: Behavioural Story 2.5 to 4.2 and Confidence 2.5 to 4.2."
+        }
+      ],
+      "content": "Complete the structure work before technical drilling. The technical content is already present in your resume; the gap is turning it into confident interview evidence."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Project 1: Accenture - Jenkins CI/CD and Production Reliability**\n\n**Interviewer Probe:** \"How exactly did you reduce deployment failures by 30% and MTTR by 25%? What was failing and what did you change?\"\n\n**Likely Struggle:** You may say you streamlined Jenkins pipelines and analyzed logs, but stop before the technical proof. The interviewer will want examples: failed stages, dependency issues, environment mismatches, rollback steps, alerting gaps, or performance bottlenecks.\n\n**Prep Drill:** Prepare one concrete incident story. Include pipeline stage, symptom, log evidence, root cause, fix, validation, and prevention. Example frame: \"A recurring deployment failure happened during the build/deploy stage because environment-specific configuration was inconsistent. I compared Jenkins console output, application logs, and deployment history, isolated the failing configuration, updated the pipeline checks, and added validation before deployment. This reduced repeat failures and contributed to a 30% drop in deployment failures.\"\n\n---\n\n**Project 2: PolicyCloud - AWS Elastic Beanstalk and Automated CI/CD**\n\n**Interviewer Probe:** \"Why Elastic Beanstalk? Why CodePipeline and CodeBuild? How did SonarQube fit into the release process?\"\n\n**Likely Struggle:** You may present the project as a list of services. For a DevOps role, the stronger answer explains the delivery pipeline: source change, build, quality gate, deploy, rollback or recovery, and environment management.\n\n**Prep Drill:** Draw the deployment flow and speak through it in 90 seconds. Mention the tradeoff: Elastic Beanstalk simplified environment provisioning and deployment management for a Django app, while CodePipeline and CodeBuild automated build and release steps. SonarQube acted as a quality gate before deployment to reduce avoidable defects.\n\n---\n\n**Project 3: StyleUp - Cloud-Based Fashion E-Commerce Platform**\n\n**Interviewer Probe:** \"Why did you split the system across Lambda, EC2, S3, and API Gateway? What would you monitor in production?\"\n\n**Likely Struggle:** You may explain the CRUD API but not the cloud-native reasoning. Interviewers will test whether you understand scalability, request flow, storage choice, and operational visibility.\n\n**Prep Drill:** Prepare an architecture answer covering request path, compute choice, storage, failure points, and monitoring. Example focus: API Gateway for controlled API access, Lambda for event-driven or lightweight processing, EC2 for app/runtime control where needed, S3 for object/static storage, and CloudWatch for logs, metrics, latency, errors, and alarms.\n\n---\n\n**Project 4: Teleperformance - SLA Monitoring and Operational Reporting Automation**\n\n**Interviewer Probe:** \"How did you reduce reporting turnaround from 2 weeks to 4 days, and how did that affect operations?\"\n\n**Likely Struggle:** You may frame this as reporting work instead of automation and operational ownership. The stronger DevOps angle is workflow automation, data reliability, incident visibility, and leadership decision support.\n\n**Prep Drill:** Prepare a business-impact answer: what manual steps existed, what data sources were used, what you automated, how you validated data accuracy, and how faster reporting helped SLA visibility or escalation handling."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Project:** Reducing deployment failures and MTTR through Jenkins pipeline and production incident work at Accenture.\n\n**Baseline Answer (Score 3.0 - Tool-Level Answer):**\n\"At Accenture I worked on Jenkins pipelines and production support. I analyzed logs and fixed deployment issues. I also worked with DevOps teams and reduced deployment failures by 30% and MTTR by 25%.\"\n\n**Fixed Answer (Score 4.5+ - Structured DevOps Evidence):**\n\"At Accenture, I supported cloud-based applications for Dyson where release reliability was affected by recurring deployment failures and production incidents. The issue was not only fixing individual defects; we needed to reduce repeat failures and restore services faster. I analyzed Jenkins console output, application logs, and deployment patterns to identify failure points across build, configuration, and post-release stages. I then helped streamline pipeline checks, improved defect resolution through reusable Java components, and worked with cross-functional DevOps teams to validate fixes before release. As a result, deployment failures reduced by 30%, MTTR improved by 25%, and the environment maintained 99.9% uptime. The key lesson was that pipeline reliability depends on both automation and clear incident feedback loops.\"\n\n**Why This Works:** The fixed answer gives context, explains your action, connects tools to operational reliability, and owns the metric without sounding vague. This is the standard you should use for every major DevOps resume bullet."
+    },
+    {
+      "title": "High-Risk Questions",
+      "sectionType": "content",
+      "content": "\"Walk me through one Jenkins pipeline failure you debugged. What failed, how did you find the root cause, and what changed after your fix?\" **(Risk: CI/CD depth and confidence)**\n\n\"You mention reducing deployment failures by 30%. What was the baseline, what counted as a deployment failure, and how was the improvement measured?\" **(Risk: metric defense)**\n\n\"Explain how you would deploy a Django application on AWS using CodePipeline, CodeBuild, SonarQube, and Elastic Beanstalk.\" **(Risk: role-specific technical sequencing)**\n\n\"For StyleUp, when would you choose Lambda over EC2, and when would EC2 be the better choice?\" **(Risk: cloud architecture tradeoffs)**\n\n\"How would you monitor an AWS application in production using CloudWatch, ELK, Splunk, or New Relic? What alerts would you create first?\" **(Risk: observability depth)**\n\n\"Tell me about a high-pressure escalation you handled. What did you communicate to stakeholders while the issue was still unresolved?\" **(Risk: behavioural story and confidence)**\n\n\"What is the difference between Docker and Kubernetes in your own project context? Where would EKS fit?\" **(Risk: containerization beyond definitions)**\n\n\"How would you provision a secure AWS environment with Terraform or CloudFormation? What resources and guardrails would you include?\" **(Risk: infrastructure-as-code reasoning)**\n\n\"You have AEM, Java, AWS, Django, and DevOps experience. What type of cloud engineering role are you strongest for, and why?\" **(Risk: positioning clarity)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1 (June 22, 2026)",
+              "label": "Session 1: Resume Walkthrough and Confidence Baseline",
+              "duration": "45 minutes",
+              "objective": "Test whether Akhila can explain her DevOps journey clearly from Infosys to Accenture to Teleperformance without becoming tool-list focused."
+            },
+            {
+              "timing": "Week 2, Day 5 (June 26, 2026)",
+              "label": "Session 2: CI/CD and Production Incident Deep Dive",
+              "duration": "50 minutes",
+              "objective": "Probe Jenkins, deployment failures, MTTR, logs, root cause analysis, rollback thinking, and production support ownership."
+            },
+            {
+              "timing": "Week 3, Day 3 (July 1, 2026)",
+              "label": "Session 3: AWS Architecture and Project Defense",
+              "duration": "50 minutes",
+              "objective": "Pressure-test StyleUp, PolicyCloud, AWS service choices, Elastic Beanstalk, Lambda, EC2, S3, API Gateway, CodePipeline, and monitoring."
+            },
+            {
+              "timing": "Week 4, Day 2 (July 7, 2026)",
+              "label": "Session 4: Final Cloud DevOps Simulation",
+              "duration": "60 minutes",
+              "objective": "Run a full mixed interview with resume walkthrough, technical follow-ups, incident scenario, behavioural story, and role-positioning close."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            {
+              "label": "Session 1: Structure + confidence",
+              "value": 9,
+              "max": 10
+            },
+            {
+              "label": "Session 2: CI/CD + incidents",
+              "value": 10,
+              "max": 10
+            },
+            {
+              "label": "Session 3: AWS architecture",
+              "value": 9,
+              "max": 10
+            },
+            {
+              "label": "Session 4: Full simulation",
+              "value": 10,
+              "max": 10
+            }
+          ]
+        }
+      ],
+      "content": "**Session 1: Resume Walkthrough and Confidence Baseline**\n\n**Focus:** Career story, role positioning, and structured ownership.\n\n**Mentor Push:** Stop vague answers immediately. Ask \"What exactly did you do?\" and \"What metric proved it?\" until each claim has evidence.\n\n---\n\n**Session 2: CI/CD and Production Incident Deep Dive**\n\n**Focus:** Jenkins, logs, deployment failures, MTTR, root cause analysis, and post-release support.\n\n**Mentor Push:** Ask for one real incident in detail. Do not accept tool names without symptoms, investigation steps, fix, validation, and prevention.\n\n---\n\n**Session 3: AWS Architecture and Project Defense**\n\n**Focus:** StyleUp, PolicyCloud, AWS services, CI/CD pipeline, monitoring, scalability, and cost/reliability tradeoffs.\n\n**Mentor Push:** For every AWS service mentioned, ask \"Why this and not the alternative?\" Force architecture reasoning, not memorized definitions.\n\n---\n\n**Session 4: Final Cloud DevOps Simulation**\n\n**Focus:** Full role-readiness simulation for Cloud, DevOps, or Site Reliability aligned positions.\n\n**Mentor Push:** Add pressure through interruptions, follow-up questions, and scenario pivots. Akhila must stay structured, concise, and confident."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 2.86,
+      "targetScore": 4.3,
+      "maxScore": 5,
+      "metrics": [
+        {
+          "label": "Resume walkthrough",
+          "current": "3.8",
+          "target": "4.5"
+        },
+        {
+          "label": "Answer Structure",
+          "current": "3.0",
+          "target": "4.3"
+        },
+        {
+          "label": "Technical Readiness",
+          "current": "3.2",
+          "target": "4.4"
+        },
+        {
+          "label": "Role-Specific Technical",
+          "current": "3.0",
+          "target": "4.3"
+        },
+        {
+          "label": "Behavioural + Confidence",
+          "current": "2.5",
+          "target": "4.2"
+        }
+      ],
+      "content": "**Target Average Score: 4.3**\n\n**Measurable Change:**\n\n- Move from \"I worked on Jenkins pipelines\" to \"I identified recurring pipeline failure points through Jenkins logs and deployment history, improved validation checks, and helped reduce deployment failures by 30%.\"\n- Move from \"I used AWS services\" to \"I chose Elastic Beanstalk for managed Django deployment, CodePipeline/CodeBuild for release automation, SonarQube for quality gates, and CloudWatch/logging tools for operational visibility.\"\n- Move from hesitant behavioural answers to structured incident stories that show pressure handling, stakeholder communication, root cause analysis, and prevention.\n\n**After Persona:** A confident Cloud & DevOps Developer who can connect infrastructure, automation, production reliability, and business impact."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Write 8 structured stories before Session 1",
+          "content": "Prepare stories for Jenkins failures, MTTR reduction, 99.9% uptime, SLA monitoring, reporting automation, StyleUp, PolicyCloud, and AWS provisioning."
+        },
+        {
+          "icon": "FileText",
+          "title": "Create a metric defense sheet",
+          "content": "For every number on the resume, write the baseline, measurement method, your contribution, and the business or reliability impact."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Redo weak answers within 24 hours",
+          "content": "After each mock, rewrite any weak answer using STAR+Metric and record a 90-second version until it sounds confident and specific."
+        },
+        {
+          "icon": "Target",
+          "title": "Practice tradeoff answers, not definitions",
+          "content": "Do not only define AWS, Docker, Kubernetes, Jenkins, or Terraform. Explain when you would use each one, what can fail, and how you would monitor or recover it."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Force evidence behind every claim",
+          "content": "If Akhila mentions a metric, tool, or project, ask for baseline, action, validation, and impact. This directly targets the communication and confidence risk."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Separate personal ownership from team ownership",
+          "content": "Ask what she personally did, what the team did, and what she learned. This prevents over-claiming while still building confident ownership."
+        },
+        {
+          "icon": "FileText",
+          "title": "Track repeated hesitation points",
+          "content": "Document where confidence drops: AWS tradeoffs, incident RCA, CI/CD sequencing, monitoring, or behavioural pressure. Re-test those exact areas in the next session."
+        },
+        {
+          "icon": "Ban",
+          "title": "Do not pass vague tool-list answers",
+          "content": "A passing answer must include context, decision, action, metric, and reliability or business impact. Tool names alone should be treated as incomplete."
+        }
+      ],
+      "content": "**Non-negotiable rule:**\nEvery major resume bullet must become a structured interview story with one technical detail and one measurable result.\n\n**Timeline:**\n- Week 1: STAR+Metric story writing and metric defense sheet\n- Week 2: Sessions 1-2 for walkthrough, confidence, CI/CD, and incident depth\n- Week 3: Session 3 for AWS architecture and project defense\n- Week 4: Session 4 final simulation\n- Week 5: Repeat Sessions 2-4 if confidence or role-specific technical score remains below 4.0\n\nStart by preparing the Accenture Jenkins/MTTR story first. It is the highest-value DevOps proof point on the resume."
+    }
+  ]
+}

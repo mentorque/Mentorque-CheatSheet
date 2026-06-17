@@ -1,0 +1,175 @@
+{
+  "name": "Geetha Boda",
+  "email": "geethanetha930@gmail.com",
+  "targetRole": "Data Analyst",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": ["Resume & Experience Clarity", "Answer Structure", "Technical Readiness", "Role-Specific Technical", "Behavioural Story"],
+        "values": [3.2, 2.2, 1.9, 2.2, 1.25],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: The \"Communication & Confidence\" Pivot — Aerospace Engineer Who Can't Defend Analytics Live.**\n\nGeetha, on paper you present a compelling Ireland-market pivot: MSc Business Analytics from University College Dublin, 2+ years at Capgemini on Airbus programmes (A320–A380), a data analytics trainee foundation at BEPEC, Bloomberg Finance certifications, AWS Cloud Practitioner, and headline project outcomes (157% portfolio profitability lift, 82% model accuracy, 6 million rows of aviation data). Your Resume & Experience Clarity score of **3.2** reflects that this narrative reads well to a recruiter scanning for a \"technical-to-analytics\" transition.\n\nHowever, your Technical Readiness score of **1.9**, Role-Specific Technical **2.2**, Answer Structure **2.2**, and Behavioural Story **1.25** reveal a severe **Communication & Confidence Risk**: you look like a capable analytics candidate on the page, but you struggle to defend your ML projects, engineering-to-analytics pivot, and commercial impact when probed live. Dublin hiring managers will ask *how* you achieved 157% profitability, *why* LightGBM over Logistic Regression, and *what your personal contribution* was at Capgemini versus the team—and vague or hesitant answers will make you sound like someone who completed coursework rather than owned outcomes.\n\n**The Mapping Rule Analysis:**\n\nYour aerospace background (CATIA V5, BOM traceability, VBA automation) is a differentiator, but Role-Specific Technical (2.2) suggests you cannot yet translate engineering rigour into analytics defences—feature selection rationale, model evaluation metrics, and business activation stories collapse under follow-up. Answer Structure (2.2) means STAR flow breaks when switching between Capgemini design work and BEPEC/UCD analytics projects. Behavioural Story (1.25)—your lowest score—indicates cross-functional collaboration bullets (India, Spain, Germany teams; Airbus stakeholders) read credibly on the resume but do not become convincing conflict-and-impact narratives in the room.\n\nThis \"Strong Resume, Fragile Live Defence\" persona is your primary hurdle: you must sound as analytically confident in a Dublin DA interview as your underwriting model sounds on paper."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: The Resume Walkthrough (10–15m)**\n\n**The Red Flag:** \"Geetha, walk me through your predictive underwriting model—how did you go from 116,000 raw records to 15,500, and how did that drive a 157% profitability increase from €406K to €1.04M?\"\n\n**Justification:** Resume Clarity at 3.2 means the metrics look impressive on paper, but with Answer Structure at 2.2 you risk listing tools (LightGBM, ExtraTrees, Pandas) without baseline → feature engineering → model selection → business validation → commercial result. Interviewers will hear \"I built an ML model\" rather than \"I owned the underwriting risk classification pipeline.\"\n\n---\n\n**Scenario B: The Technical / ML Follow-Up (20–30m)**\n\n**The Red Flag:** \"You capped customer exclusions at 4% with 82% accuracy—what metric did you optimise for? How did you handle class imbalance? Why LightGBM over Random Forest, which you also used at BEPEC?\"\n\n**Justification:** Technical Readiness 1.9 is your critical gap. Follow-ups on precision/recall trade-offs, asymmetric error costs, and the 9 key predictors will expose shallow depth—you may default to project descriptions from coursework without methodological defence or personal ownership language.\n\n---\n\n**Scenario C: The Pivot + Behavioural Probe (10–15m)**\n\n**The Red Flag:** \"You're moving from Airbus structural design at Capgemini to a Data Analyst role in Dublin—why? And tell me about a time you had to push back on a design change or stakeholder decision across your India–Spain–Germany teams.\"\n\n**Justification:** Behavioural Story 1.25 is your weakest dimension. Without rehearsed STAR structure, the engineering-to-analytics motivation sounds generic, and cross-cultural collaboration bullets dissolve into \"we worked together\" summaries—no conflict, no judgment, no measurable resolution."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "Resume Truth Audit + STAR Bank",
+          "content": "For every resume bullet, write: Problem → Your action → Validation method → Metric. Build 6 STAR stories (underwriting model, aviation pipeline, Capgemini VBA automation, BOM traceability, BEPEC dashboards, cross-cultural Airbus delivery). Record each in 90 seconds out loud. **Score Target:** Answer Structure 2.2 → 3.8, Resume Clarity 3.2 → 4.0"
+        },
+        {
+          "week": "Week 2",
+          "title": "ML & Project Technical Defence",
+          "content": "One-page defence each for: Predictive Underwriting (116K→15.5K records, 9 predictors, 4% exclusion cap, 82% accuracy, €406K→€1.04M), Aviation COVID pipeline (6M rows, baselines, route recovery), and Interactive Data Explorer (3 datasets, GUI workflow). Name algorithms, metrics, and trade-offs aloud. **Score Target:** Technical Readiness 1.9 → 3.8, Role-Specific Technical 2.2 → 3.8"
+        },
+        {
+          "week": "Week 3",
+          "title": "Pivot Narrative + Engineering-to-Analytics Bridge",
+          "content": "Craft a 90-second \"Why DA, Why Dublin, Why Now\" story linking Capgemini data analysis (design datasets, VBA automation, BOM accuracy) to UCD MSc and Ireland market. Prepare 3 behavioural stories with explicit conflict and resolution from Airbus cross-functional work. **Score Target:** Behavioural Story 1.25 → 3.8, Resume Clarity 3.2 → 4.5"
+        },
+        {
+          "week": "Week 4",
+          "title": "The Pressure Test",
+          "content": "Full Ireland DA mock: Tell Me About Yourself → underwriting model deep-dive → SQL/Python/Tableau spot check → pivot + behavioural → Bloomberg/AWS cert relevance. No notes, no vague team language. **Score Target:** Overall Average → 4.5"
+        }
+      ],
+      "content": "Complete each phase before moving to the next. Week 1 is mandatory—your project metrics require live proof, not resume repetition."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Project: Predictive Underwriting & Risk Classification Model**\n\n**Interviewer Probe:** \"Walk me through your data pipeline from 116,000 raw records to 15,500. What were the 9 key predictors, how did you cap exclusions at 4%, and how did 82% accuracy translate to 157% profitability?\"\n\n**Likely Struggle:** Mapping to Technical Readiness (1.9), you may cite LightGBM and ExtraTrees without explaining feature engineering choices, class imbalance handling, asymmetric error cost logic, or how €406K→€1.04M was calculated and validated.\n\n**Prep Drill:** Document: (1) raw data sources and cleaning steps, (2) exclusion criteria and why 4% cap, (3) all 9 predictors with business rationale, (4) model comparison (LightGBM vs. ExtraTrees vs. Logistic Regression), (5) evaluation metrics beyond accuracy (precision, recall, cost matrix), (6) profitability calculation methodology. Practice: \"I reduced 116,000 policy records to 15,500 through [criteria], engineered [features], and selected LightGBM because [reason]. The 4% exclusion cap balanced [trade-off]. This shifted portfolio profitability from €406K to €1.04M by [mechanism], validated via [method].\"\n\n---\n\n**Project: Post-COVID Aviation Data Visualization (~6 Million Rows)**\n\n**Interviewer Probe:** \"How did you build the pipeline for 6 million flight records? What were your pre- and post-COVID baselines, and what specific business insight did you surface for route recovery?\"\n\n**Likely Struggle:** You might describe \"large-scale data\" and Tableau dashboards without SQL aggregation logic, outlier handling, or a concrete insight that changed a decision.\n\n**Prep Drill:** Define: data source, ETL steps in Python/SQL, baseline definition (e.g., 2019 vs. 2021–2022), 2–3 specific findings (route volume recovery %, outlier routes, demand shifts), and how you presented this to a non-technical audience.\n\n---\n\n**Project: Interactive Data Explorer & Analytics Application**\n\n**Interviewer Probe:** \"What were the 3 datasets, how did you merge them in the GUI, and what performance trends did stakeholders actually use this for?\"\n\n**Likely Struggle:** Tool listing (Tkinter, Plotly, Pandas) without explaining the merge logic, date-parameter filtering, or a real user workflow replaced.\n\n**Prep Drill:** Draw architecture: ingest → clean → merge on [keys] → filter by date → output charts. Name one decision this replaced versus manual spreadsheets.\n\n---\n\n**Experience: Capgemini — VBA Automation (~40% Review Time Reduction)**\n\n**Interviewer Probe:** \"What did the VBA script automate exactly? How did you measure 40% time reduction, and what accuracy risks did you manage?\"\n\n**Likely Struggle:** Generic \"automation saved time\" without before/after volumes, error handling, or link to your analytics pivot (\"I identified patterns in design datasets\").\n\n**Prep Drill:** Specify: manual process steps eliminated, weekly review volume, measurement method (hours per check × checks per week), and one data-analysis moment that sparked your move to analytics.\n\n---\n\n**Experience: Capgemini — Airbus BOM & Cross-Functional Delivery**\n\n**Interviewer Probe:** \"How did you ensure 100% BOM accuracy across A320–A380 programmes? Tell me about a time a design change conflicted across India, Spain, and Germany teams.\"\n\n**Likely Struggle:** Process description without personal ownership or a behavioural story with tension and resolution—Behavioural Story 1.25 will show here.\n\n**Prep Drill:** Prepare one STAR story: specific design change, conflicting stakeholder positions, your recommendation, measurable outcome (on-time delivery, zero traceability errors)."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Project:** Predictive Underwriting & Risk Classification Model.\n\n**Baseline Answer (Score 2.2 — Communication & Confidence Weakness):**\n\"In my MSc project I built a machine learning underwriting model. I used Python and LightGBM. I processed a lot of records and got 82% accuracy. The portfolio profitability increased a lot—like 157%. I also did feature engineering and used statistical analysis to find important predictors.\"\n\n**Fixed Answer (Score 4.5+ — Structured & Confident):**\n\"Our underwriting portfolio was accepting high-risk policyholders, driving asymmetric error costs that suppressed profitability to €406K. (Situation) I was tasked with building a risk classification model that could identify unprofitable segments while keeping customer exclusions below 4%. (Task) I engineered a Python pipeline that cleaned 116,000 raw records down to 15,500 policy-ready rows, isolated 9 statistically significant predictors through feature selection, and compared LightGBM against ExtraTrees using a cost-sensitive evaluation framework—not just accuracy, but the business cost of false accepts vs. false rejects. (Action) The final model achieved 82% classification accuracy with exclusions capped at 4%, shifting portfolio profitability from €406K to €1.04M—a 157% increase—by systematically rejecting the highest-risk segments while preserving volume in profitable tiers. (Result)\"\n\n**Justification:** The fixed version uses STAR, names *your* methodological choices, explains the commercial mechanism behind 157%, and sounds defensible under follow-up on predictors, exclusion logic, and metric trade-offs—targeting Technical Readiness, Answer Structure, and Role-Specific Technical gaps."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "\"How exactly did you calculate 157% portfolio profitability—from €406K to €1.04M? What revenue model, what time period, and what changed because of your model?\" **(Risk: Technical Readiness 1.9)**\n\n\"You isolated 9 key predictors—name all 9 and explain why each one matters for underwriting risk.\" **(Risk: Role-Specific Technical 2.2)**\n\n\"Why LightGBM over the Random Forest and Decision Trees you used at BEPEC? What was your evaluation framework?\" **(Risk: Technical Readiness 1.9)**\n\n\"How did you cap customer exclusions at 4%—what business constraint drove that number, and what happened to precision/recall?\" **(Risk: Role-Specific Technical 2.2)**\n\n\"Walk me through your 6-million-row aviation pipeline—SQL aggregations, COVID baseline definition, and one insight that would change a route decision.\" **(Risk: Technical Readiness 1.9)**\n\n\"You're a Design Engineer moving to Data Analyst in Dublin—convince me this isn't a desperation pivot. What's the through-line?\" **(Risk: Answer Structure 2.2 + Behavioural 1.25)**\n\n\"Tell me about a time Airbus stakeholders in Spain or Germany disagreed with your team's design recommendation. What was the conflict and what did you do?\" **(Risk: Behavioural Story 1.25)**\n\n\"Your VBA script reduced review time by 40%—what was the manual process, how did you measure it, and what would break if the script had a bug?\" **(Risk: Answer Structure 2.2)**\n\n\"You work part-time as a barista while job hunting—how are you balancing prep with applications, and why should I believe you're interview-ready?\" **(Risk: Communication & Confidence)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: Tell Me About Yourself + Pivot Narrative",
+              "duration": "45 minutes",
+              "objective": "90-second intro (UCD MSc + Capgemini-to-analytics bridge + Ireland availability). Defend underwriting model at headline level with STAR. Raise Answer Structure and Resume Clarity."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: ML & Technical Deep-Dive",
+              "duration": "50 minutes",
+              "objective": "Underwriting model (9 predictors, 4% cap, profitability math), aviation pipeline, BEPEC models. Push on algorithms, validation, and personal ownership."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: Behavioural + Cross-Functional Engineering Stories",
+              "duration": "45 minutes",
+              "objective": "Airbus cross-cultural delivery, design change conflicts, stakeholder pushback. Target Behavioural Story 1.25 → 4.0."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: Full Ireland DA Simulation",
+              "duration": "60 minutes",
+              "objective": "Resume + SQL/Python/Tableau spot check + ML summary + behavioural + pivot motivation under pressure. Gate before applications."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            { "label": "Session 1: Pivot + Structure", "value": 10, "max": 10 },
+            { "label": "Session 2: Technical Readiness", "value": 10, "max": 10 },
+            { "label": "Session 3: Behavioural + Stakeholders", "value": 10, "max": 10 },
+            { "label": "Session 4: Full simulation", "value": 10, "max": 10 }
+          ]
+        }
+      ],
+      "content": "**Session 1: Tell Me About Yourself + Pivot Narrative**\n\n**Focus:** 90-second intro linking Capgemini engineering data work → BEPEC analytics foundation → UCD MSc → Dublin DA target. One STAR story on the underwriting model.\n\n**Mentor Push:** Stop tool-listing (\"Python, SQL, Power BI\"). Require \"I built / I validated / I measured\" for every claim. Interrupt vague 157% answers—demand profitability calculation method.\n\n---\n\n**Session 2: ML & Technical Deep-Dive**\n\n**Focus:** Underwriting model end-to-end, aviation 6M-row pipeline, Interactive Data Explorer architecture, BEPEC model comparison (Logistic Regression, Decision Trees, Random Forest).\n\n**Mentor Push:** Ask \"How do you know?\" after every number. If Geetha cannot explain a predictor or evaluation metric, assign one-page technical defence before Session 3.\n\n---\n\n**Session 3: Behavioural + Cross-Functional Engineering Stories**\n\n**Focus:** Airbus multi-country delivery, design change validation, training 3 new team members, stakeholder disagreements.\n\n**Mentor Push:** Reject generic collaboration answers. Demand conflict, your recommendation, and measurable outcome. Behavioural 1.25 requires explicit tension—not process summaries.\n\n---\n\n**Session 4: Full Ireland DA Simulation**\n\n**Focus:** Realistic Dublin hiring loop—pivot narrative, technical depth, SQL/Python verbal, Tableau/Power BI, behavioural, confidence under scepticism.\n\n**Mentor Push:** Simulate doubt on engineering-to-analytics transition and big project numbers. Pass only if mock average ≥ 4.5/5."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 2.15,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        { "label": "Resume walkthrough", "current": "3.2", "target": "4.5" },
+        { "label": "Answer Structure", "current": "2.2", "target": "4.5" },
+        { "label": "Technical Readiness", "current": "1.9", "target": "4.5" },
+        { "label": "Role-Specific Technical", "current": "2.2", "target": "4.5" },
+        { "label": "Behavioural + Confidence", "current": "1.25", "target": "4.5" }
+      ],
+      "content": "**Target Average Score: 4.5**\n\n**Measurable Change:**\n\n- Move from \"157% profitability and 82% accuracy\" as headline claims to defended narratives with predictor names, exclusion logic, evaluation metrics, and profitability calculation methodology.\n- Move from \"I used LightGBM and Python\" to named feature engineering steps, model comparison rationale, and specific business actions driven by model output.\n- Move from \"cross-functional Airbus delivery\" to rehearsed STAR stories with conflict, judgment, and measurable resolution.\n- The \"After\" Persona: A **confident Data Analyst** who bridges aerospace rigour and analytics depth—able to defend ML projects, explain the engineering-to-analytics pivot, and hold composure under Ireland interview pressure."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Complete Week 1 Resume Truth Audit before Session 1",
+          "content": "Every project metric (157%, 82%, 6M rows, 40% VBA reduction) needs a one-paragraph defence deliverable without notes. No Session 1 until underwriting profitability and exclusion cap have clear definitions."
+        },
+        {
+          "icon": "FileText",
+          "title": "One-page technical defence per project",
+          "content": "Underwriting model, aviation pipeline, data explorer, Capgemini VBA automation—each gets: problem, data, method, metrics, business action. Fix gaps within 24 hours of each mock."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Daily out-loud drill (10 minutes)",
+          "content": "Practice the fixed underwriting answer and 90-second pivot intro daily. Ireland interviews punish hesitation on ML metrics and career-transition questions—pace and clarity matter as much as content."
+        },
+        {
+          "icon": "Target",
+          "title": "Do NOT mass-apply until Session 4 ≥ 4.5/5",
+          "content": "Technical Readiness 1.9 + Behavioural 1.25 will fail screens despite strong credentials on paper. Use mocks as gates, not checkboxes."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Challenge every big number",
+          "content": "157% profitability, 82% accuracy, 4% exclusion cap, 6M rows, 40% time reduction—probe until validated or honestly bounded. Do not let impressive resume language substitute for proof."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Force personal ownership language",
+          "content": "Replace \"we\" with \"I\" in every story. Behavioural 1.25 requires explicit conflict and resolution—not team summaries or process descriptions."
+        },
+        {
+          "icon": "FileText",
+          "title": "Written feedback: content + delivery",
+          "content": "Track weekly movement on Technical Readiness, Answer Structure, and Behavioural. Note filler words, trailing endings, unverifiable claims, and pivot-narrative confidence."
+        },
+        {
+          "icon": "Ban",
+          "title": "Reset expectations",
+          "content": "Passing Session 4 means interview-competitive, not guaranteed offers. Dublin market also tests live SQL/Python and scepticism on career pivots—keep pressure realistic."
+        }
+      ],
+      "content": "**Non-negotiable rule:**\nIf Session 4 score is <4.5/5, repeat Sessions 2–4 in Week 5. Do not mass-apply to Ireland DA roles until ML depth, pivot narrative, and behavioural stories are defensible live.\n\n**Timeline:**\n- Week 1: Resume truth audit + 6 STAR recordings\n- Week 2: Sessions 1–2 (Pivot narrative + ML deep-dive)\n- Week 3: Session 3 (Behavioural + cross-functional stories)\n- Week 4: Session 4 (Full simulation)\n- Week 5: Buffer for repetition if needed\n\nStart Week 1 today. Email your mentor when all metric defences and STAR recordings are complete."
+    }
+  ]
+}

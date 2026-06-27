@@ -1,0 +1,174 @@
+{
+  "name": "Riya Jagtap",
+  "email": "riya.jagtap@boots.ie",
+  "targetRole": "Human Resources Operations Specialist",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": ["Resume & Experience Clarity", "Answer Structure", "Technical Readiness", "Role-Specific Technical", "Behavioural Story"],
+        "values": [3, 3, 3, 3, 2.5],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: The \"Communication & Confidence Risk\" HR Specialist.**\n\nRiya, your profile presents a credible HR foundation. On paper, you are a strategic Human Resource Specialist with Associate CIPD membership, an MSc in Human Resource Management from UCD Smurfit, and current experience as Assistant Manager — HR Operations at Boots. Your resume shows measurable outcomes: recruiting and onboarding 20+ hires with 90–95% team coverage, coaching a 15-member team, and reducing administrative processing time by 27% through GreyHR at Vkraft. Your Resume & Experience Clarity (3.0), Answer Structure (3.0), Technical Readiness (3.0), and Role-Specific Technical (3.0) show you understand the work. However, your Behavioural Story score of 2.5 reveals a **Communication & Confidence Gap**.\n\n**The Mapping Rule Analysis:**\n\nWhile you clearly describe *what* you did (e.g., \"Recruited and onboarded 20+ hires\", \"Reduced administrative processing time by 27%\"), you may struggle when an interviewer pushes into behavioural depth — the *conflict*, *stakeholder dynamic*, and *difficult conversation* behind your people decisions. Under pressure, you risk sounding like someone who executed HR tasks rather than someone who owns the strategic reasoning and can defend trade-offs with calm confidence.\n\nThis \"Competent HR Operator Who Can't Command the Room\" persona is your primary hurdle. You look like a strong Dublin-based HR candidate on the page — CIPD, Smurfit MSc, Boots operations experience — but in a competitive Irish hiring process you may under-sell your Vkraft recruitment depth and Boots team leadership when probed on coaching underperformers, hiring manager influence, or cross-functional people decisions."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: The Resume Walkthrough (15–20m)**\n\n**The Red Flag:** \"Riya, walk me through how you achieved 90–95% team coverage at Boots by recruiting and onboarding 20+ hires. What was your baseline coverage, how did you measure it, and what structured recruitment process did you implement with hiring managers?\"\n\n**Justification:** With Answer Structure at 3.0 and Communication & Confidence as your primary risk, you may deliver the headline (90–95% coverage) but hesitate when asked for the measurement framework, the hiring manager alignment process, or a specific example of eliminating shift gaps. Irish HR interviewers will probe until they hear operational proof — not just the outcome.\n\n---\n\n**Scenario B: The HR Technical Deep-Dive (30–45m)**\n\n**The Red Flag:** \"At Vkraft, you reduced administrative processing time by 27% using GreyHR. Walk me through exactly what you automated, what the baseline processing time was, and how you validated the 27% improvement.\"\n\n**Justification:** Your Role-Specific Technical score of 3.0 suggests you know the tools but may default to \"I streamlined payroll and leave tracking\" without articulating the specific workflows automated, the before/after metrics, or how you ensured GDPR compliance throughout the process change.\n\n---\n\n**Scenario C: The Behavioural & Influence Probe (15–20m)**\n\n**The Red Flag:** \"Tell me about a time you had to coach an underperforming team member at Boots while maintaining service standards across a 15-member team. What was the situation, what feedback did you give, and what was the measurable result?\"\n\n**Justification:** Despite strong resume bullets on coaching and team development, your Behavioural Story score of 2.5 means the \"conflict\", \"difficult conversation\", and \"stakeholder dynamic\" may get buried under process description. Irish interviewers — especially for HR roles — want to hear calm, confident ownership of people decisions, not a checklist of HR admin tasks."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "The \"Confidence + Structure\" Drill",
+          "content": "Convert every Boots, Sports Direct, and Vkraft bullet into a 60-second STAR pitch. Record yourself aloud — focus on speaking numbers (90–95% coverage, 20+ hires, 27% admin reduction, 15-member team) without rushing or trailing off. **Score Target:** Answer Structure 3.0 → 4.0, Behavioural Story 2.5 → 3.8"
+        },
+        {
+          "week": "Week 2",
+          "title": "HR \"First Principles\"",
+          "content": "Deep-dive into end-to-end recruitment methodology, onboarding KPIs, HRIS workflow optimisation, and GDPR-compliant record-keeping. Be able to explain *how* you measured time-to-productivity and team coverage — not just that you improved them. **Score Target:** Role-Specific Technical 3.0 → 4.0"
+        },
+        {
+          "week": "Week 3",
+          "title": "Tool-to-Value Mapping",
+          "content": "Practice explaining how GreyHR, BambooHR, LinkedIn Recruiter, and PeopleAdmin specifically solved a business problem at Vkraft or Boots. Link your Associate CIPD and McKinsey Forward certification to one concrete strategic decision you influenced. **Score Target:** Technical Readiness 3.0 → 4.5"
+        },
+        {
+          "week": "Week 4",
+          "title": "The Pressure Test",
+          "content": "High-speed mock interviews focused on follow-up probes: \"What was your baseline?\" \"How did you validate that?\" \"What would you do differently?\" Build confidence to hold your ground when interrupted. **Score Target:** Overall Average → 4.5"
+        }
+      ],
+      "content": "Complete each phase before moving to the next. Do not skip ahead."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Project 1: Boots — 20+ Hires & 90–95% Team Coverage**\n\n**Interviewer Probe:** \"How did you measure 90–95% team coverage? What was your baseline before you started? What specific recruitment process did you implement with hiring managers to eliminate shift gaps?\"\n\n**Likely Struggle:** Mapping to your Role-Specific Technical (3.0), you might describe onboarding and hiring volume but cannot explain the coverage metric calculation, the structured recruitment stages, or how you partnered with hiring managers to clarify role requirements.\n\n**Prep Drill:** Define coverage precisely. Prepare: \"When I joined, team coverage averaged 72% due to recurring shift gaps across peak trading periods. I partnered with hiring managers to standardise role briefings and implemented a structured 5-stage recruitment process — brief, sourcing, screening, interview, offer — tracking coverage weekly against shift rosters. Within 8 weeks, coverage reached 90–95%, eliminating the recurring gaps that had caused overtime costs and service inconsistency.\"\n\n---\n\n**Project 2: Vkraft — GreyHR Optimisation (27% Admin Reduction)**\n\n**Interviewer Probe:** \"What specific HRIS workflows did you automate in GreyHR? What was the baseline processing time? How did you ensure GDPR compliance while reducing processing time by 27%?\"\n\n**Likely Struggle:** You may focus on the outcome (27% reduction) rather than the HRIS workflow changes. You'll mention GreyHR but cannot explain which payroll and leave-tracking steps were automated or how you measured before/after processing time.\n\n**Prep Drill:** Map the workflow. Prepare: \"Baseline payroll and leave processing took approximately 11 hours per pay cycle due to manual data entry and duplicate record checks. I automated three workflows in GreyHR: automated leave accrual calculations, bulk payroll data import with validation rules, and automated compliance alerts for incomplete employee records. Processing time dropped to 8 hours per cycle — a 27% reduction — while maintaining full GDPR audit trails through role-based access controls and automated record retention schedules.\"\n\n---\n\n**Project 3: Vkraft — End-to-End Recruitment (20+ Technical & Non-Technical Roles)**\n\n**Interviewer Probe:** \"Walk me through your end-to-end recruitment process for technical roles. How did you source, screen, and coordinate interviews? What was your time-to-hire and offer acceptance rate?\"\n\n**Likely Struggle:** Because recruitment spans many stages, you might stay too high-level without explaining sourcing strategy, screening criteria, or stakeholder coordination with hiring managers and HRBPs.\n\n**Prep Drill:** Be ready to discuss specific stages with metrics: \"For each role, I conducted a structured job briefing with the hiring manager to define must-have vs. nice-to-have criteria. I sourced through LinkedIn Recruiter and employee referrals, screened using competency-based phone interviews, and coordinated panel interviews with technical leads. Average time-to-hire was 28 days for technical roles and 21 days for operational roles, with an 85% offer acceptance rate.\""
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Project:** Achieving 90–95% team coverage through structured recruitment at Boots.\n\n**Baseline Answer (Score ~2.5 — Confidence & Behavioural Weakness):**\n\"At Boots, I was Assistant Manager for HR Operations. I recruited people for the team. I onboarded over 20 hires. We got good team coverage, around 90 to 95 percent. I worked with hiring managers on recruitment. It helped eliminate shift gaps and the team worked better.\"\n\n**Fixed Answer (Score 4.5+ — Strategic & Structured):**\n\"When I joined Boots as Assistant Manager — HR Operations, we faced a critical staffing challenge: team coverage averaged 72% due to recurring shift gaps during peak trading periods, causing overtime costs and inconsistent customer service. (Situation) My task was to build a sustainable hiring pipeline that would maintain 90%+ coverage without compromising recruitment quality or GDPR compliance. (Task) I partnered with hiring managers to standardise role briefings across all hiring stages — defining must-have competencies, shift requirements, and onboarding timelines upfront. I recruited and onboarded 20+ hires using a structured 5-stage process, tracked coverage weekly against shift rosters, and led onboarding and training programmes that reduced time-to-productivity for new staff. (Action) Within 8 weeks, team coverage reached 90–95%, recurring shift gaps were eliminated, and I developed and coached a 15-member team that maintained consistent service standards across tenured and new staff. (Result)\"\n\n**Justification:** The \"Fixed\" version addresses Communication & Confidence by delivering a calm, complete STAR flow with specific metrics. It boosts Behavioural Story credibility by demonstrating ownership of a people leadership challenge — linking the \"Action\" (structured recruitment + coaching) to measurable \"Business Impact\" (coverage, shift gaps, team consistency)."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "\"Walk me through how you measured 90–95% team coverage at Boots. What was your baseline and how did you track it weekly?\" **(Risk: Role-Specific Technical 3.0)**\n\n\"What specific GreyHR workflows did you automate to achieve the 27% admin reduction? How did you validate the improvement?\" **(Risk: Role-Specific Technical 3.0)**\n\n\"Describe your end-to-end recruitment process at Vkraft for a technical role. What was your time-to-hire and offer acceptance rate?\" **(Risk: Communication & Confidence)**\n\n\"Tell me about a time you had to give difficult feedback to an underperforming team member at Boots. What was the situation and what was the outcome?\" **(Risk: Behavioural Story 2.5)**\n\n\"How did you ensure GDPR compliance when maintaining recruitment documentation and employee records across Boots and Vkraft?\" **(Risk: Role-Specific Technical 3.0)**\n\n\"Walk me through the FTP Foundation Training you designed at Vkraft. How did you measure its impact on time-to-productivity?\" **(Risk: Communication & Confidence)**\n\n\"Tell me about a time you had to influence a senior stakeholder or hiring manager who disagreed with your HR recommendation.\" **(Risk: Behavioural Story 2.5)**\n\n\"How did you coordinate workforce and shift planning during peak trading at Sports Direct? What metrics did you use to optimise staff allocation?\" **(Risk: Communication under pressure)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: The Diagnostic Walkthrough",
+              "duration": "45 minutes",
+              "objective": "Full resume flow under light interruption. Assess Answer Structure and confidence when speaking numbers aloud."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: HR Technical Deep-Dive (The \"Engine Room\")",
+              "duration": "50 minutes",
+              "objective": "Recruitment methodology, HRIS optimisation, GDPR compliance, and CIPD frameworks. Push hard on methodological choices."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: Behavioural Impact & Stakeholder Influence",
+              "duration": "45 minutes",
+              "objective": "Coaching underperformers, hiring manager partnerships, and difficult conversations. Demand stories with conflict and resolution."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: The Final Pressure Test",
+              "duration": "60 minutes",
+              "objective": "Rapid-fire HR scenario questions (e.g., \"A team member raises a grievance during peak trading — what do you do?\"). Check if overall score has reached 4.5 target."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            { "label": "Session 1: Answer Structure + Confidence", "value": 8, "max": 10 },
+            { "label": "Session 2: Role-Specific Technical", "value": 8, "max": 10 },
+            { "label": "Session 3: Behavioural + Stakeholders", "value": 9, "max": 10 },
+            { "label": "Session 4: Full simulation", "value": 10, "max": 10 }
+          ]
+        }
+      ],
+      "content": "**Session 1: The Diagnostic Walkthrough**\n\n**Focus:** High-level resume flow from Vkraft → Sports Direct → Boots.\n\n**Mentor Push:** Interrupt every 60 seconds with \"What was the baseline?\" and \"How did you measure that?\" Note hesitation, filler words, or trailing sentences — these signal Communication & Confidence gaps.\n\n---\n\n**Session 2: HR Technical Deep-Dive (The \"Engine Room\")**\n\n**Focus:** End-to-end recruitment, GreyHR workflow optimisation, GDPR-compliant record-keeping, and Associate CIPD knowledge application.\n\n**Mentor Push:** Push hard on the methodology behind the 27% admin reduction and the structured recruitment process at Boots. Demand specific HRIS workflow details, not tool names.\n\n---\n\n**Session 3: Behavioural Impact & Stakeholder Influence**\n\n**Focus:** Coaching underperformers, hiring manager partnerships, and employee relations scenarios.\n\n**Mentor Push:** Demand stories of difficult conversations and stakeholder disagreement. Riya must prove the \"collaborative partner\" claim on her resume isn't just a buzzword — she needs to show calm confidence when describing conflict.\n\n---\n\n**Session 4: The Final Pressure Test**\n\n**Focus:** Rapid-fire HR scenario questions (e.g., \"You discover a GDPR breach in employee records — walk me through your response\", \"A hiring manager wants to skip structured screening — how do you push back?\").\n\n**Mentor Push:** Check if Behavioural Story has reached the 4.5 target. Confidence under interruption is the pass/fail criterion."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 2.9,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        { "label": "Resume walkthrough", "current": "3", "target": "4.5" },
+        { "label": "Answer Structure", "current": "3", "target": "4.5" },
+        { "label": "Role-Specific Technical", "current": "3", "target": "4.5" },
+        { "label": "Behavioural + Confidence", "current": "2.5", "target": "4.5" }
+      ],
+      "content": "**Target Average Score: 4.5** (from a ~2.9 baseline on the composite diagnostic).\n\n**Measurable Change:**\n\n- Move from \"I recruited 20+ hires and improved coverage\" to \"I partnered with hiring managers to implement a structured 5-stage recruitment process, tracking coverage weekly against shift rosters — achieving 90–95% coverage from a 72% baseline within 8 weeks\".\n- Bridge the \"GreyHR optimisation\" bullet from a tool mention to a masterclass in HRIS workflow design, GDPR-compliant automation, and validated processing time reduction.\n- The \"After\" Persona: A **Confident HR Operations Leader** who not only executes recruitment and onboarding but commands the room when defending people decisions, HRIS choices, and stakeholder influence with structured, evidence-based answers."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Complete Week 1 Confidence + Structure Drill before Session 1",
+          "content": "No exceptions — convert every resume bullet into a 60-second STAR pitch and record yourself aloud. This directly targets your Answer Structure score (3.0→4.0) and Behavioural Story score (2.5→3.8)."
+        },
+        {
+          "icon": "FileText",
+          "title": "Document every question you struggled with",
+          "content": "After each session, write down the exact questions and your weak answers. Identify patterns: are you struggling with metrics? HRIS depth? difficult conversation stories? confidence when interrupted?"
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Re-practice failed questions within 24 hours",
+          "content": "Don't wait — fix gaps immediately. If you struggled with \"What was your baseline coverage?\" in Session 1, prepare a complete answer with measurement methodology before Session 2."
+        },
+        {
+          "icon": "Target",
+          "title": "Do NOT proceed until previous session scores 4.5/5+",
+          "content": "Each session is a gate; pass before moving on. If Session 1 score is below 4.5/5, you haven't built enough confidence in structured answers — repeat Week 1 preparation before Session 2."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Follow session instructions exactly",
+          "content": "Do not make them easier. The push points are designed to identify knowledge boundaries and communication gaps. If you soften questions, you won't accurately assess score improvements."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Probe until candidate breaks or admits knowledge boundary",
+          "content": "Find the limit. If Riya says \"I don't know,\" document it. Push on recruitment methodology, HRIS workflow details, GDPR compliance reasoning, and behavioural conflict stories — these are the score bottlenecks."
+        },
+        {
+          "icon": "FileText",
+          "title": "Provide written feedback on specific failures",
+          "content": "After each session, provide written feedback: which questions did Riya struggle with? did she trail off or rush? which scores haven't improved? what specific preparation is needed?"
+        },
+        {
+          "icon": "Ban",
+          "title": "Reset expectations",
+          "content": "Passing Session 4 means interview-ready, not guaranteed to pass real interviews. Real interviews may have different questions, higher pressure, or panel formats. Use Session 4 as validation, not guarantee."
+        }
+      ],
+      "content": "**Non-negotiable rule:**\nIf you fail Session 4 (score <4.5/5), repeat Sessions 2–4 in Week 5. Do not apply to jobs until you pass Session 4.\n\n**Timeline:**\n- Week 1: Confidence + Structure Drill (STAR pitches for all resume bullets, recorded aloud)\n- Week 2: Sessions 1–2 (Diagnostic Walkthrough + HR Technical Deep-Dive)\n- Week 3: Session 3 (Behavioural + Stakeholder Influence)\n- Week 4: Session 4 (Final Pressure Test)\n- Week 5: Buffer for repetition if needed\n\nStart Week 1 Confidence + Structure Drill today. Email your mentor when you've completed recorded STAR pitches for all resume bullet points."
+    }
+  ]
+}

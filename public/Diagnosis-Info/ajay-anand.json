@@ -1,0 +1,180 @@
+{
+  "name": "Ajay Anand KB",
+  "email": "kbajayanand@gmail.com",
+  "targetRole": "Sales Development Representative",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": [
+          "Resume & Experience Clarity",
+          "Answer Structure",
+          "Technical Readiness",
+          "Role-Specific Technical",
+          "Behavioural Story"
+        ],
+        "values": [3.6, 3.0, 3.2, 2.8, 2.6],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: Behavioural Story & Conversion-Led Sales Pitch Risk (despite a strong profile foundation).**\n\nAjay, your profile has a strong baseline for Sales Development with a solid Resume & Experience Clarity score (3.6) and decent technical depth (3.2), backed by impressive achievements like booking 50+ qualified meetings per quarter with a 30%+ conversion rate at Earlyseed Ventures, and spearheading research on AI adoption barriers across 12+ Irish organizations for PwC Ireland. The key risk is that interview impact may flatten when stories are not delivered with enough conflict, stakeholder alignment, and measurable outcomes under pressure.\n\nYour score pattern suggests you can describe sales activities (like prospecting and cold touchpoints), but in high-stakes rounds you may miss the \"decision-making narrative\" and stakeholder influence that interviewers look for: what strategic decisions you made, what trade-offs were involved (e.g., balancing outreach volume with conversion quality), and how you navigated stakeholder objections. This is why Behavioural Story Risk is flagged as the primary bottleneck.\n\n**Mapping Rule Insight:**\n- You have enough capability to clear screening and mid-level rounds.\n- To convert consistently, your responses must move from descriptive tasks to outcome-led storytelling with clear business context and stakeholder dynamics.\n- If this is fixed, your profile can perform at a significantly higher band in Sales Development and Consulting interviews."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: Resume Walkthrough / Outbound Pitch**\n\n**Red Flag Prompt:** \"Walk me through your outbound prospecting strategy at Earlyseed Ventures and how you booked 50+ meetings per quarter.\"\n\n**Likely Breakdown:** You may explain the general activities (100+ weekly cold touchpoints, phone/email) but fail to explain the conversion optimization logic (how you qualified accounts using BANT, customized outreach, and navigated gatekeepers) in a structured STAR format.\n\n---\n\n**Scenario B: Role-Specific Sales / Consultancy Deep Dive**\n\n**Red Flag Prompt:** \"How do you qualify leads under tight timelines, and how did you reduce prospect assessment turnaround from a week to 3 days?\"\n\n**Likely Breakdown:** With Role-Specific Technical at 2.8, your response might focus on the operational changes (using Jotforms or standardized templates) rather than explaining the methodology of bottleneck identification, database query optimization, or CRM workflow improvements.\n\n---\n\n**Scenario C: Stakeholder / Pipeline Pressure Question**\n\n**Red Flag Prompt:** \"Tell me about a time when portfolio startups and investors had conflicting expectations, or when a stakeholder challenged your AI adoption findings for PwC.\"\n\n**Likely Breakdown:** Your story may focus on general collaboration and reporting instead of high-stakes conflict, influence, and resolution (how you built alignment, presented research evidence to the PwC stakeholder panel, or negotiated early-stage ticket sizes)."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "STAR Story Bank + Opening Confidence",
+          "content": "Convert each major resume bullet into a 60-90 second STAR response with one clear sales metric, one strategic decision, and one stakeholder action. **Score Target:** Behavioural Story 2.6 -> 4.0"
+        },
+        {
+          "week": "Week 2",
+          "title": "Sales & Consultancy Playbooks",
+          "content": "Prepare structured frameworks for BANT qualification, objection handling, CRM pipeline hygiene, and market-entry analysis. **Score Target:** Role-Specific Technical 2.8 -> 4.2"
+        },
+        {
+          "week": "Week 3",
+          "title": "Tool-to-Value Mapping",
+          "content": "Practice explaining how Salesforce, HubSpot, LinkedIn Sales Navigator, and Asana specifically drove conversion and efficiency gains, rather than just listing tools. **Score Target:** Technical Readiness 3.2 -> 4.5"
+        },
+        {
+          "week": "Week 4",
+          "title": "The Pressure Test",
+          "content": "Run full simulation with rapid follow-up questions on SQL conversion math, pipeline management, and consulting case defense. **Score Target:** Overall average -> 4.5"
+        }
+      ],
+      "content": "Follow sequence strictly. Behavioural story clarity must improve before advanced technical defense can translate into interview wins."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Experience 1: Earlyseed Ventures — Outbound Prospecting & Lead Generation**\n\n**Interviewer Probe:** \"How did you book 50+ meetings per quarter and achieve a 30%+ meeting-to-pipeline conversion rate? Walk me through your BANT qualification process.\"\n\n**Likely Struggle:** Citing general volume (100+ weekly cold touchpoints) rather than explaining how you identified high-intent accounts, tailored outreach, and managed the lead handoff to senior partners.\n\n**Prep Drill:** Structure a STAR response: Situation (target market/funding stage), Task (sourcing/vetting 200+ accounts), Action (using LinkedIn Sales Navigator and BANT criteria to prioritize leads), Result (booking 50+ meetings/quarter, 30%+ conversion rate, and 25% meeting-to-SQL handoff).\n\n---\n\n**Experience 2: Earlyseed Ventures — CRM Pipeline & Workflow Optimization**\n\n**Interviewer Probe:** \"You managed a pipeline of 80+ active accounts ($500K-$1M average deal size) and reduced turnaround from a week to 3 days. How did you identify the bottleneck, and what templates did you standardize?\"\n\n**Likely Struggle:** Describing templates (Jotforms) without detailing the database hygiene issues, the specific lead-stage definitions you standardized, or the workflow change that increased capacity by 25%.\n\n**Prep Drill:** Define the reporting issues clearly. Explain how you standardized lead stages across the team and used Jotforms for management forecasting, and specify the query or filtering steps that cut assessment turnaround from 7 to 3 days.\n\n---\n\n**Experience 3: PwC Ireland — AI Adoption Strategy Consulting**\n\n**Interviewer Probe:** \"Explain your custom barrier-analysis framework for AI adoption across 12+ Irish organizations. How did you structure your recommendations for the PwC stakeholder panel?\"\n\n**Likely Struggle:** Explaining the project on a high level without detailing the specific barriers identified, the tools used (like ResearchRabbit), or how you handled stakeholder questions/objections.\n\n**Prep Drill:** Define the framework's core pillars. Be prepared to explain: \"I researched barriers across 12+ organizations, utilized ResearchRabbit to map technical and operational hurdles, and structured recommendations into a phased strategic roadmap presented to a panel of partners.\"\n\n---\n\n**Experience 4: Ivy Capital & AudioBrand — Market Entry & Automation Strategy**\n\n**Interviewer Probe:** \"How did you evaluate the 6 UK regional markets and generate revenue projections for Ivy Capital? How did mapping 3 workflows for AudioBrand project a 30% reduction in manual effort?\"\n\n**Likely Struggle:** Stating that you did the analysis without explaining the data sources, regulatory criteria, or the process re-engineering methodology (e.g., Asana workflow mapping) used to estimate the 30% efficiency gain.\n\n**Prep Drill:** Define the market selection parameters (demographics, regulatory hurdles) for Ivy Capital and explain how you mapped processes using Asana (identifying redundant approvals/steps) to achieve the 30% target for AudioBrand."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Experience:** Reducing prospect assessment turnaround from a week to 3 days at Earlyseed Ventures.\n\n**Baseline Answer (Score 2.6 — Process Weakness):**\n\"At Earlyseed Ventures, the prospect research took a lot of time. I wanted to speed it up, so I analyzed the steps and optimized the workflow. This helped us reduce the assessment time from a week to 3 days and increased our capacity by 25%.\"\n\n**Fixed Answer (Score 4.5+ — Strategic & Structured):**\n\"At Earlyseed Ventures, our sales outbound cycle was slowed down by lead qualification and research workflows that took an entire week, leaving high-intent accounts cold. (Situation) I took the initiative to optimize our prospect assessment and increase our quarterly processing capacity. (Task) I mapped the research steps, identified data redundancy in our startup vetting process, and standardized lead-stage definitions. I implemented Jotforms templates to streamline reporting and integrated CRM data flows using HubSpot and LinkedIn Sales Navigator to automate account verification. (Action) This reduced prospect assessment turnaround from 7 days to just 3, which increased our quarterly account processing capacity by 25% and allowed us to focus outreach on active high-ticket accounts ($500K-$1M) without requiring additional headcount. (Result)\"\n\n**Justification:** The \"Fixed\" version uses a crisp STAR flow, demonstrates workflow mapping and CRM data integration (HubSpot, LinkedIn Sales Navigator), and links the action directly to business outcomes (capacity increase, ticket size preservation, speed-to-market)."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "\"How did you evaluate the 200+ startup and investor accounts? Explain your exact BANT qualification checklist.\" **(Risk: Role-Specific Technical 2.8)**\n\n\"Walk me through your LinkedIn Sales Navigator campaign: how did you achieve a 45% audience growth and 250+ inbound inquiries?\" **(Risk: Technical Readiness 3.2)**\n\n\"Tell me about a time when you resolved a conflict with senior management regarding pipeline reporting or data hygiene.\" **(Risk: Behavioural Story 2.6)**\n\n\"How did you validate that your process optimization at AudioBrand would yield exactly a 30% reduction in manual effort?\" **(Risk: Role-Specific Technical 2.8)**\n\n\"Explain the regulatory assessment you conducted for Ivy Capital. What were the key risks in the UK self-storage market?\" **(Risk: Answer Structure 3.0)**\n\n\"Walk me through your PwC AI adoption barrier-analysis framework: what were the 12 organizations and what was the main barrier?\" **(Risk: Resume Clarity 3.6 - must defend live)**\n\n\"Describe a situation where a startup client disputed their valuation or funding match in the pipeline. How did you handle it?\" **(Risk: Behavioural Story 2.6)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: Sales Walkthrough & STAR Flow",
+              "duration": "45 minutes",
+              "objective": "Establish structured STAR responses for Earlyseed outreach and PwC consulting projects. Focus on Answer Structure."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: Sales Tech & CRM Tool Defense",
+              "duration": "50 minutes",
+              "objective": "Deep-dive into Salesforce, HubSpot, Sales Navigator campaigns, and pipeline analytics. Target Technical Readiness."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: Stakeholder Negotiation & Conflict",
+              "duration": "45 minutes",
+              "objective": "Handle objection management, startup-investor mediation, and PwC stakeholder presentations. Target Behavioural Story."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: Full SDR & Consulting Simulation",
+              "duration": "60 minutes",
+              "objective": "Rapid-fire mixed scenarios under pressure. Final validation before applications."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            { "label": "Session 1: Answer Structure", "value": 8, "max": 10 },
+            { "label": "Session 2: CRM & Sales Tools", "value": 8, "max": 10 },
+            { "label": "Session 3: Negotiation & Behavioural", "value": 9, "max": 10 },
+            { "label": "Session 4: Full Simulation", "value": 10, "max": 10 }
+          ]
+        }
+      ],
+      "content": "**Session 1: Sales Walkthrough & STAR Flow**\n\n**Focus:** Resume walkthrough and STAR storytelling.\n\n**Mentor Push:** Stop general descriptions; require specific Situation-Task-Action-Result flows for lead-booking and consulting accomplishments.\n\n---\n\n**Session 2: Sales Tech & CRM Tool Defense**\n\n**Focus:** Salesforce, HubSpot, Jotforms templates, Asana mapping.\n\n**Mentor Push:** Test specific CRM functions and lead-stage mappings. Validate if candidate's live explanation matches certification credentials.\n\n---\n\n**Session 3: Stakeholder Negotiation & Conflict**\n\n**Focus:** Startup-investor mediation and objections.\n\n**Mentor Push:** Pressure-test objection handling, stakeholder misalignment, and presenting recommendations to senior management.\n\n---\n\n**Session 4: Full SDR & Consulting Simulation**\n\n**Focus:** Full simulation of SDR and consultancy rounds under high pressure.\n\n**Mentor Push:** Interrupt, challenge claims, and evaluate overall delivery and confidence. Target score average >= 4.5/5."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 3.0,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        { "label": "Resume walkthrough", "current": "3.6", "target": "4.5" },
+        { "label": "Answer Structure", "current": "3.0", "target": "4.5" },
+        { "label": "Role-Specific Technical", "current": "2.8", "target": "4.4" },
+        { "label": "Behavioural Story", "current": "2.6", "target": "4.5" }
+      ],
+      "content": "**Target Average Score: 4.5**\n\n**Measurable Change:**\n- Move from \"I did cold prospecting and booked meetings\" to \"I executed 100+ weekly cold touchpoints, qualified startup leads using BANT criteria, and booked 50+ meetings per quarter, driving a 30%+ meeting-to-pipeline conversion rate\".\n- Move from \"I managed pipeline and dashboards\" to \"I standardized lead-stage definitions for 80+ active accounts, implemented Jotforms templates, and reduced prospect assessment turnaround from a week to 3 days, increasing capacity by 25%\".\n- The \"After\" Persona: A **commanding Sales Development Representative & Management Consultant** who articulates high-volume sales metrics with confidence, defends CRM tool workflows, and delivers engaging stakeholder alignment and consulting stories under pressure."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Complete Week 1 STAR bank before Session 1",
+          "content": "No exceptions—convert every resume bullet into a 60-second STAR pitch with a clear conflict, negotiation, or stakeholder moment. This directly targets your Behavioural Story score (2.6→4.0)."
+        },
+        {
+          "icon": "FileText",
+          "title": "Document every question you struggled with",
+          "content": "After each session, write down the exact questions and your weak answers. Identify patterns: are you struggling with communication, structure, tool justification, or confidence?"
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Re-practice failed questions within 24 hours",
+          "content": "Don't wait—fix gaps immediately. If you struggled with objection handling in Session 2, rewrite and practice a complete STAR-based response before Session 3."
+        },
+        {
+          "icon": "Target",
+          "title": "Do NOT proceed until previous session scores 4.5/5+",
+          "content": "Each session is a gate. If Session 1 score is below 4.5/5, you haven't improved Answer Structure enough—repeat Week 1 preparation before Session 2."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Coach delivery, not just content",
+          "content": "Ajay has strong achievements. Push for high energy, professional pace, and decisive sales-led endings. Restart any answer that trails off without a Result."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Probe until candidate breaks or admits knowledge boundary",
+          "content": "Find the limit. If candidate struggles to defend pipeline conversion metrics or consulting frameworks, document it. This identifies what needs more preparation."
+        },
+        {
+          "icon": "FileText",
+          "title": "Provide written feedback on specific failures",
+          "content": "Track weekly movement on Answer Structure and Behavioural Story. Flag \"we\" language and unsubstantiated metrics."
+        },
+        {
+          "icon": "Ban",
+          "title": "Reset expectations",
+          "content": "Passing Session 4 means interview-competitive, not guaranteed offers. Dublin's SaaS market also tests domain fit and right-to-work—keep mocks realistic."
+        }
+      ],
+      "content": "**Non-negotiable rule:**\nIf Session 4 score is <4.5/5, repeat Sessions 2-4 in Week 5. Do not apply to Dublin's SaaS/tech sales roles until you pass Session 4.\n\n**Timeline:**\n- Week 1: STAR story bank + video self-review\n- Week 2: Sessions 1-2 (Walkthrough + CRM Tech deep-dive)\n- Week 3: Session 3 (Negotiation & stakeholders)\n- Week 4: Session 4 (Full simulation)\n- Week 5: Buffer for repetition if needed\n\nStart Week 1 today. Email your mentor when you've completed STAR pitches for all resume bullet points."
+    }
+  ]
+}

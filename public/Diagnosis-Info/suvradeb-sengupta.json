@@ -1,0 +1,181 @@
+{
+  "name": "Suvradeb Sengupta",
+  "email": "sengupta9298@gmail.com",
+  "targetRole": "Software Engineer",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": [
+          "Resume & Experience Clarity",
+          "Answer Structure",
+          "Technical Readiness",
+          "Role-Specific Technical",
+          "Behavioural Story"
+        ],
+        "values": [3.4, 2.8, 3.0, 3.2, 2.5],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: Active Dev Recency & Backend Narrative Risk (despite a solid enterprise foundation).**\n\nSuvradeb, your profile has a solid backend engineering baseline with a decent Role-Specific Technical score (3.2) and a strong history of Java/Spring Boot development (4+ years at Cognizant) combined with an MSc. in Information Systems from UCD. The key risk is that interviewers will probe your active coding recency and system-level decision ownership, given your current role as a Quality Control Administrator at Q-Park since late 2024.\n\nYour score pattern suggests you can speak to backend tools (Java, Spring Boot, Hibernate, MySQL, Oracle SQL), but in high-stakes Dublin backend interviews, you may struggle to defend high-scale system design, concurrency, database query optimization details, or explain the transition to a Quality Control Administrator role without sounding like you've moved away from core engineering. This is why Active Dev Recency and Behavioural Story (2.5) are flagged as your primary bottlenecks.\n\n**Mapping Rule Insight:**\n- Your 4+ years of Java/Spring Boot experience will clear initial CV screening.\n- To convert technical rounds in the competitive Irish market, you must project yourself as an active, system-design-ready backend engineer rather than someone whose coding skills have cooled.\n- If you can frame your Q-Park operations with strong automation narrative and back your Cognizant work with robust system trade-offs, you will significantly improve conversion."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: Active Coding & Q-Park Transition**\n\n**Red Flag Prompt:** \"I see you've been working as a Quality Control Administrator at Q-Park since late 2024. How much active backend coding are you doing day-to-day, and how does this tie into your transition back to Software Engineering?\"\n\n**Likely Breakdown:** You may focus on the operational details of auditing transactions manually at Q-Park, making you sound like you have transitioned away from development and losing the chance to highlight how you automate systems or maintain your Java/Spring Boot edge during your MSc.\n\n---\n\n**Scenario B: Backend System Design & Database Probes**\n\n**Red Flag Prompt:** \"At Cognizant, you maintained an insurance product with 99.9% uptime and optimized databases. Walk me through the database schema optimization you designed. How did you resolve the bottlenecks?\"\n\n**Likely Breakdown:** With Role-Specific Technical at 3.2, you might list databases like MySQL and Oracle SQL but struggle to explain the query execution plans, index choices, or connection pooling trade-offs that achieved that uptime and premium generation accuracy.\n\n---\n\n**Scenario C: Quantified Impact & Scale Verification**\n\n**Red Flag Prompt:** \"You claim you automated processes, reducing labor costs by up to 70%, and uplifted revenue growth to 33% through technical innovation. How exactly did you measure these percentages, and what role did your code play?\"\n\n**Likely Breakdown:** Behavioural Story at 2.5 indicates a struggle to link your individual engineering contributions directly to business-level percentages, leading to vague answers that sound like you are claiming credit for team-wide or company-wide achievements."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "STAR Story Bank & Recency Positioning",
+          "content": "Construct 5 STAR stories focusing on your backend accomplishments at Cognizant and frame your Q-Park role around QC systems and process automation. **Score Target:** Behavioural Story 2.5 -> 3.8"
+        },
+        {
+          "week": "Week 2",
+          "title": "Backend Deep Dives & Database Probing",
+          "content": "Practice whiteboard systems diagrams for the Cognizant insurance platform and the Outreach Event App. Deep dive into index optimization and connection pooling. **Score Target:** Role-Specific Technical 3.2 -> 4.3"
+        },
+        {
+          "week": "Week 3",
+          "title": "Metric Defense & System Math",
+          "content": "Document the exact math, baseline, and validation behind the 99.9% uptime, 70% labor cost reduction, 33% revenue growth, and 50% complaint reduction. **Score Target:** Resume & Experience Clarity 3.4 -> 4.2"
+        },
+        {
+          "week": "Week 4",
+          "title": "The Backend Pressure Test",
+          "content": "Run mock interviews covering live system design (scaling Java services), concurrency/thread safety, and behavioral validation of your engineering trajectory. **Score Target:** Overall average -> 4.5"
+        }
+      ],
+      "content": "Follow sequence strictly. Week 1 is non-negotiable—active recency framing must be solid before tackling advanced backend system designs."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Experience 1: Cognizant Technology Solutions — 99.9% System Uptime & Database Optimization**\n\n**Interviewer Probe:** \"You maintained a major insurance product with 99.9% uptime and optimized databases to generate accurate premiums. How did you design database schema, and how did you trace query bottlenecks?\"\n\n**Likely Struggle:** Citing basic SQL tools without explaining execution plans (EXPLAIN), indexing strategies (composite indexes), connection pooling configurations, or how database tuning directly saved latency.\n\n**Prep Drill:** Structure a detailed explanation of: (1) schema design for premium generation, (2) the specific slow query you diagnosed, (3) indexing/query optimization applied, and (4) how that led to the 99.9% uptime verification.\n\n---\n\n**Experience 2: Cognizant Technology Solutions — Process Automation (70% Labor Cost Reduction)**\n\n**Interviewer Probe:** \"You automated manual processes like renewals, endorsements, and policy updates using custom-built tools, reducing labor costs by up to 70%. Walk me through the architecture of these tools and how they integrated with the legacy product.\"\n\n**Likely Struggle:** Describing the tools on a high level (\"I wrote Java scripts\") instead of explaining the API-driven architecture, transaction management, error handling, and the scheduling mechanism used.\n\n**Prep Drill:** Draft an integration workflow diagram. Explain the message flow, retry mechanisms in case of API failure during bulk processing, and define the baseline metrics (manual time vs automated time) that prove the 70% labor cost reduction.\n\n---\n\n**Experience 3: Q-Park — Quality Control and Compliant Operations**\n\n**Interviewer Probe:** \"You've been a Quality Control Administrator at Q-Park. How did you audit customer transactions to minimize complaints by 50%? Did you write any automation code to investigate and resolve these issues?\"\n\n**Likely Struggle:** Focusing entirely on manual auditing, which paints you as an administrator rather than an engineer.\n\n**Prep Drill:** Frame the auditing process around systems thinking. Explain the root causes identified (e.g., payment API failures or database sync latency at the parking gates) and emphasize any custom script/utility you built to streamline record investigation, cutting resolution time by 20%.\n\n---\n\n**Project 1: Outreach Event App — Java / Spring Boot Full-Stack Application**\n\n**Interviewer Probe:** \"Walk me through the role-based access control (RBAC) and real-time data logging architecture of your Outreach Event App. Why Spring Boot/Hibernate over simple MVC?\"\n\n**Likely Struggle:** Explaining the project on a high level like a basic college assignment, without detailing the security configurations (Spring Security), Hibernate session/transaction management, or logging framework.\n\n**Prep Drill:** Prepare to discuss Spring Security configuration, Hibernate caching/lazy-loading issues (N+1 query problem), and explain how role-based tokens are managed and verified on the server side."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Experience:** Automating manual processes like renewals and policy updates at Cognizant.\n\n**Baseline Answer (Score 2.8 — Active Recency & Structure Weakness):**\n\"At Cognizant, I worked on an insurance product. We had manual processes like policy updates and renewals that took a lot of time. I automated these processes by building custom tools using Java and Spring Boot. This helped the company save labor costs by up to 70% and made things run much faster.\"\n\n**Fixed Answer (Score 4.5+ — Strategic & Structured Backend Engineer):**\n\"At Cognizant, our operations team was bottlenecked by manual processing of insurance renewals, endorsements, and policy updates, which took up to 3 hours per transaction and caused delays in premium generation. (Situation) I took ownership of designing and implementing custom automation tools to streamline this backend workflow. (Task) I built a Spring Boot-based micro-utility integrated with Hibernate that parsed incoming XML policy updates, validated transaction integrity, and executed bulk renewals asynchronously via a custom message queue with built-in retry mechanisms for database conflicts. (Action) This automation reduced manual processing time per policy from 3 hours to under 5 minutes, achieving up to a 70% reduction in labor costs for the renewals department, while maintaining transactional consistency across our MySQL database. (Result)\"\n\n**Justification:** The fixed response uses a clear STAR framework, highlights engineering ownership, names specific technical choices (Spring Boot, Hibernate, async processing, transaction validation), and ties the action directly to operational and cost metrics."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "\"You've been in a Quality Control Administrator role at Q-Park for over a year. How have you kept your Java and Spring Boot skills sharp during this time?\" **(Risk: Active Dev Recency / Technical Readiness 3.0)**\n\n\"Explain the database optimization you performed at Cognizant. What indexes did you build and how did you verify query performance?\" **(Risk: Role-Specific Technical 3.2)**\n\n\"You claim your technical innovation uplifted revenue growth to 33%. What was the product, what did you build, and how was the financial impact tracked?\" **(Risk: Behavioural Story 2.5 / Resume & Experience Clarity 3.4)**\n\n\"In your Outreach Event App, how did you implement role-based access control? Defend your security model against session hijacking or token forgery.\" **(Risk: Technical Readiness 3.0)**\n\n\"Tell me about a time at Cognizant when a deployment broke a production database. What was your root cause analysis and resolution?\" **(Risk: Behavioural Story 2.5)**\n\n\"How did you measure the 50% reduction in customer complaints at Q-Park? What was the baseline and timeframe?\" **(Risk: Resume & Experience Clarity 3.4 - must defend live)**\n\n\"Why did you choose a custom-built tool for renewals at Cognizant instead of using an off-the-shelf workflow engine like Camunda or Apache Airflow?\" **(Risk: Answer Structure 2.8)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: Active Dev Recency & Q-Park Narrative",
+              "duration": "45 minutes",
+              "objective": "Establish strong positioning for the Q-Park role, highlighting automation. Target Answer Structure."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: Backend Architecture & Database Deep Dive",
+              "duration": "50 minutes",
+              "objective": "Probe Spring Boot microservices, Hibernate session lifecycle, and MySQL/Oracle indexing. Target Role-Specific Technical."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: Quantified Metrics & Technical Leadership",
+              "duration": "45 minutes",
+              "objective": "Defend metrics (33% revenue, 70% cost, 99.9% uptime). Target Behavioural Story."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: Full Simulation (Dublin SE Loop)",
+              "duration": "60 minutes",
+              "objective": "Mixed loop covering live coding articulation, resume walkthrough, and behavioral under pressure."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            { "label": "Session 1: Active Recency & Structure", "value": 8, "max": 10 },
+            { "label": "Session 2: Backend Technical Depth", "value": 8, "max": 10 },
+            { "label": "Session 3: Metric Defense & Leadership", "value": 9, "max": 10 },
+            { "label": "Session 4: Full Simulation", "value": 10, "max": 10 }
+          ]
+        }
+      ],
+      "content": "**Session 1: Active Dev Recency & Q-Park Narrative**\n\n**Focus:** Resume walkthrough and active recency narrative.\n\n**Mentor Push:** Probe Q-Park transition. Interrupt if applicant sounds like a non-technical administrator. Require active coding examples or automation scripting to bridge the gap.\n\n---\n\n**Session 2: Backend Architecture & Database Deep Dive**\n\n**Focus:** Spring Boot, Hibernate, SQL indexing, connection pooling, security APIs.\n\n**Mentor Push:** Probe ORM caching issues, lazy loading vs eager loading, transactional boundaries, and SQL query plans. Push for system-level logic, not just framework utility.\n\n---\n\n**Session 3: Quantified Metrics & Technical Leadership**\n\n**Focus:** Financial and cost reduction metrics, stakeholder conflicts, and process automation design.\n\n**Mentor Push:** Force candidate to defend the 33% revenue uplift, 70% labor cost saving, and 50% complaint reduction. Challenge any team-wide attribution to verify personal engineering output.\n\n---\n\n**Session 4: Full Simulation (Dublin SE Loop)**\n\n**Focus:** Complete end-to-end backend Software Engineer simulation under high pressure.\n\n**Mentor Push:** Simulate rapid-fire design modifications (e.g., latency increases, connection limits). Interrupt, challenge claims, and evaluate overall delivery and confidence. Target average score >= 4.5/5."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 2.98,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        { "label": "Resume walkthrough", "current": "3.4", "target": "4.5" },
+        { "label": "Answer Structure", "current": "2.8", "target": "4.5" },
+        { "label": "Technical Readiness", "current": "3.0", "target": "4.5" },
+        { "label": "Role-Specific Technical", "current": "3.2", "target": "4.5" },
+        { "label": "Behavioural Story", "current": "2.5", "target": "4.5" }
+      ],
+      "content": "**Target Average Score: 4.5**\n\n**Measurable Change:**\n- Move from \"I automated policy updates in Java\" to \"I built a Spring Boot-based micro-utility with custom transaction routing, reducing labor costs by 70% and process duration from 3 hours to under 5 minutes.\"\n- Move from \"I worked in Quality Control\" to \"I audited transaction pipelines, traced database/API sync errors, and implemented automation to reduce complaints by 50% and resolution time by 20%.\"\n- The \"After\" Persona: A **seasoned backend Software Engineer** who commands technical design discussions around Java/Spring Boot, handles transition narratives with strategic framing, and projects high-scale confidence in Irish dev teams."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Complete Week 1 STAR bank before Session 1",
+          "content": "Prepare at least 5 backend stories in STAR format detailing specific architectural choices, trade-offs, and metrics from Cognizant. This directly targets your Behavioural Story score (2.5→3.8)."
+        },
+        {
+          "icon": "FileText",
+          "title": "Document every question you struggled with",
+          "content": "After each session, write down the exact questions and your weak answers. Identify patterns: are you struggling with database details, coding recency questions, or structure?"
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Re-practice failed questions within 24 hours",
+          "content": "Don't wait—fix gaps immediately. If you struggled to explain database index configuration, write it down and review execution plans before the next session."
+        },
+        {
+          "icon": "Target",
+          "title": "Do NOT proceed until previous session scores 4.5/5+",
+          "content": "Each session is a gate. If Session 1 score is below 4.5/5, you haven't improved your transition narrative and structure enough—repeat Week 1 preparation before Session 2."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Coach delivery, not just content",
+          "content": "Suvradeb has strong technical background but needs to sound like an active backend architect. Push for confident system explanation, steady pace, and clear outcome statements."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Probe until candidate breaks or admits knowledge boundary",
+          "content": "Find the limit. If candidate struggles to defend database tuning, ORM relationships, or Q-Park operations framing, document it. This identifies what needs more preparation."
+        },
+        {
+          "icon": "FileText",
+          "title": "Provide written feedback on specific failures",
+          "content": "Track weekly movement on backend system design, database details, and behavioral structure. Reject any team-attribution language ('we did')."
+        },
+        {
+          "icon": "Ban",
+          "title": "Reset expectations",
+          "content": "Passing Session 4 means interview-competitive, not guaranteed offers. The Dublin backend market is highly competitive and visa/domain fit will be strictly tested."
+        }
+      ],
+      "content": "**Non-negotiable rule:**\nIf Session 4 score is <4.5/5, repeat Sessions 2-4 in Week 5. Do not apply to Irish Software Engineering roles until you pass Session 4.\n\n**Timeline:**\n- Week 1: STAR story bank + video self-review\n- Week 2: Sessions 1-2 (Q-Park transition narrative & Backend technical deep-dive)\n- Week 3: Session 3 (Quantified metrics & technical leadership)\n- Week 4: Session 4 (Full simulation)\n- Week 5: Buffer for repetition if needed\n\nStart Week 1 today. Email your mentor when you've completed STAR pitches for all resume bullet points."
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "name": "Anish Rao",
+  "email": "rao.anish.ie@gmail.com",
+  "targetRole": "Technical Business Analyst",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": [
+          "Resume & Experience Clarity",
+          "Answer Structure",
+          "Technical Readiness",
+          "Role-Specific Technical",
+          "Behavioural Story"
+        ],
+        "values": [3.6, 2.8, 3.2, 3.4, 2.5],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: Active BA Recency & Role-Definition Narrative Risk (despite high-impact DraftKings metrics).**\n\nAnish, your profile presents an outstanding Technical Business Analyst baseline with a strong Resume & Experience Clarity score (3.6) and solid Role-Specific Technical capabilities (3.4). Your experience scaling DraftKings' real-money casino game integrations from ~150 to 500+ per sprint across 7 regulated US/Canadian markets, managing 20+ vendors across US/EU time zones, and earning a written commendation from Senior Engineering Management provides a formidable platform for Dublin BA roles.\n\nHowever, your Behavioural Story score of **2.5** and Answer Structure score of **2.8** reveal a dual bottleneck: (1) interviewers will probe your active technical BA recency given your current part-time Customer Advisor role at B&Q while completing your M.Sc. in Data Analytics at Dublin Business School, and (2) you risk blurring your role identity between software engineering, QA coordination, and commercial business analysis. When probed live on complex vendor negotiation trade-offs, iOS caching spec architecture, or how Python/SQL automation actually scaled ODR pipeline throughput, hesitant or purely descriptive responses can make high-scale resume numbers look like team-wide achievements rather than personal BA output.\n\n**Mapping Rule Insight:**\n- Your 3 years of DraftKings platform experience and First Class M.Sc. in Data Analytics will easily clear initial screening filters in Ireland.\n- To convert technical and managerial rounds in Dublin's tech ecosystem, you must project a unified persona: a technically sharp, data-driven Technical BA who translates complex stakeholder requirements into seamless engineering workflows.\n- If you frame your B&Q experience around customer requirement elicitation and process efficiency while rigorously defending your DraftKings automation and iOS caching specs in STAR format, you will achieve top-tier interview conversion."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: Role Transition & B&Q Recency Probe**\n\n**Red Flag Prompt:** \"I see you're currently working as a Customer Advisor at B&Q while wrapping up your M.Sc. at DBS. How are you keeping your Technical BA skills sharp, and how do you explain transitioning from DraftKings to retail customer service?\"\n\n**Likely Breakdown:** You may over-explain the manual customer interaction at B&Q, making you sound disconnected from Agile BA workflows, BRD/FRD drafting, and SQL/Python data validation, rather than bridging retail requirement discovery directly to your technical BA toolset.\n\n---\n\n**Scenario B: Technical BA vs. Software Engineer Clarity**\n\n**Red Flag Prompt:** \"Your title at TestingXperts was Technical Business Analyst (Software Engineer), and you built an iOS caching POC and Python/SQL scripts. Were you writing production software or managing business requirements? Walk me through where your responsibility ended and engineering took over.\"\n\n**Likely Breakdown:** With Answer Structure at 2.8, you might struggle to delineate your BA boundary—failing to explain how writing user stories with acceptance criteria and wireframes enabled dev teams vs. writing prototype code yourself—raising doubts about your core BA focus.\n\n---\n\n**Scenario C: Quantified Metric Defense under Scrutiny**\n\n**Red Flag Prompt:** \"You claim you scaled integration throughput from ~150 to 500+ game integrations per sprint and saved 10+ hours per sprint with a Confluence knowledge base. How exactly did you isolate your contribution from overall team growth or platform upgrades?\"\n\n**Likely Breakdown:** Behavioural Story at 2.5 indicates a vulnerability in defending high-impact metrics. You risk giving generic answers about 'team effort' rather than explaining the exact data-ingestion automation scripts, As-Is/To-Be process mapping, and vendor handoffs you personally designed."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "STAR Story Bank & Recency Positioning",
+          "content": "Construct 6 STAR stories for DraftKings vendor management, ODR automation, iOS caching fix, and project tracking tool. Frame B&Q retail work around requirement elicitation and zero-error scoping. **Score Target:** Behavioural Story 2.5 -> 3.8"
+        },
+        {
+          "week": "Week 2",
+          "title": "BA Technical Artifacts & Process Mapping",
+          "content": "Prepare whiteboard walk-throughs for BRDs/FRDs, As-Is/To-Be process flows, MoSCoW prioritization, and Python/SQL automation pipelines. **Score Target:** Role-Specific Technical 3.4 -> 4.3"
+        },
+        {
+          "week": "Week 3",
+          "title": "Metric Defense & Data Analytics Bridge",
+          "content": "Document the precise math behind scaling 150->500+ integrations, 50% call reduction, 20%+ error drop, 2 hrs/day saved per PM, and 64% insurance churn prediction. **Score Target:** Resume & Experience Clarity 3.6 -> 4.4"
+        },
+        {
+          "week": "Week 4",
+          "title": "The High-Pressure BA Loop Simulation",
+          "content": "Run full Dublin BA mock interviews covering live requirements elicitation, vendor conflict resolution, Agile backlog grooming, and executive-level delivery defense. **Score Target:** Overall average -> 4.5"
+        }
+      ],
+      "content": "Follow sequence strictly. Week 1 recency framing and STAR story setup are non-negotiable before executing deep-dive BA process defense."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Experience 1: DraftKings — ODR Game Integration Pipeline & Python/SQL Automation**\n\n**Interviewer Probe:** \"You ran the On-Demand Resource (ODR) game integration pipeline solo across DraftKings Casino and Golden Nugget, scaling throughput from ~150 to 500+ integrations per sprint. Walk me through the automated data-ingestion process and user story creation.\"\n\n**Likely Struggle:** Describing the automation in broad terms (\"I wrote Python scripts\") without breaking down the SQL database schemas, Python ETL parsing logic, user story acceptance criteria format, or how you managed compliance rules across 7 regulated markets (e.g. WV, MI).\n\n**Prep Drill:** Structure a clear response: (1) As-Is manual ingestion bottleneck across 7 markets, (2) Python script logic to validate and ingest vendor game metadata into SQL databases, (3) Jira user story template with concrete acceptance criteria, and (4) verification of the 500+ sprint throughput metric.\n\n---\n\n**Experience 2: DraftKings — Vendor Stakeholder Management & Confluence Knowledge Base**\n\n**Interviewer Probe:** \"You managed 20+ game vendors across US and European time zones with zero escalations in 3 years. How did your Confluence knowledge base cut mid-sprint clarification calls by ~50% and save 10+ hours per sprint?\"\n\n**Likely Struggle:** Attributing success to simple document creation without explaining how you conducted root cause analysis on recurring developer/QA blockers, structured As-Is/To-Be workflows, and established cross-timezone SLAs.\n\n**Prep Drill:** Detail the root cause analysis framework: (1) categorizing top recurring vendor query types, (2) building interactive decision trees in Confluence for QA/dev teams, (3) establishing async communication protocols across US/EU time zones, and (4) tracking call reduction metrics.\n\n---\n\n**Experience 3: DraftKings — iOS Game Caching Wireframe, Spec & Proof of Concept**\n\n**Interviewer Probe:** \"You identified a recurring game-download failure, wrote wireframes/specs for an iOS caching fix, and built the proof of concept yourself. How did you validate that top-10 games stored locally caused a 20%+ drop in errors?\"\n\n**Likely Struggle:** Mixing up the business analyst role (specifying user needs & wireframes in Figma/Lucidchart) with the engineering implementation, or failing to detail how DataDog monitoring metrics were tracked pre- and post-deployment.\n\n**Prep Drill:** Practice articulating: (1) identifying player drop-off telemetry via log analysis, (2) creating Figma wireframes and functional specs for storing top-10 games locally on iOS, (3) building a prototype to prove feasibility to engineering leads, and (4) validating the 20%+ error reduction via DataDog dashboards.\n\n---\n\n**Experience 4: DraftKings — Company-Wide Resource Tracking Tool (1,000+ Staff & CEO Adoption)**\n\n**Interviewer Probe:** \"How did you redesign and automate the company-wide project and resource tracking tool, replacing manual spreadsheets and saving project managers 2 hours of daily manual work?\"\n\n**Likely Struggle:** Highlighting spreadsheet replacement without discussing stakeholder requirement gathering from PMs to C-suite, data model design (SQL/Power BI), or adoption management across 1,000+ staff.\n\n**Prep Drill:** Frame the workflow re-engineering: (1) interviewing PMs to map manual tracking pain points, (2) designing automated KPI dashboards and SQL reporting pipelines, (3) change management strategy for CEO and executive buy-in, and (4) calculating time saved (2 hrs/day per PM).\n\n---\n\n**Project 1: M.Sc. Dissertation — Explainable AI Churn Prediction & NYC Taxi Analytics**\n\n**Interviewer Probe:** \"In your M.Sc. dissertation, you compared six ML models using Explainable AI to flag churn and found vehicle age out-predicted claims history. How do you apply this data analytics rigor to Technical BA roles?\"\n\n**Likely Struggle:** Getting bogged down in ML model tuning details without bridging the findings (XAI SHAP/LIME interpretations, 64% insurance churn accuracy) to business stakeholder decision-making and requirements translation.\n\n**Prep Drill:** Connect analytics to BA value: explain how using Explainable AI to show why customers churn translates directly to translating complex data insights into clear business requirements and KPI dashboards (SQL, Power BI, Tableau)."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Experience:** Automating the On-Demand Resource (ODR) game integration pipeline at DraftKings.\n\n**Baseline Answer (Score 2.8 — Descriptive & Structure Weakness):**\n\"At DraftKings, I was responsible for the game integration pipeline. We had a lot of manual data ingestion work when bringing in new casino games from vendors across 7 regulated markets. I wrote Python and SQL scripts to automate this process and wrote user stories in Jira. This helped us scale the game integrations from 150 to over 500 per sprint.\"\n\n**Fixed Answer (Score 4.5+ — Strategic & Technical BA Execution):**\n\"At DraftKings, scaling real-money casino games across 7 regulated US and Canadian markets was bottlenecked by manual data-ingestion workflows, capping our delivery at ~150 integrations per sprint and creating QA handoff delays. (Situation) As the primary Technical BA running the On-Demand Resource (ODR) pipeline, I was tasked with eliminating data entry bottlenecks and scaling throughput without increasing sprint overhead. (Task) I mapped the As-Is ingestion workflow, authored standardized Jira user stories with rigid acceptance criteria, and engineered custom Python and SQL automation scripts to parse, validate, and ingest vendor game metadata directly into our staging databases. (Action) This automated pipeline scaled our throughput from ~150 to 500+ game integrations per sprint with zero escalations over 3 years, enabling the successful Golden Nugget Online Gaming launch in West Virginia and Michigan and earning a written commendation from Senior Engineering Management. (Result)\"\n\n**Justification:** The fixed response uses a crisp STAR structure, clearly delineates Technical BA ownership (process mapping, user stories with acceptance criteria, automated data pipelines), and ties actions directly to massive operational scale (150 -> 500+ integrations/sprint) and executive commendation."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "\"You are currently working as a Customer Advisor at B&Q in Dublin. How does your daily work there maintain your Technical BA edge, and why the transition from DraftKings?\" **(Risk: Active BA Recency / Behavioural Story 2.5)**\n\n\"You title yourself Technical Business Analyst (Software Engineer). In a sprint setting, how do you handle pushback from senior software engineers who challenge your functional specs or acceptance criteria?\" **(Risk: Answer Structure 2.8 / Role-Specific Technical 3.4)**\n\n\"How exactly did your Confluence knowledge base cut mid-sprint clarification calls by ~50% and save 10+ hours per sprint across 20+ vendors? What was your baseline metric?\" **(Risk: Resume & Experience Clarity 3.6 - must defend live)**\n\n\"Walk me through your iOS caching spec for game-download failures. Why did storing the top-10 games locally solve the issue, and how did DataDog confirm the 20%+ error drop?\" **(Risk: Technical Readiness 3.2)**\n\n\"In your company-wide resource tracking tool, how did you handle data privacy and permissions when rolling it out to 1,000+ staff up to CEO level?\" **(Risk: Role-Specific Technical 3.4)**\n\n\"Explain how you validated requirements across 7 regulated US and Canadian markets (e.g. West Virginia, Michigan). How did state-level regulatory differences alter your BRDs/FRDs?\" **(Risk: Answer Structure 2.8)**\n\n\"In your M.Sc. dissertation, why did Explainable AI reveal that vehicle age predicted insurance cancellations better than claims history? How did stakeholders react?\" **(Risk: Technical Readiness 3.2)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: Active BA Recency & B&Q Positioning",
+              "duration": "45 minutes",
+              "objective": "Establish strong positioning for B&Q to Technical BA transition. Refine 90-second intro & STAR framework. Target Answer Structure."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: Requirements Gathering & Process Mapping Deep Dive",
+              "duration": "50 minutes",
+              "objective": "Probe BRD/FRD creation, As-Is/To-Be mapping, Jira user stories with acceptance criteria, and Confluence SLA workflows. Target Role-Specific Technical."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: Automation & Quantified Metric Defense",
+              "duration": "45 minutes",
+              "objective": "Defend DraftKings metrics (150->500+ integrations, 50% call reduction, 20%+ error drop, 2 hrs/day saved per PM). Target Behavioural Story."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: Full Simulation (Dublin Tech BA Loop)",
+              "duration": "60 minutes",
+              "objective": "Full end-to-end mock covering requirements elicitation, vendor conflict scenarios, SQL/Python data validation, and executive presentation."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            {
+              "label": "Session 1: Active Recency & Structure",
+              "value": 8,
+              "max": 10
+            },
+            {
+              "label": "Session 2: Technical BA Artifacts & Process Mapping",
+              "value": 8,
+              "max": 10
+            },
+            {
+              "label": "Session 3: Metric Defense & Vendor Management",
+              "value": 9,
+              "max": 10
+            },
+            {
+              "label": "Session 4: Full Simulation",
+              "value": 10,
+              "max": 10
+            }
+          ]
+        }
+      ],
+      "content": "**Session 1: Active BA Recency & B&Q Positioning**\n\n**Focus:** Resume walkthrough and active recency narrative.\n\n**Mentor Push:** Probe B&Q customer advisor role. Interrupt if applicant sounds like a retail worker disconnected from tech. Demand clear requirement-elicitation and zero-error scoping analogies that bridge directly to Technical BA roles in Dublin.\n\n---\n\n**Session 2: Requirements Gathering & Process Mapping Deep Dive**\n\n**Focus:** BRDs/FRDs, As-Is/To-Be maps, MoSCoW prioritization, Jira user stories, Confluence knowledge base.\n\n**Mentor Push:** Challenge functional spec depth. Ask candidate to whiteboard an As-Is/To-Be process map live for vendor onboarding and define rigid acceptance criteria for API data ingestion.\n\n---\n\n**Session 3: Automation & Quantified Metric Defense**\n\n**Focus:** Python/SQL data ingestion automation, iOS caching spec, resource tracking tool adoption, dissertation Explainable AI.\n\n**Mentor Push:** Force candidate to defend the 500+ integrations/sprint metric, 20%+ DataDog error reduction, and 2 hours/day PM manual work savings. Reject any vague attribution; verify personal BA and scripting output.\n\n---\n\n**Session 4: Full Simulation (Dublin Tech BA Loop)**\n\n**Focus:** End-to-end Technical Business Analyst simulation under high pressure.\n\n**Mentor Push:** Rapid-fire scenario changes (e.g., sudden vendor API schema change, QA blocker before release). Challenge claims, test stakeholder negotiation confidence, and evaluate overall delivery. Target average score >= 4.5/5."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 3.1,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        {
+          "label": "Resume walkthrough",
+          "current": "3.6",
+          "target": "4.5"
+        },
+        {
+          "label": "Answer Structure",
+          "current": "2.8",
+          "target": "4.5"
+        },
+        {
+          "label": "Technical Readiness",
+          "current": "3.2",
+          "target": "4.5"
+        },
+        {
+          "label": "Role-Specific Technical",
+          "current": "3.4",
+          "target": "4.5"
+        },
+        {
+          "label": "Behavioural Story",
+          "current": "2.5",
+          "target": "4.5"
+        }
+      ],
+      "content": "**Target Average Score: 4.5**\n\n**Measurable Change:**\n- Move from \"I automated game integrations with Python scripts\" to \"I engineered a Python/SQL automated data-ingestion pipeline and authored Jira acceptance criteria, scaling throughput from ~150 to 500+ game integrations per sprint across 7 regulated markets.\"\n- Move from \"I worked part-time at B&Q\" to \"I applied structured customer requirement elicitation and budget scoping across 40+ daily clients, maintaining zero order errors while completing my M.Sc. in Data Analytics.\"\n- The \"After\" Persona: A **battle-tested Technical Business Analyst** who commands Agile BA frameworks, seamlessly bridges business stakeholders with engineering teams, defends data-driven automation metrics under pressure, and projects supreme confidence in Irish technology hiring loops."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Complete Week 1 STAR bank before Session 1",
+          "content": "Prepare at least 6 Technical BA stories in STAR format detailing specific DraftKings requirement specs, vendor SLAs, Python/SQL automation scripts, and metrics. Target Behavioural Story score (2.5->3.8)."
+        },
+        {
+          "icon": "FileText",
+          "title": "Document every question you struggled with",
+          "content": "After each mock session, write down exact questions and weak answers. Identify patterns: are you struggling with BA artifact details, technical recency framing, or STAR structure?"
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Re-practice failed questions within 24 hours",
+          "content": "Fix gaps immediately. If you struggled to explain As-Is/To-Be process mapping or Jira acceptance criteria formulation, refine your written framework and practice out loud."
+        },
+        {
+          "icon": "Target",
+          "title": "Do NOT proceed until previous session scores 4.5/5+",
+          "content": "Each session is a gate. If Session 1 score is below 4.5/5, repeat Week 1 preparation before moving to Session 2."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Coach delivery, not just content",
+          "content": "Anish has impressive DraftKings achievements and M.Sc. analytics training but needs to sound like an authoritative Technical BA. Push for structured STAR answers, steady pace, and clear business-value statements."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Probe until candidate breaks or admits knowledge boundary",
+          "content": "Find the boundary. Probe deeply into vendor escalation handling, regulatory compliance differences across US states, and Python/SQL script technical architecture."
+        },
+        {
+          "icon": "FileText",
+          "title": "Provide written feedback on specific failures",
+          "content": "Track weekly movement on requirements elicitation, process mapping, and behavioral structure. Reject vague team-attribution language ('we scaled')."
+        },
+        {
+          "icon": "Ban",
+          "title": "Reset expectations",
+          "content": "Passing Session 4 means interview-ready for top Irish tech companies, not guaranteed offers. Market competition and domain alignment will be strictly evaluated."
+        }
+      ],
+      "content": "**Non-negotiable rule:**\nIf Session 4 score is <4.5/5, repeat Sessions 2-4 in Week 5. Do not apply to top Dublin Technical BA roles until you pass Session 4.\n\n**Timeline:**\n- Week 1: STAR story bank + video self-review\n- Week 2: Sessions 1-2 (Recency narrative & BA process deep-dive)\n- Week 3: Session 3 (Quantified metrics & vendor management)\n- Week 4: Session 4 (Full simulation)\n- Week 5: Buffer for repetition if needed\n\nStart Week 1 today. Email your mentor when you've completed STAR pitches for all resume bullet points."
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "name": "Ajay Anand KB",
+  "role": "Sales Development Representative | Management Consultant",
+  "description": "Tailored to your experience in sales development, business development, management consultancy, CRM pipeline management, BANT lead qualification, and strategic process optimization.",
+  "sections": [
+    {
+      "title": "Behavioral Questions",
+      "icon": "Users",
+      "cards": [
+        {
+          "front": "Tell me about yourself",
+          "back": "I'm a Sales Development Representative and MSc Management Consultancy candidate at UCD Smurfit with a strong track record of exceeding sales-qualified lead (SQL) generation and meeting-booking targets. At Earlyseed Ventures, I managed high-volume inbound and outbound prospecting, booking over 50 qualified meetings per quarter and driving a 30%+ meeting-to-pipeline conversion rate. I mediated fundraising for early-stage startups across seed, pre-Series A, and Series A rounds, contributing to an investor-startup pipeline exceeding $10M+ in potential funding. With expertise in BANT qualification, LinkedIn Sales Navigator, Salesforce, and HubSpot CRM, I specialize in streamlining sales pipelines and advising on strategy, and I am targeting sales roles in Dublin's SaaS and tech sector."
+        },
+        {
+          "front": "What are your strengths?",
+          "back": "My core strengths are high-volume omni-channel prospecting, BANT qualification, CRM pipeline management, and strategic process optimization. At Earlyseed Ventures, I successfully drove 100+ weekly cold touchpoints and standardized lead-stage definitions to improve forecasting accuracy and reduce manual reporting time. I also excel at research and consulting strategy, having spearheaded consulting engagements for organizations like PwC Ireland using custom barrier-analysis frameworks. I combine strong relationship-building skills for discovery meetings with technical proficiency in tools like Salesforce, HubSpot, LinkedIn Sales Navigator, and Asana."
+        },
+        {
+          "front": "What are your weaknesses?",
+          "back": "I sometimes spend too much time perfecting pipeline reports and documentation layouts to ensure absolute CRM data hygiene. While this maintains high standards and accuracy in pipelines, it can slow down prompt delivery. To balance this, I've standardized templates and lead-stage definitions early on, which has reduced manual reporting time and allowed me to focus on active outreach without sacrificing database quality."
+        },
+        {
+          "front": "Why do you want to join us?",
+          "back": "I want to apply my sales development and strategic consulting skills to a fast-growing tech/SaaS environment. Your focus on scalable growth, sales excellence, and high-impact solutions aligns perfectly with my background in driving lead generation, BANT qualification, and managing active pipelines. I am excited to bring my experience in high-volume prospecting, CRM tools like Salesforce and HubSpot, and market entry strategies to help accelerate your sales cycle and drive revenue."
+        },
+        {
+          "front": "Where do you see yourself in the next 5 years?",
+          "back": "In five years, I see myself advancing into a Senior Account Executive or Sales Operations Manager role within the SaaS or tech industry. I plan to deepen my expertise in pipeline strategy, revenue operations, and client management, while leveraging my management consulting background to lead cross-functional sales initiatives, optimize sales processes, and mentor incoming sales development representatives."
+        },
+        {
+          "front": "Tell me about a time you went above and beyond",
+          "back": "Situation: At Earlyseed Ventures, lead qualification and research workflows were taking too much time, delaying outreach. Task: Accelerate prospect assessment turnaround. Action: I went beyond the basic process by analyzing the existing qualification steps, identifying bottlenecks in information sourcing, and optimizing the research workflows. Result: Successfully reduced the prospect assessment turnaround time from a full week to just 3 days, increasing our quarterly account processing capacity by 25% without requiring additional team headcount."
+        },
+        {
+          "front": "How do you handle tight deadlines?",
+          "back": "I prioritize tasks based on high-impact pipeline value, use structured time-blocking, and leverage CRM tools to keep workflows organized. When preparing a strategic market entry roadmap for Ivy Capital under tight deadlines, I broke the competitive landscape analysis of 6 regional markets into defined milestones. This structured approach allowed me to deliver comprehensive revenue projections and a phased roadmap on schedule."
+        },
+        {
+          "front": "Describe a time you took initiative",
+          "back": "Situation: At Earlyseed Ventures, our pipeline visibility and reporting templates were manual, non-standardized, and prone to forecasting errors. Task: Streamline pipeline workflows and reporting. Action: I proactively standardized lead-stage definitions and created reporting templates across the team using Jotforms for senior management reporting. Result: This initiative significantly reduced manual reporting time, maintained strict data hygiene across 80+ active accounts, and improved quarterly revenue forecast accuracy."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "The STAR method (Situation, Task, Action, Result) is useful for structuring responses to behavioral questions.",
+          "answer": true
+        },
+        {
+          "question": "Quantifiable achievements like 'booking 50+ meetings per quarter' or 'reducing assessment time to 3 days' make your answers more credible.",
+          "answer": true
+        },
+        {
+          "question": "When answering behavioral questions, you should focus only on your duties rather than the specific actions and outcomes you drove.",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "title": "Technical Questions",
+      "icon": "Target",
+      "cards": [
+        {
+          "front": "Explain your experience with sales development and prospecting",
+          "back": "I have extensive experience in high-volume omni-channel prospecting across phone, LinkedIn, and email, executing 100+ weekly cold touchpoints. At Earlyseed Ventures, I successfully sourced and vetted 200+ sector-agnostic startup and investor accounts, booking over 50 qualified meetings per quarter and achieving a 30%+ meeting-to-pipeline conversion rate."
+        },
+        {
+          "front": "What is your methodology for lead qualification?",
+          "back": "I primarily use the BANT framework (Budget, Authority, Need, Timeline) to qualify leads, identify high-intent accounts, and accelerate the sales cycle. I coordinate discovery meetings to ensure candidate accounts match established profiles, resulting in a 25% meeting-to-SQL conversion rate at Earlyseed Ventures before handoff to senior partners."
+        },
+        {
+          "front": "How do you manage CRM pipelines and data hygiene?",
+          "back": "I have hands-on experience managing active pipelines of 80+ accounts using Salesforce, HubSpot, and LinkedIn Sales Navigator. I maintain strict data hygiene and process guidelines, and I streamlined Earlyseed's pipeline by standardizing lead-stage definitions and templates using Jotforms to reduce reporting errors and improve revenue forecasting."
+        },
+        {
+          "front": "What is your experience with management consulting and strategy?",
+          "back": "I am an MSc Management Consultancy candidate with practical consulting project experience. I spearheaded research on AI adoption barriers across 12+ Irish organizations for PwC Ireland using custom barrier-analysis frameworks. I've also executed competitive landscape analysis across 6 UK markets for Ivy Capital to build market entry roadmaps."
+        },
+        {
+          "front": "How do you approach process re-engineering and automation?",
+          "back": "I map core operational workflows to pinpoint inefficiencies and design prioritized implementation roadmaps. In my consulting project with AudioBrand, I mapped 3 core workflows using Asana and process re-engineering methodologies to identify automation opportunities, producing a roadmap projected to reduce manual effort by 30%."
+        },
+        {
+          "front": "Explain your data analysis and financial forecasting skills",
+          "back": "I have strong capabilities in advanced Excel, revenue projections, ESG analysis, and market evaluation. I've built comprehensive revenue projections for market entry strategies (such as Ivy Capital's US self-storage UK expansion) and used Excel for pipeline metrics tracking, data analysis, and senior management reporting."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "The BANT framework stands for Budget, Authority, Need, and Timeline.",
+          "answer": true
+        },
+        {
+          "question": "Pipeline data hygiene is only important for marketing teams and has no impact on revenue forecasting accuracy.",
+          "answer": false
+        },
+        {
+          "question": "Process re-engineering involves mapping operational workflows to identify inefficiencies and automation opportunities.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "title": "Project Highlights",
+      "icon": "Award",
+      "cards": [
+        {
+          "front": "Earlyseed Ventures – Business Development & Pipeline Management",
+          "back": "Exceeded lead generation and meeting-booking targets for 4 consecutive quarters, booking 50+ meetings per quarter and executing 100+ weekly touchpoints. Standardized pipeline workflows, lead definitions, and Jotforms templates for 80+ active accounts, reducing manual reporting time. Launched Sales Navigator campaigns that drove a 45% audience growth and 250+ quarterly inbound inquiries. CRM Tools: Salesforce, HubSpot, LinkedIn Sales Navigator, Jotforms."
+        },
+        {
+          "front": "PwC Ireland – AI Adoption Strategy Consulting",
+          "back": "Spearheaded research on AI adoption barriers across 12+ Irish organizations during a consulting engagement. Applied a custom barrier-analysis framework and utilized tools like ResearchRabbit to analyze barriers. Presented strategic, actionable recommendations to a PwC stakeholder panel. Skills Used: Strategic Research, Barrier-Analysis, Stakeholder Presentation, ResearchRabbit."
+        },
+        {
+          "front": "Ivy Capital – Market Entry Strategy",
+          "back": "Executed a comprehensive competitive landscape analysis across 6 regional UK markets for a US self-storage operator seeking UK expansion. Assessed local regulatory requirements and generated a phased market entry roadmap with detailed revenue projections. Skills Used: Competitive Landscape Analysis, Regulatory Assessment, Financial Projections, Market Entry Strategy."
+        },
+        {
+          "front": "AudioBrand – Automation Strategy & Process Redesign",
+          "back": "Mapped 3 core operational workflows to identify inefficiencies and pinpoint automation opportunities. Applied process re-engineering methodologies and utilized Asana to design a prioritized implementation roadmap, projecting a 30% reduction in manual effort. Skills Used: Workflow Mapping, Process Re-engineering, Automation Roadmap, Asana."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Ajay Anand KB has consulting project experience with PwC Ireland, Ivy Capital, and AudioBrand.",
+          "answer": true
+        },
+        {
+          "question": "At Earlyseed Ventures, a targeted LinkedIn Sales Navigator campaign grew the firm's audience by 45%.",
+          "answer": true
+        },
+        {
+          "question": "The AudioBrand automation strategy was projected to increase manual workflows by 50%.",
+          "answer": false
+        }
+      ]
+    }
+  ]
+}

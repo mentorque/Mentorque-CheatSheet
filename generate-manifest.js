@@ -9,7 +9,7 @@ const publicDir = path.join(__dirname, 'public');
 const cheatsheetDir = path.join(publicDir, 'Cheatsheet-Info');
 const manifestPath = path.join(publicDir, 'manifest.json');
 
-// Files to exclude from the manifest
+// Files to exclude from the manifest\
 const excludeFiles = ['manifest.json', 'Example.json', '_redirects', 'README.txt'];
 
 try {

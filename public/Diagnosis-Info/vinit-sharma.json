@@ -1,0 +1,217 @@
+{
+  "name": "Vinit Sharma",
+  "email": "vinits0804@gmail.com",
+  "targetRole": "Software Engineer",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": [
+          "Resume & Experience Clarity",
+          "Answer Structure",
+          "Technical Readiness",
+          "Role-Specific Technical",
+          "Behavioural Story"
+        ],
+        "values": [3.4, 2.8, 3.0, 3.2, 2.5],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: Academic Transition Narrative & Deep Backend Metric Defense Risk (despite a solid Fintech Java baseline).**\n\nVinit, your profile has a strong backend engineering baseline with a solid Resume & Experience Clarity score (3.4) and a respectable Role-Specific Technical foundation (3.2), backed by 3+ years of Java/Spring Boot fintech development at In-Solutions Global Ltd and Tata Consultancy Services (NSDL). Your track record of optimizing backend performance to drive a 25% increase in API usage and achieving a 20% reduction in recurring defects provides a credible technical footprint for Irish software engineering roles.\n\nHowever, your Behavioural Story score of **2.5** and Answer Structure score of **2.8** reveal a critical bottleneck: (1) interviewers will probe your pivot from core backend engineering to an M.Sc. in Data Analytics at Technological University of the Shannon (TUS) and test whether your coding recency or core SE identity has shifted, and (2) you risk giving generic framework-level descriptions (e.g., listing Spring Boot, Struts, and SQL) rather than explaining deep system design trade-offs, thread safety, database query execution plans, or SLA incident management. Under intense technical follow-up, vague answers will make impressive resume metrics look like team achievements rather than your direct engineering output.\n\n**Mapping Rule Insight:**\n- Your 3+ years of enterprise Java/Spring Boot fintech experience and AWS/Databricks certifications will easily clear initial resume screenings in Ireland.\n- To convert technical and system design rounds in the Irish tech market, you must present a sharp, cohesive persona: a high-performing backend Software Engineer who uses data analytics to optimize systems rather than someone seeking a data science pivot.\n- If you frame your M.Sc. as an enhancement to backend performance engineering and back your fintech metrics with rigorous STAR technical stories, you will significantly elevate your interview conversion rate."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: M.Sc. Data Analytics & Engineering Persona Pivot**\n\n**Red Flag Prompt:** \"I see you completed an M.Sc. in Data Analytics at TUS after working as a Software Engineer at In-Solutions Global. Are you looking to transition into Data Engineering / Data Science, or are you staying in core Java Backend Engineering?\"\n\n**Likely Breakdown:** You may over-emphasize coursework algorithms or generic analytics tools, causing interviewers to doubt your commitment to hands-on backend Java development, microservices, and system-level troubleshooting.\n\n---\n\n**Scenario B: Database Optimization & API Scale Defense**\n\n**Red Flag Prompt:** \"At In-Solutions Global, you optimized SQL queries and API performance to drive a 25% increase in API usage. Walk me through the exact query bottlenecks, indexes added, and response time metrics.\"\n\n**Likely Breakdown:** With Answer Structure at 2.8, you risk describing general query rewrites without detailing database execution plans (EXPLAIN), indexing strategies (composite/covering indexes), connection pool sizing, or API response latency reductions (e.g., from 300ms to 80ms).\n\n---\n\n**Scenario C: Production Support SLA & Defect Reduction**\n\n**Red Flag Prompt:** \"At TCS NSDL, you achieved a 20% reduction in recurring defects for financial web applications. Describe a high-severity production outage you resolved within strict SLA timelines.\"\n\n**Likely Breakdown:** Behavioural Story at 2.5 indicates a struggle to articulate high-stakes technical ownership. You may outline basic bug fixes without explaining root cause analysis (RCA), memory leaks, thread dumps, or how you aligned cross-functional teams under pressure."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "STAR Story Bank & Positioning Alignment",
+          "content": "Construct 5-6 STAR stories for In-Solutions Global and TCS NSDL projects. Frame your TUS M.Sc. as an advanced backend optimization booster. **Score Target:** Behavioural Story 2.5 -> 3.8"
+        },
+        {
+          "week": "Week 2",
+          "title": "Java/Spring Boot Deep Dive & SQL Performance",
+          "content": "Prepare detailed explanations for Spring Boot microservices, REST API security, hibernate/JPA transaction management, and SQL query tuning (EXPLAIN plans, indexing). **Score Target:** Role-Specific Technical 3.2 -> 4.3"
+        },
+        {
+          "week": "Week 3",
+          "title": "Metric Defense & Production SLA Breakdown",
+          "content": "Document the exact baseline, telemetry, and architectural changes behind the 25% API usage growth and 20% defect reduction. **Score Target:** Resume & Experience Clarity 3.4 -> 4.3"
+        },
+        {
+          "week": "Week 4",
+          "title": "The Backend Pressure Test",
+          "content": "Run full mock interviews covering live system design (scaling fintech microservices), live database tuning, and behavioral validation of your engineering trajectory. **Score Target:** Overall average -> 4.5"
+        }
+      ],
+      "content": "Follow sequence strictly. Week 1 STAR positioning and engineering narrative must be locked down before diving into advanced microservices whiteboarding."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Experience 1: In-Solutions Global Ltd — High-Volume Fintech REST APIs & Microservices**\n\n**Interviewer Probe:** \"You engineered backend REST APIs and microservices handling thousands of daily transactions using Java and Spring Boot. Walk me through your microservice communication model and error-handling architecture.\"\n\n**Likely Struggle:** Giving surface-level descriptions of `@RestController` annotations without explaining async messaging, idempotency for financial transactions, circuit breakers (Resilience4j), or JWT authentication.\n\n**Prep Drill:** Map out the architecture: (1) API Gateway routing, (2) transaction idempotency keys to prevent double-charging during network retry, (3) exception handler `@ControllerAdvice` structure, and (4) microservice security protocols.\n\n---\n\n**Experience 2: In-Solutions Global Ltd — Query & API Optimization (25% Usage Growth)**\n\n**Interviewer Probe:** \"How did optimizing SQL queries and API performance drive a 25% increase in API usage? What was the bottleneck before your changes?\"\n\n**Likely Struggle:** Citing general SQL tuning without detailing slow query logs, indexing choices, N+1 ORM query issues, or caching strategies (Redis/Spring Cache) that unlocked higher throughput.\n\n**Prep Drill:** Structure a clear case study: (1) identifying slow endpoints using APM tools, (2) analyzing EXPLAIN query execution plans, (3) creating composite indexes and refactoring JOINs, and (4) demonstrating latency reduction that allowed client applications to scale requests by 25%.\n\n---\n\n**Experience 3: Tata Consultancy Services (NSDL - Fintech) — Regulated Financial Apps (20% Defect Reduction)**\n\n**Interviewer Probe:** \"You worked on NSDL regulated financial systems using Java, Struts, and SQL, achieving a 20% reduction in recurring defects. How did you diagnose complex legacy backend issues?\"\n\n**Likely Struggle:** Describing bug fixes in Struts/Java monoliths without explaining debugging techniques (heap dumps, thread deadlock analysis, log parsing) or how refactoring SQL queries improved peak-hour performance.\n\n**Prep Drill:** Prepare a STAR story detailing: (1) a recurring memory leak or slow query during peak financial trading hours, (2) the log and database analysis conducted, (3) the exact backend fix deployed, and (4) how defect tracking via Bugzilla confirmed the 20% reduction.\n\n---\n\n**Experience 4: In-Solutions Global Ltd — Junior Developer Mentorship & Code Reviews**\n\n**Interviewer Probe:** \"You mentored junior developers and conducted code reviews. How did you enforce secure coding practices and Test-Driven Development (TDD) across the team?\"\n\n**Likely Struggle:** Providing vague responses like \"I reviewed PRs\" without detailing specific code review checklists (OWASP top 10, SQL injection prevention, unit test coverage with JUnit/Mockito).\n\n**Prep Drill:** Define your code review standard: (1) automated CI/CD checks (GitHub Actions, SonarQube), (2) enforcing TDD unit testing standards (>80% coverage), and (3) a specific instance where your code review caught a critical security flaw before production."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Experience:** Optimizing SQL queries and API performance at In-Solutions Global Ltd.\n\n**Baseline Answer (Score 2.8 — Descriptive & Structural Weakness):**\n\"At In-Solutions Global, I worked on fintech microservices with Java and Spring Boot. Some APIs were running slow and database queries were taking time. I optimized the SQL queries and refactored the backend code. This improved the performance and we saw a 25% increase in API usage across our applications.\"\n\n**Fixed Answer (Score 4.5+ — Strategic & Senior Engineering Execution):**\n\"At In-Solutions Global, our high-volume fintech transaction processing service was experiencing database connection pool exhaustion during peak hours, causing API latency spikes up to 800ms and throttling client integrations. (Situation) As the backend Software Engineer, I was tasked with identifying the root cause and refactoring the API layer to support higher transaction volumes without downtime. (Task) I ran database profiling using Oracle EXPLAIN execution plans, identified unindexed full-table scans on transaction history tables, and refactored N+1 query patterns in Spring Data. I implemented composite indexes on frequently queried foreign keys, introduced Redis caching for read-heavy reference data, and tuned Spring Boot connection pool parameters. (Action) This reduced average API response latency from 800ms to under 120ms, eliminated connection timeouts, and enabled partner applications to scale integration density, driving a 25% increase in daily API transaction usage without additional infrastructure cost. (Result)\"\n\n**Justification:** The fixed answer uses a crisp STAR structure, specifies exact technical mechanisms (EXPLAIN plans, composite indexing, N+1 refactoring, Redis caching, connection pool tuning), and directly ties technical actions to quantifiable business and performance metrics."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "\"You finished an M.Sc. in Data Analytics at TUS in Ireland after 3 years of Java development in India. Why return to Software Engineering rather than pursuing Data Analytics or Data Engineering roles?\" **(Risk: Behavioural Story 2.5 / Academic Pivot)**\n\n\"Explain the database optimization you performed at In-Solutions Global. What was the execution plan before and after your index refactoring?\" **(Risk: Role-Specific Technical 3.2)**\n\n\"At TCS NSDL, you maintained enterprise financial applications using Struts and Java. Contrast Struts architecture with Spring Boot microservices—what are the security and memory management differences?\" **(Risk: Technical Readiness 3.0)**\n\n\"How do you ensure transaction atomicity and consistency across distributed Spring Boot microservices when a payment gateway API fails midway?\" **(Risk: Answer Structure 2.8 / Technical Readiness 3.0)**\n\n\"You claim a 20% reduction in recurring defects at NSDL. How was this metric tracked, and what architectural changes prevented regression?\" **(Risk: Resume & Experience Clarity 3.4 - must defend live)**\n\n\"Describe a situation where a production outage occurred during peak hours under strict SLA timelines. Walk me through your step-by-step triage.\" **(Risk: Behavioural Story 2.5)**\n\n\"How have you implemented GitHub Actions CI/CD pipelines and Docker containerization for Java microservices in your projects or certifications?\" **(Risk: Technical Readiness 3.0)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: Positioning & M.Sc. Narrative",
+              "duration": "45 minutes",
+              "objective": "Establish strong positioning bridging 3+ yrs Fintech Java experience with TUS M.Sc. Refine 90-sec intro & STAR framework. Target Answer Structure."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: Java/Spring Boot & SQL Deep Dive",
+              "duration": "50 minutes",
+              "objective": "Probe Spring Boot microservices, hibernate lifecycle, SQL indexing, connection pooling, and REST security. Target Role-Specific Technical."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: Quantified Metrics & SLA Incident Defense",
+              "duration": "45 minutes",
+              "objective": "Defend 25% API usage growth, 20% defect reduction, and peak production SLA triage stories. Target Behavioural Story."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: Full Simulation (Ireland SE Loop)",
+              "duration": "60 minutes",
+              "objective": "End-to-end software engineering mock covering live system design, database tuning verbal, and behavioral under pressure."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            {
+              "label": "Session 1: Pivot & Narrative Structure",
+              "value": 8,
+              "max": 10
+            },
+            {
+              "label": "Session 2: Backend Technical Depth",
+              "value": 8,
+              "max": 10
+            },
+            {
+              "label": "Session 3: Metric Defense & Leadership",
+              "value": 9,
+              "max": 10
+            },
+            {
+              "label": "Session 4: Full Simulation",
+              "value": 10,
+              "max": 10
+            }
+          ]
+        }
+      ],
+      "content": "**Session 1: Positioning & M.Sc. Narrative**\n\n**Focus:** Resume walkthrough and framing TUS M.Sc. Data Analytics as a performance engineering advantage.\n\n**Mentor Push:** Probe the academic pivot. Interrupt if candidate sounds like they are abandoning Java development for data science. Require a clear narrative: \"I am a backend Software Engineer who uses data-driven profiling to optimize systems.\"\n\n---\n\n**Session 2: Java/Spring Boot & SQL Deep Dive**\n\n**Focus:** Spring Boot microservices, REST APIs, Oracle/MySQL indexing, Hibernate ORM, Struts vs Spring Boot.\n\n**Mentor Push:** Probe ORM caching issues, N+1 query problem, transaction isolation levels, and REST API security. Push for low-level execution details, not high-level framework summaries.\n\n---\n\n**Session 3: Quantified Metrics & SLA Incident Defense**\n\n**Focus:** Defending 25% API growth, 20% defect reduction, production SLA management, and junior code reviews.\n\n**Mentor Push:** Force candidate to defend exact numbers and baseline metrics. Challenge any team-wide attribution to verify personal engineering contribution.\n\n---\n\n**Session 4: Full Simulation (Ireland SE Loop)**\n\n**Focus:** Full end-to-end Software Engineer interview simulation under pressure.\n\n**Mentor Push:** Rapid-fire microservices design modifications, concurrency bottlenecks, and live troubleshooting questions. Evaluate pace, confidence, and STAR articulation. Target average score >= 4.5/5."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 2.98,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        {
+          "label": "Resume walkthrough",
+          "current": "3.4",
+          "target": "4.5"
+        },
+        {
+          "label": "Answer Structure",
+          "current": "2.8",
+          "target": "4.5"
+        },
+        {
+          "label": "Technical Readiness",
+          "current": "3.0",
+          "target": "4.5"
+        },
+        {
+          "label": "Role-Specific Technical",
+          "current": "3.2",
+          "target": "4.5"
+        },
+        {
+          "label": "Behavioural Story",
+          "current": "2.5",
+          "target": "4.5"
+        }
+      ],
+      "content": "**Target Average Score: 4.5**\n\n**Measurable Change:**\n- Move from \"I optimized backend SQL queries\" to \"I analyzed Oracle EXPLAIN plans and refactored ORM queries, reducing latency from 800ms to 120ms and driving a 25% increase in API transaction volume.\"\n- Move from \"I took an M.Sc. in Data Analytics\" to \"I leveraged my M.Sc. to deepen my data-driven system profiling techniques, enhancing my ability to architect high-throughput Java microservices.\"\n- The \"After\" Persona: A **seasoned Fintech Backend Software Engineer** who commands Java/Spring Boot microservice design, defends performance tuning with empirical data, communicates seamlessly in STAR format, and projects interview readiness for top Irish software teams."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Complete Week 1 STAR bank before Session 1",
+          "content": "Prepare at least 6 backend engineering stories in STAR format detailing specific Java/Spring Boot microservices, SQL query tuning, and SLA incident resolutions. Target Behavioural Story score (2.5->3.8)."
+        },
+        {
+          "icon": "FileText",
+          "title": "Document every question you struggled with",
+          "content": "After each session, write down the exact questions and weak answers. Identify patterns: are you struggling with query optimization details, microservices architecture, or STAR structure?"
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Re-practice failed questions within 24 hours",
+          "content": "Don't wait—fix gaps immediately. If you struggled to explain database connection pooling or Spring Security, document it and review before the next session."
+        },
+        {
+          "icon": "Target",
+          "title": "Do NOT proceed until previous session scores 4.5/5+",
+          "content": "Each session is a gate. If Session 1 score is below 4.5/5, repeat Week 1 preparation before moving to Session 2."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Coach delivery, not just content",
+          "content": "Vinit has solid Fintech Java experience and cloud certifications but needs to project himself as a confident, senior-leaning backend engineer. Push for clear architectural ownership and STAR delivery."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Probe until candidate breaks or admits knowledge boundary",
+          "content": "Find the limit. Probe deeply into microservices transaction management (Saga pattern, 2PC), SQL query execution plans, and memory leak triage."
+        },
+        {
+          "icon": "FileText",
+          "title": "Provide written feedback on specific failures",
+          "content": "Track weekly progress on Java system design, SQL performance, and STAR structure. Reject generic team-attribution language ('we built')."
+        },
+        {
+          "icon": "Ban",
+          "title": "Reset expectations",
+          "content": "Passing Session 4 means interview-ready for top Irish tech companies, not guaranteed offers. Visa eligibility and domain fit will be strictly evaluated."
+        }
+      ],
+      "content": "**Non-negotiable rule:**\nIf Session 4 score is <4.5/5, repeat Sessions 2-4 in Week 5. Do not apply to Irish Software Engineering roles until you pass Session 4.\n\n**Timeline:**\n- Week 1: STAR story bank + video self-review\n- Week 2: Sessions 1-2 (Narrative positioning & Backend technical deep-dive)\n- Week 3: Session 3 (Quantified metrics & production SLA defense)\n- Week 4: Session 4 (Full simulation)\n- Week 5: Buffer for repetition if needed\n\nStart Week 1 today. Email your mentor when you've completed STAR pitches for all resume bullet points."
+    }
+  ]
+}

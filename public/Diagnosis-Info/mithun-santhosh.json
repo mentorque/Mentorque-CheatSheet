@@ -1,0 +1,175 @@
+{
+  "name": "Mithun Santhosh",
+  "email": "sandymithun10@gmail.com",
+  "targetRole": "Software Engineer (Backend / Full-Stack)",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": ["Resume & Experience Clarity", "Answer Structure", "Technical Readiness", "Role-Specific Technical", "Behavioural Story"],
+        "values": [1.8, 3, 3, 4, 3],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: The \"Invisible Achiever\" — A Production Platform Nobody Hears About.**\n\nMithun, you have more real production credibility than most candidates at your level. You architected and maintained a hyperlocal delivery platform with 70K+ users, processed 15K+ monthly transactions through Razorpay, built real-time tracking with Socket.IO, and fixed a critical payment-order sync bug affecting 5K+ live users. That is a genuinely strong engineering story.\n\nBut your Resume & Experience Clarity score of **1.8** means that in the interview room, this story is almost certainly coming out as *\"I worked on a delivery app\"* — not as the production-grade, high-stakes engineering work it actually was.\n\n**The Mapping Rule Analysis:**\n\nYour Role-Specific Technical score of 4.0 confirms you know your stack deeply — Node.js, Socket.IO, Redis, Razorpay webhooks, database optimisation. The problem is not knowledge. The problem is that you cannot yet translate that knowledge into structured, ownership-first, metrics-anchored interview answers.\n\nYour current interview persona is **\"The Invisible Achiever\"**: an engineer with a 70K-user production system under his belt who sounds, in interviews, like he was a junior contributor. This is your primary and most fixable risk."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: The Resume Walkthrough**\n\n**The Red Flag:** \"Walk me through the real-time delivery tracking system you built at Deliveryan. What was the architecture, what exactly did you build, and how did you validate the 30% support ticket reduction?\"\n\n**Justification:** With a Resume & Experience Clarity of 1.8, you are statistically likely to answer: \"I used Socket.IO to show users where their driver was in real time. It reduced support tickets.\" This loses the architecture (driver GPS polling cadence, Socket.IO rooms, Redis for reconnection state), the personal ownership (did you design this or implement it?), and the measurement methodology (how did you calculate 30%?). Interviewers will score this answer 2/5.\n\n---\n\n**Scenario B: The Ownership Probe**\n\n**The Red Flag:** \"Deliveryan sounds like a startup. How many engineers were on the team? What would have broken or shipped worse without you specifically?\"\n\n**Justification:** Startup engineers often deflect with \"we built\" because the team was small and work overlapped. A 1.8 score means you likely default to team language even when you personally owned the entire backend. The interviewer cannot award ownership credit for \"we built the Razorpay integration\" — they need to hear \"I designed the webhook verification flow and the idempotency layer.\"\n\n---\n\n**Scenario C: The Metrics Gap**\n\n**The Red Flag:** \"How did you measure the 20% customer retention increase from the wallet system? What was your before and after measurement method?\"\n\n**Justification:** Startup metrics are often estimated, not precisely instrumented. When probed on measurement methodology — sample size, timeframe, control group — a 1.8 score means you likely have no prepared answer for *how* the number was calculated. Interviewers at scale-up and enterprise companies probe this specifically."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "The Deliveryan Story Sprint",
+          "content": "Rewrite every Deliveryan bullet using: **[Action Verb] + [What You Specifically Built] + [Measurable Result + How Measured]**. For every metric (30%, 20%, 15K), prepare a one-sentence explanation of how it was measured. No bullet should say 'we'. **Score Target:** Resume & Experience Clarity 1.8 → 3.5"
+        },
+        {
+          "week": "Week 2",
+          "title": "Architecture Narration Drills",
+          "content": "For the three highest-impact Deliveryan features — Socket.IO tracking, Razorpay integration, and the payment sync bug fix — build a 90-second STAR story for each. The Action block must include: the specific technical design decision you made, the alternative you rejected, and why. Practice out loud. Record yourself. **Score Target:** Resume & Experience Clarity 3.5 → 4.2, Answer Structure 3.0 → 4.0"
+        },
+        {
+          "week": "Week 3",
+          "title": "Ownership Language & MSc Bridge",
+          "content": "Replace all 'we' with 'I' in your spoken answers. Additionally, practice bridging your Secure Software Engineering MSc to your backend work — interviewers will probe the mismatch. Prepare your answer to: 'Your degree is in security but your experience is backend — where does that leave you?' **Score Target:** Resume & Experience Clarity 4.2 → 4.5, Behavioural Story 3.0 → 4.0"
+        },
+        {
+          "week": "Week 4",
+          "title": "The Full Pressure Test",
+          "content": "End-to-end mock interview. Mentor interrupts every 60 seconds with 'Give me the number', 'What would you have done differently?', and 'What was your specific contribution?' No softballing. This validates whether Weeks 1–3 gains hold under pressure. **Score Target:** Overall Average → 4.2+"
+        }
+      ],
+      "content": "Complete each phase before moving to the next. Do not attend Session 1 without having all three Deliveryan STAR stories written out and practiced."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Project 1: Deliveryan — Real-Time Delivery Tracking (Socket.IO, 30% Support Ticket Reduction)**\n\n**Interviewer Probe:** \"How does the real-time tracking work technically? What is the event flow from the driver to the customer? How did you handle reconnection? How did you measure the 30% ticket reduction?\"\n\n**Likely Struggle:** You will describe the outcome — 'users could see the driver on a map' — without narrating the technical architecture: driver app emitting GPS events, Socket.IO room-per-order design, server broadcasting to customer socket, Redis persisting last-known location for reconnection. You also likely have no prepared answer for how 30% was measured.\n\n**Prep Drill:** Write down the full event flow: Driver emits `location:update` → Server receives, updates Redis, emits to `order:{id}` room → Customer receives coordinates, renders on map. Then prepare: 'I measured the 30% reduction by comparing the weekly volume of order-status support tickets in the 4 weeks before and after the feature launch. Pre-launch average was X tickets/week; post-launch it dropped to Y.'\n\n---\n\n**Project 2: Deliveryan — Razorpay Payment Integration (15K+ Monthly Transactions)**\n\n**Interviewer Probe:** \"Walk me through the Razorpay webhook verification flow. What happens if the signature doesn't match? How did you ensure idempotency so the same payment isn't processed twice?\"\n\n**Likely Struggle:** With Answer Structure at 3.0, you may say 'I integrated Razorpay and handled webhooks' without explaining: HMAC-SHA256 signature verification, the order of operations (verify → create order → credit wallet), and what happens in failure cases (signature mismatch = 400, duplicate event = idempotency key check).\n\n**Prep Drill:** Narrate the full payment flow as a sequence: Client initiates payment → Razorpay processes → Webhook fires to `/webhook/razorpay` → Server verifies HMAC signature → Checks idempotency key in DB → Creates order record → Credits wallet if applicable → Returns 200. Be able to explain each step and what breaks if it fails.\n\n---\n\n**Project 3: Deliveryan — Critical Payment-Order Sync Bug (v3.0, 5K+ Active Users)**\n\n**Interviewer Probe:** \"Walk me through this bug. What caused it? How did you detect it? What was your fix? How did you verify it was resolved?\"\n\n**Likely Struggle:** This is your strongest technical story — money debited with no order created, 5K+ users affected — but a 1.8 Resume Clarity score means you are likely to describe it as 'I fixed a bug where payments went through but orders weren't created.' That is a wasted opportunity. This story should be told as a full incident response narrative.\n\n**Prep Drill:** Structure this as: Detection (how was the bug found — user reports? monitoring alert?), Root Cause (race condition between async webhook handler and order INSERT — transaction not wrapped atomically), Fix (wrap webhook processing and order creation in a DB transaction with rollback on failure), Verification (tested with Razorpay test webhooks, monitored payment logs for 48 hours post-deploy), Impact (deployed in v3.0, no recurrence in 5K+ active user base)."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Project: Real-Time Delivery Tracking at Deliveryan**\n\n**Baseline Answer (Score 1.8 — Articulation Failure):**\n\"At Deliveryan I built a real-time tracking feature using Socket.IO. It let users see where their driver was on a map. It helped reduce support tickets by about 30%.\"\n\n**Fixed Answer (Score 4.5+ — Ownership + Architecture + Metrics):**\n\"At Deliveryan, 'where is my order' was our highest-volume support ticket category, and it was entirely manual to resolve. (Situation) I needed to build a real-time tracking system that eliminated the need for those calls without requiring any polling from the client. (Task) I designed a Socket.IO-based event architecture where the driver app emits a `location:update` event every 5 seconds, the server receives it, persists the last-known coordinates to Redis for reconnection recovery, and broadcasts to a dedicated Socket.IO room scoped to that order ID — so only the relevant customer receives the update. I chose Socket.IO over REST polling because of the bidirectional connection and built-in room scoping, which kept server load flat as order volume grew. (Action) I measured impact by comparing weekly support ticket volumes in the 4 weeks before and after launch. Tickets in the order-tracking category dropped by approximately 30%, which directly reduced our support team's response workload during peak hours. (Result)\"\n\n**Why This Works:**\nThe fixed version establishes the *business problem first* (not the technology), explains the *specific technical design decisions* and why (Socket.IO rooms over polling), establishes *personal ownership* throughout, and closes with a *measurement methodology* — not just a number. This is the difference between a 1.8 and a 4.5 in Resume & Experience Clarity."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "\"Walk me through your most impactful contribution at Deliveryan. What would not have shipped without you specifically?\" **(Risk: Resume & Experience Clarity 1.8 — likely to say 'we built the platform' rather than owning specific systems)**\n\n\"How did you measure the 30% support ticket reduction from Socket.IO tracking? What was your baseline and timeframe?\" **(Risk: Resume & Experience Clarity 1.8 — startup metric with likely no prepared measurement methodology)**\n\n\"Walk me through the Razorpay payment-order sync bug. What was the root cause — race condition, missing transaction, or something else?\" **(Risk: Answer Structure 3.0 — has the technical answer but may not structure the incident narrative clearly)**\n\n\"What was your database schema for the wallet system? How did you handle concurrent wallet credits to avoid double-crediting?\" **(Risk: Role-Specific Technical 4.0 is a strength, but Answer Structure 3.0 may cause a technically correct but disorganised answer)**\n\n\"Your degree is in Secure Software Engineering but your experience is backend development. Are you a software engineer or a security engineer?\" **(Risk: Behavioural Story 3.0 — the MSc-to-experience mismatch is a common probe that requires a prepared bridge narrative)**\n\n\"How did you handle Socket.IO reconnection when a customer lost connectivity mid-delivery? What state did you persist and where?\" **(Risk: Technical depth probe — Redis persistence for last-known location needs to be prepared)**\n\n\"How did you test the Razorpay webhook integration locally? What did your test strategy look like?\" **(Risk: Resume & Experience Clarity 1.8 — testing methodology is rarely articulated by candidates at this score)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: The Deliveryan Deep-Dive",
+              "duration": "45 minutes",
+              "objective": "Full resume walkthrough focused entirely on Deliveryan. Interrupt every 60 seconds with 'Give me the number' and 'What did YOU specifically build?' Goal: surface whether Resume Clarity has moved from 1.8 toward 3.5+."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: Technical Architecture & Payment Systems",
+              "duration": "50 minutes",
+              "objective": "Deep technical probe on Socket.IO architecture, Razorpay webhook flow, and the payment-order sync bug. Push until Mithun can narrate each system end-to-end — event flow, failure cases, and measurement methodology."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: Behavioural + MSc Bridge",
+              "duration": "45 minutes",
+              "objective": "2 STAR behavioural stories (conflict, failure) + the MSc-to-backend bridge narrative. Validate that Behavioural Story is moving toward 4.0. Force Mithun to tell the payment sync bug as an incident response story, not just a bug fix."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: Full Pressure Simulation",
+              "duration": "60 minutes",
+              "objective": "End-to-end mock with full senior-interviewer pressure. Rapid-fire technical + behavioural + resume walkthrough. No hints. Validate that Resume & Experience Clarity has reached 4.0+ before approving job applications."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            { "label": "Session 1: Resume Articulation", "value": 10, "max": 10 },
+            { "label": "Session 2: Technical Architecture", "value": 9, "max": 10 },
+            { "label": "Session 3: Behavioural + MSc Bridge", "value": 8, "max": 10 },
+            { "label": "Session 4: Full Simulation", "value": 10, "max": 10 }
+          ]
+        }
+      ],
+      "content": "**Session 1: The Deliveryan Deep-Dive**\n\n**Focus:** Resume walkthrough — Deliveryan bullets only.\n\n**Mentor Push:** After every answer, ask: 'What would have shipped differently without you?' and 'What was the number?' Do not let 'we' pass without interrupting.\n\n---\n\n**Session 2: Technical Architecture & Payment Systems**\n\n**Focus:** Socket.IO event flow, Razorpay webhook chain, Redis caching strategy, payment sync bug root cause.\n\n**Mentor Push:** Ask Mithun to whiteboard (or verbally narrate) the full event flow for the tracking system and the full payment flow for Razorpay. If he cannot narrate it end-to-end without hesitation, the preparation for Week 2 was insufficient — reschedule.\n\n---\n\n**Session 3: Behavioural + MSc Bridge**\n\n**Focus:** STAR stories and the Secure Software Engineering MSc narrative.\n\n**Mentor Push:** Ask directly: 'You have a security MSc and a backend portfolio — what kind of engineer are you positioning yourself as, and why?' This is a question Mithun will face in every interview. He must have a prepared, confident answer.\n\n---\n\n**Session 4: Full Pressure Simulation**\n\n**Focus:** End-to-end full mock — no scaffolding, no hints.\n\n**Mentor Push:** Use the High-Risk Questions list verbatim. Score each answer 1–5. Do not pass Session 4 unless Resume & Experience Clarity reaches 4.0+."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 2.8,
+      "targetScore": 4.2,
+      "maxScore": 5,
+      "metrics": [
+        { "label": "Resume & Experience Clarity", "current": "1.8", "target": "4.0" },
+        { "label": "Answer Structure", "current": "3.0", "target": "4.5" },
+        { "label": "Technical Readiness", "current": "3.0", "target": "4.2" },
+        { "label": "Role-Specific Technical", "current": "4.0", "target": "4.8" },
+        { "label": "Behavioural Story", "current": "3.0", "target": "4.2" }
+      ],
+      "content": "**Target Average Score: 4.2+**\n\n**Measurable Change:**\n\n- Move from 'I built a tracking system using Socket.IO' to 'I designed a Socket.IO room-per-order architecture that broadcasts driver GPS coordinates every 5 seconds to customers, with Redis-backed reconnection state — reducing order-tracking support tickets by 30% in the first 4 weeks post-launch.'\n- Every Deliveryan metric (30%, 20%, 15K) must have a prepared measurement methodology statement.\n- The **'After' Persona:** A 'Production-Hardened Backend Engineer' — someone who shipped real systems under real load, fixed real production incidents, and can narrate every architectural decision with ownership, context, and quantified outcome. That is the persona that gets offers in Dublin's competitive engineering market."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Rewrite all Deliveryan bullets before Session 1",
+          "content": "Non-negotiable. Every bullet must follow [Action Verb] + [What You Specifically Built] + [Measurable Result + How Measured]. Bring the rewritten resume to Session 1 — the entire session is built around it."
+        },
+        {
+          "icon": "FileText",
+          "title": "Prepare full STAR stories for 3 Deliveryan features",
+          "content": "Socket.IO tracking, Razorpay integration, and the payment-order sync bug. Write them out in full. Practice saying them out loud — record yourself. If you hear 'we built' or 'the team did', rewrite and re-record."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Prepare your MSc bridge narrative before Session 3",
+          "content": "Write a 60-second answer to: 'You studied Secure Software Engineering but your experience is backend — what kind of engineer are you?' Your answer should connect security thinking to backend design decisions (e.g., webhook signature verification, JWT auth, input validation) — not treat them as separate identities."
+        },
+        {
+          "icon": "Target",
+          "title": "Do not apply to roles until Session 4 scores 4.0+ on Resume Clarity",
+          "content": "Every application you send while Resume Clarity is at 1.8 is a wasted opportunity. The platform, the transactions, the bug fix — interviewers cannot see what you cannot say. Fix the articulation first."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Open Session 1 by asking: 'Tell me about Deliveryan like I've never heard of it'",
+          "content": "This cold-open forces Mithun to set context before diving into features — the exact skill a 1.8 Resume Clarity score lacks. Score his answer: does it open with business context (hyperlocal delivery, 70K users) or tech stack (Node.js, Express)? The former is a 4.5; the latter is a 1.8."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Probe every metric for measurement methodology",
+          "content": "For each number (30%, 20%, 15K), ask: 'How did you measure that? What was your baseline? Over what timeframe?' Document which metrics Mithun can defend and which he cannot. Those gaps are the preparation targets for Week 2."
+        },
+        {
+          "icon": "FileText",
+          "title": "Make Mithun narrate the payment sync bug as an incident, not a fix",
+          "content": "This is his most senior-sounding story and he is almost certainly underselling it. Push him to use incident-response language: detection, diagnosis, root cause, fix, deployment, verification. If he says 'I fixed a bug', stop him and ask 'Walk me through detection to deployment.'"
+        },
+        {
+          "icon": "Ban",
+          "title": "Do not pass Session 4 unless Resume Clarity reaches 4.0+",
+          "content": "Mithun has a 70K-user production platform, 15K monthly transactions, and a critical incident response story. If those are not landing at 4.0+ after 4 sessions, the technical coaching is not the bottleneck — the articulation and ownership language still need work. Hold the standard."
+        }
+      ],
+      "content": "**Non-negotiable rule:**\nIf Session 4 Resume & Experience Clarity score is below 4.0, repeat Sessions 2–4 in Week 5. Do not approve job applications until this threshold is cleared.\n\n**Timeline:**\n- Week 1: Deliveryan resume rewrite + 3 STAR stories + MSc bridge narrative drafted\n- Week 2: Session 1 (Deliveryan Deep-Dive) + Session 2 (Technical Architecture)\n- Week 3: Session 3 (Behavioural + MSc Bridge)\n- Week 4: Session 4 (Full Pressure Test)\n- Week 5: Buffer for repetition if needed\n\nStart the Deliveryan resume rewrite today. Send the rewritten bullets to your mentor before Session 1."
+    }
+  ]
+}

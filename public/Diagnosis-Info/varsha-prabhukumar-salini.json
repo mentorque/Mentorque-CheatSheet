@@ -1,34 +1,22 @@
 {
   "name": "Varsha Prabhukumar Salini",
   "email": "vachu228@gmail.com",
-  "targetRole": "Digital Marketing & Analytics Specialist",
+  "targetRole": "Digital Marketing Specialist / SEO Analyst",
   "sections": [
     {
       "title": "Diagnosis Summary",
       "sectionType": "spider",
       "spiderGraph": {
-        "labels": [
-          "Resume & Experience Clarity",
-          "Answer Structure",
-          "Technical Readiness",
-          "Role-Specific Technical",
-          "Behavioural Story"
-        ],
-        "values": [
-          3.7,
-          2.8,
-          3.5,
-          2.9,
-          2.9
-        ],
+        "labels": ["Resume & Experience Clarity", "Answer Structure", "Technical Readiness", "Role-Specific Technical", "Behavioural Story"],
+        "values": [2.8, 2.8, 2.8, 3, 1.75],
         "maxValue": 5
       },
-      "content": "**Primary Risk: The \"Execution vs. Technical Strategy Gap\" Digital Marketer.**\n\nVarsha, your profile presents a compelling foundation. On paper, you are a high-performing Digital Marketing & Analytics professional with a Resume & Experience Clarity score of 3.7, backed by impressive, measurable outcomes: boosting organic traffic by 40% for 15+ targeted keywords at UniFirst Robotics, increasing audience engagement by 60% across 3+ social platforms, improving Google ranking for 8+ focus keywords from page 3 to page 1 at Cube & Squares, and driving a 30% engagement increase and 18% bounce rate reduction on SlayBoard. Your Technical Readiness score of 3.5 shows you possess a solid toolkit spanning SEO tools (SEMrush, Ahrefs, Moz, Screaming Frog), Google Analytics, Looker Studio, Power BI, Mailchimp, and Salesforce CRM. However, your Answer Structure (2.8), Role-Specific Technical (2.9), and Behavioural Story (2.9) reveal a **Communication & Technical Depth Gap**.\n\n**The Mapping Rule Analysis:**\n\nWhile you clearly describe *what* you achieved (e.g., \"Boosted organic traffic by 40%\", \"Achieved 18% open rate and 3.5% CTR\", \"Reduced bounce rate by 20%\"), a 2.8 in Answer Structure and 2.9 in Role-Specific Technical suggest you may struggle when an interviewer pushes into the technical *how* and analytical *why*: technical SEO audit diagnostics (crawl budget, canonicalization, indexing errors), A/B testing frameworks, funnel optimization metrics, or the exact DAX/SQL logic used behind dashboard reporting. Under interview pressure, you risk sounding like an execution-focused marketer who ran campaigns rather than a strategic digital marketing analyst who commands data-driven growth strategies and defends trade-offs with confidence.\n\nThis \"Capable Campaign Operator Who Can't Command Strategic Technical Depth\" persona is your primary hurdle. You look like a strong digital marketing candidate on paper, but in a Dublin hiring process you may under-sell your technical depth and leadership impact (such as managing 20k+ followers or leading PR for Formula Bharat) when probed on technical SEO, ROI measurement, or cross-functional stakeholder alignment."
+      "content": "**Primary Risk: The \"Passive Contributor\" — Communication & Confidence Risk.**\n\nVarsha, you have a solid foundation in digital marketing. Your Role-Specific Technical score of 3.0 shows you understand the tools of the trade — SEO audits, SEMrush, Google Analytics, and content strategy. You've achieved real metrics: boosting organic traffic by 40% and increasing engagement by 60%.\n\nHowever, your Behavioural Story score of **1.75** and Answer Structure of 2.8 highlight a severe \"Communication and Confidence Gap\". \n\n**The Mapping Rule Analysis:**\n\nWhen asked to explain your impact or navigate behavioural scenarios (like dealing with stakeholders or overcoming a challenge), your answers lack structure and personal conviction. You tend to undersell your achievements, making it sound like you just \"did tasks\" rather than \"drove results\". Interviewers buy confidence as much as they buy competence. If you cannot confidently own your 40% traffic boost or your email campaign strategies through structured, compelling stories, you will be perceived as a junior implementer rather than a strategic marketing professional."
     },
     {
       "title": "How This Risk Shows Up in Interviews",
       "sectionType": "content",
-      "content": "**Scenario A: The Resume Walkthrough (15m)**\n\n**The Red Flag:** \"Varsha, walk me through how you boosted organic traffic by 40% and generated leads at UniFirst Robotics across 15+ targeted keywords. What was your baseline, how did you structure the SEO audit, and how did you measure traffic attribution?\"\n\n**Justification:** With Answer Structure at 2.8 and Communication & Confidence as your primary risk, you may deliver headline metrics (40% organic traffic growth, 60% engagement) but hesitate when asked for the specific audit framework, keyword difficulty analysis, or content conversion funnel metrics. Interviewers in Ireland digital marketing roles probe for systematic methodology—not just end results.\n\n---\n\n**Scenario B: The Technical Deep-Dive (30–45m)**\n\n**The Red Flag:** \"How do you diagnose site speed, metadata, and internal linking issues to achieve a 20% reduction in bounce rate? Walk me through your Screaming Frog/Ahrefs workflow, technical crawling fixes, and Mailchimp email segmentation strategy at Cube & Squares.\"\n\n**Justification:** Your Role-Specific Technical score of 2.9 indicates you know the tools (SEMrush, Moz, Screaming Frog, Mailchimp, Google Analytics) but may default to generic answers (\"I optimized metadata and fixed broken links\") without articulating crawl error resolution, site architecture fixes, email campaign A/B testing, or conversion funnel tracking in Looker Studio/Power BI.\n\n---\n\n**Scenario C: The Behavioural & Stakeholder Probe (15–20m)**\n\n**The Red Flag:** \"As COO & PR Head for Formula Bharat Racing or Secretary of the CAT Student Council (30k+ participants), tell me about a time you resolved a major stakeholder conflict or managed a high-stakes campaign delay. How did you align the team and manage leadership expectations?\"\n\n**Justification:** Despite impressive leadership credentials on your resume (COO & PR Head, CAT Council Secretary with 30k+ participants, managing 20K+ followers), your Behavioural Story score of 2.9 means the tension, decision-making logic, and personal leadership impact may get obscured by high-level task lists rather than a structured STAR narrative."
+      "content": "**Scenario A: The Behavioural Challenge**\n\n**The Red Flag:** \"Tell me about a time an SEO strategy or campaign didn't go as planned. How did you handle it?\"\n\n**Justification:** With a Behavioural Story score of 1.75, you are likely to either freeze, give a generic non-answer, or blame external factors without showing proactive problem-solving. Interviewers are looking for resilience and adaptability. Without a structured STAR narrative, you miss the opportunity to show how you pivot when data tells you a campaign is failing.\n\n---\n\n**Scenario B: The Impact Probe**\n\n**The Red Flag:** \"You mentioned you boosted organic traffic by 40% at UniFirst Robotics. Walk me through the exact steps you took from audit to execution.\"\n\n**Justification:** Your Answer Structure (2.8) and Clarity (2.8) mean you might jump straight into the weeds (e.g., \"I used SEMrush to find keywords\") without setting the strategic stage (What was the baseline? Why those keywords? Who was the target audience?). This disjointed delivery undermines the impressive 40% metric, making the interviewer question if you truly drove that strategy.\n\n---\n\n**Scenario C: The Cross-Functional Stakeholder Question**\n\n**The Red Flag:** \"How did you collaborate with the marketing teams or management to nurture leads at Cube & Squares?\"\n\n**Justification:** A low Behavioural score often indicates a struggle to articulate \"soft skills\" and stakeholder management. You might say \"I just sent them the leads,\" instead of explaining the feedback loop, how you qualified those leads via Salesforce CRM, and how your data informed their strategy."
     },
     {
       "title": "Priority Fix Order",
@@ -36,41 +24,41 @@
       "steps": [
         {
           "week": "Week 1",
-          "title": "The \"STAR Story & Structure\" Drill",
-          "content": "Convert every bullet from UniFirst Robotics, Cube & Squares, SlayBoard, Cobweb, and your leadership roles into a 60-second STAR pitch. Focus on speaking metrics (40% traffic growth, 20% bounce rate reduction, 300+ users, 30k+ participants) cleanly without trailing off. **Score Target:** Answer Structure 2.8 → 4.2, Behavioural Story 2.9 → 3.9"
+          "title": "The Confidence & Structure Drill",
+          "content": "Reframe your mindset: You are not just executing tasks; you are driving business growth. For every bullet on your resume, write a 60-second STAR story. Focus heavily on the 'Action' (what YOU did) and 'Result' (the metrics). Practice delivering these out loud until the hesitation is gone. **Score Target:** Answer Structure 2.8 → 4.0"
         },
         {
           "week": "Week 2",
-          "title": "Technical SEO & Audit \"First Principles\"",
-          "content": "Deep-dive into technical SEO auditing, crawling & indexing diagnostics, Screaming Frog workflows, internal linking strategies, page speed optimization, and Mailchimp campaign segmentation. Be able to explain *how* you identified pain points and measured bounce rate reductions—not just that you improved them. **Score Target:** Role-Specific Technical 2.9 → 4.1"
+          "title": "Behavioural Story Arsenal",
+          "content": "Build a bank of 5 core behavioural stories: A failure/mistake, a conflict with a stakeholder, a time you had to pivot based on data, a time you went above and beyond, and a leadership moment (pull from your Formula Bharat experience). Structure them perfectly using STAR. **Score Target:** Behavioural Story 1.75 → 3.5"
         },
         {
           "week": "Week 3",
-          "title": "Analytics & Tool-to-Value Mapping",
-          "content": "Practice explaining how Google Analytics 4, Looker Studio, Power BI, SQL, and Salesforce CRM specifically solved acquisition or conversion challenges at UniFirst Robotics and Cube & Squares. Link your MSc Digital Marketing & Analytics coursework to concrete commercial growth scenarios. **Score Target:** Technical Readiness 3.5 → 4.5"
+          "title": "Technical Storytelling",
+          "content": "Bridge the gap between tools and strategy. Don't just say 'I used SEMrush'. Say 'I used SEMrush to identify a content gap in STEM education keywords, which informed my 15-keyword strategy that drove a 40% traffic increase.' Connect the tool to the business value. **Score Target:** Role-Specific Technical 3.0 → 4.0, Technical Readiness 2.8 → 4.0"
         },
         {
           "week": "Week 4",
           "title": "The Pressure Test",
-          "content": "High-speed mock interviews focused on technical follow-up probes: \"What was your keyword difficulty baseline?\" \"How did you structure A/B tests?\" \"How did you set up attribution tracking?\" Build narrative confidence under interruption. **Score Target:** Overall Average → 4.5"
+          "content": "Full mock interviews focusing heavily on behavioural and impact-probing questions. The mentor will challenge your metrics and ask 'Why?' repeatedly to test your confidence and structure under pressure. **Score Target:** Overall Average → 4.0+"
         }
       ],
-      "content": "Complete each phase before moving to the next. Do not skip ahead."
+      "content": "Complete each phase before moving to the next. Do not underestimate Week 2; your behavioural stories are currently your biggest liability."
     },
     {
       "title": "Resume-Anchored Technical Prep",
       "sectionType": "content",
-      "content": "**Experience 1: UniFirst Robotics — Organic Traffic Boost (+40%) & SEO Audit**\n\n**Interviewer Probe:** \"What specific tools did you use for the SEO audit? What was your keyword baseline across the 15+ targeted keywords in STEM/robotics, and how did you tie 6+ new web pages/blogs to a 10% share of overall traffic growth?\"\n\n**Likely Struggle:** Mapping to Role-Specific Technical (2.9), you may state \"I optimized keywords and wrote blogs\" without defining search intent, search volume, keyword difficulty, on-page optimization factors, or Google Analytics organic acquisition segmenting.\n\n**Prep Drill:** Document: (1) audit tools used (SEMrush, Ahrefs, Moz, Screaming Frog), (2) keyword selection strategy for niche STEM/robotics, (3) on-page & technical optimizations implemented, (4) tracking methodology in Google Analytics/Looker Studio showing the 40% organic lift and 10% traffic share from new pages.\n\n---\n\n**Experience 2: Cube & Squares — Keyword Ranking (Page 3 to 1) & 20% Bounce Rate Reduction**\n\n**Interviewer Probe:** \"Walk me through how you moved 8+ focus keywords from page 3 to page 1. What site speed optimizations, metadata changes, and internal linking structures led to the 20% reduction in bounce rate?\"\n\n**Likely Struggle:** You may cite generic SEO tactics without explaining technical diagnostic metrics (LCP/FID/CLS, anchor text optimization, internal link hierarchy, schema markup) or how site speed improvements were measured in Google PageSpeed Insights/Lighthouse.\n\n**Prep Drill:** Prepare: (1) initial keyword rankings and search volume, (2) technical audit findings using Screaming Frog, (3) specific speed/metadata fixes made, (4) internal linking architecture changes, (5) Mailchimp email campaign metrics (100+ subscribers, 18% open rate, 3.5% CTR) and Salesforce CRM lead tracking.\n\n---\n\n**Project 1: SlayBoard (Fashion E-commerce Platform) — 300+ Users & Usability Testing**\n\n**Interviewer Probe:** \"How did you design and execute usability testing with 50+ users? What quantitative metrics were tracked to prove a 30% engagement increase, 25% session duration boost, 15% satisfaction gain, and 18% bounce rate drop?\"\n\n**Likely Struggle:** Describing the WordPress build and style quiz without detailing usability testing protocols, user feedback synthesis, UX redesign iterations, or analytics event tracking setup.\n\n**Prep Drill:** Structure the story: (1) baseline user metrics, (2) usability testing design (tasks, metrics, 50+ test users), (3) key UX/UI pain points discovered, (4) interactive feature implementation (deal aggregation, quiz with 120+ completions), (5) Google Analytics event tracking before/after validation.\n\n---\n\n**Project 2: Cobweb Digital Audit & Redesign Analysis — 12+ Pain Points Identified**\n\n**Interviewer Probe:** \"What framework did you use to conduct the digital audit for Cobweb? What were the 12+ pain points, and how did your accessibility and engagement recommendations drive a 20% increase in user retention within three months?\"\n\n**Likely Struggle:** Listing usability issues without categorizing them into UX heuristic evaluations, WCAG accessibility compliance standards, or detailing retention cohort analysis over the 3-month evaluation period.\n\n**Prep Drill:** Categorize pain points (navigation hierarchy, CTA placement, branding inconsistency, accessibility gaps). Be ready to explain how recommendations were prioritized, implemented, and tracked to demonstrate the 20% retention lift.\n\n---\n\n**Leadership: Formula Bharat (COO & PR Head) & CAT Student Council (Marathon 30k+ Participants)**\n\n**Interviewer Probe:** \"How did you manage PR and marketing channels for Formula Bharat, and how did you coordinate marketing/operations for a marathon with 30k+ participants while managing university social channels with 20K+ followers?\"\n\n**Likely Struggle:** Presenting leadership roles as passive participation rather than emphasizing campaign planning, PR outreach, cross-functional logistics, crisis resolution, and social media audience growth tactics.\n\n**Prep Drill:** Craft 2 high-impact STAR stories: (1) scaling social media following to 20K+ and executing PR strategy under tight deadlines for Formula Bharat, (2) operational logistics and marketing reach for 30k+ marathon participants."
+      "content": "**Project 1: UniFirst Robotics — 40% Organic Traffic Boost & SEO Strategy**\n\n**Interviewer Probe:** \"Walk me through the comprehensive SEO audit you conducted. What specific metrics were you looking at, what tools did you use, and how did you choose the 15 targeted keywords?\"\n\n**Likely Struggle:** You may list tools like Ahrefs or SEMrush but fail to articulate the *strategy* behind the audit. You might lack the confidence to explain how you prioritized technical SEO fixes versus content gaps, causing the interviewer to doubt your autonomy in this project.\n\n**Prep Drill:** Structure your audit process step-by-step: \"1. I started with a technical audit using Screaming Frog to fix crawl errors. 2. I used SEMrush for competitor gap analysis in the robotics niche. 3. I selected 15 long-tail keywords with high intent but low keyword difficulty. 4. I optimized existing pages and authored 6 new SEO blogs targeting these terms, which directly resulted in the 40% traffic increase over X months.\"\n\n---\n\n**Project 2: Cube & Squares — Email Campaigns & CRM Management**\n\n**Interviewer Probe:** \"You achieved an 18% open rate and 3.5% CTR on Mailchimp. How did you segment the audience, and what specific content strategies drove that engagement?\"\n\n**Likely Struggle:** With a 2.8 Answer Structure, you might just describe sending emails without explaining the A/B testing, the rationale behind the segmentation, or how you used Salesforce CRM data to inform the campaign.\n\n**Prep Drill:** Prepare to discuss the \"Why\". \"I analyzed our Salesforce data to segment the 100+ subscribers into [Segment A] and [Segment B]. I tailored the subject lines using A/B testing and ensured the content directly addressed their specific pain points. This targeted approach is what drove the 3.5% CTR.\"\n\n---\n\n**Project 3: Formula Bharat / Student Council — Leadership & Soft Skills**\n\n**Interviewer Probe:** \"Tell me about a time you had to manage a large-scale project with multiple stakeholders, like organizing the marathon for 30K+ participants or acting as COO for Formula Bharat.\"\n\n**Likely Struggle:** This is where the 1.75 Behavioural score hurts the most. You have incredible leadership experience, but you likely undersell it or fail to tell a compelling story about a specific challenge you overcame during these events.\n\n**Prep Drill:** Build a robust STAR story around a specific crisis during the marathon or a team conflict in Formula Bharat. Emphasize your communication, crisis management, and cross-functional coordination skills."
     },
     {
       "title": "Interview Answer Construction Guidance",
       "sectionType": "content",
-      "content": "**Project:** Boosting organic traffic by 40% and optimizing technical SEO at UniFirst Robotics.\n\n**Baseline Answer (Score 2.8 — Communication & Technical Depth Weakness):**\n\"At UniFirst Robotics, I worked as a Digital Marketing Specialist. I did SEO audits and keyword research for robotics and STEM education. I optimized content for 15+ keywords and wrote 6+ web pages and blogs. This boosted organic traffic by 40% and increased engagement by 60% on social media. I also created marketing assets like brochures and flyers.\"\n\n**Fixed Answer (Score 4.5+ — Structured, Data-Driven & Strategic):**\n\"At UniFirst Robotics, our digital footprint in the robotics and STEM education sectors suffered from low search visibility, with high-intent keywords ranking poorly and organic traffic stagnating. (Situation) My objective was to conduct a comprehensive digital audit, optimize search visibility across core target keywords, and build an integrated acquisition engine to drive qualified leads. (Task) Using SEMrush, Ahrefs, and Screaming Frog, I conducted a full technical and content audit across 15+ targeted keywords, identified site architecture and metadata gaps, authored 6+ SEO-optimized landing pages and blogs, and launched targeted social content (20+ Instagram posts/reels) alongside 15+ conversion-focused marketing collateral pieces. (Action) As a result, we boosted organic traffic by 40%, increased audience engagement by 60% across 3+ social platforms, saw our new web content contribute 10% of overall traffic growth, and established a steady lead generation pipeline through direct STEM program presentations. (Result)\"\n\n**Justification:** The \"Fixed\" version addresses Answer Structure by following a clean STAR flow, articulates clear tool selection and methodology, and links marketing activities directly to measurable growth KPIs and lead generation impact."
+      "content": "**Project: Boosting Organic Traffic at UniFirst Robotics**\n\n**Baseline Answer (Score 2.8 — Unstructured & Passive):**\n\"I worked on SEO for UniFirst Robotics. I used SEMrush to find some keywords and optimized the website. I also wrote some blogs and created social media posts on Canva. It helped increase our organic traffic by 40%.\"\n\n**Fixed Answer (Score 4.5+ — Confident, Structured, Impact-Driven):**\n\"When I joined UniFirst Robotics, our visibility in the competitive STEM education sector was low. (Situation) My objective was to drive targeted organic traffic to our program pages without increasing ad spend. (Task) I conducted a comprehensive SEO audit using SEMrush, identifying a gap in long-tail keywords related to robotics education. I selected 15 high-intent keywords, optimized our existing landing pages, and authored 6 new SEO-optimized blogs to capture that search volume. Simultaneously, I repurposed this content into 20+ Instagram reels to drive cross-channel engagement. (Action) Within [Timeframe], this strategy boosted our organic traffic by 40%, increased social engagement by 60%, and directly contributed to the leads I nurtured through client presentations. (Result)\"\n\n**Why This Works:**\nThe Fixed version shows *Confidence* and *Strategy*. It frames the work as solving a business problem (low visibility), explicitly details the multi-channel strategy (SEO + Social), and confidently owns the impressive results. It shifts you from an \"executor\" to a \"strategist.\""
     },
     {
       "title": "High-Risk Questions (The Landmines)",
       "sectionType": "content",
-      "content": "\"Walk me through your technical SEO audit process at UniFirst Robotics. What tools did you use, what crawl errors did you discover, and how did you prioritize technical fixes?\" **(Risk: Role-Specific Technical 2.9)**\n\n\"How did you move 8+ focus keywords from page 3 to page 1 at Cube & Squares? Explain your keyword difficulty analysis, on-page optimization, and internal link structure.\" **(Risk: Role-Specific Technical 2.9)**\n\n\"You achieved a 20% reduction in bounce rate at Cube & Squares—what specific site speed metrics (LCP, CLS, FID) did you improve, and how did you isolate speed from content changes?\" **(Risk: Technical Readiness 3.5)**\n\n\"How did you set up Mailchimp email campaigns for 100+ subscribers to achieve an 18% open rate and 3.5% CTR? Walk me through your audience segmentation and A/B test variations.\" **(Risk: Answer Structure 2.8)**\n\n\"In your SlayBoard project, how did you run usability testing with 50+ users? What specific metrics proved the 30% engagement increase and 18% bounce rate reduction?\" **(Risk: Role-Specific Technical 2.9)**\n\n\"Walk me through the 12+ pain points identified during the Cobweb digital audit. How did you measure the 20% increase in user retention over three months?\" **(Risk: Technical depth vs. generalist framing)**\n\n\"As COO & PR Head for Formula Bharat or Secretary organizing a 30k+ participant marathon, describe a major crisis or stakeholder disagreement you resolved under pressure.\" **(Risk: Behavioural Story 2.9)**\n\n\"How do you integrate Looker Studio, Power BI, and Google Analytics 4 to build an end-to-end digital marketing attribution dashboard?\" **(Risk: Role-Specific Technical 2.9)**"
+      "content": "\"Tell me about a time you disagreed with a manager or client about a marketing strategy. How did you resolve it?\" **(Risk: Behavioural Story 1.75 — likely to struggle with conflict narratives)**\n\n\"What is your process for conducting an SEO audit, and how do you prioritize what to fix first?\" **(Risk: Technical Readiness 2.8 — needs a structured, step-by-step technical answer)**\n\n\"Walk me through a campaign that completely failed. What went wrong and what did you learn?\" **(Risk: Behavioural Story 1.75 / Confidence Risk — requires vulnerability paired with analytical learnings)**\n\n\"How did you use Salesforce CRM in conjunction with your Mailchimp campaigns at Cube & Squares?\" **(Risk: Role-Specific Technical 3.0 — needs to clearly articulate the integration of CRM data with email marketing)**\n\n\"You reduced bounce rate by 20% at Cube & Squares. What specific UX or technical changes did you implement to achieve that?\" **(Risk: Answer Structure 2.8 — must clearly link the action (metadata, linking, site speed) to the metric)**\n\n\"Tell me about your time as COO of the Formula Bharat team. What was the hardest operational challenge you faced?\" **(Risk: Behavioural Story 1.75 — must not downplay this significant leadership role)**"
     },
     {
       "title": "Mock Interview Plan (Mentor-Led)",
@@ -82,27 +70,27 @@
           "data": [
             {
               "timing": "Week 2, Day 1",
-              "label": "Session 1: Resume Walkthrough & Marketing Strategy Baseline",
+              "label": "Session 1: The Articulation & Confidence Check",
               "duration": "45 minutes",
-              "objective": "Full resume flow under light interruption. Assess Answer Structure and clarity when presenting metrics."
+              "objective": "Resume walkthrough and basic impact questions. Focus strictly on eliminating passive language and enforcing the STAR method for metrics."
             },
             {
               "timing": "Week 2, Day 5",
-              "label": "Session 2: Technical SEO, Analytics & Audit Deep-Dive",
+              "label": "Session 2: The Behavioural Deep Dive",
               "duration": "50 minutes",
-              "objective": "Technical SEO audits, Screaming Frog workflows, GA4/Looker Studio dashboards, Mailchimp segmentation. Push on methodology."
+              "objective": "Target the 1.75 Behavioural score. Ask exclusively about failures, conflicts, stakeholder management, and leadership (Formula Bharat/Marathon)."
             },
             {
               "timing": "Week 3, Day 3",
-              "label": "Session 3: UX Audit, Conversion Funnels & Behavioural Leadership",
+              "label": "Session 3: Technical Strategy & Data",
               "duration": "45 minutes",
-              "objective": "SlayBoard usability testing, Cobweb audit, Formula Bharat PR leadership, stakeholder coordination. Demand STAR with measurable outcomes."
+              "objective": "Probe the 'Why' and 'How' behind the SEO audits, email campaigns, and data analytics (Google Analytics, Looker Studio). Test Technical Readiness."
             },
             {
               "timing": "Week 4, Day 2",
-              "label": "Session 4: Final Pressure Test (Ireland Digital Marketing Simulation)",
+              "label": "Session 4: Full Pressure Simulation",
               "duration": "60 minutes",
-              "objective": "Rapid-fire technical + campaign scenario mix (traffic drop, site crawl failure, campaign pivot). Target 4.5+ across all areas."
+              "objective": "End-to-end interview. The mentor should deliberately create a high-pressure environment to test if Varsha's confidence and structure hold up under stress."
             }
           ]
         },
@@ -110,60 +98,29 @@
           "title": "Focus Areas by Session",
           "type": "bar",
           "data": [
-            {
-              "label": "Session 1: Answer Structure + Metric Delivery",
-              "value": 8,
-              "max": 10
-            },
-            {
-              "label": "Session 2: Role-Specific Technical & Analytics",
-              "value": 9,
-              "max": 10
-            },
-            {
-              "label": "Session 3: Behavioural & UX Strategy",
-              "value": 8,
-              "max": 10
-            },
-            {
-              "label": "Session 4: Full simulation",
-              "value": 10,
-              "max": 10
-            }
+            { "label": "Session 1: Articulation & STAR", "value": 9, "max": 10 },
+            { "label": "Session 2: Behavioural Stories", "value": 10, "max": 10 },
+            { "label": "Session 3: Technical Strategy", "value": 8, "max": 10 },
+            { "label": "Session 4: Full Simulation", "value": 10, "max": 10 }
           ]
         }
       ],
-      "content": "**Session 1: Resume Walkthrough & Marketing Strategy Baseline**\n\n**Focus:** UniFirst Robotics, Cube & Squares, and SlayBoard narrative flow; articulating acquisition metrics clearly.\n\n**Mentor Push:** Interrupt every 60 seconds with \"What was the keyword baseline?\" and \"How did you measure engagement?\" Note hesitation, generic descriptions, or trailing sentences—these signal Communication & Answer Structure gaps.\n\n---\n\n**Session 2: Technical SEO, Analytics & Audit Deep-Dive**\n\n**Focus:** Screaming Frog crawls, SEMrush/Ahrefs keyword difficulty, Google Analytics event tracking, Looker Studio/Power BI dashboards, Mailchimp open/CTR metrics.\n\n**Mentor Push:** Do not accept tool names as answers. Demand specific audit frameworks, crawl diagnostics, internal linking rules, and conversion funnel math.\n\n---\n\n**Session 3: UX Audit, Conversion Funnels & Behavioural Leadership**\n\n**Focus:** SlayBoard & Cobweb usability testing, Formula Bharat PR leadership, CAT Student Council marathon organization (30k+ participants), handling stakeholder feedback.\n\n**Mentor Push:** Stop candidate if stories lack clear conflict or team leadership role. Demand crisp STAR structure with quantified outcomes.\n\n---\n\n**Session 4: Final Pressure Test (Ireland Digital Marketing Simulation)**\n\n**Focus:** Rapid-fire scenario questions: \"Organic traffic drops 25% overnight—walk me through your diagnostic steps\"; \"A/B test yields negative results—how do you pivot?\"; \"Budget reduced by 30%—which channels do you cut?\"\n\n**Mentor Push:** Check if Role-Specific Technical and Behavioural Story have reached 4.5 target. Strategic confidence under interruption is the pass/fail criterion."
+      "content": "**Session 1: The Articulation & Confidence Check**\n\n**Focus:** Resume walkthrough and framing impact.\n\n**Mentor Push:** Interrupt if Varsha uses passive language (\"I had to\", \"I was tasked with\"). Force her to restart the sentence using confident ownership (\"I drove\", \"I analyzed\", \"I created\").\n\n---\n\n**Session 2: The Behavioural Deep Dive**\n\n**Focus:** Conflict, failure, and leadership.\n\n**Mentor Push:** This is the most critical session. Push hard on the Formula Bharat and Marathon experiences. Do not accept generic answers for failures. Demand specific examples and actionable learnings.\n\n---\n\n**Session 3: Technical Strategy & Data**\n\n**Focus:** SEO strategy, CRM integration, and analytics.\n\n**Mentor Push:** Ask for the methodology behind the 40% traffic boost. Ask her to explain an A/B test she ran. If she just lists tools, push for the *strategy* behind using those tools.\n\n---\n\n**Session 4: Full Pressure Simulation**\n\n**Focus:** End-to-end full mock under real interview conditions.\n\n**Mentor Push:** Play the role of a slightly skeptical, rushed Marketing Director. Test her confidence. Does she crumble or does she stand by her metrics and strategies?"
     },
     {
       "title": "Expected Outcome",
       "sectionType": "expectedOutcome",
-      "currentScore": 3.56,
-      "targetScore": 4.5,
+      "currentScore": 2.63,
+      "targetScore": 4.2,
       "maxScore": 5,
       "metrics": [
-        {
-          "label": "Resume walkthrough",
-          "current": "3.7",
-          "target": "4.5"
-        },
-        {
-          "label": "Answer Structure",
-          "current": "2.8",
-          "target": "4.5"
-        },
-        {
-          "label": "Role-Specific Technical",
-          "current": "2.9",
-          "target": "4.5"
-        },
-        {
-          "label": "Behavioural + Leadership",
-          "current": "2.9",
-          "target": "4.5"
-        }
+        { "label": "Resume & Experience Clarity", "current": "2.8", "target": "4.2" },
+        { "label": "Answer Structure", "current": "2.8", "target": "4.2" },
+        { "label": "Technical Readiness", "current": "2.8", "target": "4.0" },
+        { "label": "Role-Specific Technical", "current": "3.0", "target": "4.2" },
+        { "label": "Behavioural Story", "current": "1.75", "target": "4.0" }
       ],
-      "content": "**Target Average Score: 4.5** (from a ~3.56 baseline on the composite diagnostic).\n\n**Measurable Change Expected:**\n- Move from \"I improved organic traffic and engagement\" to \"I conducted technical SEO audits using SEMrush and Screaming Frog across 15+ keywords, optimized site architecture and metadata, authoring content that drove a 40% organic traffic lift and accounted for 10% of overall site growth.\"\n- Technical SEO, analytics, and usability testing answers include audit parameters, conversion formulas, crawl diagnostics, and attribution modeling—not high-level tool listings.\n- Behavioural and leadership answers articulate clear stakeholder influence, PR management, and event logistics (30k+ participants) with calm, structured STAR delivery.\n\n**After Persona:** A **Digital Marketing & Analytics Specialist** who sounds operationally proficient, technically adept in SEO and analytics, and commercially strategic—fully aligned with Dublin market hiring expectations."
+      "content": "**Target Average Score: 4.1+**\n\n**Measurable Change:**\n\n- Move from passive execution (\"I did SEO and social media\") to strategic ownership (\"I designed and executed a cross-channel SEO and content strategy that grew organic traffic by 40% and engagement by 60%\").\n- Develop a rock-solid repertoire of behavioural stories that showcase leadership, resilience, and stakeholder management.\n- The **\"After\" Persona:** A \"Strategic, Confident Digital Marketer\" — someone who not only knows how to use SEMrush and Mailchimp but can articulate the business value of their campaigns and confidently defend their data-driven decisions."
     },
     {
       "title": "How to Use This Plan",
@@ -171,48 +128,48 @@
       "candidateSteps": [
         {
           "icon": "FileCheck",
-          "title": "Complete Week 1 STAR Story & Structure Drill before Session 1",
-          "content": "Record yourself delivering STAR pitches for UniFirst Robotics, Cube & Squares, SlayBoard, Cobweb, and Formula Bharat. Focus on Answer Structure (2.8→4.2) and Behavioural Story (2.9→3.9)."
+          "title": "Write out your 5 core Behavioural Stories immediately",
+          "content": "Your 1.75 score here is a major red flag for employers. Write out STAR stories for: A failure, a conflict, a data-driven pivot, an above-and-beyond moment, and a leadership example. Memorize the structure."
         },
         {
           "icon": "FileText",
-          "title": "Build a one-page digital marketing cheat sheet",
-          "content": "Document technical SEO audit workflows, keyword difficulty metrics, site speed indicators, GA4 event tracking, and email funnel metrics. Memorize key numbers: 40% organic traffic, 60% engagement, page 3 to 1 rankings, 20% bounce rate reduction, 300+ users, 30k+ marathon participants."
+          "title": "Audit your own vocabulary",
+          "content": "Record yourself answering \"Walk me through your resume.\" Listen back. Tally every time you say 'we', 'helped', 'tried to', or 'was asked to'. Replace them with 'I led', 'I strategized', 'I optimized', and 'I achieved'."
         },
         {
           "icon": "RotateCcw",
-          "title": "Re-practice failed technical questions within 24 hours",
-          "content": "Rewrite weak answers with baseline, methodology, and result. If you struggled with \"How did you optimize internal linking and site speed?\" in Session 2, refine a complete response before Session 3."
+          "title": "Practice answering 'Why?' for every bullet point",
+          "content": "For every metric on your resume, be ready to explain the step-by-step strategy that got you there. Do not assume the interviewer knows how you got a 40% traffic boost—you have to narrate the journey."
         },
         {
           "icon": "Target",
-          "title": "Do NOT proceed until previous session scores 4.5/5+",
-          "content": "Each session is a gate. If Session 1 structure score is below 4.5/5, repeat Week 1 drills before Session 2."
+          "title": "Own your leadership experience",
+          "content": "Being a COO of a racing team and organizing a marathon for 30K people are incredible achievements. Do not downplay them. Use them to prove your project management and communication skills."
         }
       ],
       "mentorSteps": [
         {
           "icon": "FileCheck",
-          "title": "Follow session instructions exactly",
-          "content": "Do not soften technical probes. Ireland digital marketing roles expect clear technical execution and data fluency."
+          "title": "Focus heavily on tone and confidence",
+          "content": "Varsha's technical skills are solid, but her delivery is holding her back. Correct her tone. If she sounds unsure about a metric she achieved, call it out. She needs to sound like an expert."
         },
         {
           "icon": "AlertCircle",
-          "title": "Probe until candidate breaks or admits knowledge boundary",
-          "content": "Test limits on technical SEO diagnostics, crawl errors, email segmentation, and usability testing. Document gaps for Week 2–3 prep."
+          "title": "Drill the Behavioural Stories relentlessly",
+          "content": "Spend disproportionate time on Session 2. A 1.75 in Behavioural means she is highly vulnerable to culture-fit and soft-skill questions. Do not let her use vague generalizations."
         },
         {
           "icon": "FileText",
-          "title": "Provide written feedback on delivery, pace, and clarity",
-          "content": "Note confidence markers: speaking metrics clearly, avoiding filler words, maintaining structured STAR flow under interruption."
+          "title": "Demand the 'Strategy' behind the 'Tools'",
+          "content": "Whenever she mentions a tool (SEMrush, Canva, Looker Studio), ask her *why* she used it and *how* it translated to business value. Bridge the gap between technical execution and strategic impact."
         },
         {
           "icon": "Ban",
-          "title": "Reset expectations",
-          "content": "Passing Session 4 validates interview readiness for digital marketing roles in Ireland. Use Session 4 as proof of strategic and technical command under pressure."
+          "title": "Don't let her undersell herself",
+          "content": "She has strong metrics and great leadership experience. Your job is to make her realize her own value so she can communicate it to the interviewer. Do not pass her until she can confidently own her achievements."
         }
       ],
-      "content": "**Non-negotiable rule:**\nIf you fail Session 4 (score <4.5/5), repeat Sessions 2–4 in Week 5. Do not apply to roles until you pass Session 4.\n\n**Timeline:**\n- Week 1: STAR Story & Structure Drill (STAR pitches, recorded practice)\n- Week 2: Sessions 1–2 (Resume Walkthrough + Technical SEO & Analytics Deep-Dive)\n- Week 3: Session 3 (UX Audit & Behavioural Leadership)\n- Week 4: Session 4 (Final Pressure Test)\n- Week 5: Buffer for repetition if needed\n\nStart Week 1 today. Email your mentor when you've completed recorded STAR pitches for all UniFirst Robotics, Cube & Squares, and SlayBoard bullet points."
+      "content": "**Non-negotiable rule:**\nIf Session 4 Behavioural score is below 3.5, repeat Session 2 before applying for roles. The communication and confidence gap must be closed.\n\n**Timeline:**\n- Week 1: STAR drill and vocabulary audit\n- Week 2: Session 1 (Articulation) + Session 2 (Behavioural Deep Dive)\n- Week 3: Session 3 (Technical Strategy & Data)\n- Week 4: Session 4 (Full Pressure Test)\n\nStart writing your 5 core behavioural stories today. Send them to your mentor before Session 2."
     }
   ]
 }

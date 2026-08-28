@@ -1,0 +1,139 @@
+{
+  "name": "Chaya KJ",
+  "role": "Full Stack Developer | React Native, Web & Data Solutions",
+  "description": "Tailored to your experience in mobile-first app development, React Native, REST APIs, user authentication, and data analytics utilizing SQL, Python, machine learning, and Tableau.",
+  "sections": [
+    {
+      "title": "Behavioral Questions",
+      "icon": "Users",
+      "cards": [
+        {
+          "front": "Tell me about yourself",
+          "back": "I'm a detail-oriented Full Stack Developer with experience building and optimizing app features for mobile-first platforms. I focus on delivering data-driven solutions and improving workflows. At Peroptyx, I enhanced the geographic precision of AI mapping systems by 28% and improved chatbot user satisfaction by 20% while aligning outputs with REST API requirements. At Oracuz Infotech, I enabled an 18% optimization in production processes using Tableau, accelerated query resolution by 35% through real-time reporting, and boosted model evaluation performance by 22%. I hold an MSc in Data Analytics from the University of Galway and a BE in Mechanical Engineering. I combine my frontend skills in React Native and web development with backend data solutions, such as optimizing SQL queries over 829,000+ records for Amazon Sales Analysis and building a hybrid ResNet50-MobileNetV3 model with 97.75% accuracy deployed via Streamlit."
+        },
+        {
+          "front": "What are your strengths?",
+          "back": "My core strengths lie in building mobile-first platforms and using data-driven solutions to optimize workflows. I have a strong foundation in Frontend Development using React Native and web technologies, coupled with experience in REST APIs and User Authentication. I also have deep analytical skills, utilizing SQL, Excel, and Tableau to drive business decisions. I excel at cross-functional agile collaboration, bridging the gap between developers and stakeholders—whether it's validating 2,000+ map data entries to improve app feature accuracy or communicating clearly to resolve user-facing issues."
+        },
+        {
+          "front": "What are your weaknesses?",
+          "back": "I sometimes dive too deep into data analytics and model optimization, such as spending hours tuning feature selection and algorithms, when a simpler, more direct implementation might suffice for the immediate product iteration. I've learned to balance this by prioritizing the core user experience and application features first, then using iterative analytics to guide enhancements, ensuring I deliver value quickly while maintaining high standards."
+        },
+        {
+          "front": "Why do you want to join us?",
+          "back": "I want to work at a company where mobile-first user experience and data-driven optimization are core to the product. Your focus on building scalable app features and seamless workflows aligns perfectly with my background in React Native, REST APIs, and analytics. I am excited to apply my full-stack skills and data insights to help improve app features, automate processes, and deliver a fast, robust user experience."
+        },
+        {
+          "front": "Where do you see yourself in the next 5 years?",
+          "back": "In five years, I see myself as a Senior Full Stack Developer or Technical Lead, owning the architecture and delivery of scalable mobile and web applications. I want to deepen my expertise in mobile-first technologies like React Native, cloud-native deployments, and advanced data-driven systems, while continuing to lead agile, cross-functional teams to build high-impact digital products."
+        },
+        {
+          "front": "Tell me about a time you went above and beyond",
+          "back": "Situation: At Oracuz Infotech, production processes had inefficiencies, and business stakeholders needed better visibility. Task: Optimize production processes and data-driven decision-making. Action: I went beyond my core duties by designing and delivering scalable Tableau dashboards for cross-functional stakeholders, and I streamlined REST API-driven workflows by introducing real-time customer support reporting. Result: Enabled an 18% optimization in production processes, accelerated query resolution times by 35%, and greatly improved agile collaboration and data transparency for our enterprise clients."
+        },
+        {
+          "front": "How do you handle tight deadlines?",
+          "back": "I manage tight deadlines by prioritizing tasks based on user impact and using agile cross-functional collaboration. For instance, at Peroptyx, I validated over 2,000 map data entries and corrected 1,500+ AI chatbot responses within tight schedules. I focus on creating a fast, robust user experience first, breaking the development into small, testable features, and maintaining clear communication with my team to resolve dependencies early."
+        },
+        {
+          "front": "Describe a time you took initiative",
+          "back": "Situation: Our AI mapping and chatbot systems at Peroptyx needed to scale, but precision and user satisfaction had room for improvement. Task: Enhance system accuracy and chatbot UX. Action: I took the initiative to establish a systematic review process, validating 2,000+ map entries and correcting 1,500+ chatbot responses while aligning chatbot outputs with REST API requirements. Result: Proactively increased geographic precision by 28% over 9 months and boosted chatbot user satisfaction by 20%, ensuring robust, scalable mobile experiences."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "The STAR method stands for Situation, Task, Action, and Result.",
+          "answer": true
+        },
+        {
+          "question": "In a Full Stack Developer interview, sharing quantifiable metrics like '28% precision increase' or '35% faster query resolution' makes your impact stories stronger.",
+          "answer": true
+        },
+        {
+          "question": "You should avoid discussing your data analytics background when applying for Full Stack roles, even if it helps you build better app features.",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "title": "Technical Questions",
+      "icon": "Target",
+      "cards": [
+        {
+          "front": "Explain your experience with Frontend and Web Development",
+          "back": "I specialize in Frontend Development, particularly using React Native for building mobile-first platforms and standard HTML/JS/CSS for web development. I focus on creating detail-oriented, highly organized user interfaces that deliver a fast and robust user experience. I have experience collaborating in agile environments to build, test, and optimize application features."
+        },
+        {
+          "front": "How do you design and integrate APIs?",
+          "back": "I have extensive experience working with REST APIs to connect mobile and web interfaces with backend systems. At Peroptyx, I aligned AI chatbot outputs with REST API requirements to drive high-quality user experience. At Oracuz Infotech, I streamlined REST API-driven workflows, which accelerated customer support query resolution times by 35%."
+        },
+        {
+          "front": "What is your experience with User Authentication and Security?",
+          "back": "I incorporate security best practices, such as User Authentication, into app features to protect user data and control access. I ensure secure communication channels between the client application and REST APIs, keeping mobile-first systems robust and compliant with industry standards."
+        },
+        {
+          "front": "How do you use SQL and databases in your development?",
+          "back": "I use SQL for efficient data querying, manipulation, and analysis. In my Amazon Sales Data project, I optimized SQL queries across more than 829,000 e-commerce records. This optimization identified the top 5 revenue-generating products (46% of total revenue) and reduced inventory risk by 15% across 5,000 sales records."
+        },
+        {
+          "front": "What is your experience with Python, Machine Learning, and Streamlit?",
+          "back": "I use Python for programming, data mining, and machine learning. In my Road Surface Classification project, I used TensorFlow to build a hybrid ResNet50-MobileNetV3 model achieving 97.75% accuracy. I then deployed the model via Streamlit Cloud, creating a real-time image classification UI that allowed side-by-side comparison across multiple models on 30,000+ images."
+        },
+        {
+          "front": "Explain your experience with Tableau, Excel, and Data Analytics",
+          "back": "I have a strong background in data analytics, holding an MSc in Data Analytics. I am proficient in using Tableau and Excel (PivotTables, VLOOKUP) to visualize data and build dashboards. At Oracuz Infotech, I delivered Tableau dashboards that optimized production processes by 18% and analyzed monthly revenue across 10+ regions to inform web development priorities."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "React Native is a framework primarily used for building native mobile applications using JavaScript.",
+          "answer": true
+        },
+        {
+          "question": "REST APIs are only used for connecting desktop databases and cannot be used in mobile-first applications.",
+          "answer": false
+        },
+        {
+          "question": "Streamlit is an open-source Python library used to create and share custom web apps for machine learning and data science.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "title": "Project Highlights",
+      "icon": "Award",
+      "cards": [
+        {
+          "front": "Peroptyx – AI Mapping & Chatbot Optimization",
+          "back": "Validated 2,000+ map data entries to enhance geographic precision of AI mapping systems by 28% over 9 months, ensuring robust app features for scalable mobile experiences. Reviewed and corrected 1,500+ AI chatbot responses, improving user satisfaction by 20%. Aligned chatbot outputs with REST API requirements and collaborated in cross-functional agile teams. Skills: REST APIs, Agile Collaboration, Quality Assurance, UX Optimization."
+        },
+        {
+          "front": "Oracuz Infotech – Process Optimization & Analytics",
+          "back": "Enabled an 18% optimization in production processes by delivering scalable Tableau dashboards for data-driven decision-making. Accelerated query resolution times by 35% by streamlining REST API-driven workflows with real-time reporting. Boosted model evaluation performance by 22% through advanced EDA, feature selection, and algorithm tuning. Analyzed monthly revenue data across 10+ regions using Excel (PivotTables, VLOOKUP) to prioritize web development. Skills: Tableau, Excel, REST APIs, EDA, Process Optimization."
+        },
+        {
+          "front": "Amazon Sales Data Analysis",
+          "back": "Optimized SQL queries over 829,000+ e-commerce records to identify the top 5 revenue-generating products (representing 46%+ of overall sales). Supported a 15% reduction in inventory risk by uncovering demand trends across 5,000+ records. Developed a clean Excel dashboard summarizing product KPIs and sales performance, reducing manual reporting time by 35% to enable faster decisions. Tech Stack: SQL, Excel, Tableau."
+        },
+        {
+          "front": "Road Surface Classification with Hybrid Pre-trained Model",
+          "back": "Built a hybrid ResNet50-MobileNetV3 model achieving 97.75% test accuracy on balanced data, outperforming standard ResNet50 by 4.9% and reducing loss by 84%. Deployed the machine learning model via Streamlit Cloud with an interactive, real-time image classification UI, supporting side-by-side comparison across 5 pre-trained models on 30,000+ images. Tech Stack: Python, TensorFlow, ResNet50, MobileNetV3, Streamlit."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Tableau dashboards can be used to optimize production processes and enhance data-driven decision-making for stakeholders.",
+          "answer": true
+        },
+        {
+          "question": "A hybrid ResNet50-MobileNetV3 model is built using SQL queries inside Excel.",
+          "answer": false
+        },
+        {
+          "question": "Optimizing SQL queries can help identify top-performing products and reduce inventory risk by analyzing large datasets.",
+          "answer": true
+        }
+      ]
+    }
+  ]
+}

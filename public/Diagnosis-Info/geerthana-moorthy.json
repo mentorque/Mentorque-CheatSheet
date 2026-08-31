@@ -1,0 +1,175 @@
+{
+  "name": "Geerthana Moorthy",
+  "email": "geerthanamoorthy17@gmail.com",
+  "targetRole": "Senior Full Stack Developer (.NET/Angular)",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": ["Resume & Experience Clarity", "Answer Structure", "Technical Readiness", "Role-Specific Technical", "Behavioural Story"],
+        "values": [2.6, 2.4, 2.1, 2.0, 1.25],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: The \"Silent Senior\" — Severe Communication & Confidence Gap.**\n\nGeerthana, you have a massive disconnect between your resume and your interview delivery. On paper, you are a Senior Full Stack Developer with 5+ years of experience building enterprise systems for giants like IBM, Microsoft, and Renault Nissan. You have scaled applications to 1,400+ users and optimized heavy SQL databases.\n\nHowever, your scores across the board are critically low—averaging a 2.0. Your Behavioural Story score of **1.25** and Role-Specific Technical score of **2.0** reveal a severe \"Communication and Confidence Risk\". \n\n**The Mapping Rule Analysis:**\n\nWhen a senior developer scores a 2.0 technically, it usually isn't a lack of knowledge—it is an inability to articulate that knowledge under pressure. You are likely freezing, second-guessing yourself, or giving 1-sentence answers when the interviewer is expecting a 5-minute architectural deep-dive. In behavioural scenarios, a 1.25 suggests extreme passivity; you might default to \"we did this\" or fail to advocate for your personal leadership. Right now, your interview persona completely undermines your 5 years of hard-earned experience. You sound like a junior developer, which will result in rejections for senior roles. We must completely rebuild your interview confidence and structural delivery."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: The Senior Architecture Probe**\n\n**The Red Flag:** \"Walk me through the architecture of the PLM release you led for IBM. How did you handle data validation and API scaling?\"\n\n**Justification:** With a 2.0 Role-Specific Technical and 2.4 Answer Structure, you are likely to give a brief, high-level summary that lacks technical depth (e.g., \"I used .NET and SQL Server to make it run faster\"). A senior developer is expected to draw a mental architecture diagram, explaining the choice of .NET Core, how the APIs handled the load, and the exact capacity engineering principles used. Your hesitation will make the interviewer doubt if you actually led the project.\n\n---\n\n**Scenario B: The Behavioural Conflict**\n\n**The Red Flag:** \"Tell me about a time a release went wrong or you had a major production bug. How did you handle the incident response?\"\n\n**Justification:** A 1.25 Behavioural score means you likely deflect ownership or freeze on this question. You might give a generic answer without using the STAR method. Senior engineers own their failures and narrate incident response confidently (Detection -> Triage -> Fix -> Post-Mortem). Without this, you fail the senior culture-fit check.\n\n---\n\n**Scenario C: The Database Deep-Dive**\n\n**The Red Flag:** \"You mentioned optimizing backend APIs handling 5,000+ monthly transactions by refining SQL queries. Explain exactly what you refined. Was it indexing, N+1 queries, or execution plans?\"\n\n**Justification:** Technical Readiness of 2.1 means you might struggle to defend your own resume bullets under scrutiny. If you can't confidently walk through how you optimized a stored procedure or analyzed a SQL execution plan, the interviewer will assume you embellished the 30% performance boost."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "The Confidence & Ownership Drill",
+          "content": "Eradicate passive language. Record yourself reading your resume. Replace \"I was involved in\" with \"I architected,\" \"I engineered,\" and \"I led.\" For every bullet point, prepare a 2-minute technical defense that explains the *Why* and the *How*. **Score Target:** Resume & Experience Clarity 2.6 → 3.5"
+        },
+        {
+          "week": "Week 2",
+          "title": "Senior Technical Storytelling (STAR)",
+          "content": "Rebuild your technical delivery. When asked about .NET or SQL, you cannot just list features. You must use STAR: Situation (the scale of the Microsoft/IBM problem), Task (your architectural goal), Action (the specific C# code, API, or query you wrote), Result (the 40% error reduction). **Score Target:** Role-Specific Technical 2.0 → 3.5"
+        },
+        {
+          "week": "Week 3",
+          "title": "Behavioural Arsenal (The 1.25 Fix)",
+          "content": "Your 1.25 is a critical failure point. Build 5 robust, deeply personal stories: A production outage you fixed, a time you pushed back on a bad requirement, a technical disagreement with a peer, a time you mentored someone, and your proudest technical achievement. **Score Target:** Behavioural Story 1.25 → 3.5"
+        },
+        {
+          "week": "Week 4",
+          "title": "The Pressure & Push-Back Test",
+          "content": "Full mock interviews where the mentor will aggressively question your metrics and technical choices to induce stress. The goal is to train you not to fold, but to stand your ground and defend your senior experience confidently. **Score Target:** Overall Average → 3.8+"
+        }
+      ],
+      "content": "We must close the gap between your 5 years of actual experience and your entry-level interview delivery."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Project 1: Biblioso Solution — IBM/Microsoft PLM Release (C#, .NET)**\n\n**Interviewer Probe:** \"You led the Aras Innovator v22 upgrade for Microsoft. Walk me through the incident response and debugging processes you put in place to protect data integrity during the migration.\"\n\n**Likely Struggle:** You may just say \"I monitored the deployment\" without diving into the technical engineering. \n\n**Prep Drill:** Structure it as a senior engineer: \"To ensure zero data loss for 500+ users, I engineered a phased migration. I developed custom C# validation scripts that verified record integrity pre- and post-migration. When an anomaly was detected, our monitoring pipeline (which I customized) triggered an alert, allowing us to halt the pipeline and apply a hotfix before data corruption occurred.\"\n\n---\n\n**Project 2: Onward Technologies — Enterprise PLM Automation**\n\n**Interviewer Probe:** \"You automated Excel-based PLM processes, reducing manual effort by 90%. What was the architecture of this automation? How did the .NET backend handle the file parsing and database inserts at scale?\"\n\n**Likely Struggle:** A 2.1 Technical Readiness means you might falter on explaining the edge cases (e.g., what if the Excel file is 100MB? What if there's dirty data?).\n\n**Prep Drill:** Own the architecture. \"The legacy process relied on manual Excel uploads which timed out. I engineered a .NET Core background worker service. It parsed the Excel files asynchronously, validated the business logic against the PLM rules engine, and used Entity Framework batch inserts to update the SQL database. This decoupled the UI from the heavy processing, saving 90% of manual effort.\"\n\n---\n\n**Project 3: Precept Management — SQL & API Optimization**\n\n**Interviewer Probe:** \"You boosted application performance by 30% by refining SQL queries and stored procedures. Explain one specific query you optimized. What was the bottleneck?\"\n\n**Likely Struggle:** If you freeze here, the 30% metric looks entirely fake to the interviewer.\n\n**Prep Drill:** Have a highly specific example ready. \"We had a dashboard API that was timing out. I ran a SQL Server Execution Plan and found it was doing a full table scan on a 5-million-row transaction table due to a non-sargable WHERE clause. I rewrote the LINQ query, added a composite non-clustered index on Date and Status, and reduced the query time from 4 seconds to 200ms.\""
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Project: Data Validation Scripts at Biblioso Solution**\n\n**Baseline Answer (Score 2.4 — Passive & Junior):**\n\"I wrote some validation scripts in C#. They helped check the data before it went into the PLM system. It reduced data entry errors by 40% for the users.\"\n\n**Fixed Answer (Score 4.0+ — Confident & Senior):**\n\"At Biblioso, our enterprise PLM workflows for IBM were suffering from a high rate of dirty data entering the system, causing downstream workflow failures. (Situation) I needed to intercept and validate this data at the API layer before it reached the database. (Task) I architected a custom data validation pipeline using C# and .NET Core. I implemented a set of custom validators that ran regular expression checks and cross-referenced relational data in SQL Server before allowing the transaction to commit. (Action) This strict gateway caught anomalies immediately, reducing downstream data entry errors by 40% and significantly improving our overall operational efficiency. (Result)\"\n\n**Why This Works:**\nThe Fixed version shows *Authority*. You \"architected a pipeline\" instead of \"wrote some scripts.\" It explicitly mentions the technologies (.NET Core, SQL Server) and links the technical implementation directly to the 40% error reduction metric."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "\"Tell me about a time you made a critical mistake in production. How did you handle it?\" **(Risk: Behavioural Story 1.25 — likely to freeze or give a non-answer. Must have a real STAR story ready)**\n\n\"Explain the difference between .NET Core and .NET Framework. Why would you choose one over the other for a new enterprise API?\" **(Risk: Technical Readiness 2.1 — a basic senior-level question that requires a confident, structured comparison)**\n\n\"You mentioned Clean Architecture on your resume. Walk me through the layers of Clean Architecture and why it's beneficial.\" **(Risk: Role-Specific Technical 2.0 — if it's on the resume, you must be able to defend it deeply)**\n\n\"How do you optimize an Entity Framework query that is loading too much data?\" **(Risk: Technical Readiness 2.1 — needs to explicitly mention Lazy vs. Eager loading, `.AsNoTracking()`, and projection)**\n\n\"Tell me about a time you strongly disagreed with a QA engineer or a Product Manager. How did you resolve the conflict?\" **(Risk: Behavioural Story 1.25 — must show senior-level communication and conflict resolution, not passivity)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: The Confidence Injection & Resume Defense",
+              "duration": "45 minutes",
+              "objective": "Focus entirely on eliminating passive language. Force Geerthana to defend her IBM/Microsoft PLM projects with authority. No technical deep-dives yet; just structure."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: The .NET / SQL Deep Dive",
+              "duration": "50 minutes",
+              "objective": "Target the 2.0 Technical score. Grill her on .NET Core, SQL optimization, and Clean Architecture. Do not let her give 1-sentence answers."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: The Behavioural Breakthrough",
+              "duration": "45 minutes",
+              "objective": "Fix the 1.25 Behavioural score. Ask exclusively about failures, conflict, and production outages. Force her to use the STAR method."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: The Push-Back Simulation",
+              "duration": "60 minutes",
+              "objective": "Full senior-level mock. The mentor should deliberately doubt her answers (\"Are you sure that's how EF works?\") to train her to hold her ground under pressure."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            { "label": "Session 1: Resume & Confidence", "value": 10, "max": 10 },
+            { "label": "Session 2: Technical Defense", "value": 9, "max": 10 },
+            { "label": "Session 3: Behavioural Stories", "value": 10, "max": 10 },
+            { "label": "Session 4: Pressure Simulation", "value": 10, "max": 10 }
+          ]
+        }
+      ],
+      "content": "**Session 1: The Confidence Injection & Resume Defense**\n\n**Focus:** Owning the 5 years of experience.\n\n**Mentor Push:** Interrupt if Geerthana sounds unsure. Say, \"You led an IBM project. Say it like you led it.\" Force her to use \"I architected\" and \"I designed.\"\n\n---\n\n**Session 2: The .NET / SQL Deep Dive**\n\n**Focus:** Elevating the 2.0 Technical score.\n\n**Mentor Push:** Ask her to explain an architecture on a whiteboard (or verbally). Probe deep into SQL indexes and Entity Framework performance. If she gives a shallow answer, ask \"Why?\" until she reaches the core engineering principle.\n\n---\n\n**Session 3: The Behavioural Breakthrough**\n\n**Focus:** Fixing the 1.25 Behavioural score.\n\n**Mentor Push:** This is critical. She cannot pass interviews with a 1.25 in Behavioural. Push her to tell stories of conflict and failure. Do not accept generic, \"everything went fine\" answers.\n\n---\n\n**Session 4: The Push-Back Simulation**\n\n**Focus:** End-to-end full mock under real interview conditions.\n\n**Mentor Push:** Play the role of a highly critical, slightly aggressive technical lead. Test if she crumbles or if she can confidently defend her technical choices."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 2.08,
+      "targetScore": 3.8,
+      "maxScore": 5,
+      "metrics": [
+        { "label": "Resume & Experience Clarity", "current": "2.6", "target": "4.0" },
+        { "label": "Answer Structure", "current": "2.4", "target": "3.8" },
+        { "label": "Technical Readiness", "current": "2.1", "target": "3.8" },
+        { "label": "Role-Specific Technical", "current": "2.0", "target": "3.8" },
+        { "label": "Behavioural Story", "current": "1.25", "target": "3.5" }
+      ],
+      "content": "**Target Average Score: 3.8+**\n\n**Measurable Change:**\n\n- Move from a passive \"imposter syndrome\" delivery to confident, authoritative senior-level storytelling.\n- Ability to comfortably narrate deep technical architectures (.NET Core, SQL execution plans) without freezing.\n- The **\"After\" Persona:** A \"Battle-Tested Senior Engineer\" — someone who has successfully scaled enterprise applications for Fortune 500 companies and has the technical depth and communication skills to lead teams and architect solutions."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Own your experience",
+          "content": "You have 5 years of experience at top-tier clients. You are not a junior. Write down your top 3 biggest technical achievements and read them out loud until you believe them."
+        },
+        {
+          "icon": "FileText",
+          "title": "Prepare your Technical Deep-Dives",
+          "content": "You cannot wing technical answers. Write out exactly how you optimize SQL queries, how Entity Framework works under the hood, and the principles of Clean Architecture."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Write 5 STAR Behavioural Stories immediately",
+          "content": "Your 1.25 score here will auto-reject you in culture-fit rounds. Write stories for: Failure, Conflict, Leadership, Push-back, and Success. Memorize the STAR structure."
+        },
+        {
+          "icon": "Target",
+          "title": "Practice defending your choices",
+          "content": "Have a friend or mentor constantly ask you \"Why did you do it that way instead of this way?\" Practice answering calmly and confidently, justifying your engineering choices."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Focus heavily on tone and authority",
+          "content": "Geerthana's biggest enemy is her own lack of confidence. Correct her tone. If she sounds unsure, make her repeat the answer with authority."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Do not let her get away with shallow technical answers",
+          "content": "With 5 years of .NET experience, she knows the answers. She is just failing to articulate them. Drill her on the \"Why\" and \"How\" until she gives a senior-level explanation."
+        },
+        {
+          "icon": "FileText",
+          "title": "Enforce the STAR method strictly",
+          "content": "Her unstructured delivery is hiding her competence. Ensure every single answer—both technical and behavioural—follows Situation, Task, Action, Result."
+        },
+        {
+          "icon": "Ban",
+          "title": "Do not pass until she can handle push-back",
+          "content": "In Session 4, deliberately challenge her technical choices. If she immediately folds and agrees with you, she is not ready for senior interviews. She must stand her ground."
+        }
+      ],
+      "content": "**Non-negotiable rule:**\nIf Behavioural Story does not improve to at least a 3.5 by Session 4, repeat Session 3. The extreme passivity must be resolved before she faces a real hiring manager.\n\n**Timeline:**\n- Week 1: Confidence & Technical Narrative writing\n- Week 2: Session 1 (Resume Defense) + Session 2 (.NET/SQL Deep Dive)\n- Week 3: Session 3 (Behavioural Breakthrough)\n- Week 4: Session 4 (Push-Back Simulation)\n\nStart writing your 5 Behavioural Stories today. Send them to your mentor before Session 1."
+    }
+  ]
+}

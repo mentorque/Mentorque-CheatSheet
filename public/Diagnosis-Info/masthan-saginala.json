@@ -1,0 +1,159 @@
+{
+  "name": "Masthan Saginala",
+  "email": "masthansaginala007@gmail.com",
+  "role": "Full-Stack Software Engineer",
+  "description": "Personalised interview diagnosis grounded in Python/Django, ReactJS, PostgreSQL performance, healthcare and industrial applications, REST APIs, WebSockets, AWS and CI/CD.",
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": [
+          "Resume & Experience Clarity",
+          "Answer Structure",
+          "Technical Readiness",
+          "Role-Specific Technical",
+          "Behavioural Story",
+          "Communication & Confidence Risk"
+        ],
+        "values": [
+          4,
+          3.6,
+          3.5,
+          3.4,
+          2.75,
+          3
+        ]
+      },
+      "content": "## Interview readiness diagnosis\nMasthan has a well-evidenced full-stack engineering resume, including 40+ REST API operations supporting 10k+ users, 15+ customer-facing workflows, and PostgreSQL reporting improvements of up to 70%. Resume & Experience Clarity (4.0/5) is the strongest assessed area.\n\n**Priority development areas:** Behavioural Story (2.75/5), Communication & Confidence Risk (3.0/5), Role-Specific Technical (3.4/5), Technical Readiness (3.5/5), and Answer Structure (3.6/5). The communication metric is reproduced exactly as supplied; its direction and rubric should be confirmed with the mentor before interpreting it as proficiency rather than risk.\n\n**Evidence boundary:** Only aggregate scores were provided. The priorities below are preparation hypotheses, not verified examples of mistakes made during the diagnostic session."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "### Behavioural storytelling\nWith the lowest score at 2.75/5, STAR narratives deserve first attention. Interviewers may ask for personal ownership, trade-offs, setbacks, and measurable outcomes. Prepare verified stories from the healthcare platform, API development, database optimization, and production support; do not invent incidents or outcomes.\n\n### Communication and answer structure\nA 3.6/5 answer-structure score suggests practising concise openings, clear sequence, and a direct conclusion. The 3.0/5 Communication & Confidence Risk score cannot be interpreted precisely without the scoring rubric; practise pacing and clarification questions while asking the mentor to confirm the scale.\n\n### Role-specific technical depth\nFull-stack interviews may probe why PostgreSQL indexes improved reports, how WebSockets handled real-time patient updates, how JWT and RBAC were implemented, and what deployment safeguards were used. The resume names these technologies but does not specify all architecture decisions, benchmarks, or failure modes. Masthan should be prepared to explain only what he actually built."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "title": "Week 1 — Build evidence-based STAR stories",
+          "description": "Write 4 STAR stories using actual Veltris and West Agile Labs work: API delivery, report optimization, real-time healthcare updates, and a verified collaboration/challenge example. Identify individual contribution, constraints, result and what was learned. Record 90-second answers."
+        },
+        {
+          "title": "Week 2 — Technical deep dives",
+          "description": "Reconstruct Gordy Health Care Platform and BKI architecture. Practise Django/React request lifecycle, authentication/RBAC, SQL indexing with EXPLAIN ANALYZE, REST design, caching and WebSocket trade-offs. Validate all claimed metrics."
+        },
+        {
+          "title": "Week 3 — Full-stack system design and structured answers",
+          "description": "Design a healthcare reporting workflow with authentication, PostgreSQL, background processing, monitoring and deployment. Answer using requirements → architecture → trade-offs → testing → outcomes. Practise concise verbal explanations."
+        },
+        {
+          "title": "Week 4 — Mock interviews and final calibration",
+          "description": "Complete two technical/behavioural mocks, review recordings, refine evidence-based STAR stories and project explanations, then repeat assessment on all six supplied metrics."
+        }
+      ]
+    },
+    {
+      "title": "Resume-Anchored Prep",
+      "sectionType": "content",
+      "content": "### Veltris — Software Developer (Aug 2023–Jan 2024)\n**Resume evidence:** 40+ REST API operations supporting 10k+ users; 15+ customer-facing workflows; JWT-based authentication and role access across two workflows; PostgreSQL optimization.\n**Prepare:** One API's contract, validation, error handling, access controls, tests and rollout. Clarify whether 10k+ refers to users or transactions for each claim. Explain a specific index choice and its measured effect if records exist.\n\n### West Agile Labs — Associate Software Developer (Aug 2021–Jul 2023)\n**Resume evidence:** Django/PostgreSQL/React healthcare workflows; WebSocket functionality across 5+ workflows; report generation up to 70% faster; Jenkins and GitHub Actions for 2+ production applications.\n**Prepare:** Explain real-time event flow, reconnection and access control, plus before/after reporting measurements and the exact SQL execution-plan changes.\n\n### Gordy Health Care Platform\n**Resume evidence:** ReactJS, Django, PostgreSQL, secure authentication, RBAC, REST APIs, Docker and AWS.\n**Prepare:** Walk through a patient-facing workflow from UI to API to database; distinguish personally implemented functionality from team-wide architecture.\n\n### BKI Pipeline Industry Management System\n**Resume evidence:** Backend APIs, caching, databases, Docker Compose, CI/CD and Terraform; reported up-to-70% reporting improvement.\n**Prepare:** Explain Redis use, cache invalidation, database choices, deployment pipeline and performance measurement. Verify whether the 70% result is the same optimization described under West Agile Labs or a separate result.\n\n### Skills requiring verification\nThe resume lists Flask, GraphQL, MongoDB, Kubernetes, RAG, LangChain, vector databases and LLMs, but provides limited project-level evidence for them. Prepare truthful examples where applicable; otherwise distinguish familiarity from production experience."
+    },
+    {
+      "title": "Answer Construction — Before and After",
+      "sectionType": "content",
+      "content": "**Interview question:** Tell me about improving report-generation performance at West Agile Labs.\n\n**Weak practice answer (illustrative, not a recorded quote):** “I optimized the database and made reporting faster.”\n\n**Stronger answer template (verify missing details before use):** “At West Agile Labs, I worked on healthcare reporting backed by PostgreSQL. The performance challenge was [confirm report type and baseline]. I examined execution plans using EXPLAIN/ANALYZE, identified [confirm bottleneck], and changed [confirm indexes/query structure]. We measured report-generation time before and after the change, with an improvement of up to 70% as stated on my resume. I verified [confirm regression and correctness checks]. The main trade-off was [confirm write/index maintenance cost].”\n\n**Why it is stronger:** It distinguishes context, personal action, measurement and trade-offs without fabricating unverified specifics."
+    },
+    {
+      "title": "High-Risk Questions",
+      "sectionType": "content",
+      "content": "1. For the 40+ REST API operations at Veltris, which three did you personally design, and how did you handle authorization and backwards compatibility?\n2. How were 10k+ users or transactions measured? What concurrency and latency did the system actually support?\n3. Walk through one PostgreSQL EXPLAIN ANALYZE plan before and after optimization. Which index or query rewrite produced the reported 70% improvement?\n4. What did you do to protect WebSocket patient-data streams against unauthorized subscriptions and stale connections?\n5. Explain JWT expiration, refresh, role-based authorization and server-side revocation in your implemented workflows.\n6. In Gordy Health Care Platform, how did a ReactJS action travel through Django to PostgreSQL and back?\n7. In BKI, what was cached in Redis, how was invalidation handled, and how did you measure effectiveness?\n8. What exactly did Jenkins and GitHub Actions automate, and how were failed deployments handled?\n9. Tell me about a production issue or disagreement you personally handled; what changed as a result? Only use a real example.\n10. The resume lists Kubernetes, GraphQL and RAG/LangChain. Which were used hands-on, in what context, and which are learning-level skills?"
+    },
+    {
+      "title": "Mock Interview Plan",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Session 1 — Behavioural and communication",
+          "date": "2026-10-20",
+          "durationMinutes": 45,
+          "focus": "STAR stories, concise openings, individual ownership"
+        },
+        {
+          "title": "Session 2 — Backend and databases",
+          "date": "2026-10-27",
+          "durationMinutes": 60,
+          "focus": "Django, REST, PostgreSQL indexing, JWT/RBAC"
+        },
+        {
+          "title": "Session 3 — Full-stack and architecture",
+          "date": "2026-11-03",
+          "durationMinutes": 60,
+          "focus": "React/Django flow, WebSockets, caching, AWS and CI/CD"
+        },
+        {
+          "title": "Session 4 — Final mixed mock",
+          "date": "2026-11-10",
+          "durationMinutes": 60,
+          "focus": "Role-specific technical questions, STAR delivery and score reassessment"
+        }
+      ],
+      "content": "Proposed sessions across four weeks beginning 13 October 2026; dates are recommendations, not confirmed bookings."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "metrics": [
+        {
+          "label": "Resume & Experience Clarity",
+          "current": 4,
+          "target": 4.5
+        },
+        {
+          "label": "Answer Structure",
+          "current": 3.6,
+          "target": 4.4
+        },
+        {
+          "label": "Technical Readiness",
+          "current": 3.5,
+          "target": 4.3
+        },
+        {
+          "label": "Role-Specific Technical",
+          "current": 3.4,
+          "target": 4.3
+        },
+        {
+          "label": "Behavioural Story",
+          "current": 2.75,
+          "target": 4.2
+        },
+        {
+          "label": "Communication & Confidence Risk",
+          "current": 3,
+          "target": 4.2
+        }
+      ],
+      "content": "Targets are aspirational coaching goals, not predicted or guaranteed results. Confirm whether a higher Communication & Confidence Risk score represents improvement before using its target."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        "Confirm all resume figures and separate individual contributions from team outcomes.",
+        "Complete weekly drills and bring written STAR answers to each mock.",
+        "Use only truthful, verifiable technical examples; flag unknown implementation details.",
+        "Record practice answers and note clarity, evidence, pacing and time.",
+        "Reassess using the same rubric after the fourth mock."
+      ],
+      "mentorSteps": [
+        "Confirm the meaning and direction of the Communication & Confidence Risk scale.",
+        "Review the lowest-rated behavioural dimension first; obtain actual diagnostic observations when available.",
+        "Probe the PostgreSQL 70% claim and API scale with implementation-level follow-ups.",
+        "Assess role-specific technical explanations against the candidate’s real contributions.",
+        "Record feedback after each mock and recalibrate all scores."
+      ]
+    }
+  ]
+}

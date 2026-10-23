@@ -1,0 +1,215 @@
+{
+  "name": "Divik Pavan Shah",
+  "email": "divikpavanshah@gmail.com",
+  "targetRole": "Quality Control Analyst - Pharmaceutical / Biotechnology",
+  "description": "Personalised interview diagnosis grounded in laboratory research, microbiological testing, healthcare documentation, SOP adherence and production quality experience.",
+  "assessment": {
+    "resume": 3.8,
+    "structure": 3.4,
+    "technical": 3,
+    "behavioural": 4.2,
+    "communication": 2.75,
+    "overallReadiness": 2.75,
+    "primaryRisk": "Communication & Confidence Risk",
+    "technicalReadinessScore": 3,
+    "scaleMaximum": 5
+  },
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": [
+          "Resume & Experience Clarity",
+          "Answer Structure",
+          "Technical Readiness",
+          "Behavioural Story",
+          "Communication",
+          "Overall Readiness"
+        ],
+        "values": [
+          3.8,
+          3.4,
+          3,
+          4.2,
+          2.75,
+          2.75
+        ],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: Communication & Confidence Risk.**\n\nDivik, your Biotechnology and Pharmaceutical Business Management postgraduate qualifications, laboratory research and documentation leadership provide relevant material for a Quality Control Analyst interview. Your strongest assessed area is **Behavioural (4.2/5)**, followed by **Resume (3.8/5)** and **Structure (3.4/5)**. Your preparation should make that experience easier to explain and support it with clearer laboratory examples.\n\n**Communication: 2.75/5. Technical: 3.0/5. Overall Readiness: 2.75/5.** The separately supplied Technical Readiness Score is also **3.0/5**; it is the same reported baseline, not an additional assessed dimension. Overall Readiness is reproduced as supplied and is not recalculated as an average.\n\n**Preparation priority:** First strengthen concise, confident delivery; then refresh QC technical explanations and improve answer structure. Maintain your behavioural strength with real leadership and quality examples.\n\n**Evidence boundary:** This diagnosis uses your resume and the supplied aggregate scores. No interview transcript or assessor notes were provided, so interview scenarios below are preparation hypotheses, not observed mistakes. Scores are presented on the existing template's five-point scale."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "### Explaining the move into pharmaceutical QC\nAn interviewer may ask how medical documentation, retail and electronics production connect to laboratory QC. At Communication 2.75/5, practise a direct 60-90 second explanation: biotechnology education → laboratory work → documentation discipline → current quality inspection → target QC role. State what transfers and what still requires training.\n\n### Defending laboratory depth\nTechnical 3.0/5 makes laboratory fundamentals a priority. Your resume lists HPLC, GC, PCR, ELISA and spectroscopy, but does not describe hands-on project use for every technique. Be ready to distinguish independently performed work, supervised exposure and theoretical knowledge. Do not present academic laboratory work or Apple cosmetic inspection as pharmaceutical GMP release-testing experience.\n\n### Turning volume into evidence of quality\nYou report 40-50 medical documents completed per day, 300+ reviewed per week and leadership of 12 scribes. Explain what you personally checked, how an issue was escalated and how improvement was evaluated. These volumes do not establish a quantified accuracy improvement by themselves.\n\n### Keeping strong stories focused\nBehavioural 4.2/5 is an asset. Structure 3.4/5 suggests practising a clear sequence: situation → responsibility → personal action → result → relevance to QC. End after the evidence instead of adding unrelated career details."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "title": "Week 1 - Communication and career narrative",
+          "week": "Week 1",
+          "content": "Record a 60-90 second introduction and three two-minute answers on laboratory research, documentation quality and the move to QC. Give the answer in the first sentence, use one concrete example and finish with its relevance. Review one recording daily for clarity, pace, filler words and unsupported claims."
+        },
+        {
+          "title": "Week 2 - Rebuild laboratory technical explanations",
+          "week": "Week 2",
+          "content": "Practise a real sample journey from receipt and identification through preparation, testing, recording and review. Refresh the principles of techniques listed on the resume; label hands-on versus theoretical exposure. Prepare one equipment-check example and one microbiology example from actual work."
+        },
+        {
+          "title": "Week 3 - Quality judgement and structured evidence",
+          "week": "Week 3",
+          "content": "Develop four verified STAR stories: coaching at OG Healthcare, a documentation workflow issue, sample traceability at Osmania and an actual quality decision from Apple if available. Practise hypothetical equipment or unexpected-result scenarios against the applicable procedure, clearly separating them from experience."
+        },
+        {
+          "title": "Week 4 - Mixed mocks and reassessment",
+          "week": "Week 4",
+          "content": "Complete a QC-focused technical mock and a final mixed mock. Re-answer weak questions after feedback, confirm resume metrics and dates, and reassess communication, structure, technical, behavioural, resume and overall readiness using the original rubric."
+        }
+      ],
+      "content": "Start with communication while doing short technical refresh drills daily. Use your existing behavioural strength to support clearer answers rather than treating it as a weakness."
+    },
+    {
+      "title": "Resume-Anchored Prep",
+      "sectionType": "content",
+      "content": "### Osmania University - Assistant Researcher (Jan-Aug 2021)\n**Resume evidence:** Supported 50+ samples, microbiological testing, LabWare LIMS documentation, routine checks and calibration verification across five pieces of equipment, and coordination across 10+ laboratory processes.\n\n**Prepare:** Choose one real sample and explain identification, preparation, test method, recording, traceability and review. Describe the actual checks performed on a pH meter, pipette or balance. Distinguish verification you performed from formal calibration or qualification you did not own. Explain exactly which LIMS tasks you completed; do not imply system administration or validation unless accurate.\n\n### OG Healthcare - Medical Documentation Specialist and Team Lead (Jan 2023-Jul 2024)\n**Resume evidence:** Led and coached 12 medical scribes, supported workflows serving 120+ healthcare providers, completed 40-50 documents per day, reviewed 300+ per week and applied root-cause analysis across three platforms.\n\n**Prepare:** One real documentation issue, how it was found, your analysis, the action taken and how follow-up was checked. Explain whether volume figures refer to you, the team or the wider operation. Translate accuracy, review discipline and coaching into relevant habits without claiming pharmaceutical GMP experience from this role.\n\n### Apple - Assembler / Quality & Production Operator (Oct 2026-present)\n**Resume evidence:** Visual iMac inspections, protective film application, Ornyx defect records, SOP adherence, rejection/rework procedures and a stated daily production target of 584 units.\n\n**Prepare:** Explain a defect example and the actual recording/escalation process. Clarify whether 584 is an individual or line target and distinguish a target from achieved output. Since the role began this month, use only experience already gained and avoid claims of sustained performance without records.\n\n### Academic projects\n**E. coli in campus water sources (Sep 2021-Jan 2022):** Prepare the actual sampling approach, microbiological method, controls, interpretation and recommendations. State any limitations; do not invent sample counts, contamination levels or outcomes.\n\n**Digital twin for blister packaging (May-Aug 2026):** Explain the research question, sources or methods, findings and limitations. The resume describes research/evaluation, so distinguish it from building, validating or deploying a production digital twin. Clarify the project context because it follows the listed Griffith College degree end date of September 2025.\n\n### Skills and chronology to clarify\nFor HPLC, GC, TLC, spectroscopy, PCR, ELISA and SAP, list what you have actually done, when and under whose supervision. Prepare an honest account of study/work overlaps and the transitions through Subway, Centra and Apple. Keep the publication contribution and NCA Probables achievement precise if discussed; neither substitutes for laboratory QC evidence."
+    },
+    {
+      "title": "Answer Construction - Before and After",
+      "sectionType": "content",
+      "content": "**Interview question:** Why are you applying for a Quality Control Analyst role after working in healthcare documentation and production?\n\n**Weak practice answer (illustrative, not a recorded quote):** “I studied biotechnology and know GMP, HPLC and quality, so I want a QC job.”\n\n**Stronger practice answer (adapt to verified experience):** “My background combines an M.Sc. in Biotechnology with an M.Sc. in Pharmaceutical Business Management. At Osmania University, I supported sample preparation, microbiological testing and laboratory documentation. At OG Healthcare, I led 12 scribes and reviewed documentation, which strengthened my attention to accuracy and review discipline. My current production role adds experience with inspections, defect records and SOPs. I now want to apply that foundation in pharmaceutical QC. My clearest hands-on laboratory example is [describe one actual method and your contribution], and I am refreshing [name the technique or process that needs practice].”\n\n**Follow-up evidence:** Add one verified quality example with the problem, your action and the outcome. If an improvement was not measured, explain the observed result without inventing a percentage.\n\n**Delivery drill:** Give the role motivation first, use two relevant examples, and stop within 90 seconds. For technical answers use principle → actual procedure → checks → result → limitation. When unsure, state what you know and what you would verify."
+    },
+    {
+      "title": "High-Risk Questions",
+      "sectionType": "content",
+      "content": "1. Why pharmaceutical QC now, and which parts of your previous experience directly support this role?\n2. Walk me through one of the 50+ samples at Osmania: identification, preparation, testing, recording and traceability. What did you personally do?\n3. Which checks did you perform on pH meters, pipettes and balances? How did you distinguish routine verification from calibration?\n4. Explain your actual E. coli testing method, controls, interpretation and limitations. What recommendations followed from your findings?\n5. For HPLC, GC, PCR and ELISA, explain the principle and identify your level of hands-on exposure. Which could you perform only after training?\n6. What did you enter or review in LabWare LIMS? How did your work preserve sample identification and record traceability?\n7. In a hypothetical QC setting, what would you check and whom would you involve if equipment verification failed or a result was unexpected? Explain how you would follow the applicable procedure.\n8. Describe a real documentation issue at OG Healthcare. How did you identify its cause, coach the team and check whether the action helped?\n9. At Apple, how are cosmetic defects recorded and routed for rejection or rework? Is 584 units an individual or line target, and what output have you personally achieved so far?\n10. Was the blister-packaging digital twin project research or implementation? What was your contribution, and why does its 2026 date follow your listed 2025 degree completion?\n11. Tell me about a time quality requirements conflicted with speed. What did you personally decide and what was the result? Use an actual example.\n12. Which QC skills require further supervised practice, and how are you preparing to close those gaps?"
+    },
+    {
+      "title": "Mock Interview Plan",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Four-week coaching sequence",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 1",
+              "label": "Session 1 - Communication and career narrative",
+              "duration": "45 minutes",
+              "objective": "Record a baseline introduction, explain the QC transition and practise two verified STAR stories. Give feedback on clarity and confidence."
+            },
+            {
+              "timing": "Week 2",
+              "label": "Session 2 - Laboratory and technical depth",
+              "duration": "60 minutes",
+              "objective": "Probe sample traceability, microbiology, equipment checks and the principles of listed techniques. Separate demonstrated experience from theoretical knowledge."
+            },
+            {
+              "timing": "Week 3",
+              "label": "Session 3 - Quality judgement and follow-up questions",
+              "duration": "60 minutes",
+              "objective": "Use hypothetical documentation, equipment and unexpected-result scenarios. Practise structured reasoning, honest limits and evidence from real roles."
+            },
+            {
+              "timing": "Week 4",
+              "label": "Session 4 - Final mixed QC mock",
+              "duration": "60 minutes",
+              "objective": "Combine resume walkthrough, technical probes and behavioural questions. Reassess all original scores and agree the next preparation priorities."
+            }
+          ]
+        }
+      ],
+      "content": "Proposed sequence from the start of coaching; these are practice recommendations, not booked sessions. After each mock, select three answers to improve, record a second attempt and compare against the same rubric."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 2.75,
+      "targetScore": 4,
+      "maxScore": 5,
+      "metrics": [
+        {
+          "label": "Resume & Experience Clarity",
+          "current": 3.8,
+          "target": 4.2
+        },
+        {
+          "label": "Answer Structure",
+          "current": 3.4,
+          "target": 4.2
+        },
+        {
+          "label": "Technical Readiness",
+          "current": 3,
+          "target": 4
+        },
+        {
+          "label": "Behavioural Story",
+          "current": 4.2,
+          "target": 4.5
+        },
+        {
+          "label": "Communication",
+          "current": 2.75,
+          "target": 4
+        },
+        {
+          "label": "Overall Readiness",
+          "current": 2.75,
+          "target": 4
+        }
+      ],
+      "content": "**Aspirational coaching targets, not guaranteed results.** Overall readiness target: 2.75 → 4.0/5. The separate Technical Readiness Score shares the Technical baseline of 3.0/5 and the proposed 4.0/5 target.\n\nSuccess means a clear 90-second introduction; four truthful STAR stories; a detailed walkthrough of one actual laboratory sample; accurate explanations of listed methods with honest exposure levels; and consistent handling of follow-up questions. The mentor should rescore using the original assessment rubric rather than averaging these targets."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "title": "Action 1",
+          "content": "Create an evidence sheet for every resume metric, including sample counts, document volumes, team size and production targets."
+        },
+        {
+          "title": "Action 2",
+          "content": "Record one short answer daily. Check whether the first sentence answers the question, the example identifies your contribution and the ending states the result."
+        },
+        {
+          "title": "Action 3",
+          "content": "Refresh one QC topic daily and connect it to actual laboratory experience. Label hands-on, supervised and theoretical knowledge clearly."
+        },
+        {
+          "title": "Action 4",
+          "content": "Bring four verified STAR stories, one sample walkthrough and your technique-exposure list to mock interviews."
+        },
+        {
+          "title": "Action 5",
+          "content": "Clarify the 2026 project context, study/work overlaps and the new Apple role before interviews."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "title": "Action 1",
+          "content": "Confirm the five-point scoring scale and obtain diagnostic observations if available; keep the supplied overall score separate from any average."
+        },
+        {
+          "title": "Action 2",
+          "content": "Prioritise communication at 2.75/5 while maintaining the behavioural strength at 4.2/5."
+        },
+        {
+          "title": "Action 3",
+          "content": "Probe laboratory methods, equipment-check ownership, sample traceability and actual LIMS usage without assuming commercial GMP experience."
+        },
+        {
+          "title": "Action 4",
+          "content": "Check that answers distinguish transferable quality habits from pharmaceutical QC responsibilities and research from implementation."
+        },
+        {
+          "title": "Action 5",
+          "content": "Record feedback and reassess all supplied dimensions after the final mixed mock, including Technical Readiness Score 3.0/5 as the technical baseline."
+        }
+      ]
+    }
+  ]
+}

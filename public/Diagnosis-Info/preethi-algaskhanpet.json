@@ -1,20 +1,8 @@
 {
   "name": "Preethi Algaskhanpet",
   "email": "preethi.algaskhanpet@gmail.com",
-  "targetRole": "Business Analyst / AI Governance Analyst (provisional positioning)",
+  "targetRole": "Business Analyst / AI Governance Analyst",
   "assessmentContext": {
-    "columnOrder": [
-      "Name",
-      "Email",
-      "Resume",
-      "Structure",
-      "Technical",
-      "Behavioural",
-      "Communication",
-      "Overall Readiness",
-      "Primary Risk",
-      "Technical Readiness Score"
-    ],
     "scores": {
       "Resume": 3.8,
       "Structure": 4.6,
@@ -24,15 +12,27 @@
       "Overall Readiness": 2,
       "Technical Readiness Score": 4.428571429
     },
-    "suppliedRisk": "Communication & Confidence Risk",
-    "scoreMappingStatus": "Column mapping confirmed by user. Score scales and Technical Readiness Score calculation not supplied; metrics retained separately.",
-    "evidence": "User-provided assessment row and two-page candidate resume. No interview recording, transcript or target job description supplied."
+    "primaryRisk": "Communication & Confidence Risk",
+    "chartScaleNote": "Competency chart follows the existing app convention of a 5-point maximum.",
+    "evidenceNote": "Based on the supplied assessment scores and resume. Interview scenarios are coaching hypotheses requiring validation.",
+    "technicalReadinessNote": "Technical Readiness Score is a separate supplied metric. Its calculation was not provided."
   },
   "sections": [
     {
       "title": "Diagnosis Summary",
-      "sectionType": "content",
-      "content": "**Primary Risk: Communication & Confidence Risk.**\n\nPreethi, your assessment shows comparatively strong **Structure (4.6)** and **Behavioural (4)**, alongside **Resume (3.8)** and **Technical (3)**. Your **Communication (2)** and **Overall Readiness (2)** are the immediate coaching priorities.\n\nThis suggests the preparation plan should preserve your existing answer structure and behavioral examples while improving how clearly you communicate your contribution, reasoning and outcomes. A mock interview should establish whether the difficulty involves pacing, explanation, follow-up handling, technical understanding or a combination. Confidence is a possible contributor, not a conclusion established by the resume alone.\n\nYour resume provides useful interview material: coaching and quality-reviewing 15-20 agents, promotion to SME in six months, handling escalations, producing AI governance documentation and completing an AI resume-screening research project.\n\n**Positioning challenge:** Your employment history is primarily customer service and operational quality, followed by an AI Governance internship. Explain the transition into business analysis clearly. Six-plus years of related experience should not be presented as six-plus years in a formal Business Analyst role unless equivalent responsibilities can be substantiated.\n\n**Separate metric:** Your Technical Readiness Score is **4.428571429**. Its scale and calculation were not supplied. It remains separate from Technical (3) and Overall Readiness (2)."
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": [
+          "Resume",
+          "Structure",
+          "Technical",
+          "Behavioural",
+          "Communication"
+        ],
+        "values": [3.8, 4.6, 3, 4, 2],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: Communication & Confidence Risk.**\n\nPreethi, your assessment shows comparatively strong **Structure (4.6)** and **Behavioural (4)**, alongside **Resume (3.8)** and **Technical (3)**. Your **Communication (2)** and **Overall Readiness (2)** are the immediate coaching priorities.\n\nThe plan should preserve your existing answer structure and behavioral examples while improving how clearly you communicate your contribution, reasoning and outcomes. A mock interview should establish whether the difficulty involves pacing, explanation, follow-up handling, technical understanding or a combination. Confidence is a possible contributor, not a conclusion established by the resume alone.\n\nYour resume provides useful interview material: coaching and quality-reviewing 15-20 agents, promotion to SME in six months, handling escalations, producing AI governance documentation and completing an AI resume-screening research project.\n\n**Positioning challenge:** Your employment history is primarily customer service and operational quality, followed by an AI Governance internship. Explain the transition into business analysis clearly. Six-plus years of related experience should not be presented as six-plus years in a formal Business Analyst role unless equivalent responsibilities can be substantiated.\n\n**Separate readiness measures:** Overall Readiness is **2**. Technical Readiness Score is **4.428571429**, supplied separately with no calculation provided. It does not replace Technical (3) or Overall Readiness (2).\n\nThe chart displays the five competency scores using the app's existing 5-point convention."
     },
     {
       "title": "Resume Evidence and Credibility Checks",
@@ -160,7 +160,7 @@
           "content": "Look for a clear 90-second introduction, accurate two-minute project explanations, five specific stories and credible answers to follow-ups."
         }
       ],
-      "content": "**Desired outcome:** An accurate transition story from operations and quality into business analysis or AI governance, with clear ownership and defensible evidence.\n\n**Completion checks:** The chatbot measures reconcile; project answers identify the problem, responsibility, action and result; research answers distinguish predictive performance from fairness; and behavioral answers describe specific events clearly.\n\nReassess using the same rubric. Prioritize Communication and Overall Readiness while preserving Structure and Behavioural strengths. No numerical target is assigned without the score scale and rubric."
+      "content": "**Desired outcome:** An accurate transition story from operations and quality into business analysis or AI governance, with clear ownership and defensible evidence.\n\n**Completion checks:** The chatbot measures reconcile; project answers identify the problem, responsibility, action and result; research answers distinguish predictive performance from fairness; and behavioral answers describe specific events clearly.\n\nReassess using the same rubric. Prioritize Communication and Overall Readiness while preserving Structure and Behavioural strengths. No numerical target is assigned without the assessment rubric."
     }
   ]
 }

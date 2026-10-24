@@ -1,0 +1,166 @@
+{
+  "name": "Preethi Algaskhanpet",
+  "email": "preethi.algaskhanpet@gmail.com",
+  "targetRole": "Business Analyst / AI Governance Analyst (provisional positioning)",
+  "assessmentContext": {
+    "columnOrder": [
+      "Name",
+      "Email",
+      "Resume",
+      "Structure",
+      "Technical",
+      "Behavioural",
+      "Communication",
+      "Overall Readiness",
+      "Primary Risk",
+      "Technical Readiness Score"
+    ],
+    "scores": {
+      "Resume": 3.8,
+      "Structure": 4.6,
+      "Technical": 3,
+      "Behavioural": 4,
+      "Communication": 2,
+      "Overall Readiness": 2,
+      "Technical Readiness Score": 4.428571429
+    },
+    "suppliedRisk": "Communication & Confidence Risk",
+    "scoreMappingStatus": "Column mapping confirmed by user. Score scales and Technical Readiness Score calculation not supplied; metrics retained separately.",
+    "evidence": "User-provided assessment row and two-page candidate resume. No interview recording, transcript or target job description supplied."
+  },
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "content",
+      "content": "**Primary Risk: Communication & Confidence Risk.**\n\nPreethi, your assessment shows comparatively strong **Structure (4.6)** and **Behavioural (4)**, alongside **Resume (3.8)** and **Technical (3)**. Your **Communication (2)** and **Overall Readiness (2)** are the immediate coaching priorities.\n\nThis suggests the preparation plan should preserve your existing answer structure and behavioral examples while improving how clearly you communicate your contribution, reasoning and outcomes. A mock interview should establish whether the difficulty involves pacing, explanation, follow-up handling, technical understanding or a combination. Confidence is a possible contributor, not a conclusion established by the resume alone.\n\nYour resume provides useful interview material: coaching and quality-reviewing 15-20 agents, promotion to SME in six months, handling escalations, producing AI governance documentation and completing an AI resume-screening research project.\n\n**Positioning challenge:** Your employment history is primarily customer service and operational quality, followed by an AI Governance internship. Explain the transition into business analysis clearly. Six-plus years of related experience should not be presented as six-plus years in a formal Business Analyst role unless equivalent responsibilities can be substantiated.\n\n**Separate metric:** Your Technical Readiness Score is **4.428571429**. Its scale and calculation were not supplied. It remains separate from Technical (3) and Overall Readiness (2)."
+    },
+    {
+      "title": "Resume Evidence and Credibility Checks",
+      "sectionType": "content",
+      "content": "**1. Resolve the chatbot volume discrepancy first.**\n\nThe summary says you delivered requirements and governance policies to automate **500+ healthcare inquiries**. The achievements section says **4-5 healthcare inquiries**. Establish whether these refer to inquiry categories, test cases, actual conversations or projected capacity. If they measure different things, label both with their units and period. Otherwise correct the inaccurate figure.\n\n**2. Separate delivered work from intended impact.**\n\nThe internship bullets describe supporting development, producing documents and supporting project readiness. They do not establish a production launch, measured automation benefit or sole ownership of the chatbot. Prepare the delivery stage, exact artifacts you produced, reviewers and acceptance process.\n\n**3. Support the business analysis transition.**\n\nFor one real project, prepare a redacted requirement, process map or equivalent artifact you actually created. Explain the original problem, stakeholders, requirement changes and how completion was checked. Do not invent formal BA artifacts if the work used a different format.\n\n**4. Distinguish model performance from fairness.**\n\nYour research reports **87.2% accuracy** and **0.911 ROC-AUC**. These figures do not, by themselves, demonstrate fairness or explainability. Prepare the dataset, target, evaluation split, model comparison, SHAP interpretation and any fairness evaluation actually performed.\n\n**5. Tighten incomplete and repetitive bullets.**\n\nThe Q Connect phrase 'an enterprise account generating annual revenue' lacks an amount or clear outcome. Remove it or replace it with a verified statement. Consolidate repeated service-request and process-adherence bullets, and clarify what the 15-20+ cases figure measures."
+    },
+    {
+      "title": "How This Risk May Show Up in Interviews",
+      "sectionType": "content",
+      "content": "These are **scenarios to test**, not observations of your interview behavior. Structure (4.6) and Behavioural (4) are comparative strengths. Check whether those strengths remain effective during spoken explanations and follow-ups.\n\n**Scenario A: The career-transition question**\n\n**Probe:** 'Your titles are customer service executive, SME and AI Governance Intern. What makes your experience relevant to this Business Analyst role?'\n\n**Watch for:** A list of duties without connecting operational problems to analysis, requirements and decisions.\n\n**Practice:** Explain one real example of identifying a recurring issue, analyzing evidence, proposing a change and checking the result. Distinguish transferable experience from formal BA employment.\n\n---\n\n**Scenario B: The ownership question**\n\n**Probe:** 'What did you personally deliver for the Rakfort chatbot, and what did other people own?'\n\n**Watch for:** Shared project descriptions that leave your contribution unclear, or ownership claims that exceed your work.\n\n**Practice:** Name your document or requirement, the stakeholder who reviewed it, the decision it informed and what happened next.\n\n---\n\n**Scenario C: The evidence question**\n\n**Probe:** 'Was the chatbot handling 500+ inquiries or 4-5? What exactly was counted?'\n\n**Watch for:** An inability to define the measure. Resolve the underlying evidence before rehearsing the answer.\n\n---\n\n**Scenario D: The behavioral follow-up**\n\n**Probe:** 'Tell me about a difficult coaching conversation. What did you say, how did the person respond, and what changed?'\n\n**Practice:** Build on your Behavioural score of 4. Keep the specific situation and actions, then practice concise delivery and deeper follow-ups."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "Verify evidence and establish a delivery baseline",
+          "content": "Resolve 500+ versus 4-5, define your internship contribution and clarify the career-transition summary. Build a claim ledger covering each statement, its evidence, your contribution and its limitations. Record a 90-second introduction. Use the recording to identify specific communication issues."
+        },
+        {
+          "week": "Week 2",
+          "title": "Practice clear project explanations",
+          "content": "Prepare two-minute walkthroughs of the governance chatbot, SME quality work and MSc research. Use problem -> responsibility -> action -> evidence -> learning. Preserve the structure reflected in your 4.6 score. Practice two technical follow-ups per project, targeting the Technical score of 3."
+        },
+        {
+          "week": "Week 3",
+          "title": "Refine strong behavioral examples",
+          "content": "Build on your Behavioural score of 4. Select five real examples covering coaching, escalation, disagreement, a setback and learning. Retain their structure while improving concise delivery, accurate ownership and responses to follow-ups."
+        },
+        {
+          "week": "Week 4",
+          "title": "Retest delivery and knowledge separately",
+          "content": "Run a full mock against an actual job description. Ask for both a short explanation and a deeper follow-up. If the written explanation is accurate but the spoken answer is unclear, focus on delivery. If both are incomplete, teach and retest the concept."
+        }
+      ],
+      "content": "This is a suggested four-week practice sequence. Advance based on observed improvement. Numerical score gains and hiring outcomes are not guaranteed."
+    },
+    {
+      "title": "Resume-Anchored Technical Preparation",
+      "sectionType": "content",
+      "content": "**Rakfort: Requirements and governance documentation**\n\nPrepare one actual stakeholder need and trace it through requirement, review, implementation or handoff, and validation. Explain how you handled ambiguity and distinguished mandatory requirements from preferences.\n\n**Practice questions:** Who used the chatbot? What could it answer? What was outside scope? What happened when an answer needed human review? Which governance document did you write, and who approved it?\n\nDescribe only controls and regulatory work you actually performed. Distinguish recommendations from implemented behavior.\n\n---\n\n**Knoah 24-7 Intouch: Coaching and operational quality**\n\nPrepare a real quality problem, how it was detected, the evidence reviewed, the coaching action and the follow-up. Clarify whether the 15-20 agents were direct reports, coached agents or a wider group.\n\n**Practice questions:** How did you prioritize coaching? What did the quality rubric measure? How did you handle disagreement about a review? What evidence showed improvement?\n\n---\n\n**Q Connect: Escalations and reporting**\n\nWalk through a specific case from intake to resolution, including escalation criteria, CRM documentation and stakeholder updates. Explain one dashboard trend you interpreted and the action it informed. Distinguish using dashboards from building them.\n\n---\n\n**MSc: Explainable and Fair AI Resume Screening**\n\nDraw the actual flow of data through BERT, TabNet and SHAP. Explain each component's role, baselines, held-out evaluation and any leakage checks. Explain accuracy and ROC-AUC in plain language. State which fairness measures were tested, or acknowledge that fairness was a research objective rather than a demonstrated result."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Suggested introduction based on your resume**\n\n'I have more than six years of experience across customer service, operational quality and related business processes. At Knoah 24-7 Intouch, I progressed to SME in six months and coached and quality-reviewed 15-20 agents. More recently, I worked on governance documentation and cross-functional requirements for a healthcare AI chatbot at Rakfort, alongside an MSc in AI for Business at NCI. I am looking to bring that operational understanding and AI governance exposure into a business analysis role.'\n\nConfirm the MSc completion status and adjust the final sentence to the actual role before using this introduction.\n\n**Project-answer scaffold: complete with verified facts**\n\n'At Rakfort, [stakeholder] needed [specific outcome]. My responsibility was [bounded contribution]. I clarified [actual requirement] through [actual method] and produced [artifact]. We resolved [specific ambiguity or trade-off] by [action]. The result was [verified delivery or outcome]. [Another team or colleague] owned [separate responsibility].'\n\n**Behavioral-answer scaffold**\n\n'One agent or case faced [specific issue]. I was responsible for [task]. I reviewed [evidence], discussed [issue] and took [action]. The result was [observed outcome]. I learned [lesson].'\n\n**Communication drill:** Give the headline first, explain two or three meaningful actions, and close with evidence. Pause before answering. Ask for clarification when needed. Use 'I' for your actions and 'we' for shared outcomes. Preserve the structure you already demonstrate while making delivery clearer."
+    },
+    {
+      "title": "High-Priority Interview Questions",
+      "sectionType": "content",
+      "content": "1. What distinguishes your operational experience from your direct business analysis responsibilities?\n2. Describe one Rakfort requirement from stakeholder request to validation.\n3. What did you personally author in the governance documentation?\n4. Explain the 500+ versus 4-5 inquiry figures and their evidence.\n5. Tell me about a coaching conversation that did not initially go well.\n6. Describe a disagreement about quality, requirements or escalation priority.\n7. What did you do when you lacked authority to resolve an issue?\n8. How did BERT, TabNet and SHAP work together in your research?\n9. How did you evaluate the reported 87.2% accuracy and 0.911 ROC-AUC?\n10. What evidence supports the fairness claim, and what remains untested?\n\nFor each answer, check specificity, personal contribution, evidence, clear delivery and handling of follow-ups. These are practice priorities, not proof of a weakness."
+    },
+    {
+      "title": "Mock Interview Plan",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Suggested four-session interview practice schedule",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 1",
+              "label": "Session 1: Positioning and communication baseline",
+              "duration": "30 minutes",
+              "objective": "Check the introduction, contribution boundaries and reconciled chatbot claim. Record a baseline answer and identify specific delivery issues."
+            },
+            {
+              "timing": "Week 2",
+              "label": "Session 2: Business analysis and project depth",
+              "duration": "45 minutes",
+              "objective": "Trace one real requirement and probe the research methodology. Separate concept gaps from unclear delivery."
+            },
+            {
+              "timing": "Week 3",
+              "label": "Session 3: Behavioral delivery and follow-ups",
+              "duration": "45 minutes",
+              "objective": "Build on existing behavioral strengths. Probe coaching, conflict, escalation and setbacks, checking clarity, ownership and evidence."
+            },
+            {
+              "timing": "Week 4",
+              "label": "Session 4: Role-specific simulation",
+              "duration": "60 minutes",
+              "objective": "Use an actual job description, repeat comparable baseline questions and document remaining preparation needs."
+            }
+          ]
+        }
+      ],
+      "content": "Use a calm, realistic interview style and consistent prompts. After each session, capture the question, observed difficulty, an improved answer outline and one practice action. Judge clarity and evidence rather than accent, personality or forcefulness."
+    },
+    {
+      "title": "Expected Outcome and How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Verify every claim",
+          "content": "Resolve inconsistent figures and separate personal contributions, shared outcomes and intended benefits."
+        },
+        {
+          "icon": "FileText",
+          "title": "Prepare evidence-backed examples",
+          "content": "Prepare three project outlines and refine five behavioral stories using genuine artifacts or clearly stated recollections."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Practice concise and detailed versions",
+          "content": "Record a short answer, then practice two deeper follow-ups without adding unsupported details."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Use the confirmed assessment mapping",
+          "content": "Track Communication (2) and Overall Readiness (2) separately. Preserve Structure (4.6) and Behavioural (4), and retest Technical (3) against actual role requirements. Keep Technical Readiness Score (4.428571429) separate."
+        },
+        {
+          "icon": "Target",
+          "title": "Diagnose the observed gap",
+          "content": "Compare written and spoken explanations. Document whether the difficulty is knowledge, structure, evidence or delivery."
+        },
+        {
+          "icon": "CheckCircle2",
+          "title": "Measure practical improvement",
+          "content": "Look for a clear 90-second introduction, accurate two-minute project explanations, five specific stories and credible answers to follow-ups."
+        }
+      ],
+      "content": "**Desired outcome:** An accurate transition story from operations and quality into business analysis or AI governance, with clear ownership and defensible evidence.\n\n**Completion checks:** The chatbot measures reconcile; project answers identify the problem, responsibility, action and result; research answers distinguish predictive performance from fairness; and behavioral answers describe specific events clearly.\n\nReassess using the same rubric. Prioritize Communication and Overall Readiness while preserving Structure and Behavioural strengths. No numerical target is assigned without the score scale and rubric."
+    }
+  ]
+}

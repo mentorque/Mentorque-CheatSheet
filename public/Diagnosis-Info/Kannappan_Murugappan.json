@@ -1,0 +1,193 @@
+{
+  "name": "Kannappan Murugappan",
+  "email": "Kannappanm84@gmail.com",
+  "targetRole": "Assistant Accountant / Accounts Assistant / Junior Finance Analyst (provisional positioning)",
+  "assessmentContext": {
+    "columnOrder": [
+      "Name",
+      "Email",
+      "Resume",
+      "Structure",
+      "Technical",
+      "Behavioural",
+      "Communication",
+      "Overall Readiness",
+      "Primary Risk",
+      "Technical Readiness Score"
+    ],
+    "suppliedScoresInOrder": [
+      2.6,
+      3,
+      2.9,
+      2.4,
+      1.25,
+      1.25
+    ],
+    "suppliedRisk": "Communication & Confidence Risk",
+    "scores": {
+      "Resume": 2.6,
+      "Structure": 3,
+      "Technical": 2.9,
+      "Behavioural": 2.4,
+      "Communication": 1.25,
+      "Overall Readiness": 1.25,
+      "Technical Readiness Score": null
+    },
+    "scoreMappingStatus": "User-confirmed column order. Technical Readiness Score was blank and is retained as null. Score scales and calculation were not supplied; no score has been inferred.",
+    "evidence": "User-provided assessment row and one-page resume. Resume statements are candidate claims, not independently verified outcomes. No interview recording, transcript, assessment rubric or target job description supplied.",
+    "resumeSource": "kannappan_murugappan_mentorque -updated resume 4.pdf",
+    "emailNote": "Assessment email casing preserved; resume lists the same address in lowercase."
+  },
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "content": "**Primary coaching priority: Communication & Confidence Risk, as supplied in the assessment.**\n\nKannappan, your resume contains relevant accounting examples: client reconciliations, accounts payable and receivable, audit support, budgeting, inventory controls and an MBA research project. The immediate task is to explain those examples clearly, define your own contribution and support the figures with evidence.\n\n**Reported assessment:** Resume **2.6**; Structure **3**; Technical **2.9**; Behavioural **2.4**; Communication **1.25**; Overall Readiness **1.25**. **Technical Readiness Score: not supplied.** Overall Readiness is a separate assessment result and has not been calculated from the other values.\n\n**Score-led interpretation:** Communication is the lowest reported competency value. Structure is comparatively stronger within this profile, but the Technical and Behavioural results also warrant preparation. Prioritize clear spoken explanations while testing accounting knowledge and the specificity of behavioral examples. The risk label does not establish anxiety, freezing, poor English or a personality trait; those would require direct evidence.\n\n**Provisional positioning:** Lead with Assistant Accountant or Accounts Assistant experience. Junior Finance Analyst roles may be relevant where the actual job requirements match your budgeting, Excel and analysis experience. A job description is needed before making stronger role-fit claims.\n\n**Chart convention:** The chart uses the existing app maximum of 5 for the five competency scores. The assessment scale was not supplied. Overall Readiness and the missing Technical Readiness Score are kept outside this chart.",
+      "spiderGraph": {
+        "labels": [
+          "Resume",
+          "Structure",
+          "Technical",
+          "Behavioural",
+          "Communication"
+        ],
+        "values": [
+          2.6,
+          3,
+          2.9,
+          2.4,
+          1.25
+        ],
+        "maxValue": 5
+      }
+    },
+    {
+      "title": "Resume Evidence and Credibility Checks",
+      "sectionType": "content",
+      "content": "**1. Explain overlapping roles and the scope of your experience.**\n\nThe resume lists audit work from April 2022 to May 2024, a remote accounting role from June 2024 to Present, and an Ireland store role from March 2025 to Present. Prepare the location, employment arrangement, hours and responsibilities of each role. The audit role overlaps your BCom dates. Clarify whether it was full-time, part-time, an internship or another arrangement. Overlap alone is not evidence of an inaccurate claim. Avoid double-counting concurrent periods.\n\n**2. Reconcile the client counts.**\n\nThe summary refers to 25+ clients; the remote role refers to 10+ client accounts; the earlier role refers to 15+ engagements. Engagements and unique clients are different units. Explain whether clients overlap and how the summary total was counted.\n\n**3. Define the money figures and currencies.**\n\nPrepare the period, source and scope for EUR 50,000 monthly transactions, approximately EUR 30,000 overdue receivables, EUR 600,000 annual operations, EUR 400,000 financial records, EUR 25,000 monthly inventory and EUR 150,000 monthly turnover. For India-based client work, confirm whether euro figures represent original records or conversions and explain the conversion basis. These amounts describe exposure or workload, not automatically revenue generated or money recovered by you.\n\n**4. Verify the strongest outcome claims.**\n\nFor the 95% reduction in petty purchases, define petty purchases, baseline, comparison period, absolute values and your contribution. For eight hours saved monthly, explain the previous process, changed steps and how time was estimated. For 100% discrepancy resolution, define the denominator and scope, distinguish correction from escalation and explain senior review. Use a narrower statement if evidence does not support the broad wording.\n\n**5. Bound audit ownership accurately.**\n\nThe resume combines independently handling concurrent audits with senior review. Explain what you performed independently, what required approval and who owned the final audit opinion. Prepare your actual tasks for the IOB, Canara Bank, Central Bank, currency chest and inventory audit references. Do not imply signing authority or control ownership you did not have.\n\n**6. Clarify education, tools and research.**\n\nConfirm the MBA completion status and awarded grade before describing it as completed. Prepare hands-on examples for each accounting platform listed; distinguish certification, simulation and production work. The research explicitly reports no statistically significant regression predictors: retain that limitation and do not describe financing factors as proven causal drivers."
+    },
+    {
+      "title": "How the Reported Risk May Show Up in Interviews",
+      "sectionType": "content",
+      "content": "These are **hypotheses to test in a mock**, not observations of your interview behavior.\n\n**Probe: Tell me about yourself.** Test whether you can explain the transition from India audit and accounting work to concurrent remote accounting and Ireland operations in 60-90 seconds, without reciting every bullet.\n\n**Probe: Walk me through a bank reconciliation.** Test whether your explanation names the records, period, difference, investigation, appropriate treatment and final review. Compare a written outline with the spoken answer to distinguish knowledge gaps from delivery gaps.\n\n**Probe: How did you reduce petty purchases by 95%?** Test whether you can define the measure, explain your actions and acknowledge other contributors. Missing evidence is a claim-verification problem even if delivery sounds confident.\n\n**Probe: Describe a disagreement with a vendor, client or colleague.** Test for one specific event, your action, the result and a lesson. Behavioural 2.4 makes this a useful practice priority; it does not prove poor workplace behavior.\n\n**Probe: Why were your research predictors not significant?** Test whether you can explain the result and limitations honestly without treating a null result as a failed project."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "content": "Suggested four-week practice sequence. Progress depends on observed improvement, not a promised score increase. Short daily repetitions should combine accounting accuracy and clear delivery.",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "Verify claims and build a clear introduction",
+          "content": "Create a claim ledger for dates, overlapping roles, client counts, currencies, percentages and ownership. Confirm MBA status. Record a 90-second introduction and a two-minute reconciliation example. Ask the mentor to identify concrete clarity issues without assuming the cause is confidence."
+        },
+        {
+          "week": "Week 2",
+          "title": "Explain accounting work with technical depth",
+          "content": "Prepare one real reconciliation, one payable/receivable case and one audit example. Use anonymized records or a clearly labeled practice dataset. Explain both the action and the accounting reason. Practice two follow-ups for each example and address concept gaps before polishing wording."
+        },
+        {
+          "week": "Week 3",
+          "title": "Build behavioral and analytical examples",
+          "content": "Prepare five true stories: a discrepancy, an overdue-payment discussion, competing deadlines, a mistake and a process improvement. Explain the Excel analysis behind one budget or variance report. Practice a plain-language summary of the MBA research including its non-significant regression result."
+        },
+        {
+          "week": "Week 4",
+          "title": "Run and retest a role-specific mock",
+          "content": "Use an actual job description. Repeat baseline prompts, add technical follow-ups and record observed improvement in clarity, accuracy, ownership and evidence. Reassess with the original rubric when available, keeping Overall Readiness and Technical Readiness Score separate."
+        }
+      ]
+    },
+    {
+      "title": "Resume-Anchored Technical Preparation",
+      "sectionType": "content",
+      "content": "**Bank reconciliation and financial records**\n\nWalk through one genuine case from bank statement and ledger comparison to investigating differences, correcting genuine book errors and documenting unresolved items or timing differences. Explain the period, supporting records, review and completion checks. Be ready to distinguish a reconciling timing item from an item requiring a journal entry. Do not invent entries for an unidentified difference.\n\n**Accounts payable, receivable and collections**\n\nExplain invoice validation, supporting documentation, approval, duplicate checks, vendor-payment coordination, receivables aging and escalation. For approximately EUR 30,000 overdue receivables, distinguish the balance managed from amounts personally recovered. Practice prioritizing a disputed overdue invoice and explaining an invoice/payment mismatch.\n\n**Budgeting, forecasting and variance analysis**\n\nUse one actual workbook or an anonymized reconstruction. Explain inputs, assumptions, formulas, actual-versus-budget comparison, the variance driver and the action informed. Distinguish a budget from an updated forecast. Show a lookup, pivot table and data-validation or reconciliation check you actually used. Prepare duplicate, missing-record and unmatched-total checks.\n\n**Audit support**\n\nDescribe one audit objective, records reviewed, sample or scope, discrepancy found, supporting documentation and escalation. Explain how evidence reached the senior reviewer. For currency chest and bank audits, discuss only procedures you actually performed; do not infer responsibilities from the audit name.\n\n**Inventory, procurement and Square data**\n\nExplain how purchase orders, invoices, receipts, stock records and POS sales were matched. Prepare a real stock difference and its investigation. Define the 95% procurement measure and separate purchasing changes from stock accuracy and customer sales. Name your own decision and its approval boundary.\n\n**MBA research: EV versus ICE financing**\n\nExplain the research question, the 60-participant sample, survey design and your use of SPSS, factor analysis, Pearson correlation and regression. Explain what each method addressed, how you interpreted the outputs and the limitations of the sample and design. The resume reports no statistically significant regression predictors; explain that this did not establish the tested predictors as significant in that model. Avoid causal or population-wide conclusions unsupported by the study."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Suggested introduction - verify facts before use**\n\n'My background combines audit support, accounting operations and store inventory work. At M. Karuppiah & Co., I worked on financial records, reconciliations, client audit documentation and later remote accounts payable and receivable support. In Ireland, my Leksar Foods role has included inventory reconciliation, purchasing analysis and daily operations. My MBA finance research examined vehicle-financing considerations using survey data. I am targeting an Assistant Accountant role where I can apply reconciliation and reporting experience while developing further technical depth.'\n\nAdjust the role and MBA wording to the actual vacancy and confirmed education status. Prepare a separate sentence explaining the concurrent work arrangements.\n\n**Two-minute accounting example scaffold**\n\n'For [actual client or anonymized context], I needed to reconcile [records] for [period]. I found [specific difference]. My responsibility was [bounded task]. I checked [supporting evidence], identified [verified cause] and [corrected or escalated it through the actual process]. [Reviewer] checked [output]. The result was [verified outcome], with [remaining limitation if any].'\n\n**Behavioral scaffold**\n\n'In [specific situation], I was responsible for [task]. I took [two concrete actions] because [reason]. The result was [observed outcome]. I learned [lesson or later change].'\n\n**Delivery drill**\n\nGive the answer headline first, then the example and evidence. Practice 30-second, 90-second and two-minute versions. Pause before answering and ask for clarification where needed. Use I for your actions and we for shared outcomes. When you do not know an accounting treatment, explain what you would verify and with whom rather than guessing. Evaluate clarity and accuracy rather than accent or personality."
+    },
+    {
+      "title": "High-Priority Interview Questions",
+      "sectionType": "content",
+      "content": "1. How did your remote accounting role fit alongside your Ireland role and education?\n2. Walk me through a bank reconciliation you personally completed. What caused the difference?\n3. How do you investigate an invoice mismatch or possible duplicate payment?\n4. What portion of the overdue receivables did you recover, and how do you know?\n5. Show how you built a budget or forecast and explained a material variance.\n6. What did you personally do during the bank or currency chest audit, and what did the senior reviewer own?\n7. What does 100% discrepancy resolution mean in your example?\n8. How was the 95% reduction in petty purchases calculated?\n9. Describe an error you made and the control or working habit you changed afterward.\n10. Tell me about competing accounting and store deadlines or a difficult payment conversation.\n11. Which Excel checks would reveal missing, duplicated or unmatched records?\n12. Explain your research finding when no regression predictor was statistically significant.\n\nFor each answer, check the context, personal action, technical reasoning, evidence and handling of follow-ups. These prompts are preparation priorities, not proof of observed failings."
+    },
+    {
+      "title": "Mock Interview Plan",
+      "sectionType": "mockGraphs",
+      "content": "Use the same core prompts at baseline and retest. Record concrete observations: an undefined figure, missing step, inaccurate concept, unclear ownership or overly long answer. Give one practice action per observed issue. Separate written understanding from spoken delivery before deciding the coaching approach.",
+      "graphs": [
+        {
+          "title": "Suggested four-session practice schedule",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 1",
+              "label": "Session 1: Introduction and evidence",
+              "duration": "30 minutes",
+              "objective": "Check career chronology, claim definitions and a baseline reconciliation explanation."
+            },
+            {
+              "timing": "Week 2",
+              "label": "Session 2: Accounting and Excel",
+              "duration": "45 minutes",
+              "objective": "Probe reconciliation, AP/AR, audit boundaries and one actual workbook example. Separate technical errors from delivery difficulty."
+            },
+            {
+              "timing": "Week 3",
+              "label": "Session 3: Behavioral and research",
+              "duration": "45 minutes",
+              "objective": "Probe deadlines, disagreement, mistakes and improvement. Check accurate explanation of the research result."
+            },
+            {
+              "timing": "Week 4",
+              "label": "Session 4: Vacancy-specific simulation",
+              "duration": "60 minutes",
+              "objective": "Use a real job description, repeat baseline questions and document preparation still needed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Expected Outcome and How to Use This Plan",
+      "sectionType": "howToUse",
+      "content": "**Desired outcome:** A credible accounting introduction, clear explanations of genuine work, verified metrics and better responses to technical and behavioral follow-ups.\n\n**Completion checks:** Explain the overlapping roles accurately; reconcile client counts and currencies; support or narrow the outcome claims; complete a clear reconciliation walkthrough; explain one Excel analysis; and deliver five specific behavioral examples. Explain the MBA result without overstating statistical evidence.\n\nReassess Communication and Overall Readiness using the same rubric when available. Track Technical and Behavioural development separately. No numerical score target, hiring outcome or Technical Readiness Score is inferred.",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Verify the resume",
+          "content": "Check employment arrangements, client counts, financial measures, outcome claims and education status."
+        },
+        {
+          "icon": "FileText",
+          "title": "Prepare genuine examples",
+          "content": "Build three accounting or operations walkthroughs and five behavioral stories. Anonymize confidential records."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Practice aloud with follow-ups",
+          "content": "Record short answers, check technical accuracy and repeat with questions about ownership and evidence."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Preserve the assessment mapping",
+          "content": "Resume 2.6; Structure 3; Technical 2.9; Behavioural 2.4; Communication 1.25; Overall Readiness 1.25. Technical Readiness Score remains null."
+        },
+        {
+          "icon": "Target",
+          "title": "Diagnose from observed answers",
+          "content": "Compare written and spoken explanations and distinguish missing knowledge, evidence, structure and delivery."
+        },
+        {
+          "icon": "CheckCircle2",
+          "title": "Retest practical readiness",
+          "content": "Use comparable questions and the original rubric. Document improvements and remaining gaps without inventing a score formula."
+        }
+      ]
+    }
+  ]
+}

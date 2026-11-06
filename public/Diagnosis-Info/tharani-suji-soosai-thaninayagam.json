@@ -1,0 +1,192 @@
+{
+  "name": "Tharani Suji Soosai Thaninayagam",
+  "email": "tharanisuji15@gmail.com",
+  "targetRole": "HR Administrator / HR Operations Coordinator / Talent Acquisition Coordinator (provisional positioning)",
+  "assessmentContext": {
+    "columnOrder": [
+      "Name",
+      "Email",
+      "Resume",
+      "Structure",
+      "Technical",
+      "Behavioural",
+      "Communication",
+      "Overall Readiness",
+      "Primary Risk",
+      "Technical Readiness Score"
+    ],
+    "suppliedScoresInOrder": [
+      3.8,
+      3.2,
+      3.5,
+      2.8,
+      3,
+      3
+    ],
+    "scores": {
+      "Resume": 3.8,
+      "Structure": 3.2,
+      "Technical": 3.5,
+      "Behavioural": 2.8,
+      "Communication": 3,
+      "Overall Readiness": 3,
+      "Technical Readiness Score": 2.857142857
+    },
+    "suppliedRisk": "Behavioural Story Risk",
+    "scoreMappingStatus": "User-confirmed column order. Score scales and Technical Readiness Score formula not supplied; metrics retained separately.",
+    "evidence": "User-provided assessment row and candidate resume. No interview recording, transcript, scoring rubric or target job description supplied.",
+    "resumeSource": "tharani_suji_soosai_thaninayagam_mentorque.pdf"
+  },
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": [
+          "Resume",
+          "Structure",
+          "Technical",
+          "Behavioural",
+          "Communication"
+        ],
+        "values": [
+          3.8,
+          3.2,
+          3.5,
+          2.8,
+          3
+        ],
+        "maxValue": 5
+      },
+      "content": "**Primary coaching priority: Behavioural Story Risk**, as supplied in the assessment row.\n\nTharani, your resume provides useful material for HR interviews: employee records and reporting for a 75-person workforce at Annai Impex, recruitment and onboarding at Lernx, and customer escalations and credit control at CMOS. The preparation priority is to turn these responsibilities into specific stories that explain your decisions, personal actions, results and learning.\n\n**Reported assessment:** Resume **3.8**; Structure **3.2**; Technical **3.5**; Behavioural **2.8**; Communication **3**; Overall Readiness **3**; Technical Readiness Score **2.857142857**. Behavioural is the lowest of the five competency scores; Resume and Technical are relative strengths in this row. Technical Readiness Score is a separate metric, not an average or a replacement for Overall Readiness.\n\n**Coaching hypothesis:** Examples may need clearer personal ownership, difficult decisions and evidence of outcomes. This must be tested in a mock; the resume and risk label do not establish weak judgment, poor teamwork or a personality trait.\n\n**Provisional positioning:** HR Administrator / HR Operations Coordinator / Talent Acquisition Coordinator. Validate against an actual job description. Present CMOS as transferable customer operations experience rather than direct HR employment.\n\nThe chart uses the app's existing 5-point display convention; the assessment scale was not supplied. Overall Readiness and Technical Readiness Score remain separate from the competency chart."
+    },
+    {
+      "title": "Resume Evidence and Credibility Checks",
+      "sectionType": "content",
+      "content": "**Separate resume claims from verified outcomes.** The figures below are candidate-reported and have not been independently verified.\n\n**Annai Impex:** The resume describes maintaining records for 75 employees and monthly headcount, attendance, leave and attrition reporting using VLOOKUP. Prepare one actual reporting cycle: source sheets, validation, finding, recommendation and management response. The resume does not quantify the reported error reduction or establish that recommendations caused a retention improvement.\n\n**Lernx:** Clarify what coordinating recruitment of 15 interns weekly meant: sourced, screened, offered or onboarded. Define your contribution versus the team's. For the approximately two-day time-to-hire reduction, establish the baseline, measurement period, number of hires and how the dashboard contributed. Distinguish the 20 employees whose onboarding and records you administered from recruitment volume.\n\n**CMOS:** Define the period and source for 125+ weekly escalations, 110+ accounts, €10,000 monthly collections and 6-7 hours saved weekly. Explain whether collections were personally handled or a team outcome. Scope the '100% data integrity' claim to the actual checks and records; avoid presenting an unmeasured absolute as established fact. Explain the controls behind confidentiality and the resume's GDPR claim without assuming that handling data proves compliance.\n\n**Experience duration:** The summary says 16 months' experience. Reconcile this with the listed dates, including CMOS from May 2026 to Present, before applications. Separate HR experience from customer operations and explain any overlaps rather than guessing a revised total.\n\n**Systems and credentials:** BambooHR appears in the Lernx bullets; Workday, SAP SuccessFactors and BrightHR are listed without project detail. State hands-on use, training or familiarity accurately. The certification list pairs 'SHRM Certified Professional (SHRM-CP)' with Udemy: confirm whether this is an official credential or course preparation and label the issuer/status precisely. Similarly, distinguish a CIPD-aligned course from CIPD accreditation or membership.\n\n**Academic work:** The Perrigo project uses published labour-market data; describe it as an academic review, not employment or consulting delivery. For the dissertation, prepare the dataset, sampling approach and limits of the claimed analysis of 100 HR professionals."
+    },
+    {
+      "title": "How Behavioural Story Risk May Show Up",
+      "sectionType": "content",
+      "content": "These are **hypotheses to test**, not observed interview behavior.\n\n**A responsibility list instead of an event.** Probe: 'Tell me about one attendance or turnover finding you raised at Annai Impex.' Check whether the answer identifies a particular problem, the candidate's action and what management did next.\n\n**A team result with unclear ownership.** Probe: 'What did you personally change to reduce time-to-hire at Lernx?' Ask for the dashboard fields, decision and measurement. Accept a bounded contribution; do not inflate ownership.\n\n**A polished success with no judgment.** Probe: 'Describe one CMOS dispute where the customer's request conflicted with your process.' Look for the options considered, escalation boundary, communication and outcome, while protecting confidential details.\n\n**A setback without reflection.** Probe: 'When did a report, handoff or recruitment process not go as planned?' Ask what she corrected and changed afterward. Do not invent a failure for practice.\n\n**Delivery that hides useful evidence.** With Structure 3.2 and Communication 3, test whether a clear headline and a 90-second answer improve understanding. Compare a written outline with the spoken answer to separate missing evidence from delivery difficulty."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "Verify claims and build a story bank",
+          "content": "Reconcile experience duration, credentials, systems exposure and reported metrics. Select six real events: a reporting insight, a recruitment improvement, a difficult customer interaction, collaboration or disagreement, a mistake or setback, and confidentiality or accuracy. Record facts and unknowns; do not invent missing outcomes."
+        },
+        {
+          "week": "Week 2",
+          "title": "Make personal actions and decisions explicit",
+          "content": "Draft each story using situation, task, action, result and learning. Give most time to your actions and why you chose them. Prepare a 90-second version and two follow-ups. Link one genuine artifact or verifiable recollection to each story where available."
+        },
+        {
+          "week": "Week 3",
+          "title": "Retest technical explanations and delivery",
+          "content": "Practice the Annai Excel workflow, Lernx recruitment dashboard and dissertation methods. Explain measures and validation in plain language. Preserve the relative Technical strength of 3.5 while testing depth; it does not establish mastery of every listed system."
+        },
+        {
+          "week": "Week 4",
+          "title": "Run a role-specific mock and close gaps",
+          "content": "Use a real HR job description. Repeat baseline behavioural questions, probe ownership and evidence, and reassess with the same rubric. Advance based on observed improvement rather than a promised numerical score."
+        }
+      ],
+      "content": "Suggested four-week coaching sequence. Prioritize behavioural evidence while supporting structure and clear communication; no hiring outcome or score gain is guaranteed."
+    },
+    {
+      "title": "Resume-Anchored Technical Preparation",
+      "sectionType": "content",
+      "content": "**HR reporting and Excel:** Walk through a real Annai report from source data to management summary. Explain VLOOKUP matching, missing or duplicate employee IDs, date handling and reconciliation. Define the headcount, absenteeism, attrition and time-to-fill measures actually used, including denominators and period. Reproduce a small anonymized example; distinguish a reporting association from a causal conclusion.\n\n**Recruitment and onboarding:** Map the actual Lernx process from sourcing to onboarding. Explain screening criteria, candidate tracking, handoffs, status updates and how you checked record completeness. Show how a dashboard informed action rather than merely displaying counts.\n\n**Systems:** Describe one BambooHR task you personally performed, your permissions and checks. For every other listed platform, state the level of exposure accurately. Do not imply configuration or implementation experience without evidence.\n\n**Customer operations and credit control:** Explain one account reconciliation, the source of a mismatch, how you resolved or escalated it and the audit trail. Connect accuracy, prioritization and stakeholder updates to HR operations without relabelling the work as payroll experience.\n\n**MBA dissertation:** Explain the research question, how 100 respondents were recruited, variables, missing-data handling and why ANOVA, regression and Spearman correlation were selected. Prepare the actual findings and limitations. Survey associations alone do not establish that AI caused improved recruitment outcomes.\n\n**Academic Perrigo review:** Identify the published data sources, assumptions and rationale for a workforce-planning recommendation. Distinguish a proposed pipeline model from an implemented business result."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Suggested introduction - verify before use**\n\n'My background combines HR administration and recruitment experience in India with customer operations experience in Ireland. At Annai Impex, I maintained HR records and prepared workforce reports for 75 employees. At Lernx, I supported recruitment, onboarding and Excel dashboards. My current CMOS role develops my experience in escalations, accurate records and cross-team coordination. I also hold an MBA in HR Management from Dublin Business School. I am looking to apply these skills in an HR administration or operations role.'\n\nAdapt the final sentence to the actual vacancy. Confirm education and employment status before using it.\n\n**Behavioural scaffold - fill with a real event**\n\n'At [organisation], [specific event] created [problem]. I was responsible for [bounded task]. I checked [evidence], considered [options] and chose [action] because [reason]. I coordinated with [person/team] on [handoff or decision]. The result was [verified outcome or honest limitation]. I learned [lesson] and changed [specific practice].'\n\n**Annai story prompts:** Which department or period showed the issue? What did the data show? What did you check before escalating? What recommendation did you make? What happened next?\n\n**Lernx story prompts:** Which bottleneck did the dashboard reveal? Which fields and dates supported that conclusion? What did you change personally? How was the two-day reduction measured?\n\n**CMOS story prompts:** What made one dispute difficult? What authority did you have? How did you balance service with accurate records and escalation requirements? What was the outcome?\n\n**Delivery drill:** Start with the outcome or problem in one sentence, give two or three concrete actions, then close with evidence and learning. Use 'I' for personal actions and 'we' for shared results. If no quantified outcome exists, describe the observed result without inventing a number."
+    },
+    {
+      "title": "High-Priority Interview Questions",
+      "sectionType": "content",
+      "content": "1. Tell me about one attendance or attrition finding you identified at Annai Impex. What happened after you raised it?\n2. Describe a reporting error or inconsistent employee record you investigated. How did you validate the correction?\n3. What exactly did you change in the Lernx recruitment process, and how was the approximately two-day improvement measured?\n4. Tell me about a candidate, customer or colleague who disagreed with you. What did you do?\n5. Describe a time you had competing deadlines. How did you choose what to handle first?\n6. Give an example of protecting sensitive information while helping someone resolve an issue. Use anonymized details.\n7. Tell me about a mistake or unsuccessful approach. What changed afterward?\n8. Explain a real VLOOKUP workflow and how you checked unmatched or duplicate records.\n9. What did you personally do in BambooHR, and what is your level of exposure to the other listed systems?\n10. What did the dissertation analysis show, and what could it not establish?\n11. How do your HR roles and current customer operations role prepare you for this vacancy?\n12. Explain one CMOS reconciliation or documentation improvement and the evidence for the reported time saving.\n\nFor each behavioural answer, probe the specific event, decision, personal action, result and learning. Score observed answers rather than treating these prompts as proof of weakness."
+    },
+    {
+      "title": "Mock Interview Plan",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Suggested four-session practice schedule",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 1",
+              "label": "Session 1: Baseline and evidence",
+              "duration": "30 minutes",
+              "objective": "Record the introduction and two behavioural answers. Check claim definitions, actual ownership and missing evidence."
+            },
+            {
+              "timing": "Week 2",
+              "label": "Session 2: Behavioural depth",
+              "duration": "45 minutes",
+              "objective": "Probe reporting, disagreement, prioritization and a setback. Require real events, reasons for decisions and honest outcomes."
+            },
+            {
+              "timing": "Week 3",
+              "label": "Session 3: HR and analytical depth",
+              "duration": "45 minutes",
+              "objective": "Walk through Excel reporting, recruitment metrics, system tasks and dissertation methods. Separate knowledge gaps from unclear delivery."
+            },
+            {
+              "timing": "Week 4",
+              "label": "Session 4: Vacancy-based simulation",
+              "duration": "60 minutes",
+              "objective": "Use an actual job description, repeat comparable baseline prompts and document remaining preparation needs."
+            }
+          ]
+        }
+      ],
+      "content": "After each session, record the question, observed gap, evidence available and one next action. Use consistent prompts and the same assessment rubric where available. Judge clarity, decisions and evidence rather than accent or personality."
+    },
+    {
+      "title": "Expected Outcome and How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Verify the evidence",
+          "content": "Confirm experience dates, credential wording, systems exposure and metric definitions. Keep candidate claims distinguishable from verified records."
+        },
+        {
+          "icon": "FileText",
+          "title": "Build six genuine stories",
+          "content": "Write concise outlines with personal actions, decisions, outcomes and learning. Use anonymized evidence and state missing information honestly."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Practice follow-ups",
+          "content": "Deliver a 90-second version, then answer two deeper questions about ownership, reasoning or measurement."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "Target",
+          "title": "Test the supplied risk",
+          "content": "Prioritize Behavioural 2.8 and check whether stories lack specificity, ownership, results or delivery clarity. Treat the risk label as a coaching hypothesis."
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Preserve distinct metrics",
+          "content": "Track Structure 3.2, Technical 3.5, Communication 3 and Overall Readiness 3 separately. Keep Technical Readiness Score 2.857142857 unchanged; establish its scale and formula before comparisons."
+        },
+        {
+          "icon": "CheckCircle2",
+          "title": "Reassess observed performance",
+          "content": "Check accurate positioning, six specific examples, defensible metrics and clear technical walkthroughs using the same rubric."
+        }
+      ],
+      "content": "**Desired outcome:** A credible HR positioning story supported by specific examples of reporting, recruitment, customer operations and judgment.\n\n**Completion checks:** Six genuine behavioural examples identify the situation, responsibility, personal actions, result and learning; reported metrics have defined scope and evidence; credential and tool descriptions match actual experience; and technical follow-ups can be answered clearly.\n\nNo interview transcript or job description was supplied. This is a preparation diagnosis based on reported assessment scores and resume claims, not a hiring recommendation or a prediction of performance. No numerical target is assigned without the scoring rubric."
+    }
+  ]
+}

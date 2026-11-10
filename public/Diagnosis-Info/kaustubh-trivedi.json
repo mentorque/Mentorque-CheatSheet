@@ -1,0 +1,192 @@
+{
+  "name": "Kaustubh Trivedi",
+  "email": "kaus12tri@gmail.com",
+  "targetRole": "Full Stack Software Engineer / SaaS and AI Applications (provisional positioning)",
+  "assessmentContext": {
+    "columnOrder": [
+      "Name",
+      "Email",
+      "Resume",
+      "Structure",
+      "Technical",
+      "Behavioural",
+      "Communication",
+      "Overall Readiness",
+      "Primary Risk",
+      "Technical Readiness Score"
+    ],
+    "suppliedScoresInOrder": [
+      4.2,
+      3.4,
+      3.7,
+      3.8,
+      2.25,
+      2.25
+    ],
+    "scores": {
+      "Resume": 4.2,
+      "Structure": 3.4,
+      "Technical": 3.7,
+      "Behavioural": 3.8,
+      "Communication": 2.25,
+      "Overall Readiness": 2.25,
+      "Technical Readiness Score": 2.857142857
+    },
+    "suppliedRisk": "Communication & Confidence Risk",
+    "scoreMappingStatus": "User-confirmed column order. Score scales and Technical Readiness Score formula not supplied; metrics retained separately.",
+    "evidence": "User-provided assessment row and candidate resume. No interview recording, transcript, scoring rubric or target job description supplied.",
+    "resumeSource": "kaustubh_trivedi_mentorque.pdf"
+  },
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": [
+          "Resume",
+          "Structure",
+          "Technical",
+          "Behavioural",
+          "Communication"
+        ],
+        "values": [
+          4.2,
+          3.4,
+          3.7,
+          3.8,
+          2.25
+        ],
+        "maxValue": 5
+      },
+      "content": "**Primary coaching priority: Communication & Confidence Risk**, as supplied in the assessment row.\n\nKaustubh, your resume reports full-stack work across SaaS, voice applications and AI systems. CueX10's security and RAG work, Talk to magpie's voice platform and Openspace's application modernization provide useful material for interviews. The immediate coaching goal is to explain a problem, your contribution, the engineering decision and its evidence clearly to both technical and non-technical listeners.\n\n**Reported assessment:** Resume **4.2**; Structure **3.4**; Technical **3.7**; Behavioural **3.8**; Communication **2.25**; Overall Readiness **2.25**; Technical Readiness Score **2.857142857**. Communication is the lowest of the five charted competencies; Resume, Behavioural and Technical are comparatively stronger in the supplied row. Technical Readiness Score is a separate supplied metric; its formula is unknown and it is not substituted for Overall Readiness.\n\n**Coaching hypothesis:** Stronger headline-first explanations, concise ownership statements and follow-up practice may improve spoken answers. A mock should establish whether difficulty comes from delivery, answer structure, incomplete evidence, technical knowledge or a combination. The risk label does not establish anxiety or any other personal characteristic.\n\n**Provisional positioning:** Full Stack Software Engineer, with SaaS and AI application experience. Tailor to a specific job description and describe the level of ownership accurately.\n\nThe graph follows the app's existing 5-point display convention; the assessment scale was not supplied. Overall Readiness and the separate Technical Readiness Score are not plotted as competencies."
+    },
+    {
+      "title": "Resume Evidence and Credibility Checks",
+      "sectionType": "content",
+      "content": "These are resume claims to prepare and verify, not independently established outcomes.\n\n**CueX10 security:** Explain the audit findings and the fixes you personally implemented. For cross-tenant exposure, describe the affected data path, authorization boundary and tests of PostgreSQL row-level security. For prompt injection and privilege escalation, identify the concrete attack path and mitigation; avoid implying that all possible vulnerabilities were eliminated. Explain how server-only CRM token storage changed access.\n\n**CueX10 RAG and CRM metrics:** The resume reports retrieval hit rate improving from 65% to 91% on a labelled 100-query pilot set. Define hit rate, relevance labels, query selection, baseline, evaluation procedure and whether tuning used the same set. Explain what the 30% timeout rate and 600 monthly consultations measured, the observation periods and how background processing was verified. Distinguish a pilot result from a general production guarantee.\n\n**Talk to magpie:** Clarify the six company pilots, purchase order and planned 25+ hotel rollout: what was signed, deployed and live at the time. Define the training completion and repeat-session measures, population, periods and comparison; the 25+ trainee figure alone does not establish a controlled evaluation. For latency, specify where p50/p99 were measured, traffic sample, regions, baseline and whether audio or model latency was included. Explain what 'full-region failover' covered and how it was tested.\n\n**Openspace:** Describe your specific work in the 50,000+ LOC modernization rather than implying sole ownership if the team shared it. Define the 5,000+ monthly active users and 15,000 monthly transactions, the comparison behind the 30% and 35% improvements, and the scope and period for 99.9% uptime. Explain whether 225-282 monthly deployments counted individual environments, services or releases and how the 40% manual-effort reduction was estimated.\n\n**Experience and skills:** The resume claims 2+ years and lists roles from November 2022 onward with an education period between them. Prepare an accurate chronology and distinguish direct production experience from projects, training and familiarity for each listed tool, including Kubernetes, Go and LLM fine-tuning. Confirm current employment and education status before use.\n\n**Rendure:** Identify the responsibilities of the four agents, personal contribution and deployment status. The resume describes a project and does not provide adoption or impact metrics; avoid inventing them."
+    },
+    {
+      "title": "How Communication Risk May Show Up",
+      "sectionType": "content",
+      "content": "The following are scenarios to test in a mock, not observations of your interview behavior.\n\n**Too much detail before the answer.** Ask: 'What did you build at CueX10 and why?' Test whether a one-sentence outcome and two relevant details make the answer easier to follow before moving into architecture.\n\n**Results without a decision trail.** Ask: 'How did you improve retrieval from 65% to 91%?' Listen for the baseline, changes, measurement and limits of the 100-query pilot, not only a list of RAG components.\n\n**Ownership unclear in team work.** Ask: 'What did you personally build at Talk to magpie and what did the founder or others own?' Check for a precise distinction between individual and shared work.\n\n**Technical depth without audience adaptation.** Ask for an explanation of tenant isolation first to a product manager and then to an engineer. Look for accuracy, clarity and useful detail at each level.\n\n**Confidence versus knowledge.** Compare a short written explanation with a spoken one and a follow-up. If both are incomplete, review the concept; if the written explanation is accurate but speech is hard to follow, practice delivery. Avoid assuming a psychological cause."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "Establish a baseline and verify claims",
+          "content": "Record a 90-second introduction and one project answer. Create a claim ledger for RAG evaluation, security fixes, voice latency and deployment metrics: scope, baseline, source, personal contribution and limitations. Ask a mentor what they understood before suggesting changes."
+        },
+        {
+          "week": "Week 2",
+          "title": "Practice clear project explanations",
+          "content": "Prepare 90-second and three-minute versions of CueX10, Talk to magpie and Openspace. Lead with the problem and result, then explain your action and one trade-off. Answer two technical follow-ups for each without adding unsupported claims."
+        },
+        {
+          "week": "Week 3",
+          "title": "Adapt explanations to the audience",
+          "content": "Explain tenant isolation, retrieval evaluation and a latency change to an engineer and a non-technical stakeholder. Practice pausing, checking the question and using a simple diagram when appropriate. Preserve the relative behavioural strength while making ownership and evidence explicit."
+        },
+        {
+          "week": "Week 4",
+          "title": "Run a role-specific mock and reassess",
+          "content": "Use an actual vacancy and repeat baseline questions. Separate evidence gaps, knowledge gaps and delivery issues. Reassess with the same rubric where available; use feedback to choose the next practice step."
+        }
+      ],
+      "content": "Suggested four-week practice plan. Adjust the pace to observed progress; no numerical score gain or hiring outcome is guaranteed."
+    },
+    {
+      "title": "Resume-Anchored Technical Preparation",
+      "sectionType": "content",
+      "content": "**CueX10 - SaaS security and tenancy:** Trace an authenticated request from client to edge function to database. Explain identity, authorization, tenant isolation, row-level security policies, server-side token storage and the tests actually run, including denied cross-tenant access. Describe one prompt-injection scenario and the boundary that reduced its impact; distinguish model instructions from enforced authorization.\n\n**CueX10 - RAG evaluation:** Draw the actual ingestion, embedding, retrieval, intent classification, reranking and generation flow. Explain what counted as a hit, the labelled 100-query set, the 65% and 91% calculations, baseline and remaining limitations. Discuss latency and quality trade-offs and how an independent evaluation could check generalization.\n\n**Talk to magpie - voice architecture:** Walk through the user-to-agent request and response path, deployment regions, latency measurement and failure handling. Explain the exact meaning of the reported p50 and p99, what shifted after the AWS region change and which failures the failover test covered. State what you built personally.\n\n**Talk to magpie - CI and product:** Show how jobs were parallelised, dependencies and cache choices, runner security and the measurement behind the before-and-after CI times. Define completion and repeat-session metrics and the source of the reported improvement.\n\n**Openspace - full stack:** Explain one Spring Boot service boundary, a PostgreSQL indexing decision and the query plan or measurement used, plus one Next.js rendering or API improvement. Be ready to discuss migration risks, deployment strategy and rollback as actually implemented.\n\n**Rendure:** Explain the agents' responsibilities, how they coordinate, SSE updates and audit-trail design. Identify safeguards and evaluation actually present, and identify planned work as planned. Review any listed technology relevant to the job based on your actual level of exposure."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Suggested introduction - confirm before use**\n\n'I am a full-stack software engineer with experience building SaaS and AI-enabled applications. At CueX10, I built a B2B SaaS pilot with Supabase edge functions and PostgreSQL, and worked on security, CRM integration and retrieval quality. Before that, I co-built a voice role-play training platform at Talk to magpie. Earlier, at Openspace, I worked on a Spring Boot and Next.js real-estate platform. I hold an MSc in Computer Science from Technological University Dublin and am looking for a full-stack role where I can build reliable products and explain engineering trade-offs clearly.'\n\nAdjust the target role, dates and ownership to the actual opportunity and verified experience.\n\n**Project answer scaffold:** 'The problem was [specific problem and users]. I was responsible for [bounded contribution]. I chose [approach] over [real alternative] because [trade-off]. I implemented [two key actions]. We measured [metric and baseline] over [period or sample], and saw [verified result]. The main limitation was [limitation]. The next step would be [grounded follow-up].'\n\n**Behavioural scaffold:** 'In [specific situation], my responsibility was [task]. I discussed [issue] with [person or team], chose [action] because [reason], and the result was [observed outcome]. I learned [specific lesson].' Use a real disagreement, production issue, deadline or learning example; do not manufacture a story.\n\n**Delivery drill:** Answer the question in one sentence, then give two or three supporting points and a result. Pause and invite a follow-up. Record and replay the answer; ask the listener to summarize the decision and your role. Judge clarity rather than accent, personality or speaking style."
+    },
+    {
+      "title": "High-Priority Interview Questions",
+      "sectionType": "content",
+      "content": "1. Give a 90-second overview of your work at CueX10. What did you personally own?\n2. Describe the cross-tenant exposure you found and how you tested the row-level security fix.\n3. What prompt-injection or privilege-escalation path did the audit identify, and what control addressed it?\n4. How did you calculate the 65% and 91% retrieval hit rates? How were the 100 queries labelled and selected?\n5. Why did you use intent classification and reranking, and what trade-offs did they introduce?\n6. Explain the background CRM processing change and how you measured the reported timeout reduction.\n7. Walk through the voice platform architecture and explain how the reported latency percentiles were measured.\n8. What did you and the founder each own, and what was the actual status of pilots and the hotel-chain purchase order?\n9. Tell me about a disagreement, setback or difficult delivery decision, using a real example.\n10. Explain a PostgreSQL query or index improvement and how you verified its impact.\n11. How did you shorten CI jobs, and what security and reliability considerations applied to self-hosted runners?\n12. Describe one Rendure agent, its inputs and outputs, and how you evaluated its behavior.\n\nFollow up on scope, decision, ownership and evidence. These questions are practice prompts, not proof of a gap."
+    },
+    {
+      "title": "Mock Interview Plan",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Suggested four-session practice schedule",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 1",
+              "label": "Session 1: Baseline communication",
+              "duration": "30 minutes",
+              "objective": "Record introduction and CueX10 overview; check the listener can identify the problem, role and outcome."
+            },
+            {
+              "timing": "Week 2",
+              "label": "Session 2: Technical depth",
+              "duration": "45 minutes",
+              "objective": "Probe tenant isolation, security fixes and RAG evaluation. Separate missing knowledge from unclear delivery."
+            },
+            {
+              "timing": "Week 3",
+              "label": "Session 3: Collaboration and trade-offs",
+              "duration": "45 minutes",
+              "objective": "Discuss a real conflict, production issue and voice-platform decision; test ownership, evidence and learning."
+            },
+            {
+              "timing": "Week 4",
+              "label": "Session 4: Role-specific simulation",
+              "duration": "60 minutes",
+              "objective": "Use a real job description and repeat baseline questions; record remaining preparation actions."
+            }
+          ]
+        }
+      ],
+      "content": "Use consistent prompts and, where available, the same assessment rubric. After each session, record what the listener understood, evidence gaps and one concrete practice action."
+    },
+    {
+      "title": "Expected Outcome and How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Verify project claims",
+          "content": "Define each important metric, sample, period, evidence and contribution. Distinguish live deployment, pilot, purchase order and planned rollout."
+        },
+        {
+          "icon": "FileText",
+          "title": "Prepare three project walkthroughs",
+          "content": "Practice a concise introduction and deeper explanation for CueX10, Talk to magpie and Openspace with decisions, trade-offs and limitations."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Practice audience shifts",
+          "content": "Explain one system to a technical interviewer and a product stakeholder, then answer two follow-up questions."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "Target",
+          "title": "Test the reported risk",
+          "content": "Prioritize Communication 2.25 and Overall Readiness 2.25. Observe clarity, relevance and responses to follow-ups; do not infer confidence or anxiety from a score."
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Keep scores distinct",
+          "content": "Preserve Resume 4.2, Structure 3.4, Technical 3.7 and Behavioural 3.8. Keep Technical Readiness Score 2.857142857 separate; confirm its scale and formula before comparison."
+        },
+        {
+          "icon": "CheckCircle2",
+          "title": "Reassess with evidence",
+          "content": "Compare answers against the baseline and rubric. Check if the listener can identify the problem, individual action, engineering reasoning and measured result."
+        }
+      ],
+      "content": "**Desired outcome:** Clear, evidence-backed explanations of full-stack and AI application work, adapted to the role and audience.\n\n**Completion checks:** A clear introduction; three project walkthroughs with ownership and trade-offs; defensible metrics and security claims; real behavioural examples; and accurate responses to technical follow-ups.\n\nNo interview recording, transcript, rubric or job description was supplied. This is a coaching plan based on the assessment row and resume claims. No numerical target or hiring prediction is assigned."
+    }
+  ]
+}

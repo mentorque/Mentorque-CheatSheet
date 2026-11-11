@@ -1,0 +1,110 @@
+{
+  "name": "Abrar Ajaz",
+  "email": "abrarajaz1@gmail.com",
+  "targetRole": "Key Account Management / Procurement",
+  "assessmentContext": {
+    "scores": {
+      "Resume": 3.2,
+      "Structure": 3.2,
+      "Technical": 3.3,
+      "Behavioural": 3.6,
+      "Communication": 2.25,
+      "Overall Readiness": 2.25,
+      "Technical Readiness Score": null
+    },
+    "primaryRisk": "Communication & Confidence Risk",
+    "evidenceNote": "The diagnosis uses the supplied assessment scores and resume. The interview prompts are for practice."
+  },
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": ["Resume", "Structure", "Technical", "Behavioural", "Communication"],
+        "values": [3.2, 3.2, 3.3, 3.6, 2.25],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: Communication & Confidence Risk.**\n\nCommunication (2.25/5) is the lowest competency score. Overall Readiness is also 2.25/5. Behavioural is the strongest assessed competency at 3.6/5, followed by Technical at 3.3/5 and Resume and Structure at 3.2/5.\n\nStart with a recorded mock to identify where answers lose clarity. Use a distributor expansion example for account management interviews and a seafood sourcing example for procurement interviews. Lead with the result, explain your own decisions and give the interviewer one figure they can ask about."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "A question about expanding into five territories can pull an answer into pricing, distributor onboarding, logistics and team management at once. Start with the expansion result, then explain the distributor decision you personally handled and how you tracked performance.\n\nWhen an interviewer challenges a figure, pause and clarify what they want to verify. Give the time period, what the number measures and where it came from. Practise this with interruptions so you can return to the question without restarting the whole story."
+    },
+    {
+      "title": "Resume-Anchored Prep",
+      "sectionType": "content",
+      "content": "### Global Star Speciality Foods\nYour resume reports expansion into five territories generating €50,000 in sales and a 12-product launch associated with 38% sales-volume growth. Prepare these as separate examples. For expansion, explain one distributor selection decision, the onboarding steps and the sales period. For the launch, verify the volume baseline, comparison period and accounts covered.\n\n### Frozen Basket\nYour resume reports €470,000 in international seafood procurement spanning 200 tonnes. Walk through one purchase you managed. Explain supplier selection, the terms you negotiated, how delivery and cold-chain requirements were checked, and what you did when a constraint arose. Verify the period covered by the spend and tonnage figures.\n\n### Circle K\nYour resume reports weekly replenishment for 3,500 SKUs and a separate reconciliation of 500 SKUs that reached 92% post-migration data accuracy. Explain how accuracy was calculated, which records were compared and how exceptions were handled.\n\n### Sterling Ventures\nYour resume reports a 20% reduction in order fulfilment turnaround after introducing zone-based route planning. Prepare the before-and-after measurement and explain how you checked the effect on delivery margins."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "title": "Record a role-specific introduction",
+          "description": "Record a 60-second introduction for either account management or procurement. Open with the role you are targeting, then give one relevant achievement and explain your contribution."
+        },
+        {
+          "title": "Build two concise STAR stories",
+          "description": "Prepare one distributor expansion story and one supplier negotiation story. Keep the context brief and spend most of the answer on your decision, actions and result."
+        },
+        {
+          "title": "Practise follow-up questions",
+          "description": "Have a partner interrupt with questions about ownership, baselines and trade-offs. Answer the follow-up directly before adding context."
+        },
+        {
+          "title": "Repeat the mock",
+          "description": "Use the same opening question and one new scenario. Compare whether the second recording gives a clearer opening, a more specific example and a more direct answer to follow-ups."
+        }
+      ]
+    },
+    {
+      "title": "Answer Construction",
+      "sectionType": "content",
+      "content": "**Practice question:** How did you expand into five new territories at Global Star Speciality Foods?\n\n**Answer template:** “At Global Star Speciality Foods, I helped expand distribution into five new territories, generating €50,000 in sales over [verified period]. My responsibility was [specific responsibility]. In [one territory], I evaluated distributors using [criteria], then handled [specific onboarding or logistics decision]. I tracked [sales or service measure] using [source].”\n\nUse the first sentence as your opening. Keep the distributor criteria and measurement details ready for follow-up."
+    },
+    {
+      "title": "High-Risk Questions",
+      "sectionType": "content",
+      "content": "1. How did you select a distributor for one new territory, and which decision did you own?\n2. What period did the €50,000 in sales cover, and how did you track it?\n3. How did you calculate the 38% sales-volume increase for the 12-product launch?\n4. Walk me through a seafood supplier negotiation. What trade-off did you make between landed cost, quality and lead time?\n5. How did you measure 92% SKU data accuracy after the Circle K migration, and what did you do with exceptions?\n6. Tell me about a time a customer request conflicted with a supplier or logistics constraint. What did you communicate, and what happened?"
+    },
+    {
+      "title": "Mock Interview Plan",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Proposed practice sessions",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 1",
+              "label": "Communication and account management",
+              "duration": "45 minutes",
+              "objective": "Record the introduction and distributor expansion answer. Review how quickly each answer reaches the point and how clearly it explains Abrar's role."
+            },
+            {
+              "timing": "Week 2",
+              "label": "Procurement and follow-up questions",
+              "duration": "45 minutes",
+              "objective": "Practise a sourcing decision and an SKU reconciliation example. Reassess communication and overall readiness using the same rubric."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        "Choose the introduction and first example based on the role you are interviewing for.",
+        "Verify the period, baseline and source for each figure you plan to use.",
+        "Listen back for where you first answer the question, state your contribution and give the result."
+      ],
+      "mentorSteps": [
+        "Record where the answer loses clarity and give one specific change to practise.",
+        "Probe one figure and one decision in each story.",
+        "Use the same rubric to compare Communication and Overall Readiness across the two mocks."
+      ]
+    }
+  ]
+}

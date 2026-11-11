@@ -1,0 +1,110 @@
+{
+  "name": "Rajendar Naik Guguloth",
+  "email": "Rajendarnaikg@gmail.com",
+  "targetRole": "Project Coordinator / Project Analyst",
+  "assessmentContext": {
+    "scores": {
+      "Resume": 4.6,
+      "Structure": 5,
+      "Technical": 4.5,
+      "Behavioural": 4.6,
+      "Communication": 5,
+      "Overall Readiness": 5,
+      "Technical Readiness Score": 5
+    },
+    "primaryRisk": "Technical Readiness Risk",
+    "chartScaleNote": "The radar chart shows the five competency scores on the app's 5-point scale.",
+    "evidenceNote": "Based on the supplied scores and resume. Interview follow-ups are practice prompts.",
+    "technicalReadinessNote": "Technical Readiness Score is a separate supplied metric. The scoring formula was not supplied."
+  },
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": ["Resume", "Structure", "Technical", "Behavioural", "Communication"],
+        "values": [4.6, 5, 4.5, 4.6, 5],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: Technical Readiness Risk.**\n\nTechnical (4.5/5) is the lowest of the five competency scores. Resume and Behavioural are 4.6/5, while Structure and Communication are 5/5. Overall Readiness and the separate Technical Readiness Score are both 5/5.\n\nFocus the mock on whether you can explain the project controls behind your delivery results at Luna Software Solutions. Use one schedule change, one reporting improvement and one UAT handover to show the data you used, the decision you made and how you checked the outcome."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "A delivery interviewer may ask which dependency drove a milestone, how a RAID item was escalated, or what made a release ready for handover. Walk through a real example from the first warning signal to the recorded decision. For each example, identify who owned the decision and which actions you handled directly."
+    },
+    {
+      "title": "Resume-Anchored Prep",
+      "sectionType": "content",
+      "content": "### Reporting standardisation and turnaround\nYour resume reports a 25% reduction in project turnaround time after standardising reporting and governance across three software programmes. Verify the baseline, comparison period, start and end points, and source records. Prepare one example of how the standard report helped the team make a decision sooner.\n\n### Schedule and dependency tracking\nAs Project Coordinator, you tracked milestones across three initiatives involving 5–7 stakeholders. Bring a redacted or reconstructed milestone plan and RAID entry. Explain the dependency, its impact on the critical path, the action owner and how closure was confirmed.\n\n### Power BI and Excel reporting\nPick a milestone, sign-off or status measure you reported. Explain its source, definition, refresh cadence, validation checks and how stakeholders used it. Specify any transformations or calculations you personally built.\n\n### UAT and go-live handover\nDescribe one release you supported. Cover the test scope, defect triage, outstanding issues, sign-off owner and what the receiving team needed for handover."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "title": "Verify the 25% result",
+          "description": "Rebuild the before-and-after calculation from records you can substantiate. Prepare a short explanation of the baseline, timeframe and your contribution."
+        },
+        {
+          "title": "Practise a schedule and RAID walkthrough",
+          "description": "Reconstruct a real dependency scenario and explain the schedule impact, escalation threshold, owner and revised milestone."
+        },
+        {
+          "title": "Defend reporting and UAT decisions",
+          "description": "Walk through a Power BI or Excel KPI and a UAT handover. Practise follow-ups about inconsistent data, open defects and sign-off."
+        },
+        {
+          "title": "Run a mixed mock",
+          "description": "Use one technical scenario and one stakeholder STAR example. Ask the mentor to score Technical separately and record the evidence behind any change."
+        }
+      ]
+    },
+    {
+      "title": "Answer Construction",
+      "sectionType": "content",
+      "content": "**Practice question:** How did you measure the 25% turnaround improvement at Luna Software Solutions?\n\n**Answer template:** “Across three concurrent software programmes, I helped standardise reporting and governance. We defined turnaround as [verified start and end points]. My contribution was [specific change]. I compared [baseline period and value] with [comparison period and value] using [source records]. One decision the team could make sooner was [verified example].”"
+    },
+    {
+      "title": "High-Risk Questions",
+      "sectionType": "content",
+      "content": "1. Which dependency affected your critical path, and how did you decide when to escalate it?\n2. How did you calculate the 25% improvement, and what else changed between the two periods?\n3. How did you verify that a Power BI or Excel status report matched the delivery tracker?\n4. How did you handle an unresolved UAT defect close to release, and who owned the decision?\n5. Tell me about a milestone where stakeholders disagreed on priority. What did you do and what happened?"
+    },
+    {
+      "title": "Mock Interview Plan",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Proposed practice sessions",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 1",
+              "label": "Project controls and reporting",
+              "duration": "45 minutes",
+              "objective": "Defend the turnaround calculation and walk through a dependency and a KPI."
+            },
+            {
+              "timing": "Week 2",
+              "label": "UAT and stakeholder management",
+              "duration": "45 minutes",
+              "objective": "Work through a release decision and give one STAR example. Reassess technical depth with the same rubric."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        "Bring a redacted or reconstructed schedule, RAID entry and reporting example.",
+        "Verify the turnaround calculation and prepare a 90-second account of your role in one UAT handover."
+      ],
+      "mentorSteps": [
+        "Probe baseline, ownership, decision criteria and outcome evidence in each technical answer.",
+        "Record follow-up performance and score Technical and Technical Readiness Score separately using the assessment rubric."
+      ]
+    }
+  ]
+}

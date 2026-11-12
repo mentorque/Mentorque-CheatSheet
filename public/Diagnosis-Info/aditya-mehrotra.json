@@ -3,6 +3,19 @@
   "email": "adityamehrotra2002@gmail.com",
   "targetRole": "Credit Risk Analyst",
   "assessmentContext": {
+    "columnOrder": [
+      "Name",
+      "Email",
+      "Resume",
+      "Structure",
+      "Technical",
+      "Behavioural",
+      "Communication",
+      "Overall Readiness",
+      "Primary Risk",
+      "Technical Readiness Score"
+    ],
+    "suppliedScoresInOrder": [3.2, 3.2, 2.7, 3.4, 1.75, 1.75],
     "scores": {
       "Resume": 3.2,
       "Structure": 3.2,
@@ -12,9 +25,10 @@
       "Overall Readiness": 1.75,
       "Technical Readiness Score": null
     },
-    "primaryRisk": "Communication & Confidence Risk",
-    "evidenceNote": "Based on the supplied assessment scores and resume. Interview scenarios are practice prompts.",
-    "technicalReadinessNote": "A separate Technical Readiness Score was not supplied."
+    "suppliedRisk": "Communication & Confidence Risk",
+    "scoreMappingStatus": "The six supplied scores follow the assessment column order. The separate Technical Readiness Score was blank.",
+    "evidence": "User-provided assessment row and candidate resume. Interview scenarios are proposed practice.",
+    "resumeSource": "aditya_mehrotra_mentorque.pdf"
   },
   "sections": [
     {
@@ -25,17 +39,17 @@
         "values": [3.2, 3.2, 2.7, 3.4, 1.75],
         "maxValue": 5
       },
-      "content": "**Primary Risk: Communication & Confidence Risk.**\n\nCommunication is the lowest competency score at **1.75/5**. Overall Readiness is also **1.75/5**. Technical is **2.7/5**, Resume and Structure are **3.2/5**, and Behavioural is **3.4/5**.\n\nStart with a recorded explanation of the Excel exposure model from R.K. Clearing. Lead with the credit decision the model supported, explain your contribution, then give one finding and its implication. Use follow-up questions to check both the clarity of the explanation and the reasoning behind the model."
+      "content": "**Primary Risk: Communication & Confidence Risk.**\n\nCommunication and Overall Readiness are both **1.75/5**. Technical is **2.7/5**, Resume and Structure are both **3.2/5**, and Behavioural is **3.4/5**.\n\nAditya's resume gives him a concrete credit risk example to lead with. At R.K. Clearing, he built Excel cash flow and exposure models that monitored €2.4m in transaction volume and supported credit limit decisions for 40 commercial clients. In the first mock, ask him to explain one account review. Check whether the listener can identify the decision, the main risk signal and Aditya's own contribution after one hearing."
     },
     {
       "title": "Resume Evidence and Credibility Checks",
       "sectionType": "content",
-      "content": "### Define each financial figure\nYour resume lists a €300k client portfolio, €2.4m in transaction volume and approximately €400k in exposure covered by weekly reporting. Prepare the definition, period and source for each. Explain whether the figures refer to overlapping accounts and why transaction volume and exposure measure different things.\n\n### Clarify credit limit ownership\nThe resume describes Excel models used to support credit limits for 40 commercial clients. Pick one example and identify the inputs you assembled, the analysis or recommendation you owned, and who approved the limit. Use anonymised figures where needed.\n\n### Verify the reporting improvement\nAt Sanden Vikas, your resume reports dashboards tracking €6m in operating expenditure and saving about five hours per reporting cycle. Explain what the old process required, what you automated and how the time saving was estimated. Describe the undergraduate variance dashboard as a separate project that used simulated data."
+      "content": "### Define the three financial figures\nThe resume cites a €300k client portfolio, €2.4m in transaction volume and approximately €400k in exposure covered by weekly reports. Prepare the definition, period and source for each. Explain whether the figures cover overlapping clients and what each number measures.\n\n### Establish ownership of the credit limit work\nChoose one anonymised account. Explain which data you assembled, how you calculated exposure, what recommendation the analysis supported and who approved the decision. Clarify whether the 40-client figure covers all accounts monitored by the model or a specific review period.\n\n### Verify the Sanden Vikas reporting claim\nThe resume reports dashboards tracking €6m in operating expenditure and saving about five hours per reporting cycle. Show what the previous process involved, what you changed and how you estimated the saving. Keep this example separate from the academic variance dashboard, which used simulated data."
     },
     {
       "title": "How Communication Risk May Show Up",
       "sectionType": "content",
-      "content": "An interviewer asking whether to change a credit limit needs to hear your recommendation and why before hearing every Excel input. Open with the decision or recommendation, give the two facts that mattered most, and close with what you would monitor next.\n\nPractise explaining the same account to a risk analyst and a senior stakeholder. For the analyst, include the exposure definition, assumptions and validation checks. For the stakeholder, focus on the consequence and the action requested. In the first mock, observe whether difficulty comes from terminology, answer structure, a technical gap or the way follow-ups are handled."
+      "content": "### The recommendation comes late\nAn interviewer asks what you recommended for a client whose exposure was rising. Start with the decision your analysis supported, then give the evidence that mattered most. Keep spreadsheet mechanics ready for follow-up.\n\n### A challenge to the numbers derails the answer\nWhen asked whether €2.4m was exposure or transaction volume, define the measure, give the period and explain how it relates to the account under discussion. Practise answering this in two sentences before adding detail.\n\n### The explanation stays the same for every audience\nA risk analyst may ask for the calculation and reconciliation. Senior leadership may ask about the implication and what action is needed. Practise both versions and ask the listener what they understood. Use the mock to establish whether the gap is in delivery, answer structure or technical reasoning."
     },
     {
       "title": "Priority Fix Order",
@@ -43,41 +57,41 @@
       "steps": [
         {
           "week": "Week 1",
-          "title": "Record a baseline answer and verify the figures",
-          "content": "Record a 60-second introduction and a 90-second credit limit example. Write down what the €300k, €2.4m and approximately €400k figures measure, along with their periods and sources."
+          "title": "Establish a baseline and verify the figures",
+          "content": "Record a 60-second introduction and a 90-second account review. Ask the listener to repeat the recommendation, evidence and your role. Verify the definitions and periods behind the three R.K. Clearing figures."
         },
         {
           "week": "Week 2",
-          "title": "Defend the Excel exposure model",
-          "content": "Reconstruct an anonymised example. Explain the data inputs, exposure calculation, limit comparison, reconciliation checks and one model limitation."
+          "title": "Practise a clear exposure model walkthrough",
+          "content": "Reconstruct one anonymised Excel example. Explain the inputs, calculation, limit comparison and reconciliation. Identify one assumption that could change the recommendation."
         },
         {
           "week": "Week 3",
-          "title": "Practise reporting to two audiences",
-          "content": "Explain one weekly risk report finding to a risk analyst and to senior leadership. Answer follow-ups about deteriorating payment behaviour, missing data and what would change your recommendation."
+          "title": "Adapt the same finding to two audiences",
+          "content": "Explain a slower-collections scenario to a risk analyst and to senior leadership. Give the technical drivers in one version and the cash impact and next action in the other. Answer two follow-up questions."
         },
         {
           "week": "Week 4",
-          "title": "Run a credit risk mock and reassess",
-          "content": "Use a real Credit Risk Analyst job description. Repeat the baseline question, add a working capital scenario and compare clarity, structure and technical reasoning using the same rubric."
+          "title": "Run a role-specific mock and reassess",
+          "content": "Use a Credit Risk Analyst job description. Repeat the baseline question, add a liquidity scenario and use one real behavioural example about a challenged analysis. Compare the two recordings using the same rubric."
         }
       ],
-      "content": "Keep the first and final recordings so the candidate and mentor can compare answers to the same prompt."
+      "content": "Use one real example each week. Keep the first and final recordings so the candidate and mentor can compare responses to the same prompt."
     },
     {
       "title": "Resume-Anchored Technical Preparation",
       "sectionType": "content",
-      "content": "### Counterparty exposure and limit monitoring\nWalk through one account from transaction records to exposure calculation and comparison with its approved limit. Explain how you checked data quality, what triggered review, and how a change in payment behaviour would affect your recommendation.\n\n### Liquidity and working capital forecasting\nExplain how days sales outstanding, days payable outstanding and the cash conversion cycle informed your rolling forecast. Practise a scenario where collections slow. Describe which assumptions change, what happens to forecast cash and how you would explain the impact to leadership.\n\n### Forecast-versus-actual analysis\nChoose one monthly cash flow variance. Explain what moved, which driver you investigated, how you validated it and what action the analysis supported. For the Sanden Vikas dashboard, show how you reconciled the reported operating expenditure to source data.\n\n### MSc dissertation and analytical tools\nPrepare a plain-English explanation of your research on capital buffers and solvency at global systemically important banks. Be ready to describe the sample, stress periods, variables, panel method and one limitation. For Python, SQL and VBA, prepare a concrete example for each tool you expect to discuss and identify the tasks you performed yourself."
+      "content": "### R.K. Clearing exposure and limit monitoring\nWalk through one account from transaction records to the exposure calculation and limit comparison. Explain how you checked the inputs, which signal triggered review and what evidence would change the recommendation.\n\n### R.K. Clearing liquidity and working capital\nExplain how days sales outstanding, days payable outstanding and the cash conversion cycle informed the rolling forecast. Practise a case where collections slow. Identify which assumptions change, the effect on forecast cash and the action you would flag to leadership.\n\n### Sanden Vikas variance and dashboard reporting\nChoose one variance from the operating expenditure dashboard. Explain the source, how you checked the data and how you investigated the driver. If discussing the academic dashboard, explain how you used Power Query, SUMIFS and dynamic flags on simulated data.\n\n### Trinity College Dublin dissertation\nExplain the research question on capital buffers and solvency at global systemically important banks. Prepare the sample, stress periods, panel approach and one limitation. Practise giving the finding in plain language before describing the method."
     },
     {
       "title": "Interview Answer Construction Guidance",
       "sectionType": "content",
-      "content": "**Practice question:** How did your Excel model support a credit limit decision at R.K. Clearing?\n\n**Answer template:** “For one commercial account, my analysis supported [verified recommendation]. I calculated exposure from [inputs] and compared it with [approved limit or review threshold]. The main risk signal was [verified finding]. I checked the result against [source or reconciliation] and shared [recommended action] with [decision owner]. The next indicator I monitored was [indicator].”\n\nGive the recommendation in the opening sentence. Keep the calculation, approval process and model limitations ready for follow-up."
+      "content": "**Practice question:** How did your Excel model support a credit limit decision at R.K. Clearing?\n\n**Before:** “I built an Excel model to monitor transactions and help set credit limits.”\n\n**After:** “In one commercial account review, my analysis supported [verified recommendation]. I calculated exposure from [inputs] and compared it with [approved limit]. The main risk signal was [finding]. I reconciled the result against [source] and shared my recommendation with [decision owner]. The next indicator I monitored was [indicator].”\n\nUse an actual anonymised account to fill in the details. The revised answer gives the interviewer a decision to understand, a calculation to probe and a clear account of your contribution."
     },
     {
       "title": "High-Priority Interview Questions",
       "sectionType": "content",
-      "content": "1. What did the €300k client portfolio, €2.4m in transaction volume and approximately €400k in reported exposure each represent?\n2. Walk through one Excel exposure calculation. Which inputs mattered most and how did you check them?\n3. What would make you recommend lowering, maintaining or increasing a commercial client's credit limit?\n4. How would a rise in days sales outstanding affect your rolling cash forecast? What would you flag to leadership?\n5. Tell me about a forecast-versus-actual variance you investigated. How did you validate the cause and communicate the result?\n6. Explain your dissertation to a senior stakeholder in 60 seconds. What conclusion could they draw and what limitation should they consider?\n7. Describe a time a stakeholder questioned your numbers. How did you respond and resolve the issue?"
+      "content": "1. What did the €300k portfolio, €2.4m transaction volume and approximately €400k reported exposure each measure?\n2. Walk through one Excel exposure calculation. Which inputs drove the result and how did you reconcile them?\n3. For one of the 40 commercial clients, what would make you recommend lowering, maintaining or increasing the credit limit? Who approved the decision?\n4. If days sales outstanding rose, how would your rolling cash forecast change and what would you flag to leadership?\n5. Describe a forecast-versus-actual variance you investigated at R.K. Clearing. How did you validate the driver and communicate it?\n6. How did you estimate the five-hour reporting saving at Sanden Vikas?\n7. What did your MSc dissertation find about capital buffers and solvency, and what limitation affects how the finding can be interpreted?\n8. Tell me about a stakeholder who challenged your analysis. What did you check, how did you respond and what happened?"
     },
     {
       "title": "Mock Interview Plan",
@@ -91,30 +105,30 @@
               "timing": "Week 1",
               "label": "Session 1: Baseline communication",
               "duration": "30 minutes",
-              "objective": "Record the introduction and a credit limit example. Ask the listener to restate the recommendation, reasoning and Aditya's contribution."
+              "objective": "Record the introduction and account review. Check whether the listener can identify the recommendation, evidence and Aditya's role."
             },
             {
               "timing": "Week 2",
-              "label": "Session 2: Credit risk technical depth",
+              "label": "Session 2: Technical depth",
               "duration": "45 minutes",
-              "objective": "Walk through exposure, limit monitoring and an Excel reconciliation. Ask what would change the recommendation."
+              "objective": "Probe the exposure calculation, limit comparison, reconciliation and one assumption that would change the recommendation."
             },
             {
               "timing": "Week 3",
               "label": "Session 3: Liquidity and stakeholder reporting",
               "duration": "45 minutes",
-              "objective": "Use a slower-collections scenario. Explain the cash impact to a risk analyst and a senior stakeholder, then respond to two follow-ups."
+              "objective": "Explain a slower-collections scenario to a risk analyst and a senior stakeholder. Practise responding to a challenge to the forecast."
             },
             {
               "timing": "Week 4",
               "label": "Session 4: Role-specific simulation",
               "duration": "60 minutes",
-              "objective": "Use a real Credit Risk Analyst vacancy. Repeat the baseline prompt and assess the credit example, dissertation explanation and behavioural answer."
+              "objective": "Use a real vacancy, repeat the baseline question and test one technical scenario and one behavioural example."
             }
           ]
         }
       ],
-      "content": "After each mock, record what the listener understood, which follow-up exposed a gap and one change to practise before the next session."
+      "content": "After each session, record what the listener understood, which follow-up exposed a gap and one action to practise before the next mock."
     },
     {
       "title": "Expected Outcome and How to Use This Plan",
@@ -123,37 +137,37 @@
         {
           "icon": "FileCheck",
           "title": "Verify the financial figures",
-          "content": "Write down the definition, period and source for the portfolio, transaction volume and exposure figures. Prepare one anonymised account example."
+          "content": "Define the period, source and scope of each major resume figure. Prepare an anonymised account example and identify your own contribution."
         },
         {
           "icon": "FileText",
-          "title": "Prepare three credit risk walkthroughs",
-          "content": "Rehearse one credit limit recommendation, one liquidity forecast and one variance investigation. Lead with the decision or finding in each answer."
+          "title": "Prepare three role-specific walkthroughs",
+          "content": "Rehearse one credit limit recommendation, one liquidity forecast and one variance investigation. Give the decision or finding in the opening sentence."
         },
         {
           "icon": "RotateCcw",
-          "title": "Practise explaining the same finding to two audiences",
-          "content": "Record a technical version and a short executive version. Check that both give the risk implication and next action."
+          "title": "Practise adapting to the audience",
+          "content": "Explain one risk finding to a risk analyst and to senior leadership. Answer two follow-up questions and use the feedback to revise the answer."
         }
       ],
       "mentorSteps": [
         {
           "icon": "Target",
-          "title": "Identify where communication breaks down",
-          "content": "Ask the listener to summarise the recommendation after one answer. Record whether the opening, terminology, structure or follow-up response caused confusion."
+          "title": "Test the reported communication risk",
+          "content": "Prioritise Communication 1.75 and Overall Readiness 1.75. Observe whether Aditya answers directly, explains ownership and responds clearly when challenged."
         },
         {
           "icon": "FileCheck",
-          "title": "Probe technical reasoning",
-          "content": "Ask for the exposure calculation, one validation check and one assumption that could change the credit recommendation. Record Technical separately from Communication."
+          "title": "Keep assessment scores distinct",
+          "content": "Keep Technical 2.7 separate from Communication 1.75. Probe calculation, validation and assumptions. The separate Technical Readiness Score was blank."
         },
         {
           "icon": "CheckCircle2",
-          "title": "Reassess against the baseline",
-          "content": "Repeat the opening prompt and apply the same rubric to Communication and Overall Readiness. Record the improvement observed and the next practice action."
+          "title": "Reassess with evidence",
+          "content": "Repeat the baseline prompt. Check whether the listener can identify the recommendation, its rationale, Aditya's role and the next action."
         }
       ],
-      "content": "**Desired outcome:** Explain a credit risk recommendation in plain language, support it with a defensible calculation and respond directly when an interviewer challenges an assumption.\n\n**Completion checks:** A 60-second introduction, an anonymised credit limit walkthrough, a working capital scenario, a concise dissertation explanation and one example of communicating a disputed finding."
+      "content": "**Desired outcome:** Aditya can state a credit risk recommendation early, support it with a defensible calculation and explain what would change his view.\n\n**Completion checks:** A concise introduction, an anonymised exposure walkthrough, a working capital scenario, a clear dissertation explanation and one real behavioural example about communicating a disputed finding."
     }
   ]
 }

@@ -13,7 +13,7 @@
       "Technical Readiness Score": null
     },
     "primaryRisk": "Communication & Confidence Risk",
-    "evidenceNote": "The diagnosis uses the supplied assessment scores and resume. The interview prompts are for practice."
+    "evidenceNote": "Based on the supplied assessment scores and resume. Interview prompts are for practice."
   },
   "sections": [
     {
@@ -34,7 +34,7 @@
     {
       "title": "Resume-Anchored Prep",
       "sectionType": "content",
-      "content": "### Global Star Speciality Foods\nYour resume reports expansion into five territories generating €50,000 in sales and a 12-product launch associated with 38% sales-volume growth. Prepare these as separate examples. For expansion, explain one distributor selection decision, the onboarding steps and the sales period. For the launch, verify the volume baseline, comparison period and accounts covered.\n\n### Frozen Basket\nYour resume reports €470,000 in international seafood procurement spanning 200 tonnes. Walk through one purchase you managed. Explain supplier selection, the terms you negotiated, how delivery and cold-chain requirements were checked, and what you did when a constraint arose. Verify the period covered by the spend and tonnage figures.\n\n### Circle K\nYour resume reports weekly replenishment for 3,500 SKUs and a separate reconciliation of 500 SKUs that reached 92% post-migration data accuracy. Explain how accuracy was calculated, which records were compared and how exceptions were handled.\n\n### Sterling Ventures\nYour resume reports a 20% reduction in order fulfilment turnaround after introducing zone-based route planning. Prepare the before-and-after measurement and explain how you checked the effect on delivery margins."
+      "content": "### Global Star Speciality Foods\nYour resume reports expansion into five territories generating €50,000 in sales and a 12-product launch associated with 38% sales-volume growth. For expansion, explain one distributor selection decision, the onboarding steps and the sales period. For the launch, verify the volume baseline, comparison period and accounts covered.\n\n### Frozen Basket\nYour resume reports €470,000 in international seafood procurement spanning 200 tonnes. Walk through one purchase you managed. Explain supplier selection, the terms you negotiated, how you checked delivery and cold-chain requirements, and what you did when a constraint arose. Verify the period covered by the spend and tonnage figures.\n\n### Circle K\nYour resume reports weekly replenishment for 3,500 SKUs and a reconciliation of 500 SKUs that reached 92% post-migration data accuracy. Explain how you calculated accuracy, which records you compared and how you handled exceptions.\n\n### Sterling Ventures\nYour resume reports a 20% reduction in order fulfilment turnaround after introducing zone-based route planning. Prepare the before-and-after measurement and explain how you checked the effect on delivery margins."
     },
     {
       "title": "Priority Fix Order",
@@ -42,19 +42,19 @@
       "steps": [
         {
           "title": "Record a role-specific introduction",
-          "description": "Record a 60-second introduction for either account management or procurement. Open with the role you are targeting, then give one relevant achievement and explain your contribution."
+          "content": "Record a 60-second introduction for either account management or procurement. Open with the role you are targeting, then give one relevant achievement and explain your contribution."
         },
         {
           "title": "Build two concise STAR stories",
-          "description": "Prepare one distributor expansion story and one supplier negotiation story. Keep the context brief and spend most of the answer on your decision, actions and result."
+          "content": "Prepare one distributor expansion story and one supplier negotiation story. Keep the context brief and spend most of the answer on your decision, actions and result."
         },
         {
           "title": "Practise follow-up questions",
-          "description": "Have a partner interrupt with questions about ownership, baselines and trade-offs. Answer the follow-up directly before adding context."
+          "content": "Have a partner interrupt with questions about ownership, baselines and trade-offs. Answer the follow-up directly before adding context."
         },
         {
           "title": "Repeat the mock",
-          "description": "Use the same opening question and one new scenario. Compare whether the second recording gives a clearer opening, a more specific example and a more direct answer to follow-ups."
+          "content": "Use the same opening question and one new scenario. Compare the two recordings for opening clarity, specificity and directness under follow-up."
         }
       ]
     },
@@ -93,40 +93,42 @@
       ]
     },
     {
-  "title": "How to Use This Plan",
-  "sectionType": "howToUse",
-  "candidateSteps": [
-    {
-      "icon": "FileText",
-      "title": "Tailor your opening to the role",
-      "content": "Choose the introduction and first example based on the role you are interviewing for."
-    },
-    {
-      "icon": "FileCheck",
-      "title": "Verify the figures",
-      "content": "Verify the period, baseline and source for each figure you plan to use."
-    },
-    {
-      "icon": "RotateCcw",
-      "title": "Review your recording",
-      "content": "Listen back for where you first answer the question, state your contribution and give the result."
-    }
-  ],
-  "mentorSteps": [
-    {
-      "icon": "Target",
-      "title": "Identify where clarity drops",
-      "content": "Record where the answer loses clarity and give one specific change to practise."
-    },
-    {
-      "icon": "FileCheck",
-      "title": "Probe the evidence",
-      "content": "Probe one figure and one decision in each story."
-    },
-    {
-      "icon": "CheckCircle2",
-      "title": "Compare the two mocks",
-      "content": "Use the same rubric to compare Communication and Overall Readiness across the two mocks."
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileText",
+          "title": "Tailor your opening to the role",
+          "content": "Choose the introduction and first example based on the role you are interviewing for."
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Verify the figures",
+          "content": "Verify the period, baseline and source for each figure you plan to use."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Review your recording",
+          "content": "Listen back for where you first answer the question, state your contribution and give the result."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "Target",
+          "title": "Identify where clarity drops",
+          "content": "Record where the answer loses clarity and give one specific change to practise."
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Probe the evidence",
+          "content": "Probe one figure and one decision in each story."
+        },
+        {
+          "icon": "CheckCircle2",
+          "title": "Compare the two mocks",
+          "content": "Use the same rubric to compare Communication and Overall Readiness across the two mocks."
+        }
+      ]
     }
   ]
 }

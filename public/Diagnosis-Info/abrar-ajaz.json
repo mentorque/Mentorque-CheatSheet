@@ -93,18 +93,40 @@
       ]
     },
     {
-      "title": "How to Use This Plan",
-      "sectionType": "howToUse",
-      "candidateSteps": [
-        "Choose the introduction and first example based on the role you are interviewing for.",
-        "Verify the period, baseline and source for each figure you plan to use.",
-        "Listen back for where you first answer the question, state your contribution and give the result."
-      ],
-      "mentorSteps": [
-        "Record where the answer loses clarity and give one specific change to practise.",
-        "Probe one figure and one decision in each story.",
-        "Use the same rubric to compare Communication and Overall Readiness across the two mocks."
-      ]
+  "title": "How to Use This Plan",
+  "sectionType": "howToUse",
+  "candidateSteps": [
+    {
+      "icon": "FileText",
+      "title": "Tailor your opening to the role",
+      "content": "Choose the introduction and first example based on the role you are interviewing for."
+    },
+    {
+      "icon": "FileCheck",
+      "title": "Verify the figures",
+      "content": "Verify the period, baseline and source for each figure you plan to use."
+    },
+    {
+      "icon": "RotateCcw",
+      "title": "Review your recording",
+      "content": "Listen back for where you first answer the question, state your contribution and give the result."
+    }
+  ],
+  "mentorSteps": [
+    {
+      "icon": "Target",
+      "title": "Identify where clarity drops",
+      "content": "Record where the answer loses clarity and give one specific change to practise."
+    },
+    {
+      "icon": "FileCheck",
+      "title": "Probe the evidence",
+      "content": "Probe one figure and one decision in each story."
+    },
+    {
+      "icon": "CheckCircle2",
+      "title": "Compare the two mocks",
+      "content": "Use the same rubric to compare Communication and Overall Readiness across the two mocks."
     }
   ]
 }

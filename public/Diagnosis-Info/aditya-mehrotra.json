@@ -1,74 +1,34 @@
 {
   "name": "Aditya Mehrotra",
   "email": "adityamehrotra2002@gmail.com",
-  "targetRole": "Credit Risk Analyst / Counterparty Risk and Exposure Monitoring (provisional positioning)",
-  "assessmentContext": {
-    "columnOrder": [
-      "Name",
-      "Email",
-      "Resume",
-      "Structure",
-      "Technical",
-      "Behavioural",
-      "Communication",
-      "Overall Readiness",
-      "Primary Risk",
-      "Technical Readiness Score"
-    ],
-    "suppliedScoresInOrder": [
-      3.2,
-      3.2,
-      2.7,
-      3.4,
-      1.75,
-      1.75
-    ],
-    "scores": {
-      "Resume": 3.2,
-      "Structure": 3.2,
-      "Technical": 2.7,
-      "Behavioural": 3.4,
-      "Communication": 1.75,
-      "Overall Readiness": 1.75,
-      "Technical Readiness Score": null
-    },
-    "suppliedRisk": "Communication & Confidence Risk",
-    "scoreMappingStatus": "Scores follow the supplied column order. The separate Technical Readiness Score was blank.",
-    "evidence": "Supplied assessment row and resume. Scenarios and sample answers are proposed practice. Mentor observations were unavailable.",
-    "resumeSource": "aditya_mehrotra_mentorque.pdf"
-  },
+  "targetRole": "Credit Risk Analyst",
   "sections": [
     {
       "title": "Diagnosis Summary",
       "sectionType": "spider",
       "spiderGraph": {
         "labels": [
-          "Resume",
-          "Structure",
+          "Resume & Experience Clarity",
+          "Answer Structure",
           "Technical",
-          "Behavioural",
-          "Communication"
+          "Communication",
+          "Behavioural Story"
         ],
         "values": [
           3.2,
           3.2,
           2.7,
-          3.4,
-          1.75
+          1.75,
+          3.4
         ],
         "maxValue": 5
       },
-      "content": "**Primary coaching priority: Communication & Confidence Risk**, as supplied in the assessment row.\n\nAditya, your resume reports counterparty credit assessment, exposure monitoring and liquidity forecasting. The Excel models at R.K. Clearing that monitored €2.4m in transaction volume and supported credit limit decisions for 40 commercial clients, the reporting dashboards at Sanden Vikas and your MSc research on bank capital buffers give you distinct interview examples. The immediate coaching goal is to explain the risk signal, your contribution, the recommendation and its evidence clearly to both risk specialists and senior stakeholders.\n\n**Reported assessment:** Resume **3.2**, Structure **3.2**, Technical **2.7**, Behavioural **3.4**, Communication **1.75** and Overall Readiness **1.75**. Communication is the lowest of the five charted competencies. Behavioural is the strongest at **3.4**, and Technical at **2.7** warrants a closer look at exposure calculations and model validation. The separate Technical Readiness Score was blank.\n\n**Coaching hypothesis:** Leading with the credit recommendation, stating your role in the review and practising direct follow-up answers may make the explanation easier to follow. In a mock, ask the listener to repeat the recommendation and main risk signal. Then ask Aditya to explain the exposure calculation, one reconciliation check and who approved the decision. Use the responses to identify whether the next drill should focus on delivery, answer structure, evidence or technical reasoning.\n\n**Provisional positioning:** Credit Risk Analyst, with experience in counterparty assessment, exposure monitoring and working capital forecasting. For a credit-focused vacancy, lead with one anonymised limit review. For a liquidity-focused vacancy, explain how a change in collections affected the rolling forecast and what decision the analysis supported.\n\nThe radar follows the app's five-point display convention and plots the five competency scores. Overall Readiness and the separate Technical Readiness Score are recorded in the assessment context."
+      "content": "**Primary Risk: Communication & Confidence Risk.**\n\nAditya, your resume describes Excel cash flow and exposure models at R.K. Clearing that monitored €2.4m in transaction volume and supported credit limit decisions for 40 commercial clients. It also gives you examples from working capital forecasting, weekly risk reporting across four sectors and expenditure dashboards at Sanden Vikas.\n\n**The Mapping Rule Analysis**\n\nCommunication is your lowest supplied competency at **1.75/5**, and Overall Readiness is also **1.75/5**. Technical is **2.7/5**, Resume and Structure are **3.2/5**, and Behavioural is **3.4/5**. The mock should test whether the listener can identify your recommendation, reasoning and personal contribution after one answer. If the calculation is also unclear in writing, revisit the method before practising delivery again.\n\nThe radar uses the five supplied competency scores. The separate Technical Readiness Score was blank."
     },
     {
-      "title": "Resume Evidence and Credibility Checks",
+      "title": "How This Risk Shows Up in Interviews",
       "sectionType": "content",
-      "content": "**Portfolio, volume and exposure at R.K. Clearing.** Prepare distinct definitions for the €300k client portfolio, €2.4m in transaction volume and approximately €400k in exposure covered by weekly reports. For each, identify the source, dates, population and whether it was measured at a point in time or accumulated over a period. Check whether the populations overlap and how any currency conversion was handled.\n\n**Credit limits for 40 commercial clients.** Confirm whether 40 means clients covered by the model, reviewed during a period or assigned limits. Choose one anonymised account. Identify the data you prepared, the analysis you performed, the recommendation and the person who approved it.\n\n**Working capital and reporting.** Choose one report from the four sectors and one monthly forecast variance. Identify the forecast baseline, the line that moved and the action the analysis supported. Explain how you checked whether the variance came from delayed receipts, supplier payments or operating activity.\n\n**Sanden Vikas.** Explain how the €50m combined annual revenue of the three business units relates to the €6m of operating expenditure tracked by your dashboard. Show what changed in the reporting cycle, how you estimated the five-hour saving and your role in the 10 presentations.\n\n**Academic work.** Explain that the undergraduate variance dashboard tracked 12 metrics using simulated data. For the MSc dissertation, verify the sample, data sources, stress periods and actual findings before preparing an interview answer.\n\n**Tools and ownership.** Prepare a specific task for any listed tool you expect to discuss, such as Python, SQL, VBA or Bloomberg. State the context, what you did and how you checked the output."
-    },
-    {
-      "title": "How Communication Risk May Show Up",
-      "sectionType": "content",
-      "content": "Use these prompts to test how Aditya answers under interview conditions.\n\n**The recommendation arrives late.** Ask what he would do when an account approaches its limit. Listen for the decision or next action before spreadsheet details. Then ask what evidence would change the decision.\n\n**The figures get mixed up.** Ask whether €2.4m was outstanding exposure. A clear answer defines transaction volume, states its reporting period and identifies the exposure measure separately.\n\n**Ownership gets lost.** Ask who built the model, who made the recommendation and who approved the limit. Check whether Aditya can explain his role and the handoff in two sentences.\n\n**The answer uses the same detail for every audience.** Ask for the slower-collections forecast first as a risk analyst and then as a senior manager. The analyst needs assumptions and checks. The senior manager needs the timing, cash implication and proposed action.\n\n**A follow-up breaks the sequence.** Interrupt an account walkthrough with a question about reconciliation. Compare the spoken answer with a short written version. If a validation check is missing from both, reconstruct the example. If it appears in the written version, practise answering the follow-up in one sentence before returning to the case."
+      "content": "**Scenario A — The Resume Walkthrough (15m)**\n\n**Interviewer prompt** — “Walk me through one commercial account review at R.K. Clearing. What did your analysis recommend?”\n\n**What to test** — With Communication at 1.75 and Structure at 3.2, check whether the recommendation comes early and whether the listener can distinguish your work from the approval decision. Follow up by asking how the €300k portfolio, €2.4m transaction volume and approximately €400k reported exposure differ.\n\n---\n\n**Scenario B — The Technical Case (45m)**\n\n**Interviewer prompt** — “An account is close to its credit limit and customer payments are slowing. How would you verify the exposure and communicate the risk?”\n\n**What to test** — At Technical 2.7, probe the source records, measurement date, calculation and reconciliation. Ask which assumption would change the recommendation and how slower receipts would affect the rolling cash forecast.\n\n---\n\n**Scenario C — The Behavioural Blend**\n\n**Interviewer prompt** — “Tell me about a time a stakeholder challenged a figure in your dashboard or risk report. What did you check and how did you respond?”\n\n**What to test** — Use the Behavioural baseline of 3.4 to assess whether the story explains the disagreement, your action and the actual outcome. Ask for a two-sentence version suitable for senior leadership."
     },
     {
       "title": "Priority Fix Order",
@@ -76,117 +36,183 @@
       "steps": [
         {
           "week": "Week 1",
-          "title": "Establish a baseline and verify claims",
-          "content": "Record the introduction and account review. Write down the definition, period and source for the three financial figures. Ask the mentor to repeat the recommendation and your role."
+          "title": "The Communication Drill",
+          "content": "Record a 60-second introduction and 90-second account walkthrough. Lead with the recommendation, then explain one risk signal and your role. **Practice target:** Communication 1.75 → 2.5."
         },
         {
           "week": "Week 2",
-          "title": "Practise clear technical explanations",
-          "content": "Build 90-second and three-minute versions of the account review. Explain the exposure calculation, limit comparison, reconciliation and one assumption that could change the recommendation."
+          "title": "Credit Risk First Principles",
+          "content": "Reconstruct one anonymised account with input records, exposure calculation, approved limit and a reconciliation. **Practice target:** Technical 2.7 → 3.5."
         },
         {
           "week": "Week 3",
-          "title": "Adapt explanations to the audience",
-          "content": "Explain slower collections to a risk analyst and to senior leadership. Rehearse a real example of a disputed figure. Practise answering two follow-ups directly."
+          "title": "Turn Analysis into a Decision",
+          "content": "Explain one cash flow variance to a risk analyst and then to senior leadership. Use situation, task, action and result for one disputed figure. **Practice target:** Structure 3.2 → 4.0."
         },
         {
           "week": "Week 4",
-          "title": "Run a role-specific mock and reassess",
-          "content": "Use a Credit Risk Analyst vacancy and repeat the baseline question. Add a liquidity scenario and a dissertation explanation. Compare both recordings using the same rubric."
+          "title": "The Pressure Test",
+          "content": "Use a real Credit Risk Analyst vacancy. Repeat the baseline question and add an unseen liquidity scenario. **Practice target:** Overall Readiness 1.75 → 3.0."
         }
       ],
-      "content": "Use the first and final recordings to compare responses to the same prompt. Ask the mentor to identify one specific change after each session."
+      "content": "Complete the weekly preparation before its corresponding mock. Compare the first and final responses using the same prompt and rubric."
     },
     {
-      "title": "Resume-Anchored Technical Preparation",
+      "title": "Resume-Anchored Technical Prep",
       "sectionType": "content",
-      "content": "**Exposure and limit monitoring at R.K. Clearing.** Walk from source records to the Excel calculation and approved limit. Explain the measurement date, how records were grouped by account, how you handled any exceptions and what triggered a review. Prepare one reconciliation and one model limitation.\n\n**Counterparty assessment and pricing.** Choose an account where payment behaviour, financial condition or liquidity mattered. Explain which signal carried the most weight, how it influenced the discussion and what additional evidence would change your recommendation.\n\n**Rolling working capital forecast.** Explain how days sales outstanding, days payable outstanding and inventory timing affect the cash conversion cycle. Walk through a hypothetical delay in customer receipts. Identify which forecast lines move, when the cash effect appears and what you would flag.\n\n**Risk reporting and cash flow variance.** Select one weekly report and one forecast-versus-actual variance. Describe how you traced the change to a specific account, sector or payment, validated it and explained the implication to leadership.\n\n**Sanden Vikas and the academic dashboard.** Trace an expenditure line from source to presentation and explain the reconciliation. For the simulated-data dashboard, walk through Power Query, SUMIFS and conditional formatting. Explain how you tested that a flagged variance matched its underlying values.\n\n**MSc dissertation.** Explain the research question on capital buffers and solvency at global systemically important banks. Prepare the sample, stress windows, variables, reason for using panel data, actual result and one limitation. Give the conclusion in plain language before discussing the method."
+      "content": "**Project 1 — R.K. Clearing Excel exposure model and commercial credit limits**\n\n**Interviewer probe** — “Show how one account moved from source records to calculated exposure and a credit limit recommendation.”\n\n**Likely struggle to test** — The account walkthrough may describe the workbook without defining what was measured, who owned approval or what validated the result.\n\n**Prep drill** — Reconstruct an anonymised account. Write down the input records, measurement date, exposure calculation, approved limit and reconciliation. Define the scope and periods behind the €300k portfolio, €2.4m transaction volume and approximately €400k reported exposure. State what the 40-client count represents.\n\n---\n\n**Project 2 — R.K. Clearing working capital forecast and risk reporting**\n\n**Interviewer probe** — “If collections slow, what moves in the forecast, when does it move and what would you flag to leadership?”\n\n**Likely struggle to test** — The explanation may list DSO and DPO without connecting them to cash timing and the next decision.\n\n**Prep drill** — Draw expected receipts and payments across two forecast periods. Move one collection into the later period and explain the difference in cash. Then choose one real forecast-versus-actual variance or weekly risk report and explain what you checked and what action it supported.\n\n---\n\n**Project 3 — Sanden Vikas expenditure reporting and variance analysis**\n\n**Interviewer probe** — “How did you reconcile the dashboard tracking €6m in operating expenditure, and how did you estimate the five-hour saving?”\n\n**Likely struggle to test** — An interviewer may ask how the dashboard totals were validated, which steps changed and whether the time saving was measured or estimated.\n\n**Prep drill** — Trace one expenditure line from its source to the dashboard and presentation. Explain the unit and cost-category mapping, reconciliation and exception check. For an academic follow-up, describe the separate 12-metric dashboard using simulated data, or explain your MSc research question, panel method and one limitation."
     },
     {
       "title": "Interview Answer Construction Guidance",
       "sectionType": "content",
-      "content": "**Suggested introduction**\n\n“I hold an MSc in Financial Risk Management from Trinity College Dublin. At R.K. Clearing, I built Excel exposure and cash flow models that monitored transaction activity and supported credit limit decisions for 40 commercial clients. I also prepared weekly risk reports and rolling working capital forecasts. At Sanden Vikas, I built reporting dashboards and supported variance analysis. I'm looking for a credit risk role where I can apply that experience to counterparty assessment and risk reporting.”\n\n**Practice question** — How did your model support a credit limit decision?\n\n**Before** — “I used Excel to track transactions and help set limits.”\n\n**After** — “For one commercial client, my analysis supported [verified recommendation]. I calculated exposure from [actual inputs] and compared it with [approved limit]. The signal that drove my recommendation was [verified finding]. I checked the calculation against [source], shared it with [decision owner] and followed up on [actual next step].”\n\n**Behavioural scaffold.** Choose a real example of a disputed figure or competing reporting deadlines. Explain the situation, the responsibility you owned, the evidence you checked, how you communicated the decision and the result.\n\n**Delivery drill.** Answer in one sentence, give two supporting details and pause. Ask the listener to repeat the recommendation and one reason. Fill the brackets with verified details from a real anonymised account."
+      "content": "**Project** — Supporting a credit limit decision at R.K. Clearing.\n\n**Baseline answer — illustrative**\n\n“I used Excel to track transactions and helped set credit limits for commercial clients.”\n\n**Fixed answer — fill in a real anonymised account**\n\n“During a review of [account situation], I was responsible for checking whether the calculated exposure supported [actual decision under review]. I reconciled [source records] as of [date], calculated exposure using [actual method] and compared it with [approved limit]. The main risk signal was [verified finding]. I recommended [actual action] to [approval owner]. The outcome was [observed result or confirmed handoff].”\n\n**Justification** — The revised answer follows situation, task, action and result. It leads the interviewer from the account decision to the calculation and validation, then identifies the candidate's contribution and the approval owner."
     },
     {
-      "title": "High-Priority Interview Questions",
+      "title": "High-Risk Questions (The Landmines)",
       "sectionType": "content",
-      "content": "1. Which part of your R.K. Clearing experience best fits this role?\n2. How do the €300k portfolio, €2.4m transaction volume and approximately €400k reported exposure differ?\n3. Walk through an Excel exposure calculation. Where could a data error enter, and what check would catch it?\n4. What would lead you to maintain, reduce or increase a client's approved limit? Who approved the decision?\n5. Give a counterparty assessment that influenced a pricing discussion. What did you personally contribute?\n6. Which finding from your weekly reports across four sectors mattered most to leadership? What did you recommend?\n7. If collections slow, what changes in your rolling working capital forecast and when?\n8. Describe a cash flow variance you investigated. How did you separate timing effects from changes in operating activity?\n9. How did you reconcile the €6m Sanden Vikas dashboard to source data and estimate the five-hour saving?\n10. How did you test the flags and formulas in your simulated-data dashboard?\n11. What did the dissertation find about capital buffers and solvency? What does one limitation mean for interpreting the result?\n12. When someone challenged one of your figures, what did you verify, what did you say and what happened?\n\nAfter each answer, ask one follow-up about ownership and one about evidence or the trade-off behind the decision."
+      "content": "“What did the €300k portfolio, €2.4m transaction volume and approximately €400k reported exposure each measure?” **(Risk — Communication 1.75)**\n\n“Walk me through one Excel exposure calculation. What source records did you reconcile and what would trigger review?” **(Risk — Technical 2.7)**\n\n“What did you personally own in the credit limit work for 40 commercial clients and who approved the recommendation?” **(Risk — Structure 3.2)**\n\n“If collections slowed, what would happen to the cash forecast and what would you tell leadership first?” **(Risk — Technical 2.7 and Communication 1.75)**\n\n“How did you reconcile the Sanden Vikas dashboard and estimate the five-hour reporting saving?” **(Risk — Resume evidence 3.2)**\n\n“How did you use panel data to study bank capital buffers and solvency? What limitation affects your interpretation?” **(Risk — Technical 2.7)**\n\n“Tell me about a stakeholder who challenged a figure. What did you verify, what did you communicate and what happened?” **(Risk — Behavioural 3.4 and Structure 3.2)**"
     },
     {
-      "title": "Mock Interview Plan",
+      "title": "Mock Interview Plan (Mentor-Led)",
       "sectionType": "mockGraphs",
       "graphs": [
         {
-          "title": "Suggested four-session practice schedule",
+          "title": "Mock Interview Timeline",
           "type": "timeline",
           "data": [
             {
-              "timing": "Week 1",
-              "label": "Session 1: Baseline communication",
-              "duration": "30 minutes",
-              "objective": "Record the introduction and credit limit answer. Check whether the listener can identify the recommendation, risk signal and Aditya's contribution."
-            },
-            {
-              "timing": "Week 2",
-              "label": "Session 2: Technical depth",
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: The Diagnostic Walkthrough",
               "duration": "45 minutes",
-              "objective": "Trace the exposure calculation to source records. Probe the limit decision, reconciliation and the assumption most likely to change the conclusion."
+              "objective": "Check resume flow, headline-first delivery and definitions for the three R.K. Clearing figures."
             },
             {
-              "timing": "Week 3",
-              "label": "Session 3: Collaboration and trade-offs",
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: Technical Deep-Dive",
+              "duration": "50 minutes",
+              "objective": "Trace a commercial exposure calculation, test the reconciliation and ask what would change the recommendation."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: Behavioural Impact & Stakeholders",
               "duration": "45 minutes",
-              "objective": "Explain slower collections to two audiences. Discuss one disputed figure or reporting deadline and how Aditya communicated the evidence."
+              "objective": "Use a real disputed figure and explain one forecast finding to two audiences."
             },
             {
-              "timing": "Week 4",
-              "label": "Session 4: Role-specific simulation",
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: The Final Pressure Test",
               "duration": "60 minutes",
-              "objective": "Use a Credit Risk Analyst vacancy. Repeat the account prompt and test a fresh liquidity case, dissertation explanation and behavioural example."
+              "objective": "Repeat the baseline and add a liquidity case, dissertation follow-up and behavioural question."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            {
+              "label": "Session 1: Communication and Structure",
+              "value": 9,
+              "max": 10
+            },
+            {
+              "label": "Session 2: Credit Risk Technical",
+              "value": 7,
+              "max": 10
+            },
+            {
+              "label": "Session 3: Behavioural + Stakeholders",
+              "value": 7,
+              "max": 10
+            },
+            {
+              "label": "Session 4: Full simulation",
+              "value": 10,
+              "max": 10
             }
           ]
         }
       ],
-      "content": "After each mock, record what the listener understood, the first question that exposed a gap and the next drill. Repeat the baseline account question in the final session."
+      "content": "**Session 1 — The Diagnostic Walkthrough**\n\n**Focus** — Resume flow and a 90-second account example.\n\n**Mentor push** — Ask the candidate to define the three financial figures, then repeat back the decision and personal contribution you heard.\n\n---\n\n**Session 2 — Technical Deep-Dive**\n\n**Focus** — Counterparty exposure, limit monitoring and reconciliation.\n\n**Mentor push** — Ask for one source check and an assumption that would change the conclusion. Introduce one inconsistent input and ask how the candidate would investigate it.\n\n---\n\n**Session 3 — Behavioural Impact & Stakeholders**\n\n**Focus** — A challenged figure and an explanation adapted to the audience.\n\n**Mentor push** — Ask what the stakeholder needed, what the candidate checked and what happened next. Request both analyst and executive versions of a forecast finding.\n\n---\n\n**Session 4 — The Final Pressure Test**\n\n**Focus** — Role-specific simulation with a repeat prompt and an unfamiliar liquidity case.\n\n**Mentor push** — Score the repeated answer using the same rubric. Record any remaining gap in calculation, evidence or communication.\r\n\r\nThe focus bars indicate suggested session emphasis out of 10."
     },
     {
-      "title": "Expected Outcome and How to Use This Plan",
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 1.75,
+      "targetScore": 3.0,
+      "maxScore": 5,
+      "metrics": [
+        {
+          "label": "Communication",
+          "current": "1.75",
+          "target": "3.0"
+        },
+        {
+          "label": "Answer Structure",
+          "current": "3.2",
+          "target": "4.0"
+        },
+        {
+          "label": "Technical",
+          "current": "2.7",
+          "target": "3.5"
+        },
+        {
+          "label": "Behavioural Story",
+          "current": "3.4",
+          "target": "4.0"
+        }
+      ],
+      "content": "**Proposed Overall Readiness target — 3.0/5**\n\n**Measurable change**\n\n- State the credit recommendation and your role in the opening two sentences.\n- Walk from source records to exposure and limit comparison, with one reconciliation and one assumption that would change the decision.\n- Explain delayed collections to a risk analyst and to senior leadership, with a clear cash implication and next action in both versions.\n\nTargets are coaching goals for the final mock. The main bar uses the supplied Overall Readiness baseline of 1.75."
+    },
+    {
+      "title": "How to Use This Plan",
       "sectionType": "howToUse",
       "candidateSteps": [
         {
           "icon": "FileCheck",
-          "title": "Verify financial claims",
-          "content": "Define the scope, period and source behind portfolio, volume and exposure. Bring an anonymised account example and state your contribution."
+          "title": "Complete the Week 1 drill before Session 1",
+          "content": "Bring the introduction and one anonymised account story. Verify the definitions and periods of the portfolio, volume and exposure figures."
         },
         {
           "icon": "FileText",
-          "title": "Prepare three walkthroughs",
-          "content": "Rehearse an exposure review, working capital forecast and variance investigation. Include the decision, evidence and one limitation."
+          "title": "Document the questions you struggled with",
+          "content": "Record the exact prompt and where the answer became unclear. Note whether you need a better source, calculation or explanation."
         },
         {
           "icon": "RotateCcw",
-          "title": "Practise audience shifts",
-          "content": "Explain one risk finding to an analyst and to senior leadership. Respond to two follow-ups and compare your revised answer with the first recording."
+          "title": "Re-practise difficult questions within 24 hours",
+          "content": "Rebuild the weakest answer using verified details. Record a fresh attempt and bring it to the next session."
+        },
+        {
+          "icon": "Target",
+          "title": "Use session feedback before moving on",
+          "content": "Repeat the key drill when the mentor identifies an unresolved gap. Bring one example that shows how you addressed it."
         }
       ],
       "mentorSteps": [
         {
-          "icon": "Target",
-          "title": "Test the reported communication risk",
-          "content": "Use Communication 1.75 and Overall Readiness 1.75 as baselines. Observe when the candidate reaches the point and how clearly he handles a challenge."
-        },
-        {
           "icon": "FileCheck",
-          "title": "Probe the credit risk reasoning",
-          "content": "Ask for the calculation, validation check and condition that would change the recommendation. Record Technical 2.7 separately. The separate Technical Readiness Score was blank."
+          "title": "Run the four sessions in order",
+          "content": "Use the same baseline account prompt in Sessions 1 and 4 and keep the scoring rubric consistent."
         },
         {
-          "icon": "CheckCircle2",
-          "title": "Reassess with evidence",
-          "content": "Repeat the baseline question and ask the listener to identify the recommendation, reasoning, ownership and next action. Agree on the next drill using the same rubric."
+          "icon": "AlertCircle",
+          "title": "Probe the calculation and its limits",
+          "content": "Ask for the input source, reconciliation and one factor that would change the recommendation. Record any knowledge gap to revisit."
+        },
+        {
+          "icon": "FileText",
+          "title": "Give written feedback after each mock",
+          "content": "Capture the question, the observed gap and one practice action. Keep Technical and Communication as distinct measures."
+        },
+        {
+          "icon": "Ban",
+          "title": "Review readiness against the target role",
+          "content": "Use the final simulation to identify which examples Aditya can explain and defend and which need further practice."
         }
       ],
-      "content": "**Desired outcome** — Aditya can state a credit or liquidity recommendation early, explain the reasoning and validate the calculation under follow-up.\n\n**Completion checks** — A concise introduction, an anonymised exposure walkthrough, a working capital scenario, a variance investigation, a plain-English dissertation explanation and one real behavioural example. In the final mock, the listener should be able to repeat the recommendation, Aditya's contribution and the next action."
+      "content": "**Review rule**\n\nIf the final mock still shows a gap in the exposure calculation or the recommendation, repeat the relevant drill and retest that prompt in Week 5.\n\n**Timeline**\n\n- Week 1 — Introduction, account walkthrough and verification of resume figures\n- Week 2 — Diagnostic walkthrough and technical deep-dive\n- Week 3 — Behavioural and stakeholder mock\n- Week 4 — Final role-specific mock and reassessment\n- Week 5 — Repeat targeted drills if needed"
     }
   ]
 }

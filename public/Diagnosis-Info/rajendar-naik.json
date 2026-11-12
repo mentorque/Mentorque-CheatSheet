@@ -14,7 +14,7 @@
     },
     "primaryRisk": "Technical Readiness Risk",
     "chartScaleNote": "The radar chart shows the five competency scores on the app's 5-point scale.",
-    "evidenceNote": "Based on the supplied scores and resume. Interview follow-ups are practice prompts.",
+    "evidenceNote": "Based on the supplied assessment scores and resume. Interview prompts are for practice.",
     "technicalReadinessNote": "Technical Readiness Score is a separate supplied metric. The scoring formula was not supplied."
   },
   "sections": [
@@ -26,7 +26,7 @@
         "values": [4.6, 5, 4.5, 4.6, 5],
         "maxValue": 5
       },
-      "content": "**Primary Risk: Technical Readiness Risk.**\n\nTechnical (4.5/5) is the lowest of the five competency scores. Resume and Behavioural are 4.6/5, while Structure and Communication are 5/5. Overall Readiness and the separate Technical Readiness Score are both 5/5.\n\nFocus the mock on whether you can explain the project controls behind your delivery results at Luna Software Solutions. Use one schedule change, one reporting improvement and one UAT handover to show the data you used, the decision you made and how you checked the outcome."
+      "content": "**Primary Risk: Technical Readiness Risk.**\n\nTechnical (4.5/5) is the lowest of the five competency scores. Resume and Behavioural are 4.6/5, while Structure and Communication are 5/5. Overall Readiness and the separate Technical Readiness Score are both 5/5.\n\nFocus the mock on explaining the project controls behind your delivery results at Luna Software Solutions. Use one schedule change, one reporting improvement and one UAT handover to show the data you used, the decision you made and how you checked the outcome."
     },
     {
       "title": "How This Risk Shows Up in Interviews",
@@ -44,19 +44,19 @@
       "steps": [
         {
           "title": "Verify the 25% result",
-          "description": "Rebuild the before-and-after calculation from records you can substantiate. Prepare a short explanation of the baseline, timeframe and your contribution."
+          "content": "Rebuild the before-and-after calculation from records you can substantiate. Prepare a short explanation of the baseline, timeframe and your contribution."
         },
         {
           "title": "Practise a schedule and RAID walkthrough",
-          "description": "Reconstruct a real dependency scenario and explain the schedule impact, escalation threshold, owner and revised milestone."
+          "content": "Reconstruct a real dependency scenario and explain the schedule impact, escalation threshold, owner and revised milestone."
         },
         {
           "title": "Defend reporting and UAT decisions",
-          "description": "Walk through a Power BI or Excel KPI and a UAT handover. Practise follow-ups about inconsistent data, open defects and sign-off."
+          "content": "Walk through a Power BI or Excel KPI and a UAT handover. Practise follow-ups about inconsistent data, open defects and sign-off."
         },
         {
           "title": "Run a mixed mock",
-          "description": "Use one technical scenario and one stakeholder STAR example. Ask the mentor to score Technical separately and record the evidence behind any change."
+          "content": "Use one technical scenario and one stakeholder STAR example. Ask the mentor to score Technical separately and record the evidence behind any change."
         }
       ]
     },
@@ -98,12 +98,28 @@
       "title": "How to Use This Plan",
       "sectionType": "howToUse",
       "candidateSteps": [
-        "Bring a redacted or reconstructed schedule, RAID entry and reporting example.",
-        "Verify the turnaround calculation and prepare a 90-second account of your role in one UAT handover."
+        {
+          "icon": "FileText",
+          "title": "Bring project controls examples",
+          "content": "Bring a redacted or reconstructed schedule, RAID entry and reporting example."
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Verify the result and rehearse the handover",
+          "content": "Verify the turnaround calculation and prepare a 90-second account of your role in one UAT handover."
+        }
       ],
       "mentorSteps": [
-        "Probe baseline, ownership, decision criteria and outcome evidence in each technical answer.",
-        "Record follow-up performance and score Technical and Technical Readiness Score separately using the assessment rubric."
+        {
+          "icon": "Target",
+          "title": "Probe technical depth",
+          "content": "Probe baseline, ownership, decision criteria and outcome evidence in each technical answer."
+        },
+        {
+          "icon": "CheckCircle2",
+          "title": "Record the assessment scores",
+          "content": "Record follow-up performance and score Technical and Technical Readiness Score separately using the assessment rubric."
+        }
       ]
     }
   ]

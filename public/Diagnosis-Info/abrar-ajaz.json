@@ -42,7 +42,8 @@
     },
     "targetRoleStatus": "Resume-based positioning; no target job description supplied.",
     "visualizationConvention": "Charts follow the reference template maximum of 5. Score scales are not independently confirmed.",
-    "coachingTargets": "4.0 and 4.5 are proposed practice goals on the reference five-point convention, not supplied assessment results or predicted gains. Confirm the rubric before using them as assessment gates."
+    "coachingTargets": "4.0 and 4.5 are proposed practice goals on the reference five-point convention, not supplied assessment results or predicted gains. Confirm the rubric before using them as assessment gates.",
+    "interpretationNote": "Interview behaviors described as risks or likely struggles are coaching hypotheses based on the supplied scores, not observed interview findings. Sample answers reorganize resume claims; they are not candidate transcripts. Practice targets are proposed goals, not predicted assessment results."
   },
   "sections": [
     {
@@ -65,12 +66,12 @@
         ],
         "maxValue": 5
       },
-      "content": "**Primary Risk: Communication & Confidence Risk.**\n\nAbrar, your resume gives you substantial material to discuss: a 12-product launch associated with 38% sales-volume growth, distributor expansion into five territories, international seafood procurement spanning 200 tonnes, and retail replenishment across 3,500 SKUs. Your immediate preparation priority is to turn that experience into clear, focused interview answers.\n\n**What the scores tell us:** Communication **2.25** is the first coaching priority. Structure **3.2** and Technical **3.3** also need attention, while Behavioural **3.6** is a relative strength to build on. Overall Readiness is **2.25**, and Resume is **3.2**. These are the reported assessment results; Technical Readiness Score was not supplied.\n\n**The experience-to-explanation gap:** Your strongest answers need to connect a business problem to your own decision, the operational or commercial reasoning, and a defensible result. Saying “I managed procurement of 200 tonnes” establishes scope; explaining one supplier decision, its trade-off and its outcome demonstrates judgment.\n\n**Fix order:** Clear delivery first, answer structure second, and role-specific depth alongside both. Use your stronger behavioral examples to practice this sequence. The risk label guides preparation; whether the difficulty is pacing, unclear ownership, incomplete knowledge or confidence must be checked in the first mock.\n\nFor each application, lead with the experience most relevant to the vacancy: account growth and negotiation for account management; sourcing, replenishment and cold-chain operations for procurement or supply chain roles."
+      "content": "**Primary Risk: Communication & Confidence Risk — Experience That Needs a Clearer Interview Voice.**\n\nAbrar, your resume shows commercial and operational responsibility: launching a 12-product portfolio associated with 38% sales-volume growth at Global Star Speciality Foods, managing international seafood procurement spanning 200 tonnes at Frozen Basket, and supervising replenishment across 3,500 SKUs at Circle K. You have concrete experience to bring into an interview. The priority is making that experience easy for the interviewer to understand and probe.\n\nYour Communication score of **2.25**, alongside Structure **3.2**, Technical **3.3** and Behavioural **3.6**, makes spoken delivery the first coaching priority. Resume is **3.2**, and Overall Readiness is **2.25**. Behavioural is your relative strength: use specific negotiation and team examples as the starting material for clearer answers.\n\n**The Mapping Rule Analysis:**\n\n“I managed 200 tonnes of procurement” communicates scale. It does not yet explain what you decided, why that decision made sense, or how you handled the cost, delivery and quality trade-offs. With Communication at 2.25, the risk is that an interviewer hears the size of your responsibilities without understanding the judgment behind them. Structure 3.2 and Technical 3.3 mean the solution must combine clearer delivery with a more explicit decision sequence and stronger follow-up preparation.\n\n**Your central coaching challenge: make your contribution as clear as your results.** Start with one business problem, explain your own action and reasoning, and close with a result you can defend. This is a score-led coaching interpretation; the first mock should establish which delivery difficulties actually occur."
     },
     {
       "title": "How This Risk Shows Up in Interviews",
       "sectionType": "content",
-      "content": "The following are interview risks to test, rather than observed interview behavior.\n\n**Scenario A: The Resume Walkthrough**\n\n**Interviewer Probe:** “You have worked in account management, procurement and retail operations. Why are you a good fit for this role?”\n\n**Score Connection:** Communication 2.25 makes a concise, relevant introduction the first practice task. A chronological list of every duty can hide the fit between your experience and the vacancy.\n\n**Practice Response:** Give your professional focus, two relevant examples and a clear reason for applying. Record a 90-second version. Ask the listener to repeat your main value proposition; revise if it is unclear.\n\n---\n\n**Scenario B: The Achievement Follow-Up**\n\n**Interviewer Probe:** “How did the 12-product launch increase sales volume by 38%?”\n\n**Score Connection:** Structure 3.2 and Communication 2.25 make this a useful test of whether you can explain an achievement beyond the headline. Technical 3.3 makes measurement and commercial reasoning important follow-ups.\n\n**Watch For:** Listing products or team activities without identifying your actions, the comparison period and how volume was measured.\n\n**Practice Response:** Explain the business need, your responsibility, two key decisions and the measured result. Then answer: “What else contributed?” and “Did revenue or margin grow as well?”\n\n---\n\n**Scenario C: The Operational Decision**\n\n**Interviewer Probe:** “You report 92% data accuracy after reconciling 500 SKUs. What did accuracy mean, and how did you handle outstanding exceptions?”\n\n**Score Connection:** Technical 3.3 calls for testing the method; Communication 2.25 calls for explaining it plainly. The resume does not specify the denominator or accuracy calculation, so do not assume 8% means 40 incorrect SKUs.\n\n**Practice Response:** Define the checked fields, validation method, your action and remaining exceptions. Explain the initial accuracy only if you have evidence for it.\n\n---\n\n**Scenario D: Negotiation and Team Coordination**\n\n**Interviewer Probe:** “Tell me about a negotiation where supplier cost, customer margin and the relationship were in tension.”\n\n**Score Connection:** Build on Behavioural 3.6. Select one genuine incident and make the disagreement, your decision and the outcome easy to follow. Preserve the substance while improving delivery."
+      "content": "**Scenario A: The Resume Walkthrough (15m)**\n\n**The Red Flag:** “Abrar, you have worked in account management, procurement and retail operations. Walk me through the experience that makes you right for this role.”\n\n**Justification:** Communication **2.25** makes this your first test. The risk is a chronological list of employers and responsibilities that leaves the interviewer to connect the dots. Your experience spans several functions; your answer needs one clear thread relevant to the vacancy.\n\n**Required Shift:** Open with your professional focus, select two relevant achievements, and explain why they matter for this role. Keep the first answer within 90 seconds.\n\n---\n\n**Scenario B: The Commercial Deep-Dive (20m)**\n\n**The Red Flag:** “You launched 12 products and increased sales volume by 38%. What did you personally do, and why did it work?”\n\n**Justification:** Structure **3.2** and Communication **2.25** create a risk that the answer jumps from activities to the outcome without explaining the decision sequence. Technical **3.3** adds a second challenge: defending the comparison period, volume measure and commercial trade-offs.\n\n**Required Shift:** Explain the customer or market need, your responsibility, two specific decisions and the result. Prepare for “How did you measure 38%?” and “Did margin improve too?”\n\n---\n\n**Scenario C: The Procurement Decision (20m)**\n\n**The Red Flag:** “Walk me through one purchase from the €470,000 seafood procurement work. How did you balance cost, quality, lead time and inventory exposure?”\n\n**Justification:** A large procurement figure establishes scope, but Technical **3.3** means the decision-making needs preparation. Combined with Communication **2.25**, the risk is naming suppliers, quantities and logistics activities without explaining your own choice.\n\n**Required Shift:** Take one actual transaction from requirement to receipt. State what you decided, what required approval and which trade-off mattered most.\n\n---\n\n**Scenario D: The Behavioral Blend**\n\n**The Red Flag:** “Tell me about a supplier negotiation or team disagreement where your first approach did not work.”\n\n**Justification:** Behavioural **3.6** gives you a relative strength to use. The delivery risk is burying the disagreement, your response and the learning under background detail.\n\n**Required Shift:** Use one specific incident. Spend most of the answer on your actions and their consequences. These scenarios guide the mock; they are not observations of past interview behavior."
     },
     {
       "title": "Priority Fix Order",
@@ -78,41 +79,41 @@
       "steps": [
         {
           "week": "Week 1",
-          "title": "Clear Delivery: The 90-Second Drill",
-          "content": "Record your introduction and one achievement answer each day. Give the headline first, use two or three actions, then close with the result. Practice a 30-second summary and a 90-second explanation. Focus: Communication 2.25; proposed practice goal 4.0."
+          "title": "The “Clear Voice” Drill",
+          "content": "Turn four achievements into 60-90 second spoken answers: the product launch, distributor expansion, procurement and SKU reconciliation. Give the headline first, explain your contribution and finish with the result. Record each answer, then ask a listener to summarize what you personally did. **Practice Target:** Communication 2.25 → 4.0."
         },
         {
           "week": "Week 2",
-          "title": "Structure: Turn Achievements into Decisions",
-          "content": "Prepare STAR outlines for the 12-product launch, five-territory expansion, seafood procurement and SKU reconciliation. State your role explicitly. Explain one choice and its trade-off in each answer. Focus: Structure 3.2; proposed practice goal 4.0."
+          "title": "The “Decision Behind the Result” Drill",
+          "content": "Rebuild each answer around Situation, Task, Action and Result. Include one decision and its reason. For the 38% growth example, explain the launch choices rather than repeating the percentage. **Practice Target:** Structure 3.2 → 4.2."
         },
         {
           "week": "Week 3",
-          "title": "Technical Depth: Defend the Numbers",
-          "content": "Prepare the baseline, period, unit and evidence for 38% volume growth, 20% turnaround reduction and 92% accuracy. Trace one real procurement transaction and one replenishment decision. Focus: Technical 3.3; proposed practice goal 4.0."
+          "title": "Commercial and Operational First Principles",
+          "content": "Defend one seafood purchase, the SKU accuracy calculation and the route-planning change. Prepare the real baseline, comparison period, unit and evidence for each result. Link cost, lead time, quality and stock availability to the decisions you actually made. **Practice Target:** Technical 3.3 → 4.0."
         },
         {
           "week": "Week 4",
-          "title": "Integrated Mock: Clear Answers Under Follow-Up",
-          "content": "Run a role-specific interview with commercial, operational and behavioral questions. Reuse baseline prompts to measure progress. Proposed stretch goals: Communication and Overall Readiness 4.5, subject to a confirmed rubric. Repeat specific unresolved drills after feedback."
+          "title": "The Follow-Up Pressure Test",
+          "content": "Complete a full mock for one target vacancy. Answer the first question concisely, then handle two or three deeper follow-ups per example. Combine clear delivery with the substance of your behavioral stories. **Stretch Targets:** Communication 4.5; Overall Readiness 4.5."
         }
       ],
-      "content": "Follow this sequence, using the first mock to refine the priorities. Numerical targets below are proposed coaching goals under the reference template's five-point convention; they are not predicted improvements. Confirm the assessment rubric before treating them as pass thresholds."
+      "content": "Complete the preparation for each phase before its corresponding mock. Targets are proposed coaching goals using the reference template's five-point convention; the mentor should confirm the rubric before using them as score gates."
     },
     {
       "title": "Resume-Anchored Technical Prep",
       "sectionType": "content",
-      "content": "**Example 1: Global Star Speciality Foods - Product Launch and Account Growth**\n\n**Interviewer Probe:** “What did you personally do to deliver 38% sales-volume growth across key accounts and distributors?”\n\n**Risk to Test:** An outcome-heavy answer that omits the decisions behind the 12-product launch. This combines the Communication 2.25, Structure 3.2 and Technical 3.3 priorities.\n\n**Prep Drill:** Create a one-page account of the launch: customer need, product selection, pricing or assortment decision, distributor coordination, your contribution and measurement. Explain volume versus revenue and gross margin. Define the comparison period and avoid attributing all growth to the launch without evidence.\n\n**Completion Check:** Explain the launch in 90 seconds and answer two follow-ups about measurement and profitability without adding unsupported details.\n\n---\n\n**Example 2: Frozen Basket - €470,000 Procurement Across 200 Tonnes**\n\n**Interviewer Probe:** “Walk me through one international seafood purchase. How did you balance supplier cost, lead time, quality and inventory exposure?”\n\n**Risk to Test:** Describing transaction size without showing the procurement reasoning or personal decision authority.\n\n**Prep Drill:** Trace one actual purchase through requirement, supplier comparison, approval, ordering, delivery and receipt. Prepare the cost components and cold-chain checks within your responsibility. Explain who owned customs, transport, payment and quality acceptance. State the time period covered by €470,000 and 200 tonnes; explain any conversion to euros.\n\n**Completion Check:** Draw the actual procurement flow and defend one decision against a realistic alternative. If a stage belonged to another colleague, say so.\n\n---\n\n**Example 3: Circle K - Replenishment and SKU Reconciliation**\n\n**Interviewer Probe:** “How did weekly replenishment work across 3,500 SKUs, and how did you validate 92% data accuracy after reconciling 500 SKUs?”\n\n**Risk to Test:** Mixing replenishment scope with reconciliation scope, or quoting an accuracy figure without defining it.\n\n**Prep Drill:** Explain one replenishment cycle, the information used, your use of RELEX or Octane where applicable, and how promotions or perishability changed decisions. Separately document the 500-SKU reconciliation: checked fields, source of truth, error definition, validation and outstanding exceptions. Prepare an Excel reconciliation demonstration using anonymized or clearly labeled synthetic data.\n\n**Completion Check:** Keep the two processes distinct and explain one practical stock-availability versus waste trade-off. Do not invent an initial accuracy level.\n\n---\n\n**Example 4: Sterling Ventures - Zone-Based Route Planning**\n\n**Interviewer Probe:** “How did your route-planning model reduce order fulfilment turnaround time by 20%?”\n\n**Risk to Test:** Explaining geographic zones without defining turnaround time, delivery constraints or how the change was evaluated.\n\n**Prep Drill:** Sketch the before-and-after process. Define the start and end of turnaround measurement, comparison period and routing constraints. Separate the measured 20% time reduction from the unquantified gross-margin improvement.\n\n**Completion Check:** Explain the routing logic, one trade-off and the source of the outcome figure in two minutes."
+      "content": "**Experience 1: Global Star Speciality Foods — 12-Product Launch and 38% Sales-Volume Growth**\n\n**Interviewer Probe:** “How did you choose the products, work with distributors and measure the 38% increase?”\n\n**Likely Struggle:** The score-led risk is an answer that lists launch activities but leaves your commercial reasoning unclear. Communication **2.25** affects how easily the story can be followed; Structure **3.2** makes the sequence important; Technical **3.3** calls for a defensible measurement explanation.\n\n**Prep Drill:** Prepare the customer need, your specific role, two launch decisions and the result. Write down the baseline, comparison period and volume unit behind 38%. Explain the difference between volume growth, revenue growth and margin. Practice a 90-second launch story, then answer “Why those products?” and “What else contributed to the increase?” Use only the choices and measurements you can support.\n\n---\n\n**Experience 2: Frozen Basket — €470,000 International Seafood Procurement Across 200 Tonnes**\n\n**Interviewer Probe:** “Describe one supplier decision. Why was that option better once cost, lead time, quality and cold-chain requirements were considered?”\n\n**Likely Struggle:** Quoting the procurement value and tonnage without explaining one actual trade-off. This would leave the interviewer uncertain about your personal decision authority, despite the scale on the resume.\n\n**Prep Drill:** Draw one real purchase flow: requirement → supplier comparison → approval → order → delivery → receipt. Mark your responsibility at each stage. Prepare one decision, one alternative and the reason for your choice. Define the period covered by the procurement figures and explain any currency conversion. Discuss customs, transport, quality acceptance or payment only within your actual involvement.\n\n---\n\n**Experience 3: Circle K — 3,500-SKU Replenishment and 500-SKU Reconciliation**\n\n**Interviewer Probe:** “How did replenishment work, and what did 92% data accuracy mean after migration?”\n\n**Likely Struggle:** Combining two different processes into a list of duties: replenishment across 3,500 SKUs and reconciliation of 500 SKUs. Technical **3.3** makes the method important; Communication **2.25** makes separating the explanations essential.\n\n**Prep Drill:** Prepare two short walkthroughs. First, explain the replenishment inputs, review cycle and response to a promotion or availability issue. Second, explain the reconciliation source, checked fields, accuracy calculation and exception handling. Demonstrate one reconciliation using anonymized or clearly labeled practice data. Do not infer that 92% refers to whole SKUs rather than fields or records, or claim an improvement without an initial baseline.\n\n---\n\n**Experience 4: Sterling Ventures — Zone-Based Routing and 20% Faster Order Fulfilment**\n\n**Interviewer Probe:** “What changed in the route-planning process, and how did you establish the 20% turnaround reduction?”\n\n**Likely Struggle:** Describing the zones without connecting the design to delivery constraints and measurement. The route map alone does not explain the result.\n\n**Prep Drill:** Sketch the old and new process. Define turnaround start and finish, the comparison period and the data used. Explain one routing trade-off. Keep the measured 20% reduction separate from the resume's unquantified delivery-margin improvement. Practice the explanation in two minutes, followed by “What would make this routing approach stop working?”"
     },
     {
       "title": "Interview Answer Construction Guidance",
       "sectionType": "content",
-      "content": "**Example: The 12-Product Launch at Global Star Speciality Foods**\n\n**Weak Example - illustrative, not an observed answer:**\n\n“I managed accounts and worked with distributors. We launched products and sales increased by 38%. I also handled pricing and the team.”\n\n**Why This Is Weak:** It names activities and a result but leaves the business problem, personal contribution and reasoning unclear.\n\n**Stronger Answer Scaffold - fill brackets with verified details:**\n\n“At Global Star Speciality Foods, the business needed [specific customer or market outcome]. My responsibility in the 12-product launch was [your exact scope]. I identified [evidence of demand], chose [specific action] because [reason], and coordinated [actual activity] with [relevant colleagues or distributors]. Sales volume increased by 38% over [comparison period], measured using [source and unit]. My contribution was [specific decision or execution], while [other contributors or limitations] also affected the result.”\n\n**Why This Works:** It follows Situation -> Task -> Action -> Result, makes ownership visible and leaves space for commercial judgment. The 12 products and 38% increase come from your resume; the missing methods and periods must come from your own evidence.\n\n**Delivery Drill:** Say the answer aloud in 90 seconds. Repeat it in 30 seconds without losing the main decision or result. Then answer “Why that approach?” and “How do you know it worked?” Record both versions and ask a listener what you personally contributed.\n\n**Behavioral Version:** Use the same structure for one real negotiation, team disagreement or operational error. Build on Behavioural 3.6 by keeping the event specific and explaining what you learned."
+      "content": "**Experience: Zone-Based Route Planning at Sterling Ventures.**\n\nThe examples below illustrate answer construction; neither is an observed interview transcript. The stronger version uses the claims already in your resume and does not add a new baseline or method.\n\n**Baseline Example — Activity List:**\n\n“At Sterling Ventures, I managed accounts and deliveries. I worked on routes and inventory. We changed the delivery routes, which improved turnaround by 20%. I also handled customer margins.”\n\n**Stronger Example — Clear Contribution and Result:**\n\n“At Sterling Ventures, I managed more than 50 institutional and HoReCa accounts. Alongside account management, I worked on delivery efficiency. My contribution was implementing a zone-based route-planning model. The change reduced order fulfilment turnaround time by 20% and improved delivery gross margins. The result I can quantify from this example is the 20% turnaround reduction; I would explain the margin benefit separately rather than assign it the same percentage.”\n\n**Justification:** The stronger answer establishes context, names your contribution and distinguishes the quantified result from a separate benefit. It directly addresses Communication **2.25** and Structure **3.2** without inventing additional achievements.\n\n**The Follow-Up Layer:** The resume gives the action and result, but not the full reasoning or measurement. Before using this answer, add your actual explanation of:\n\n- What delivery problem prompted the change.\n- How the zones were chosen and which constraints mattered.\n- Your decision authority and other people's contributions.\n- How turnaround was defined and the comparison used to establish 20%.\n\n**Practice Rule:** Deliver the opening in 60 seconds, then the deeper explanation in two minutes. The goal is to make the first answer easy to follow and the follow-up substantive. Do not memorize a polished script that you cannot explain in your own words."
     },
     {
       "title": "High-Risk Questions (The Landmines)",
       "sectionType": "content",
-      "content": "**“Why this role when your experience spans sales, procurement and retail?”**\nRisk: Communication 2.25. Connect the vacancy to two relevant examples rather than listing your entire career.\n\n**“What did you personally do to generate the 38% sales-volume increase?”**\nRisk: Structure 3.2 and Communication 2.25. Separate your actions, shared work and the result.\n\n**“How was that 38% measured, and what happened to margin?”**\nRisk: Technical 3.3. Prepare the period, unit, baseline and profitability evidence actually available.\n\n**“What did you own in the €470,000, 200-tonne procurement work?”**\nRisk: Technical depth and ownership clarity. Explain one transaction and the limits of your authority.\n\n**“What does 92% accuracy mean, and what happened to remaining exceptions?”**\nRisk: Technical 3.3. Define the accuracy calculation before discussing outstanding errors.\n\n**“How did route planning reduce turnaround time by 20%?”**\nRisk: Technical explanation plus Communication 2.25. Explain the process change and measurement separately.\n\n**“Tell me about a supplier or customer negotiation that did not initially go your way.”**\nPractice opportunity: Behavioural 3.6. Show a genuine disagreement, your response and the outcome.\n\n**“How did your responsibilities change as the operation grew from five to 30 people?”**\nRisk: Scope and leadership clarity. Distinguish organizational growth, direct reports and coordination responsibilities."
+      "content": "“You have worked across account management, procurement and retail operations. What is the common thread, and why this role?” **(Risk: Communication 2.25 — unclear career positioning)**\n\n“Walk me through the 12-product launch. What did you personally decide?” **(Risk: Structure 3.2 + Communication 2.25 — contribution hidden behind activities)**\n\n“How did you measure the 38% sales-volume increase? What was the period, baseline and unit?” **(Risk: Technical 3.3 — measurement depth)**\n\n“You expanded into five territories and generated €50,000 in sales. How did you select distributors, and what does that sales figure cover?” **(Risk: Technical 3.3 + Communication 2.25 — commercial reasoning and clarity)**\n\n“In the 200-tonne procurement work, describe one time the lowest purchase price was not the best overall option.” **(Risk: Technical 3.3 — trade-off reasoning; use a genuine case if one exists)**\n\n“What exactly did 92% accuracy measure after SKU reconciliation, and how did you prioritize outstanding exceptions?” **(Risk: Technical 3.3 — accuracy definition and operational judgment)**\n\n“How did zone-based routing reduce turnaround time by 20%? Why did the chosen approach fit your delivery constraints?” **(Risk: Structure 3.2 + Technical 3.3 — method-to-result connection)**\n\n“Tell me about a negotiation or disagreement that went badly at first. What did you change?” **(Focus: Build on Behavioural 3.6 while improving spoken delivery)**"
     },
     {
       "title": "Mock Interview Plan (Mentor-Led)",
@@ -124,27 +125,27 @@
           "data": [
             {
               "timing": "Week 2, Day 1",
-              "label": "Session 1: Resume Walkthrough and Delivery",
+              "label": "Session 1: The Communication Diagnostic",
               "duration": "45 minutes",
-              "objective": "Establish clear introduction and achievement explanations; prioritize Communication 2.25 and Structure 3.2."
+              "objective": "Use the introduction and route-planning example to identify the delivery bottleneck behind Communication 2.25. Check structure and personal contribution."
             },
             {
               "timing": "Week 2, Day 5",
-              "label": "Session 2: Procurement and Operations Deep-Dive",
+              "label": "Session 2: The Commercial and Operational Deep-Dive",
               "duration": "50 minutes",
-              "objective": "Test procurement reasoning, replenishment, accuracy measurement and claim ownership; focus on Technical 3.3."
+              "objective": "Probe product-launch reasoning, one procurement decision and SKU accuracy. Test Technical 3.3 with substantive follow-ups."
             },
             {
               "timing": "Week 3, Day 3",
-              "label": "Session 3: Negotiation and Behavioral Examples",
+              "label": "Session 3: Negotiation, Conflict and Team Impact",
               "duration": "45 minutes",
-              "objective": "Build on Behavioural 3.6 while checking specific actions, clear delivery and follow-up handling."
+              "objective": "Build on Behavioural 3.6. Make the disagreement, personal action, outcome and learning clear."
             },
             {
               "timing": "Week 4, Day 2",
-              "label": "Session 4: Full Interview Simulation",
+              "label": "Session 4: The Final Pressure Test",
               "duration": "60 minutes",
-              "objective": "Reassess communication and overall readiness against a selected job description and consistent rubric."
+              "objective": "Run a full role-specific interview and reassess Communication and Overall Readiness using the same rubric."
             }
           ]
         },
@@ -175,7 +176,7 @@
           ]
         }
       ],
-      "content": "**Session 1: Resume Walkthrough and Clear Delivery**\n\nAsk for a 90-second introduction and the 12-product launch example. Record an uninterrupted first answer, then ask who owned what and how the result was measured. Give feedback on the headline, relevance, sequence and clarity. Compare a written outline with the spoken explanation to identify the source of difficulty.\n\n---\n\n**Session 2: Procurement and Operational Decisions**\n\nTrace one seafood purchase, one replenishment decision and the SKU reconciliation process. Ask “Why this choice?”, “What alternative did you consider?” and “How did you check the result?” Document knowledge gaps separately from delivery issues.\n\n---\n\n**Session 3: Negotiation, Conflict and Team Coordination**\n\nAsk for one difficult negotiation, one operational mistake and one team disagreement. Probe personal action, trade-offs, outcome and learning. Build on the stronger behavioral score while improving concision.\n\n---\n\n**Session 4: Full Role-Specific Simulation**\n\nUse one actual job description. Include introduction, achievement walkthrough, commercial or operational scenario, behavioral question and candidate questions. Repeat comparable baseline prompts and score using the same rubric. End with specific feedback and the next practice task.\n\nThe focus bars show suggested mentor attention on a 10-point planning scale; they are not assessment scores. Use realistic follow-ups and allow clarification."
+      "content": "**Session 1: The Communication Diagnostic**\n\n**Focus:** A 90-second introduction and a clear achievement walkthrough.\n\n**Mentor Push:** “What is the main point?”, “What did you personally do?” and “Give me the result in one sentence.” Let Abrar finish the initial answer, then probe the route-planning example. Identify whether the observed issue is relevance, sequence, excessive detail or an incomplete explanation. Set the delivery drill from that evidence.\n\n---\n\n**Session 2: The Commercial and Operational Deep-Dive**\n\n**Focus:** The product launch, one seafood purchase and SKU accuracy.\n\n**Mentor Push:** Ask “Why that option?”, “What alternative did you consider?” and “How do you know the result?” Make Abrar explain the commercial or operational reasoning behind the resume numbers. Separate a knowledge gap from a correct answer that is difficult to follow.\n\n---\n\n**Session 3: Negotiation, Conflict and Team Impact**\n\n**Focus:** Specific behavioral stories with concise delivery.\n\n**Mentor Push:** Ask for one supplier or customer negotiation, one disagreement and one operational mistake. Probe the action taken and what changed. Use Behavioural 3.6 as the starting strength; do not let background detail replace the decision and result.\n\n---\n\n**Session 4: The Final Pressure Test**\n\n**Focus:** A full interview for one actual vacancy.\n\n**Mentor Push:** Move from an initial answer into two or three follow-ups. Include “Why this role?”, an achievement, a role-specific scenario and a behavioral question. Reuse baseline prompts and the same rubric to check improvement in Communication and Overall Readiness.\n\nFocus bars represent suggested mentor attention on a ten-point planning scale, not candidate assessment scores."
     },
     {
       "title": "Expected Outcome",
@@ -192,7 +193,7 @@
         {
           "label": "Structure",
           "current": "3.2",
-          "target": "4.0"
+          "target": "4.2"
         },
         {
           "label": "Technical",
@@ -205,7 +206,7 @@
           "target": "4.0"
         }
       ],
-      "content": "**Proposed Stretch Goal: Overall Readiness 4.5 under the reference five-point convention.**\n\nThe current Overall Readiness is the supplied **2.25**, not a calculated average. The chart targets are coaching goals, not promised gains; confirm the scoring rubric before using them as gates.\n\n**Measurable Change:**\n\n- Give a clear 90-second introduction tailored to one vacancy.\n- Explain the 12-product launch, one procurement transaction and SKU reconciliation in two minutes each, identifying your own decisions.\n- Define the baseline, period, unit and evidence for the reported 38% sales-volume increase, 20% turnaround reduction and 92% accuracy.\n- Answer two relevant follow-ups per example with accurate detail or a clearly stated knowledge boundary.\n- Deliver four specific behavioral examples covering negotiation, disagreement, an error and team coordination.\n\n**The Intended Change:** Move from listing scope and achievements to explaining the business problem, your reasoning, your actions and the evidence for the result. Reassess Communication and Overall Readiness separately, while continuing to develop structure and technical depth."
+      "content": "**Target Overall Readiness: 4.5.** This is a proposed coaching goal using the reference template's five-point convention. The supplied current Overall Readiness is **2.25**; it is not an average of the competency scores.\n\n**Measurable Change:**\n\n- Move from “I handled procurement and logistics” to a clear account of one purchase, your decision, the trade-off and the outcome.\n- Move from repeating “38% growth” to explaining your product-launch contribution and the measurement behind that figure.\n- Separate replenishment scope from SKU reconciliation and explain the 92% accuracy calculation plainly.\n- Deliver the route-planning example in 60 seconds, then defend the method and reported 20% improvement under follow-up.\n- Give four specific behavioral stories with a visible disagreement or challenge, personal action, result and learning.\n\n**The After Profile:** A commercial and operations professional whose spoken explanations make responsibility, judgment and impact as visible as the numbers on the resume.\n\nUse the first mock to establish the delivery baseline and the final mock to check these behaviors. Numerical targets should use a confirmed rubric; they are goals, not guaranteed score gains or a hiring prediction."
     },
     {
       "title": "How to Use This Plan",
@@ -213,48 +214,48 @@
       "candidateSteps": [
         {
           "icon": "FileCheck",
-          "title": "Prepare four achievement outlines",
-          "content": "Use the product launch, international procurement, SKU reconciliation and route-planning examples. Verify the numbers and your contribution."
+          "title": "Complete the Clear Voice Drill before Session 1",
+          "content": "Prepare the introduction and four 60-90 second achievement answers. Every answer needs a clear point, personal contribution and result."
         },
         {
           "icon": "FileText",
-          "title": "Record short and detailed answers",
-          "content": "Practice a 30-second headline, 90-second explanation and two follow-ups. Keep the reasoning clear at each length."
+          "title": "Document the exact questions you struggled with",
+          "content": "After each session, capture the question and where the answer became unclear: positioning, sequence, reasoning, measurement or follow-up."
         },
         {
           "icon": "RotateCcw",
-          "title": "Re-practice specific weak answers",
-          "content": "Use feedback to improve the exact answer within 24 hours, then try a related follow-up."
+          "title": "Re-practice weak answers within 24 hours",
+          "content": "Rewrite the outline, record the answer and test it with two follow-ups. Use your own words and genuine evidence."
         },
         {
           "icon": "Target",
-          "title": "Check improvement against the baseline",
-          "content": "Compare recordings and mentor feedback for clarity, relevance, structure, evidence and accurate follow-ups."
+          "title": "Meet the completion check before the next mock",
+          "content": "A listener should be able to explain your contribution and result. You should also be able to defend the method and acknowledge any evidence limits."
         }
       ],
       "mentorSteps": [
         {
           "icon": "FileCheck",
-          "title": "Use the supplied scores accurately",
-          "content": "Prioritize Communication 2.25 and track Overall Readiness 2.25 separately. Keep Technical 3.3 distinct from the unsupplied Technical Readiness Score."
+          "title": "Keep communication as the first priority",
+          "content": "Use Communication 2.25 as the starting focus, with Structure 3.2 and Technical 3.3 as supporting preparation areas. Build on Behavioural 3.6."
         },
         {
           "icon": "AlertCircle",
-          "title": "Find the cause of the observed difficulty",
-          "content": "Separate delivery, structure, evidence and knowledge gaps. Compare written and spoken answers when the cause is unclear."
+          "title": "Probe beyond the headline result",
+          "content": "Ask for the decision, alternative, measurement and ownership boundary. Record where the explanation stops being clear or substantive."
         },
         {
           "icon": "FileText",
-          "title": "Give specific written feedback",
-          "content": "Quote the question, describe the observed issue and prescribe one drill. Check ownership and measurement without adding facts to the story."
+          "title": "Give written feedback tied to the answer",
+          "content": "Name the exact difficulty and assign one concrete drill. Distinguish an observed issue from a score-led hypothesis."
         },
         {
           "icon": "Target",
-          "title": "Retest using a consistent rubric",
-          "content": "Use the same scoring definitions and comparable prompts. Treat chart targets as proposed goals until the scale and rubric are confirmed."
+          "title": "Reassess using the same rubric",
+          "content": "Compare baseline and final answers. Track Communication and Overall Readiness separately; keep the unsupplied Technical Readiness Score blank."
         }
       ],
-      "content": "**Before Session 1:** Prepare the introduction and four achievement outlines. Verify metric definitions and contribution boundaries. Confirm the preferred contact email separately; the assessment and resume use different addresses.\n\n**After Every Session:** Capture the exact question, the observed difficulty, an improved outline and one repeatable drill. Re-practice that answer within 24 hours.\n\n**Progression:** Repeat a focused drill when the completion checks are not met. Use the numerical goals only after the rubric is confirmed. Continue applications alongside preparation and use real interview feedback to refine the plan.\n\n**Timeline:** Week 1 preparation; Week 2 Sessions 1-2; Week 3 Session 3; Week 4 Session 4; additional focused practice as needed. The plan supports interview preparation and does not guarantee a hiring outcome."
+      "content": "**Working Rule:** If an answer is unclear, repeat the delivery drill. If the reasoning is incomplete, prepare the concept or evidence before repeating the answer. More polished delivery cannot replace missing substance.\n\n**Timeline:**\n- Week 1: Clear Voice Drill and achievement outlines.\n- Week 2: Sessions 1-2; structure and technical follow-ups.\n- Week 3: Session 3; negotiation and behavioral delivery.\n- Week 4: Session 4; full interview simulation.\n- Week 5, if needed: Repeat the specific unresolved drills and mock sections.\n\nStart with the introduction and Sterling Ventures route-planning example. Record both before making changes so the mentor has a baseline for comparison."
     }
   ]
 }

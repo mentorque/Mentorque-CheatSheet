@@ -1,0 +1,261 @@
+{
+  "name": "Nicymol Shaji",
+  "email": "nicymolshaji515@gmail.com",
+  "targetRole": "GMP Medical Device Manufacturing / Life Sciences Operations",
+  "assessmentContext": {
+    "columnOrder": [
+      "Name",
+      "Email",
+      "Resume",
+      "Structure",
+      "Technical",
+      "Behavioural",
+      "Communication",
+      "Overall Readiness",
+      "Primary Risk",
+      "Technical Readiness Score"
+    ],
+    "scores": {
+      "Resume": 3.8,
+      "Structure": 2.4,
+      "Technical": 2.9,
+      "Behavioural": 2.4,
+      "Communication": 2.5,
+      "Overall Readiness": 2.5,
+      "Technical Readiness Score": 2.285714286
+    },
+    "suppliedScoresInOrder": [
+      3.8,
+      2.4,
+      2.9,
+      2.4,
+      2.5,
+      2.5
+    ],
+    "suppliedRisk": "Structuring Risk",
+    "scoreMappingStatus": "User-provided column order retained. Technical, Overall Readiness and Technical Readiness Score are separate reported metrics. No calculation or scale inferred for Technical Readiness Score.",
+    "evidence": "User-provided assessment row and one-page Nicymol Shaji resume. Resume claims are not independently verified. No interview transcript, recording or target job description supplied.",
+    "targetRoleStatus": "Positioning based on resume experience; tailor each mock to the actual vacancy.",
+    "interpretationNote": "Likely struggles and interview risks are coaching hypotheses to validate in a mock, not observed candidate behavior. Sample answers reorganize resume claims and are not interview transcripts.",
+    "chartConvention": "Five competency scores use the Nidhi reference template maximum of 5. Confirm the assessment scale and rubric before numerical comparisons or gates. Overall Readiness and Technical Readiness Score are not substituted into the competency chart.",
+    "coachingTargets": "All target scores are proposed practice goals on the reference five-point convention, not reported results or predicted score gains.",
+    "contactDiscrepancy": {
+      "assessmentEmail": "nicymolshaji515@gmail.com",
+      "resumeEmail": "shajinicymol@gmail.com",
+      "action": "Assessment email retained; confirm preferred contact address before outreach."
+    }
+  },
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": [
+          "Resume",
+          "Structure",
+          "Technical",
+          "Behavioural",
+          "Communication"
+        ],
+        "values": [
+          3.8,
+          2.4,
+          2.9,
+          2.4,
+          2.5
+        ],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: Structuring Risk — Relevant Manufacturing Experience Without a Clear Interview Sequence.**\n\nNicymol, your resume gives you a strong foundation for manufacturing interviews: GMP cleanroom catheter assembly at Boston Scientific, inspection and pressure testing of approximately 400 catheters per shift, 10+ non-conformances escalated to Quality, and 98% individual documentation accuracy in SmartFactory MES. Your Resume score of **3.8** reflects a stronger assessment result than your Structure **2.4**, Behavioural **2.4** and Communication **2.5**. The coaching priority is turning that experience into answers that make your responsibility, actions and judgment easy to follow.\n\n**The Mapping Rule Analysis:**\n\n“I inspect catheters, follow SOPs and record results” describes your duties. An interview answer must go further: what specific situation arose, what you were responsible for, what you checked, what you did within your authority, and what happened next. Structure **2.4** makes that sequence the first preparation target. Behavioural **2.4** means you also need specific incidents rather than general statements about teamwork or compliance.\n\nTechnical **2.9** adds a second priority: explaining the practical reasoning behind inspection, documentation and escalation. Better structure will help expose your knowledge, but it cannot replace preparation on the underlying process. Communication **2.5** makes concise spoken practice necessary alongside both.\n\n**Your central coaching challenge: move from describing a regulated process to explaining your own actions within it.** Build every answer around a clear situation, bounded responsibility, specific action and supported result. This is a score-led interpretation to validate in the first mock, not a claim that a particular interview behavior has already been observed.\n\n**Readiness baseline:** Overall Readiness is **2.5**. The separate Technical Readiness Score is **2.285714286**; its calculation and scale were not supplied, so it is retained without reinterpretation."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: The Resume Walkthrough (15m)**\n\n**The Red Flag:** “Nicymol, walk me through what you do at Boston Scientific and how your work supports product quality.”\n\n**Justification:** With Structure **2.4**, the risk is a list of activities—assembly, inspection, testing and MES entry—without a clear sequence or explanation of your responsibility. Communication **2.5** can make it harder for the interviewer to distinguish the main point from supporting detail.\n\n**Required Shift:** Introduce the product and your role, describe the work in process order, and close with how you check and document your contribution. Keep the first answer within 90 seconds. Explain one station or task in detail when asked rather than trying to cover the entire operation at once.\n\n---\n\n**Scenario B: The Non-Conformance Follow-Up (20m)**\n\n**The Red Flag:** “You mention escalating 10+ non-conformances. Describe one example: what did you observe, what did you do and what did Quality own?”\n\n**Justification:** Structure **2.4** and Behavioural **2.4** make this a priority test of incident-based storytelling. The risk is answering “I informed Quality and followed the SOP” without showing the observation, action, handoff and known outcome. Technical **2.9** adds a need to explain the basis for escalation.\n\n**Required Shift:** Use one real, non-confidential incident. Separate your detection and escalation from Quality's investigation and disposition. Describe only the outcome you actually know; escalation does not establish that you led root-cause analysis or authorized release.\n\n---\n\n**Scenario C: The Documentation Case (15m)**\n\n**The Red Flag:** “What does 98% individual SmartFactory accuracy mean, and how do you handle a documentation error?”\n\n**Justification:** Technical **2.9** calls for more than naming GDP and ALCOA+. Structure **2.4** makes it important to connect the principle to a practical example, the applicable procedure and the verification step.\n\n**Required Shift:** Define the accuracy measure, explain one entry or review task and describe the approved correction or escalation process you actually use. Do not infer an error count without knowing the denominator, or invent a baseline improvement.\n\n---\n\n**Scenario D: The Behavioral Blend**\n\n**The Red Flag:** “Tell me about a time production timing, a quality concern or a team disagreement created a difficult decision.”\n\n**Justification:** Behavioural **2.4** suggests that a prepared bank of specific stories is needed. General statements such as “quality always comes first” do not show what you personally did in a particular situation.\n\n**Required Shift:** Choose a genuine incident, explain the competing demands, your action within procedure and the result. If you have no example involving production pressure, use an actual teamwork incident from manufacturing, your earlier roles or NCC; do not invent a quality event."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "The “Structure” Drill",
+          "content": "Prepare six 60-90 second STAR outlines: one manufacturing task, one non-conformance escalation, one documentation example, one teamwork incident, one water-quality project explanation and one leadership example. State your role before describing team actions. Record the answers and check that each has a visible action and result. **Practice Target:** Structure 2.4 → 4.2."
+        },
+        {
+          "week": "Week 2",
+          "title": "Manufacturing and Quality First Principles",
+          "content": "Trace one task from SOP instruction through inspection or testing, documentation and escalation. Explain the actual acceptance criteria and authority boundaries without sharing controlled details. Prepare the definitions and evidence behind 98% documentation accuracy and 95% reported analytical accuracy. **Practice Target:** Technical 2.9 → 4.0."
+        },
+        {
+          "week": "Week 3",
+          "title": "Behavioral Stories and Clear Delivery",
+          "content": "Prepare specific examples of disagreement, an error or setback, feedback, teamwork and leadership. Use manufacturing or earlier roles, the water-quality project and NCC where relevant. Keep background short and make your action and learning explicit. **Practice Targets:** Behavioural 2.4 → 4.0; Communication 2.5 → 4.0."
+        },
+        {
+          "week": "Week 4",
+          "title": "The Follow-Up Pressure Test",
+          "content": "Complete a role-specific mock covering introduction, process explanation, non-conformance, documentation, the academic project and behavioral questions. Handle two or three follow-ups per example while keeping ownership accurate. **Stretch Targets:** Structure 4.5; Overall Readiness 4.5."
+        }
+      ],
+      "content": "Complete each preparation phase before its corresponding mock. Numerical targets are proposed coaching goals using the reference template's five-point convention; confirm the assessment rubric before treating them as pass thresholds."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Experience 1: Boston Scientific — Catheter Assembly, Inspection and Pressure Testing**\n\n**Interviewer Probe:** “Walk me through your own assembly or testing task for the Hurricane RX Biliary Balloon Dilatation Catheter. What are you checking, how do you know the result is acceptable and what happens if it is not?”\n\n**Likely Struggle:** A score-led risk is describing throughput—approximately 25 batches weekly or 400 catheters per shift—without explaining the process and quality decisions. Structure **2.4** calls for a sequence; Technical **2.9** calls for the reasoning behind each important check.\n\n**Prep Drill:** Draw a non-confidential process map for one task you perform. Mark the relevant instruction, input checks, your work, inspection or test, documentation and escalation. Explain the purpose of pressure testing and the distinction between a test result and authority to accept or release product. Use the actual approved criteria where you may discuss them; do not invent pressure values or settings. Clarify how batch-level assembly and per-shift inspection figures relate to your own work.\n\n---\n\n**Experience 2: Boston Scientific — Non-Conformance Escalation and Cleanroom Working**\n\n**Interviewer Probe:** “Describe one defect you identified. What did you observe, how did you record and escalate it, and how did you maintain the applicable cleanroom controls?”\n\n**Likely Struggle:** Saying “I followed GMP and informed Quality” without identifying the observation, procedural action and handoff. Behavioural **2.4** and Structure **2.4** make a specific incident essential.\n\n**Prep Drill:** Prepare one genuine escalation story: observation → applicable check → action within your authority → record or handoff → known outcome → learning. Explain the gowning and contamination-control practices you actually follow for your assigned area. The resume describes Grade C/D working; it does not establish that you owned environmental monitoring or performed aseptic drug filling. State who investigated and who made disposition decisions. If you did not see the final outcome, close with your completed handoff and what you learned.\n\n---\n\n**Experience 3: SmartFactory MES — 98% Individual Documentation Accuracy**\n\n**Interviewer Probe:** “How is the 98% accuracy calculated? Show how one production result is recorded and how a discrepancy is handled.”\n\n**Likely Struggle:** Repeating GDP or ALCOA+ terminology without connecting it to an actual entry, review or correction. Technical **2.9** makes practical application a priority.\n\n**Prep Drill:** Prepare a clearly labeled fictional record example with no confidential production data. Explain what you enter, when you enter it, how the result remains attributable and traceable, and which approved procedure governs corrections or escalation. Define the denominator, period and review source behind the reported 98%. Do not claim you configured SmartFactory, owned system validation or improved accuracy from an invented baseline.\n\n---\n\n**Project 4: College Drinking Water — Microbiology and Physicochemical Assessment**\n\n**Interviewer Probe:** “How did you collect and assess the water samples, interpret microbial results and compare pH, dissolved oxygen and alkalinity against the prescribed limits?”\n\n**Likely Struggle:** Listing E. coli, coliforms, titration and instruments without explaining the analytical sequence, controls or interpretation. Structure **2.4** and Technical **2.9** make this a useful test of scientific explanation.\n\n**Prep Drill:** Map the actual project from sampling and handling to testing, recording, comparison and conclusion. Prepare the aseptic technique, controls, instrument calibration and methods actually used. Explain how E. coli, coliform and microbial-count results were reported without inventing a test platform. Define what “95% reported analytical accuracy” means, including its reference or calculation; do not treat it as a demonstrated validation statistic if you cannot support it. State the actual reference limits used in the project and the conclusion supported by the results.\n\n---\n\n**Experience 5: NCC and Earlier Roles — Leadership and Transferable Discipline**\n\n**Interviewer Probe:** “What did you personally do when leading the three-member yachting team, and what did you learn about coordination?”\n\n**Likely Struggle:** Naming the leadership title without describing a decision or challenge. Behavioural **2.4** makes this a valuable source of specific stories beyond manufacturing.\n\n**Prep Drill:** Prepare one NCC leadership incident and one SOP, hygiene or reporting incident from Orwell Healthcare or McDonald's. Explain the situation, your action, result and learning. Keep contexts accurate: food-safety or accommodation work can demonstrate discipline but is not equivalent to ownership of pharmaceutical GMP systems."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Experience: Inspection, Pressure Testing and Escalation at Boston Scientific.**\n\nThe examples illustrate answer construction using resume claims; they are not observed interview answers. The stronger version does not invent a particular defect or a Quality investigation outcome.\n\n**Baseline Example — Duties Without a Clear Contribution:**\n\n“I work at Boston Scientific. I build catheters and do pressure testing. I follow GMP and the SOPs. I use SmartFactory and work with the team. I also report defects to Quality.”\n\n**Stronger Example — Ordered, Specific and Bounded:**\n\n“At Boston Scientific, I work as a Product Builder manufacturing Hurricane RX Biliary Balloon Dilatation Catheters in a Grade C/D cleanroom. My responsibilities include assembly, inspection, pressure testing and recording production results. I assemble approximately 25 batches weekly and inspect and pressure-test approximately 400 catheters per shift. I carry out those tasks under SOPs and contamination controls, and I have identified and escalated more than 10 non-conformances to Quality for investigation. I also record production results in SmartFactory MES, with a reported individual documentation accuracy of 98%. My contribution is performing and documenting the assigned work and escalating concerns; Quality owns the investigation rather than me claiming its outcome.”\n\n**Justification:** The stronger version gives the interviewer a sequence: role → scope → controlled work → escalation → documentation. It makes personal responsibility visible and keeps the investigation boundary accurate. This directly targets Structure **2.4** and Communication **2.5**.\n\n**The Behavioral Follow-Up:** This is a structured role overview, not a complete incident-based STAR story. For “Tell me about one non-conformance,” use an actual case and explain the observation, your task, the exact action, handoff and known result. A routine duty list cannot substitute for that incident.\n\n**Practice Rule:** Deliver the role overview within 90 seconds. Then explain one real event in two minutes, spending most of the time on your action and its consequence. Prepare the definition of 98% before using the figure. Keep process descriptions within what you are permitted to share."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "“Walk me through one manufacturing task in process order. Where do inspection, testing and documentation fit?” **(Risk: Structure 2.4 — an unordered duty list instead of a process explanation)**\n\n“Describe one of the 10+ non-conformances you escalated. What did you see, what did you do and what did Quality decide?” **(Risk: Structure 2.4 + Behavioural 2.4 — a generic escalation statement instead of a specific incident; state if the final decision was outside your knowledge)**\n\n“What does a pressure test establish, and what do you do when a result is outside the approved criteria?” **(Risk: Technical 2.9 — practical reasoning and authority boundaries)**\n\n“How is your 98% individual SmartFactory accuracy defined and checked?” **(Risk: Technical 2.9 — evidence behind a quantified resume claim)**\n\n“Explain GDP and ALCOA+ through one documentation task you actually perform.” **(Risk: Technical 2.9 + Communication 2.5 — terminology without practical explanation)**\n\n“Tell me about a time you received corrective feedback or made an error. What changed afterward?” **(Risk: Behavioural 2.4 — missing personal action and learning)**\n\n“What does 95% analytical accuracy mean in your drinking-water project? What reference or calculation supports it?” **(Risk: Technical 2.9 — metric interpretation and scientific evidence)**\n\n“How did you compare the microbial and physicochemical findings against the project's prescribed limits?” **(Risk: Structure 2.4 + Technical 2.9 — method-to-conclusion connection)**\n\n“Describe a difficult decision while leading your three-member yachting team.” **(Risk: Behavioural 2.4 — a leadership title without an incident)**\n\n“How does your MSc in Digital Transformation relate to your manufacturing work, and what have you actually applied?” **(Risk: Communication 2.5 — relevance and ownership; distinguish coursework from implemented changes, and do not claim Power BI or Tableau projects not described in the resume)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: The Diagnostic Walkthrough",
+              "duration": "45 minutes",
+              "objective": "Establish the baseline for Structure 2.4 using a role overview and a specific escalation story."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: Manufacturing and Quality Deep-Dive",
+              "duration": "50 minutes",
+              "objective": "Test Technical 2.9 through inspection, pressure testing, cleanroom practice and MES documentation."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: Behavioral Stories and Scientific Reasoning",
+              "duration": "45 minutes",
+              "objective": "Develop Behavioural 2.4 and Communication 2.5 through real incidents, NCC leadership and the water-quality project."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: The Final Pressure Test",
+              "duration": "60 minutes",
+              "objective": "Run a role-specific simulation and reassess Overall Readiness from its supplied 2.5 baseline using a consistent rubric."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            {
+              "label": "Session 1: Answer Structure",
+              "value": 9,
+              "max": 10
+            },
+            {
+              "label": "Session 2: Manufacturing and Quality Depth",
+              "value": 9,
+              "max": 10
+            },
+            {
+              "label": "Session 3: Behavioral Stories and Delivery",
+              "value": 9,
+              "max": 10
+            },
+            {
+              "label": "Session 4: Full Simulation",
+              "value": 10,
+              "max": 10
+            }
+          ]
+        }
+      ],
+      "content": "**Session 1: The Diagnostic Walkthrough**\n\n**Focus:** Resume flow and STAR structure.\n\n**Mentor Push:** Ask for a 90-second role overview and one genuine escalation story. Let Nicymol finish the first answer, then ask “What happened first?”, “What did you personally do?” and “What was the known outcome?” Identify where the sequence breaks down. Use a written outline and spoken answer to separate story preparation from delivery difficulty.\n\n---\n\n**Session 2: The Manufacturing and Quality Deep-Dive**\n\n**Focus:** Inspection, pressure testing, cleanroom practices and MES documentation.\n\n**Mentor Push:** Ask “Why is that check needed?”, “What happens when the result is outside the criteria?” and “Who has authority for the next decision?” Probe the 98% measure. Use role-appropriate scenarios without requesting confidential parameters. Record concept gaps separately from an unclear explanation of a correct concept.\n\n---\n\n**Session 3: Behavioral Stories and Scientific Reasoning**\n\n**Focus:** A real disagreement or setback, the NCC leadership example and the drinking-water project.\n\n**Mentor Push:** Ask for the action, result and learning behind each story. For the project, trace sampling, method, controls, interpretation and the 95% claim. Test whether a clear sequence remains intact under follow-up. Do not turn a practice scenario into a claimed past event.\n\n---\n\n**Session 4: The Final Pressure Test**\n\n**Focus:** A full interview against one actual manufacturing or life-sciences operations vacancy.\n\n**Mentor Push:** Cover introduction, task walkthrough, a non-conformance or documentation scenario, a behavioral example and candidate questions. Ask two or three follow-ups per main example. Reuse baseline prompts and the same rubric to assess Structure, Behavioural, Communication and Technical separately before assigning Overall Readiness.\n\nFocus bars represent suggested mentor attention on a ten-point planning scale; they are not candidate assessment results."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 2.5,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        {
+          "label": "Structure",
+          "current": "2.4",
+          "target": "4.5"
+        },
+        {
+          "label": "Behavioural",
+          "current": "2.4",
+          "target": "4.0"
+        },
+        {
+          "label": "Technical",
+          "current": "2.9",
+          "target": "4.0"
+        },
+        {
+          "label": "Communication",
+          "current": "2.5",
+          "target": "4.0"
+        }
+      ],
+      "content": "**Target Overall Readiness: 4.5.** This is a proposed coaching goal using the reference template's five-point convention, not a predicted result. Current Overall Readiness is the supplied **2.5**, not an average. Confirm the rubric before using numerical targets as gates.\n\n**Measurable Change:**\n\n- Move from “I assemble, test and follow GMP” to a clear explanation of one assigned task, the checks, the documentation and the escalation boundary.\n- Deliver a 90-second role overview with a logical sequence and visible personal responsibility.\n- Explain one real non-conformance in two minutes, distinguishing your detection and handoff from Quality's investigation and decision.\n- Explain the evidence behind 98% documentation accuracy and the project's 95% analytical-accuracy claim, correcting or qualifying wording if the basis cannot be supported.\n- Prepare five specific behavioral stories covering teamwork, disagreement, feedback, an error or setback, and leadership.\n- Defend the water-quality project's methods and conclusion without inventing controls, measurements or findings.\n- Handle two substantive follow-ups per example with accurate detail or a clearly stated knowledge boundary.\n\n**The After Profile:** A manufacturing candidate whose answers show a clear process, disciplined action, scientific reasoning and accurate ownership—not just familiarity with regulated terminology.\n\nReassess Structure, Behavioural, Technical and Communication individually. Retain Technical Readiness Score **2.285714286** separately until its scale and calculation are known; do not report the coaching target as a new value for that metric."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Complete Week 1 Structure Drill before Session 1",
+          "content": "Prepare six STAR outlines and record the role overview plus one real escalation story. Make your responsibility, action and known result explicit."
+        },
+        {
+          "icon": "FileText",
+          "title": "Document every question you struggled with",
+          "content": "Record the question and the exact gap: sequence, missing incident, technical reasoning, measurement, ownership or spoken clarity."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Re-practice weak answers within 24 hours",
+          "content": "Repair the outline or knowledge gap, record a fresh answer and test it with two follow-ups. Use your own words and actual experience."
+        },
+        {
+          "icon": "Target",
+          "title": "Meet the completion check before the next mock",
+          "content": "A listener should understand your contribution and supported result. Repeat a focused drill when the explanation or evidence remains incomplete."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Keep the score mapping accurate",
+          "content": "Prioritize Structure 2.4 and Behavioural 2.4, alongside Communication 2.5 and Technical 2.9. Overall Readiness is 2.5; Technical Readiness Score 2.285714286 remains a separate metric."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Probe the sequence and authority boundary",
+          "content": "Ask what happened, what Nicymol did, who owned the next decision and what outcome she knows. Validate score-led hypotheses through actual answers."
+        },
+        {
+          "icon": "FileText",
+          "title": "Give specific written feedback after each session",
+          "content": "Name the observed difficulty and assign one practical drill. Do not supply an invented defect, test parameter, investigation result or project measurement to improve the story."
+        },
+        {
+          "icon": "Target",
+          "title": "Retest using a consistent rubric",
+          "content": "Compare baseline and final responses using the same definitions. Confirm numerical scoring conventions before using proposed targets as gates, and keep concept gaps separate from delivery gaps."
+        }
+      ],
+      "content": "**Working Rule:** Structure every answer before polishing its delivery. If the event, action or outcome is missing, prepare the story. If the scientific or manufacturing explanation is incomplete, review the concept and evidence. Then practice the answer aloud.\n\n**Timeline:**\n- Week 1: Six STAR outlines and recorded baseline answers.\n- Week 2: Sessions 1-2; process sequence, quality reasoning and documentation.\n- Week 3: Session 3; behavioral stories, leadership and the water-quality project.\n- Week 4: Session 4; full role-specific simulation.\n- Week 5, if needed: Repeat the unresolved drills and relevant mock sections.\n\n**Completion Check:** A listener can identify the situation, your responsibility, your action and the supported outcome. You can explain the relevant method and handle two follow-ups without changing ownership or adding invented details. Re-practice any example that does not meet that check.\n\nStart with the Boston Scientific role overview and one genuine non-conformance escalation. Save the first recordings so later improvement can be compared against an actual baseline. A successful mock supports preparation; it does not guarantee a hiring outcome."
+    }
+  ]
+}

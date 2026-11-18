@@ -1,0 +1,261 @@
+{
+  "name": "Geetanshu Sharma",
+  "email": "geetsharma038@gmail.com",
+  "targetRole": "Data Scientist / AI Engineer",
+  "assessmentContext": {
+    "columnOrder": [
+      "Name",
+      "Email",
+      "Resume",
+      "Structure",
+      "Technical",
+      "Behavioural",
+      "Communication",
+      "Overall Readiness",
+      "Primary Risk",
+      "Technical Readiness Score"
+    ],
+    "scores": {
+      "Resume": 3.6,
+      "Structure": 2.4,
+      "Technical": 2.7,
+      "Behavioural": 3,
+      "Communication": 1,
+      "Overall Readiness": 1,
+      "Technical Readiness Score": 2.5
+    },
+    "suppliedScoresInOrder": [
+      3.6,
+      2.4,
+      2.7,
+      3,
+      1,
+      1
+    ],
+    "suppliedRisk": "Communication & Confidence Risk",
+    "scoreMappingStatus": "Assessment columns follow the supplied order. Technical, Overall Readiness and Technical Readiness Score are distinct reported measures; no formula inferred.",
+    "evidence": "User-provided assessment row and one-page resume. Resume claims have not been independently verified. No interview recording, transcript, target job description or detailed scoring rubric supplied.",
+    "interpretationNote": "Interview risks and likely struggles are score-led coaching hypotheses, not observations. Worked examples are illustrative and use resume claims, not fabricated interview transcripts.",
+    "targetRoleStatus": "Provisional positioning based on resume; tailor preparation to an actual vacancy.",
+    "chartConvention": "The competency chart uses the reference template maximum of 5; the assessment scale has not been confirmed. Overall Readiness and Technical Readiness Score are distinct from the five chart values.",
+    "coachingTargets": "Targets use the five-point reference convention as proposed practice goals, not reported results, guaranteed gains or assessment thresholds.",
+    "contactDiscrepancy": {
+      "assessmentEmail": "geetsharma038@gmail.com",
+      "resumeEmail": "geetanshu.sharma2000@gmail.com",
+      "action": "Retain assessment email; confirm preferred address before contacting the candidate."
+    }
+  },
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": [
+          "Resume",
+          "Structure",
+          "Technical",
+          "Behavioural",
+          "Communication"
+        ],
+        "values": [
+          3.6,
+          2.4,
+          2.7,
+          3,
+          1
+        ],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: Communication & Confidence Risk — Technical Experience That Needs a Clearer Interview Voice.**\n\nGeetanshu, your resume gives you substantive examples for data science and AI engineering interviews: a sentiment-analysis pipeline across 500K+ reviews with 85% reported accuracy, processing 2M+ customer records, integration of LLM providers into security workflows, and reporting automation that reduced a 40-minute task to 20 minutes. Your Resume score of **3.6** indicates a stronger assessment result than Communication **1**, Structure **2.4** and Technical **2.7**. Your immediate priority is to make the reasoning behind this experience clear when speaking.\n\n**The Mapping Rule Analysis:**\n\n“I built an NLP pipeline with 85% accuracy” gives a result, but the interviewer still needs to hear the problem, data, your contribution, evaluation and limitation. With Communication **1** and Structure **2.4**, the risk is that relevant work comes across as a collection of tools or results without a clear explanation. Technical **2.7** means preparation must also cover the substance behind the answer: data leakage, validation, model choices and deployment. Behavioural **3** is a relative strength to build on when preparing real examples of teamwork and setbacks.\n\n**Your central coaching challenge: connect your technical work to a clear decision and defensible outcome.** Start with the business question, explain your own actions in order, and finish with an evidence-backed result and limitation. Confidence is part of the supplied risk label; whether the observed difficulty is delivery, structure, knowledge or another cause should be established in the first mock.\n\n**Readiness baseline:** Overall Readiness is **1**. Technical Readiness Score is a separate supplied metric of **2.5**; its formula and scale were not supplied."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: The Resume Walkthrough (15m)**\n\n**The Red Flag:** “Geetanshu, walk me through your background and tell me which experience prepares you for this role.”\n\n**Justification:** Communication **1** makes the first spoken explanation the highest priority. A list of Python, LLM APIs and models may leave the interviewer unclear about the problems you solved or how your data science and AI engineering work fit the vacancy.\n\n**Required Shift:** Open with your professional focus, select two relevant experiences and close with your interest in the role. Practice a 90-second version before adding technical details.\n\n---\n\n**Scenario B: The NLP Deep-Dive (25m)**\n\n**The Red Flag:** “How did you process 500K+ reviews and establish 85% accuracy? How did you know the model was useful for identifying dissatisfied customers?”\n\n**Justification:** Structure **2.4** creates a risk that the dataset, modeling and result appear in a confusing order. Technical **2.7** makes the evaluation design important: accuracy alone does not explain performance for each sentiment class or prove business impact.\n\n**Required Shift:** Explain the problem → data and labels → preprocessing → model and baselines → evaluation → deployment or use. State your role, class distribution, split and limitations when known. The resume does not specify the model architecture or evaluation method.\n\n---\n\n**Scenario C: The AI Security Workflow (20m)**\n\n**The Red Flag:** “How did LLM APIs and coding agents fit into the Secfoo or RakFort CI workflow, and how did you handle the findings?”\n\n**Justification:** Communication **1** and Structure **2.4** make request flow and ownership boundaries a useful test. Technical **2.7** calls for an explanation of security checks, human review and the reliability of findings—not just a list of model providers.\n\n**Required Shift:** Trace a real workflow from trigger to inputs, analysis, findings and reviewer. Explain which integrations and cost-tracking components you built, and distinguish automated assessment support from guaranteed security.\n\n---\n\n**Scenario D: The Behavioral Blend**\n\n**The Red Flag:** “Tell me about a time a model result, code review or team decision did not go as planned.”\n\n**Justification:** Behavioural **3** is relatively stronger than Communication and Structure, so use a real incident as practice material. The risk to test is losing the challenge, your action and learning in technical background.\n\n**Required Shift:** Choose a genuine event; explain the situation, your responsibility, your actions, the outcome and what changed afterward. These scenarios are coaching hypotheses, not observations of a past interview."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "The “Clear Voice” Drill",
+          "content": "Record a 90-second introduction and 60-second explanations of the sentiment pipeline, security workflow, 2M-record data preparation and reporting automation. Lead with the problem, your action and one verified outcome. Ask a listener to summarize your contribution. **Practice Target:** Communication 1 → 3.5."
+        },
+        {
+          "week": "Week 2",
+          "title": "The “Structure Before Detail” Drill",
+          "content": "Build STAR outlines for the 500K-review pipeline, 50% reporting-time reduction, an actual teamwork incident and a setback. For technical answers use problem → data → approach → evaluation → result → limitation. Practice each answer in 60 seconds and three minutes. **Practice Target:** Structure 2.4 → 4.0."
+        },
+        {
+          "week": "Week 3",
+          "title": "ML Evaluation and Security First Principles",
+          "content": "Prepare the actual sentiment labels, split, baseline, 85% accuracy calculation and failure analysis. Trace one CI security run, integration boundary and cost-tracking calculation. Practice answering one question without code, then add technical detail. **Practice Target:** Technical 2.7 → 4.0."
+        },
+        {
+          "week": "Week 4",
+          "title": "The Follow-Up Pressure Test",
+          "content": "Complete a role-specific mock combining project explanations, model evaluation, security workflow and behavioral examples. Repeat baseline questions and handle two or three follow-ups for each. **Stretch Targets:** Communication 4.5; Overall Readiness 4.5."
+        }
+      ],
+      "content": "Complete preparation for each phase before the corresponding mock. Targets are proposed goals under the reference template's five-point convention; confirm the assessment rubric before using them as pass thresholds."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Experience 1: Yumi Enterprises — Sentiment Analysis Across 500K+ Reviews**\n\n**Interviewer Probe:** “How were reviews labeled, what did the model predict, and how did you calculate 85% accuracy? What happened when a dissatisfied customer was missed?”\n\n**Likely Struggle:** A score-led risk is quoting 500K+ and 85% before establishing the dataset, decision and evaluation. Communication **1** and Structure **2.4** make a clear sequence essential; Technical **2.7** makes the testing method a priority.\n\n**Prep Drill:** Draw the actual flow from data ingestion and labeling to preprocessing, model, held-out evaluation and use of results. Prepare the actual model and baseline, label classes, class balance, train/test split, leakage checks and per-class precision/recall or other metrics if measured. Explain why accuracy may hide errors on a minority class. Separate model accuracy from evidence of retention or business impact. If an evaluation was not performed, state that limitation rather than creating one.\n\n---\n\n**Experience 2: Yumi Enterprises — 2M+ Customer Records and Segmentation**\n\n**Interviewer Probe:** “How did you combine transactions, support tickets and customer profiles? How did your analysis across six customer segments inform the retention work?”\n\n**Likely Struggle:** Describing pandas and NumPy operations without explaining record grain, joins, data quality, feature timing or what the analysis actually changed.\n\n**Prep Drill:** Sketch one real data flow and define the unit of analysis, join keys, duplicate handling, missing values and feature definitions. Explain how the six segments were defined or used and your role in the analysis. Prepare one example of a recommendation and the evidence available for the decision. The resume does not establish that the recommendations caused a quantified improvement in retention.\n\n---\n\n**Experience 3: RakFort / Secfoo — LLM-Enabled Security Assessment**\n\n**Interviewer Probe:** “Walk me through one CI run. What goes to each provider or coding agent, how are findings reviewed, and how is token cost attributed?”\n\n**Likely Struggle:** Naming OpenAI, Anthropic, Gemini, scanners and agents without showing the workflow, limits or contribution. A security assessment platform needs an explanation of what automated findings mean and who reviews them.\n\n**Prep Drill:** Draw the actual CI trigger → inputs → assessment steps → findings → review flow, identifying which parts you implemented. Explain how the static analysis, dependency assessment, threat modeling and secret-scanning functions relate in the real platform. Describe authentication and data-handling decisions only as implemented and shareable. Prepare how token usage and project/activity costs are recorded, including missing or estimated usage where applicable. Explain false positives and verification without assuming any specific vulnerability was discovered.\n\n---\n\n**Experience 4: Hitachi Systems — Reporting Automation**\n\n**Interviewer Probe:** “How did you reduce reporting time from 40 minutes to 20, and what checks ensured the output remained correct?”\n\n**Likely Struggle:** Giving the 50% improvement without explaining which steps were automated, how the timing was measured or how the chatbot integration was used.\n\n**Prep Drill:** Describe the actual before-and-after workflow, your code contribution, input and output checks, the comparison period and who used the report. Explain the arithmetic: (40 − 20) / 40 = 50%. Do not invent the number of reports, sample size or savings beyond the resume claim.\n\n---\n\n**Project 5: ML Visualized — 30+ Algorithms**\n\n**Interviewer Probe:** “Pick one algorithm from the platform. What does the visualization teach, and how did you check that its behavior was accurate?”\n\n**Likely Struggle:** Repeating the platform's breadth without explaining one implementation or learning decision.\n\n**Prep Drill:** Select an algorithm actually included in the platform. Explain its inputs, core idea, relevant parameters, visualization and one limitation. Show what you personally built and how you tested it. Prepare a concise explanation for a non-specialist and a deeper technical explanation for an interviewer."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Experience: Reporting Automation at Hitachi Systems India.**\n\nThe following answers illustrate structure; they are not transcripts of Geetanshu's interview. They use the resume's claims without inventing the automation's technical design.\n\n**Baseline Example — Result Without a Clear Sequence:**\n\n“At Hitachi, I used Python and a chatbot for reports. The reports became faster, and I also made dashboards.”\n\n**Stronger Example — Problem, Action and Result:**\n\n“At Hitachi Systems India, I worked on daily reporting as a Management Trainee in Data and Automation. The report generation process took 40 minutes. I automated the reporting workflow using Python and an internal chatbot integration. The reported generation time fell to 20 minutes, a 50% reduction. I also developed Power BI and Tableau dashboards for three internal teams, although the dashboard work is a separate outcome from the reporting-time reduction.”\n\n**Justification:** The stronger version makes the role, starting point, action and measured result easy to follow. Separating the dashboard work avoids attributing the time reduction to an unsupported cause. This directly supports Communication **1** and Structure **2.4**.\n\n**The Follow-Up Layer:** Prepare which manual steps were automated, your personal implementation, how the 40- and 20-minute figures were measured and what validation you performed. The resume does not supply these details, so add only facts you can substantiate.\n\n**Practice Rule:** Deliver the answer in 60 seconds, then explain the workflow in three minutes. Ask a listener to name the problem, action and result. Repeat with the sentiment-analysis project and compare whether the explanation remains clear when technical detail increases."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "“What connects your data science and AI engineering experience to this role?” **(Risk: Communication 1 — unclear positioning)**\n\n“How did you label and split the 500K+ reviews, and what does 85% accuracy measure?” **(Risk: Structure 2.4 + Technical 2.7 — evaluation sequence and evidence)**\n\n“If dissatisfied reviews were rare, would 85% accuracy be sufficient? What other metrics would you examine?” **(Risk: Technical 2.7 — class imbalance and model usefulness)**\n\n“How did you join and clean 2M+ records, and how did you prevent future information from entering features?” **(Risk: Technical 2.7 — data quality and leakage)**\n\n“Trace one security assessment from a CI trigger to reviewed findings. What did you personally build?” **(Risk: Communication 1 + Structure 2.4 — workflow and ownership clarity)**\n\n“How does your token tracking attribute usage and cost, and how do you handle missing usage data?” **(Risk: Technical 2.7 — implementation depth; describe actual behavior)**\n\n“How did you measure the reporting reduction from 40 to 20 minutes, and what did you automate?” **(Risk: Structure 2.4 — action-to-result connection)**\n\n“Tell me about a model failure, disagreement or review comment that changed your approach.” **(Focus: Build on Behavioural 3 with a specific genuine incident)**\n\n“Choose one algorithm in ML Visualized and explain it to a non-technical stakeholder, then to an ML engineer.” **(Risk: Communication 1 — adapting detail to the audience)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: The Communication Diagnostic",
+              "duration": "45 minutes",
+              "objective": "Establish the baseline for Communication 1 and Structure 2.4 through introduction and reporting automation."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: NLP and Data Deep-Dive",
+              "duration": "50 minutes",
+              "objective": "Test Technical 2.7 through sentiment evaluation, customer data quality and leakage."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: Security Workflow and Behavioral Impact",
+              "duration": "45 minutes",
+              "objective": "Trace the CI assessment and cost tracking, then practice a real behavioral incident."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: The Final Pressure Test",
+              "duration": "60 minutes",
+              "objective": "Run a role-specific simulation and reassess Communication and Overall Readiness with the same rubric."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            {
+              "label": "Session 1: Communication and Structure",
+              "value": 10,
+              "max": 10
+            },
+            {
+              "label": "Session 2: NLP and Data Depth",
+              "value": 9,
+              "max": 10
+            },
+            {
+              "label": "Session 3: Security and Behavioral Delivery",
+              "value": 8,
+              "max": 10
+            },
+            {
+              "label": "Session 4: Full Simulation",
+              "value": 10,
+              "max": 10
+            }
+          ]
+        }
+      ],
+      "content": "**Session 1: The Communication Diagnostic**\n\n**Focus:** Introduction and a structured reporting-automation answer.\n\n**Mentor Push:** Let the candidate finish, then ask “What was the problem?”, “What did you personally build?” and “What changed?” Compare a written outline with the spoken answer to identify whether the issue is delivery, structure, evidence or understanding. Record the baseline.\n\n---\n\n**Session 2: NLP and Data Deep-Dive**\n\n**Focus:** Sentiment pipeline and customer-record preparation.\n\n**Mentor Push:** Ask about labels, data split, leakage, class imbalance, model choice and the 85% result. Follow one answer from data to evaluation before changing topics. Separate knowledge gaps from an accurate explanation that needs clearer delivery.\n\n---\n\n**Session 3: Security Workflow and Behavioral Impact**\n\n**Focus:** RakFort/Secfoo CI flow, cost tracking and one real setback or disagreement.\n\n**Mentor Push:** Request a diagram or verbal trace, then probe security findings, ownership and limitations. For the behavioral story, ask for the actual action, consequence and learning. Use Behavioural **3** as a starting strength while improving structure and delivery.\n\n---\n\n**Session 4: The Final Pressure Test**\n\n**Focus:** Full simulation against one actual Data Scientist or AI Engineer vacancy.\n\n**Mentor Push:** Include a short introduction, project explanation, role-specific technical case, behavioral question and candidate questions. Ask two or three follow-ups per project and repeat comparable baseline prompts. Score Communication and Overall Readiness separately using the same rubric.\n\nThe focus bars show suggested mentor attention on a ten-point planning scale; they are not assessment scores."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 1,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        {
+          "label": "Communication",
+          "current": "1",
+          "target": "4.5"
+        },
+        {
+          "label": "Structure",
+          "current": "2.4",
+          "target": "4.0"
+        },
+        {
+          "label": "Technical",
+          "current": "2.7",
+          "target": "4.0"
+        },
+        {
+          "label": "Behavioural",
+          "current": "3",
+          "target": "4.0"
+        }
+      ],
+      "content": "**Target Overall Readiness: 4.5.** This is a proposed coaching goal under the reference template's five-point convention, not a predicted assessment result. The current Overall Readiness is the supplied **1**; it is not an average.\n\n**Measurable Change:**\n\n- Deliver a 90-second introduction that connects two relevant experiences to an actual vacancy.\n- Explain the sentiment pipeline from problem and data through evaluation, accurately defining the 85% result and its limits.\n- Describe one 2M-record data flow, including record grain, joins, quality checks and feature timing.\n- Trace one real CI security assessment and distinguish your contribution, automated output and human review.\n- Explain the reporting reduction from 40 to 20 minutes, including the actual measurement and your role.\n- Deliver four specific behavioral stories about collaboration, feedback, a setback and learning, then handle two follow-ups per example.\n\n**The After Profile:** A data science and AI engineering candidate whose answers make the problem, personal contribution, technical reasoning and evidence clear to both technical and non-technical interviewers.\n\nReassess each dimension with a confirmed rubric. Technical **2.7**, Overall Readiness **1** and Technical Readiness Score **2.5** are separate supplied values; a target on this chart does not change the separate Technical Readiness Score."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Complete the Clear Voice Drill before Session 1",
+          "content": "Record the introduction and four short project answers. Put the problem, your contribution and result in that order."
+        },
+        {
+          "icon": "FileText",
+          "title": "Document every question you struggled with",
+          "content": "Capture the exact question and whether the issue was sequence, spoken delivery, technical understanding, ownership or evidence."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Re-practice weak answers within 24 hours",
+          "content": "Repair the explanation or knowledge gap, record the answer again and practice two follow-ups using genuine evidence."
+        },
+        {
+          "icon": "Target",
+          "title": "Meet the completion check before the next mock",
+          "content": "A listener should understand your action and its result. Repeat the specific drill if the explanation or technical reasoning remains unclear."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Use the assessment mapping accurately",
+          "content": "Prioritize Communication 1 and Structure 2.4, while developing Technical 2.7 and building on Behavioural 3. Overall Readiness 1 and Technical Readiness Score 2.5 remain separate."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Probe the reasoning behind each result",
+          "content": "Ask about problem, model or implementation choice, evidence, ownership and limitations. Treat predicted difficulties as hypotheses until observed."
+        },
+        {
+          "icon": "FileText",
+          "title": "Give specific written feedback",
+          "content": "Record the question, observed gap and one concrete practice action. Do not add unsupported model architecture, deployment details or business results."
+        },
+        {
+          "icon": "Target",
+          "title": "Retest with a consistent rubric",
+          "content": "Compare baseline and final answers using the same definitions. Confirm scoring conventions before treating proposed numerical goals as gates."
+        }
+      ],
+      "content": "**Working Rule:** Begin with a clear outline and verify the underlying technical details. If the explanation is hard to follow, repeat the delivery drill; if the method or evidence is missing, prepare and retest the concept before polishing the answer.\n\n**Timeline:**\n- Week 1: Clear Voice Drill and baseline recordings.\n- Week 2: Sessions 1–2; answer structure, sentiment evaluation and data preparation.\n- Week 3: Session 3; security workflow and behavioral stories.\n- Week 4: Session 4; full role-specific simulation.\n- Week 5, if needed: Repeat the specific unresolved drills and mock sections.\n\n**Completion Check:** A listener can identify the problem, your contribution, the reasoning and the supported outcome. You can answer two relevant follow-ups and acknowledge a knowledge or evidence limit. Start with the reporting-automation answer and one sentiment-pipeline walkthrough; keep the first recordings as the baseline."
+    }
+  ]
+}

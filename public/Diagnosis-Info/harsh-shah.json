@@ -1,0 +1,256 @@
+{
+  "name": "Harsh Shah",
+  "email": "harsh.limerick@gmail.com",
+  "targetRole": "Business Analyst / Business Operations Analyst",
+  "assessmentContext": {
+    "columnOrder": [
+      "Name",
+      "Email",
+      "Resume",
+      "Structure",
+      "Technical",
+      "Behavioural",
+      "Communication",
+      "Overall Readiness",
+      "Primary Risk",
+      "Technical Readiness Score"
+    ],
+    "scores": {
+      "Resume": 2.4,
+      "Structure": 1.8,
+      "Technical": 1.4,
+      "Behavioural": 1.6,
+      "Communication": 1.25,
+      "Overall Readiness": 1.25,
+      "Technical Readiness Score": 1
+    },
+    "suppliedScoresInOrder": [
+      2.4,
+      1.8,
+      1.4,
+      1.6,
+      1.25,
+      1.25
+    ],
+    "suppliedRisk": "Communication & Confidence Risk",
+    "scoreMappingStatus": "The user-confirmed column mapping is retained. Technical 1.4, Overall Readiness 1.25 and Technical Readiness Score 1 are separate reported metrics; no formula is inferred.",
+    "evidence": "User-supplied assessment row and one-page resume. Resume claims are candidate-reported and not independently verified. No interview transcript, recording or target job description was supplied.",
+    "interpretationNote": "Interview risks are coaching hypotheses to validate in a mock, not observed interview behavior. Illustrative answers are not candidate transcripts.",
+    "targetRoleStatus": "Provisional business analysis positioning based on resume; confirm and tailor to actual role requirements.",
+    "chartConvention": "The five competency dimensions use the reference diagnosis chart maximum of 5; the assessment scale has not been confirmed. Overall Readiness and Technical Readiness Score remain separate.",
+    "coachingTargets": "Target values are proposed practice goals on the reference template five-point convention, not assessment results or guaranteed gains."
+  },
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": [
+          "Resume",
+          "Structure",
+          "Technical",
+          "Behavioural",
+          "Communication"
+        ],
+        "values": [
+          2.4,
+          1.8,
+          1.4,
+          1.6,
+          1.25
+        ],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: Communication & Confidence Risk — Commercial Experience That Needs a Clear Business Analysis Story.**\n\nHarsh, your resume provides concrete experience to discuss: coordinating customer requirements and renovation delivery at World Of Tiles, translating customer requirements into proposed solutions at Skillzcollab, and contributing to a reduction in quotation turnaround from 10 days to 3 at Twin Engineers. Your challenge is to explain how this work connects to a Business Analyst role, then support that explanation with a clear example and technical reasoning.\n\n**The Mapping Rule Analysis:**\n\nYour assessment reports Communication **1.25**, Structure **1.8**, Technical **1.4**, Behavioural **1.6**, and Resume **2.4**. Overall Readiness is **1.25**. The separate Technical Readiness Score is **1**; its calculation and scale were not supplied. Communication is the stated primary risk, but the Technical and Behavioural scores make this a combined preparation plan: clearer delivery must be supported by business analysis knowledge and specific real examples.\n\n“I shortened quotation turnaround from 10 days to 3” gives an interviewer an outcome. A stronger answer also explains the original workflow, the problem, your responsibility, the change and how the time was measured. Communication **1.25** and Structure **1.8** make that sequence the first practice priority; Technical **1.4** makes requirements, process mapping, UAT and basic data analysis important areas to prepare and retest.\n\n**Your central coaching challenge: translate commercial experience into a credible, structured analysis story.** Lead with an actual business problem, explain your contribution, then connect the action to a result you can defend. Your previous titles are in sales, marketing and operations; present transferable analysis work accurately instead of implying a formal Business Analyst title. The confidence label and possible interview difficulties are hypotheses to test in a mock, not observations of your interview behavior."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: The Career Transition (15m)**\n\n**The Red Flag:** “Harsh, your recent titles are Assistant Manager, Marketing Manager and Technical Sales Engineer. Why are you applying for a Business Analyst role?”\n\n**Justification:** Communication **1.25** and Structure **1.8** make it important to connect the roles rather than present an unstructured job history. The risk is naming transferable skills without showing the actual requirements, workflow or decisions behind them.\n\n**Required Shift:** Give a 90-second story: your commercial background, one real example of clarifying requirements or improving a workflow, your MSc in Business Analytics, and why that combination fits the specific vacancy. Distinguish transferable work from formal BA employment.\n\n---\n\n**Scenario B: The Process Improvement Deep-Dive (20m)**\n\n**The Red Flag:** “How did quotation turnaround fall from 10 days to 3 at Twin Engineers? What changed, and what did you personally own?”\n\n**Justification:** Structure **1.8** makes the before-and-after sequence a priority. Technical **1.4** calls for preparation on workflow mapping, measurement and evidence. The resume reports the reduction but does not say which changes you made or how they were measured.\n\n**Required Shift:** Explain the original process, the problem, the action you took, collaborators, the changed workflow and the evidence for the result. Ten to three days is a seven-day reduction, or 70% of the initial duration; confirm what the time measure and comparison period represent.\n\n---\n\n**Scenario C: The Requirements Case (25m)**\n\n**The Red Flag:** “A customer wants a renovation completed quickly and within budget. How would you turn that request into requirements, priorities and acceptance criteria?”\n\n**Justification:** Technical **1.4** means the mechanics of requirements and validation need practice; Communication **1.25** means the candidate should be able to explain them in plain language. The customer request is a practice scenario inspired by World Of Tiles, not a claimed project.\n\n**Required Shift:** Identify stakeholders and constraints, ask clarifying questions, document requirements, agree priorities and propose testable acceptance criteria. Explain what you actually did in past work separately from the method you would use in a hypothetical case.\n\n---\n\n**Scenario D: The Behavioral Blend**\n\n**The Red Flag:** “Tell me about a disagreement between a customer, colleague or supplier that affected delivery.”\n\n**Justification:** Behavioural **1.6** makes specific incident-based stories a preparation priority. The risk is a general statement about stakeholder management without the disagreement, personal action and result.\n\n**Required Shift:** Choose one real incident, outline the situation and competing needs, explain what you did, and end with the outcome and learning. Do not invent conflict or claim a result that was not observed."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "The “Clear Transition Story” Drill",
+          "content": "Record a 90-second Business Analyst transition introduction and 60-second explanations of Twin Engineers, Skillzcollab and World Of Tiles. Lead with the problem, your action and one supported result. Ask a listener to identify what you personally did. **Practice Target:** Communication 1.25 → 3.5."
+        },
+        {
+          "week": "Week 2",
+          "title": "The “Structure Before Detail” Drill",
+          "content": "Create STAR outlines for quotation turnaround, a customer requirement, a stakeholder disagreement and a setback. Map the quotation workflow before and after the actual change. Keep customer, task, action and result distinct. **Practice Target:** Structure 1.8 → 4.0."
+        },
+        {
+          "week": "Week 3",
+          "title": "Business Analysis First Principles",
+          "content": "Practice stakeholder discovery, requirements, prioritization, process mapping, acceptance criteria and UAT using a clearly hypothetical renovation case. Review basic SQL and Excel using synthetic data; explain your actual skill level. **Practice Target:** Technical 1.4 → 3.5."
+        },
+        {
+          "week": "Week 4",
+          "title": "The Behavioral and Technical Pressure Test",
+          "content": "Run a role-specific mock with a career transition question, requirements case, workflow improvement, simple data exercise and two behavioral stories. Repeat baseline questions and practice follow-ups. **Stretch Targets:** Communication 4.5; Overall Readiness 4.5."
+        }
+      ],
+      "content": "Complete each preparation phase before its corresponding mock. The numerical targets below are proposed coaching goals using the reference template's five-point convention; confirm the assessment scale and rubric before using them as pass thresholds."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Experience 1: Twin Engineers — Quotation Turnaround from 10 Days to 3**\n\n**Interviewer Probe:** “What happened between a customer request and a quotation before the change? How did you identify the delay and measure the improvement?”\n\n**Likely Struggle:** A score-led risk is quoting the outcome without the original workflow, your individual contribution or the measurement. Structure **1.8** and Technical **1.4** make a clear process explanation and evidence a priority.\n\n**Prep Drill:** Draw the actual before-and-after process from customer need through technical assessment, approvals and quote delivery, including only steps that occurred. Mark the delay, your action and other people's responsibilities. Define the start and end of turnaround, sample, period and source behind the 10- and 3-day figures. The arithmetic implies a 70% reduction, but do not assume an average, a sample size or causation. Practice explaining one process decision and an alternative in two minutes.\n\n---\n\n**Experience 2: Skillzcollab — 30+ Partner Organizations and Solution Briefs**\n\n**Interviewer Probe:** “How did you turn a customer request into a solution brief, and how did you resolve a disagreement between stakeholders?”\n\n**Likely Struggle:** Naming stakeholder management without explaining how requirements were clarified, documented, reviewed or prioritized. Behavioural **1.6** also calls for a specific real incident.\n\n**Prep Drill:** Choose one actual brief or a non-confidential description of it. Explain the customer need, people consulted, questions asked, documented proposal, review and outcome. State whether the document was a solution brief rather than calling it a formal requirements specification unless that is accurate. Prepare one real disagreement using STAR, with your action and the known result.\n\n---\n\n**Experience 3: World Of Tiles — Customer Requirements and Delivery Planning**\n\n**Interviewer Probe:** “How did you identify renovation requirements and turn them into a quotation and delivery plan? How did you increase complementary items per order from four to seven?”\n\n**Likely Struggle:** Listing sales activities without showing how customer constraints shaped decisions or defining the measurement behind the attachment figure.\n\n**Prep Drill:** Describe one real customer request, including requirements, budget or timing constraints if applicable, proposed options and handoffs. Prepare the period, denominator and method for the four-to-seven item claim. Clarify what €75K+ measures, the time frame and your contribution across 38+ transactions. Distinguish an actual sale from project value, margin and estimated revenue.\n\n---\n\n**Experience 4: Freelance Key Account Management — Team Coordination and Renewals**\n\n**Interviewer Probe:** “How did you coordinate requirements across a 30+ member team, and what does 88% client renewals mean?”\n\n**Likely Struggle:** Claiming ownership of the entire team or renewal result without defining your responsibility, period and denominator. Behavioural **1.6** makes this a useful source of a stakeholder story.\n\n**Prep Drill:** Explain one handoff from client request through internal coordination and delivery. Clarify whether the 30+ people were direct reports or a wider team and describe your actual authority. Prepare the 88% calculation and one genuine example of an account you helped renew or reactivate.\n\n---\n\n**Business Analysis Case Practice — Hypothetical Renovation Request**\n\n**Interviewer Probe:** “A customer says the renovation must be faster and stay within budget. How would you define the problem and test whether a proposed solution meets it?”\n\n**Prep Drill:** Label this as a practice case. Identify stakeholders, current process, constraints, assumptions and success measure. Draft two functional requirements and acceptance criteria that can be checked, prioritize them with stakeholders, and outline UAT participants, test scenarios, expected results and defect handling. No specific BA artifact or UAT responsibility is established by the resume's skills list alone.\n\n**Data Drill:** With a small synthetic quotation table, practice filtering overdue quotes, grouping turnaround by stage and explaining an average versus a median. Write one simple SELECT, WHERE and GROUP BY query if appropriate for the role. Describe Python as beginner-level, as stated on the resume; use tools you actually know and distinguish training exercises from work delivered."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Experience: Quotation Turnaround at Twin Engineers.**\n\nThe examples below illustrate answer construction; they are not observed interview transcripts. The stronger answer uses the resume's reported result without inventing the workflow change or its measurement method.\n\n**Baseline Example — Outcome Without a Clear Story:**\n\n“At Twin Engineers, I worked with customers and quotations. We improved the process, and the turnaround went from 10 days to 3 days.”\n\n**Stronger Example — Context, Action and Result:**\n\n“At Twin Engineers, I worked as a Technical Sales Engineer assessing customer requirements and engaging stakeholders on tailored engineering solutions. One of the outcomes listed in my experience is a reduction in quotation turnaround from 10 days to 3 days through workflow improvements. This example is relevant to business analysis because it connects a customer-facing process to a measurable turnaround result. My next step in explaining it is to show the actual steps I helped change, the people involved and how the turnaround was measured.”\n\n**Justification:** The stronger answer makes the role and reported result clear without claiming a specific change that the resume does not describe. It is a credible opening, not a complete STAR answer: a full answer still needs the real situation, your specific action and the observed outcome.\n\n**The Follow-Up Layer:** Before using this story, prepare the actual bottleneck, your personal responsibility, the change made, stakeholder involvement and evidence behind the 10-to-3-day result. State honestly if you shared ownership or lack the original measurement details.\n\n**Practice Rule:** Deliver the opening in 60 seconds. Then give the complete real example in two minutes and answer “Why did that change help?” and “How did you measure it?” Ask a listener to identify the problem, your action and result."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "“Why are you moving from sales and commercial operations into a Business Analyst role?” **(Risk: Communication 1.25 — unclear transition story)**\n\n“Walk me through the quotation process before and after the 10-to-3-day reduction. What did you personally change?” **(Risk: Structure 1.8 + Technical 1.4 — process and ownership)**\n\n“How was that turnaround measured, and what does a 70% reduction mean?” **(Risk: Technical 1.4 — measurement and arithmetic)**\n\n“How did you gather a customer's needs and turn them into a solution brief at Skillzcollab?” **(Risk: Technical 1.4 — requirements elicitation and documentation)**\n\n“What is the difference between a requirement and an acceptance criterion? Give a testable example.” **(Risk: Technical 1.4 — BA fundamentals; a practice scenario is not past experience)**\n\n“How would you organize UAT, and what would you do with a failed test?” **(Risk: Technical 1.4 — distinguish known concepts from work actually performed)**\n\n“What do four to seven complementary items per order and €75K+ across 38+ transactions measure, and over what period?” **(Risk: Technical 1.4 — metric definitions)**\n\n“Tell me about a disagreement among a customer, supplier or internal team and what you did.” **(Risk: Behavioural 1.6 — specific incident and personal action)**\n\n“Explain an example where you used SQL, Excel or a dashboard to answer a business question.” **(Risk: Technical 1.4 + Communication 1.25 — explain an actual example; do not claim skills or work not performed)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: The Communication Diagnostic",
+              "duration": "45 minutes",
+              "objective": "Establish the baseline for Communication 1.25 and Structure 1.8 through the transition and quotation stories."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: Business Analysis Deep-Dive",
+              "duration": "50 minutes",
+              "objective": "Test Technical 1.4 through requirements, process mapping, acceptance criteria and UAT."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: Behavioral Stories and Data",
+              "duration": "45 minutes",
+              "objective": "Develop Behavioural 1.6 through real examples and practice an appropriately scoped data exercise."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: The Final Pressure Test",
+              "duration": "60 minutes",
+              "objective": "Run a role-specific simulation and reassess Overall Readiness from the reported 1.25 baseline with the same rubric."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            {
+              "label": "Session 1: Communication and Structure",
+              "value": 10,
+              "max": 10
+            },
+            {
+              "label": "Session 2: Business Analysis Fundamentals",
+              "value": 10,
+              "max": 10
+            },
+            {
+              "label": "Session 3: Behavioral and Data Practice",
+              "value": 9,
+              "max": 10
+            },
+            {
+              "label": "Session 4: Full Simulation",
+              "value": 10,
+              "max": 10
+            }
+          ]
+        }
+      ],
+      "content": "**Session 1: The Communication Diagnostic**\n\n**Focus:** Career transition and quotation-turnaround story.\n\n**Mentor Push:** Let Harsh complete his first answer. Then ask “What was the business problem?”, “What did you personally do?” and “What was the result?” Record a baseline and compare a written outline with the spoken answer. Identify whether the observed difficulty is delivery, structure, evidence or knowledge.\n\n---\n\n**Session 2: The Business Analysis Deep-Dive**\n\n**Focus:** Requirements, process mapping, acceptance criteria and UAT.\n\n**Mentor Push:** Use a hypothetical renovation case, then ask for the actual Skillzcollab and Twin Engineers examples. Probe stakeholder priorities, a testable requirement and what happens after a UAT failure. Separate a learning exercise from responsibilities claimed on the resume.\n\n---\n\n**Session 3: Behavioral Stories and Data**\n\n**Focus:** A real stakeholder disagreement, feedback or setback, plus a simple quotation-data exercise.\n\n**Mentor Push:** Ask for situation, action, result and learning. For data, ask the candidate to describe a basic filter, aggregation and interpretation using synthetic data. Probe the calculation behind 10 days to 3 and the limits of any available evidence.\n\n---\n\n**Session 4: The Final Pressure Test**\n\n**Focus:** A full interview against one actual Business Analyst or Business Operations Analyst vacancy.\n\n**Mentor Push:** Cover introduction, real workflow improvement, a requirements scenario, a data question and behavioral examples. Ask two follow-ups per example. Reuse baseline prompts and the same rubric to track Communication, Structure, Technical and Behavioural separately before assessing Overall Readiness.\n\nThe focus bars indicate suggested mentor attention on a ten-point planning scale; they are not candidate assessment scores."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 1.25,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        {
+          "label": "Communication",
+          "current": "1.25",
+          "target": "4.5"
+        },
+        {
+          "label": "Structure",
+          "current": "1.8",
+          "target": "4.0"
+        },
+        {
+          "label": "Technical",
+          "current": "1.4",
+          "target": "3.5"
+        },
+        {
+          "label": "Behavioural",
+          "current": "1.6",
+          "target": "4.0"
+        }
+      ],
+      "content": "**Target Overall Readiness: 4.5.** This is a proposed coaching goal on the reference template's five-point convention, not a predicted result. The supplied current Overall Readiness is **1.25**; it is not an average.\n\n**Measurable Change:**\n\n- Deliver a 90-second transition story linking real commercial experience and the MSc to a specific Business Analyst vacancy.\n- Explain the Twin Engineers quotation process before and after the real change, identify your contribution and define the 10-to-3-day measurement.\n- Walk through one actual Skillzcollab solution brief and one World Of Tiles customer requirement, with stakeholders, actions and supported outcomes.\n- In a labeled practice case, elicit and prioritize requirements, write testable acceptance criteria and outline UAT.\n- Describe a basic quotation-data calculation and explain the limits of Excel, SQL and Python experience honestly.\n- Deliver four real behavioral stories covering disagreement, feedback, a setback and coordination; handle two relevant follow-ups per example.\n\n**The After Profile:** A candidate who connects commercial and customer-facing experience to business analysis through clear ownership, structured reasoning and evidence.\n\nReassess the dimensions using a confirmed rubric. Technical **1.4**, Overall Readiness **1.25** and Technical Readiness Score **1** remain separate supplied values; the chart's target does not change the separate Technical Readiness Score."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Complete the transition and structure drills before Session 1",
+          "content": "Record the introduction and prepare four STAR outlines. Give the business problem, your role, action and supported result."
+        },
+        {
+          "icon": "FileText",
+          "title": "Document questions you struggled with",
+          "content": "Record the exact question and whether the issue was sequence, delivery, technical knowledge, ownership or evidence."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Re-practice weak answers within 24 hours",
+          "content": "Repair the story or knowledge gap, record the answer again and practice two follow-ups without adding unsupported details."
+        },
+        {
+          "icon": "Target",
+          "title": "Meet the completion check before the next mock",
+          "content": "A listener can describe your contribution and outcome. Repeat a focused drill when the explanation or underlying understanding is incomplete."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Keep the score mapping accurate",
+          "content": "Prioritize Communication 1.25, Technical 1.4, Behavioural 1.6 and Structure 1.8. Overall Readiness 1.25 and Technical Readiness Score 1 are distinct."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Probe the business analysis reasoning",
+          "content": "Ask for the business need, stakeholders, requirements, process change, evidence and ownership. Validate score-led hypotheses through actual answers."
+        },
+        {
+          "icon": "FileText",
+          "title": "Give specific written feedback",
+          "content": "Record the question, observed difficulty and one practice action. Do not add a fabricated process change, BA title, technical artifact or result."
+        },
+        {
+          "icon": "Target",
+          "title": "Retest using a consistent rubric",
+          "content": "Compare baseline and final answers using the same definitions. Confirm scoring conventions before treating proposed targets as gates; distinguish knowledge from delivery gaps."
+        }
+      ],
+      "content": "**Working Rule:** Start with a real example and a clear outline. If an explanation is unclear, repeat the delivery drill. If business analysis knowledge or evidence is missing, learn and retest the concept before polishing the answer. Describe practice artifacts as practice.\n\n**Timeline:**\n- Week 1: Transition story and baseline recordings.\n- Week 2: Sessions 1–2; STAR structure and BA fundamentals.\n- Week 3: Session 3; behavioral examples and data practice.\n- Week 4: Session 4; full role-specific simulation.\n- Week 5, if needed: Repeat the specific unresolved drills and mock sections.\n\n**Completion Check:** A listener understands the business problem, your contribution, the decision and the supported outcome. You can answer two follow-ups, distinguish your work from others' contributions and acknowledge what you do not know. Begin with the transition introduction and one Twin Engineers walkthrough; retain the first recordings for comparison."
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "name": "Deeksha Anna Paul",
+  "email": "deeksha.anna97@gmail.com",
+  "targetRole": "Compliance Analyst / Legal and Compliance Operations",
+  "assessmentContext": {
+    "columnOrder": [
+      "Name",
+      "Email",
+      "Resume",
+      "Structure",
+      "Technical",
+      "Behavioural",
+      "Communication",
+      "Overall Readiness",
+      "Primary Risk",
+      "Technical Readiness Score"
+    ],
+    "scores": {
+      "Resume": 2.6,
+      "Structure": 2.8,
+      "Technical": 2.3,
+      "Behavioural": 2.4,
+      "Communication": 2,
+      "Overall Readiness": 2,
+      "Technical Readiness Score": null
+    },
+    "suppliedScoresInOrder": [
+      2.6,
+      2.8,
+      2.3,
+      2.4,
+      2,
+      2
+    ],
+    "suppliedRisk": "Communication & Confidence Risk",
+    "scoreMappingStatus": "User-supplied column order retained. Technical 2.3 and Overall Readiness 2 are distinct; Technical Readiness Score was blank and is null. No score formula inferred.",
+    "evidence": "User-provided assessment row and one-page resume. Resume claims are candidate-reported, not independently verified. No interview recording, transcript, target job description or scoring rubric supplied.",
+    "interpretationNote": "Interview risks and likely struggles are score-led coaching hypotheses, not observations. Worked answers are illustrative, not interview transcripts.",
+    "targetRoleStatus": "Provisional positioning based on resume; tailor to the vacancy and jurisdiction.",
+    "chartConvention": "The five competency dimensions use the Nidhi reference chart maximum of 5; the assessment scale is not independently confirmed. Overall Readiness is separate.",
+    "coachingTargets": "Targets are proposed practice goals using the reference five-point convention, not reported results, confirmed thresholds or predicted gains."
+  },
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": [
+          "Resume",
+          "Structure",
+          "Technical",
+          "Behavioural",
+          "Communication"
+        ],
+        "values": [
+          2.6,
+          2.8,
+          2.3,
+          2.4,
+          2
+        ],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: Communication & Confidence Risk — Compliance Experience That Needs a Clearer Interview Voice.**\n\nDeeksha, your resume provides relevant examples for legal and compliance interviews: HSE safety walks and preventive-action follow-ups at JLL, audit coordination across internal and external stakeholders, statutory registers and filings at Soham Renewable Energy, and M&A due diligence support at IC Universal Legal. Your first interview priority is to explain what you personally did, why it mattered and what happened next.\n\n**The Mapping Rule Analysis:**\n\nYour assessment reports Communication **2**, Structure **2.8**, Technical **2.3**, Behavioural **2.4** and Resume **2.6**. Overall Readiness is **2**. Structure is comparatively stronger, so preserve the sequencing you already demonstrate while improving the clarity of spoken answers and depth of follow-up. Technical **2.3** and Behavioural **2.4** make role-specific knowledge and specific examples important supporting priorities. Technical Readiness Score was not supplied.\n\n“I managed compliance records and supported audits” describes responsibilities. The interviewer needs the next layer: the risk or request, what you reviewed, the action you personally took, who made the decision and the outcome you can substantiate. With Communication **2**, the risk is that this detail is not communicated clearly enough for your contribution to be understood.\n\n**Your central coaching challenge: turn compliance activities into clear, evidence-backed decisions and handoffs.** Start with the issue, explain your contribution in order and close with the known outcome. Confidence is the supplied risk label; the first mock should establish whether any observed difficulty comes from delivery, technical knowledge, evidence or another cause."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: The Career Walkthrough (15m)**\n\n**The Red Flag:** “Deeksha, how do your corporate legal work in India and facilities compliance work in Ireland prepare you for this compliance role?”\n\n**Justification:** Communication **2** makes a clear, focused transition story the first practice task. A chronological list of employers may leave the interviewer to connect due diligence, audit support and facilities operations to the vacancy.\n\n**Required Shift:** Give a 90-second introduction that links two relevant examples to the role. Explain the jurisdiction and scope of each experience; describe support responsibilities accurately and tailor the final sentence to the actual vacancy.\n\n---\n\n**Scenario B: The Audit Follow-Up (20m)**\n\n**The Red Flag:** “Tell me about an audit request at JLL. What did you personally coordinate, and how did you know the requested evidence was ready?”\n\n**Justification:** Structure **2.8** is a relative strength to preserve. Communication **2** creates a risk that the candidate lists meetings and documents without making the request, action, owner and outcome clear. Technical **2.3** calls for an explanation of evidence and follow-up.\n\n**Required Shift:** Use one non-confidential, real example: request → records and stakeholders → your checks and follow-up → handoff → known result. Do not imply you led the audit or signed off its findings unless that was your responsibility.\n\n---\n\n**Scenario C: The Compliance Case (25m)**\n\n**The Red Flag:** “You identify an unresolved contractor safety issue. How would you prioritize, document and escalate it?”\n\n**Justification:** Technical **2.3** makes the reasoning behind escalation and corrective-action tracking important. The scenario is a practice case inspired by the resume, not a claim that a specific incident occurred.\n\n**Required Shift:** Clarify the facts and applicable process, document the issue, identify the responsible owner, escalate within your authority and follow up on the action. Explain the decision maker and evidence of closure. Use the actual employer procedure where applicable rather than inventing a legal requirement.\n\n---\n\n**Scenario D: The Behavioral Blend**\n\n**The Red Flag:** “Describe a time colleagues or an external party disagreed about a compliance request or deadline.”\n\n**Justification:** Behavioural **2.4** calls for specific examples rather than general claims about stakeholder management. The risk to test is losing the disagreement, your action and the result in the procedural background.\n\n**Required Shift:** Choose one genuine, non-confidential incident and give the situation, competing needs, your contribution, known outcome and learning. These scenarios are coaching hypotheses, not observations of past interview behavior."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "The “Clear Compliance Voice” Drill",
+          "content": "Record a 90-second introduction and 60-second answers on an audit request, an HSE follow-up and due diligence. Keep the situation, personal action, handoff and known result visible. Ask a listener to summarize what you did. **Practice Target:** Communication 2 → 3.5."
+        },
+        {
+          "week": "Week 2",
+          "title": "The “Risk to Closure” Drill",
+          "content": "Map one real safety or audit issue from identification through ownership, escalation, follow-up and closure evidence. Preserve the clear sequence reflected in Structure 2.8 while making spoken answers more concise. **Practice Target:** Structure 2.8 → 4.0."
+        },
+        {
+          "week": "Week 3",
+          "title": "Compliance First Principles and Behavioral Stories",
+          "content": "Prepare practical explanations of risk assessment, document control, audit evidence, confidentiality and contract review within your actual responsibilities. Build genuine examples of stakeholder disagreement, feedback and an unresolved issue. **Practice Targets:** Technical 2.3 → 4.0; Behavioural 2.4 → 4.0."
+        },
+        {
+          "week": "Week 4",
+          "title": "The Follow-Up Pressure Test",
+          "content": "Run a role-specific mock with an introduction, audit walkthrough, risk scenario, due-diligence example and behavioral questions. Repeat baseline prompts and answer two or three follow-ups per story. **Stretch Targets:** Communication 4.5; Overall Readiness 4.5."
+        }
+      ],
+      "content": "Complete the preparation for each phase before its corresponding mock. Numerical targets are proposed coaching goals under the reference template's five-point convention; confirm the assessment scale and rubric before using them as pass thresholds."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Experience 1: JLL — HSE Safety Walks, PPM Reports and Escalation**\n\n**Interviewer Probe:** “Walk me through one issue identified during a safety walk. How did you record the risk, decide whom to inform and follow up?”\n\n**Likely Struggle:** A score-led risk is listing safety walks and reports without explaining the issue, your action or the decision boundary. Communication **2** is the delivery priority; Technical **2.3** makes the risk and follow-up reasoning important.\n\n**Prep Drill:** Draw the actual process from observation to recording, responsible owner, escalation, preventive action, follow-up and evidence of closure. Identify what you checked yourself and what UK-based senior managers or contractors decided. Explain how weekly PPM reporting supports tracking, using the meaning of PPM used in your workplace. Do not invent a severity rating, incident, legal obligation or closed outcome.\n\n---\n\n**Experience 2: JLL — Internal, External and Regulatory Audit Coordination**\n\n**Interviewer Probe:** “Describe an audit information request you supported. How did you coordinate Finance, Legal, Procurement and external parties?”\n\n**Likely Struggle:** Naming stakeholders without showing how a request became complete, traceable evidence. Structure **2.8** can support a clear sequence; Communication **2** calls for a concise explanation of your contribution.\n\n**Prep Drill:** Choose one actual, non-confidential request. Prepare the information requested, relevant owners, record locations, version checks, deadlines, follow-up and handoff. Explain what you reviewed versus what an auditor or authorized decision maker approved. Bring a sanitized example of a tracker or describe its fields if permitted. If you did not see the final audit result, state the handoff and what you know.\n\n---\n\n**Experience 3: IC Universal Legal — M&A Due Diligence and Statutory Documentation**\n\n**Interviewer Probe:** “How did you support due diligence for a corporate transaction, and how were issues documented and escalated?”\n\n**Likely Struggle:** Saying “I conducted M&A due diligence” without explaining which documents you verified, the scope of your review or how findings reached the legal team.\n\n**Prep Drill:** Trace one real review task through document request, verification against the actual checklist, issue identification, documentation and supervisor review. Explain your contribution, jurisdiction and confidentiality boundaries. Prepare an example of an incomplete or inconsistent document only if it actually occurred. Distinguish supporting due diligence from owning the transaction, giving legal advice or approving a filing.\n\n---\n\n**Experience 4: Soham Renewable Energy — Compliance Registers and Audit Preparation**\n\n**Interviewer Probe:** “How did you maintain a statutory filing tracker or compliance register, and how did you know an item needed follow-up?”\n\n**Likely Struggle:** Naming registers and procedures without describing ownership, dates, supporting evidence and escalation.\n\n**Prep Drill:** Describe the fields in a register you actually maintained, how changes were reviewed, how owners and deadlines were tracked and how supporting records were retrieved. Explain one genuine procedure improvement and its observed result, if available. Separate Indian work and regulatory context from Irish work; do not assume the same filing requirements apply in both jurisdictions.\n\n---\n\n**Experience 5: JLL — Contracts, NDAs and Data-Protection Records**\n\n**Interviewer Probe:** “What did you check in a service agreement or NDA, and when would you refer an issue to Legal?”\n\n**Likely Struggle:** Treating “reviewed contracts” as authority to negotiate or approve every clause, or listing GDPR terminology without a practical example.\n\n**Prep Drill:** Explain the actual checklist, clauses or administrative checks you were authorized to review, version control and when Legal or another owner made the decision. Describe one actual document-control or data-handling task and the procedure followed; anonymize details. For a hypothetical request involving personal data, explain how you would identify the issue and consult the relevant policy and authorized specialist. Do not present an unsupported interpretation of the law as an established workplace rule.\n\n---\n\n**Behavioral Story Bank — Cross-Functional Coordination**\n\nPrepare four real examples: an audit deadline, an unresolved risk, a disagreement or feedback, and an instance of learning. Use JLL, Soham, IC Universal Legal or earlier work where relevant. Describe the situation, personal action, result and learning, including an unresolved outcome when that is what occurred."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Experience: Audit Coordination at JLL.**\n\nThe examples below illustrate answer structure; they are not transcripts of Deeksha's interview. The stronger opening uses resume claims without inventing an audit finding or result.\n\n**Baseline Example — Activities Without a Clear Contribution:**\n\n“At JLL, I work on compliance and audits. I speak to different teams, check documents and follow up on requests.”\n\n**Stronger Example — Role, Coordination and Handoff:**\n\n“At JLL, I work in facilities compliance operations. During internal, external and regulatory audits, I liaise with Finance, Legal, Procurement and external stakeholders to support compliance checks and documentation. My work also includes maintaining GDPR and HSE records in document-management and CRM systems. To explain a specific audit request, I would describe the records I coordinated, the checks I personally performed, the person responsible for the decision and the outcome I know.”\n\n**Justification:** The stronger opening gives the role, stakeholders and contribution in a clear order while preserving the resume's support scope. It is an introduction, not a complete incident-based STAR answer: a real request, action and known outcome still need to be added from experience.\n\n**The Follow-Up Layer:** Prepare one actual audit request, the records involved, how you checked and handed them over, and what happened afterward. Separate your contribution from the auditor's assessment or approval.\n\n**Practice Rule:** Deliver the overview in 60 seconds, then give a real example in two minutes. Ask a listener to identify the issue, your action, decision owner and supported result. Repeat with an HSE escalation example."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "“How do your legal and facilities compliance roles connect to this position?” **(Risk: Communication 2 — unclear career positioning)**\n\n“Describe one HSE risk you tracked. What did you personally do, who made the contractor decision and what happened next?” **(Risk: Communication 2 + Technical 2.3 — escalation, ownership and follow-up)**\n\n“How did you coordinate an audit request and check that the evidence was complete and current?” **(Risk: Technical 2.3 — document control and audit readiness)**\n\n“What fields did you maintain in a compliance register, and how did you follow up on an overdue item?” **(Risk: Technical 2.3 — practical controls and monitoring)**\n\n“Walk me through a due-diligence document check and how you escalated an issue.” **(Risk: Technical 2.3 — legal review scope and evidence)**\n\n“What did you review in a contract or NDA, and when did you involve Legal?” **(Risk: Communication 2 — clear authority boundaries)**\n\n“Tell me about a disagreement with a stakeholder over a compliance request or deadline.” **(Risk: Behavioural 2.4 — specific situation, action and outcome)**\n\n“How do your Indian legal experience and Irish compliance work differ in scope and jurisdiction?” **(Risk: Communication 2 — accurate positioning)**\n\n“Explain one data-protection documentation task to a non-legal stakeholder.” **(Risk: Technical 2.3 + Communication 2 — practical explanation rather than terminology alone)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: The Communication Diagnostic",
+              "duration": "45 minutes",
+              "objective": "Establish the baseline for Communication 2 through the career introduction and audit example."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: Compliance and Audit Deep-Dive",
+              "duration": "50 minutes",
+              "objective": "Test Technical 2.3 through risk escalation, audit evidence and register follow-up."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: Legal Review and Behavioral Impact",
+              "duration": "45 minutes",
+              "objective": "Practice due-diligence ownership, contract-review boundaries and a real stakeholder incident."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: The Final Pressure Test",
+              "duration": "60 minutes",
+              "objective": "Run a role-specific simulation and reassess against Overall Readiness 2 using a consistent rubric."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            {
+              "label": "Session 1: Communication and Positioning",
+              "value": 9,
+              "max": 10
+            },
+            {
+              "label": "Session 2: Compliance and Audit Depth",
+              "value": 9,
+              "max": 10
+            },
+            {
+              "label": "Session 3: Legal and Behavioral Delivery",
+              "value": 8,
+              "max": 10
+            },
+            {
+              "label": "Session 4: Full Simulation",
+              "value": 10,
+              "max": 10
+            }
+          ]
+        }
+      ],
+      "content": "**Session 1: The Communication Diagnostic**\n\n**Focus:** Career introduction and an audit-coordination example.\n\n**Mentor Push:** Let Deeksha finish the first answer, then ask “What was requested?”, “What did you personally do?” and “Who owned the decision?” Compare a written outline with the spoken answer to identify whether the observed difficulty is delivery, evidence or technical understanding. Record a baseline.\n\n---\n\n**Session 2: Compliance and Audit Deep-Dive**\n\n**Focus:** A safety risk, audit request and compliance register.\n\n**Mentor Push:** Trace identification, evidence, owner, escalation and closure. Use a clearly hypothetical contractor scenario where needed. Ask which procedure applies and who has authority; do not require confidential details or assume a specific legal obligation.\n\n---\n\n**Session 3: Legal Review and Behavioral Impact**\n\n**Focus:** Due diligence, contract-review scope and a genuine stakeholder story.\n\n**Mentor Push:** Ask what Deeksha checked, how she documented or escalated an issue and what she knows about the result. For the behavioral example, probe the actual disagreement, personal action and learning. Preserve the structure reflected in the **2.8** score while improving concise delivery.\n\n---\n\n**Session 4: The Final Pressure Test**\n\n**Focus:** A full interview against one actual legal or compliance operations vacancy.\n\n**Mentor Push:** Include an introduction, audit example, risk scenario, document-review question and behavioral story. Ask two or three follow-ups per example. Repeat baseline prompts and score Communication, Technical, Behavioural and Structure separately before assessing Overall Readiness.\n\nThe focus bars show suggested mentor attention on a ten-point planning scale; they are not assessment scores."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 2,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        {
+          "label": "Communication",
+          "current": "2",
+          "target": "4.5"
+        },
+        {
+          "label": "Technical",
+          "current": "2.3",
+          "target": "4.0"
+        },
+        {
+          "label": "Behavioural",
+          "current": "2.4",
+          "target": "4.0"
+        },
+        {
+          "label": "Structure",
+          "current": "2.8",
+          "target": "4.0"
+        }
+      ],
+      "content": "**Target Overall Readiness: 4.5.** This is a proposed coaching goal using the reference template's five-point convention, not a predicted result. The supplied current Overall Readiness is **2**; it is not an average.\n\n**Measurable Change:**\n\n- Deliver a 90-second introduction that connects two legal and compliance experiences to an actual vacancy.\n- Explain one real audit request from evidence collection to handoff, with personal responsibility and the decision owner clear.\n- Trace one HSE issue through recording, escalation and follow-up using the actual procedure and known outcome.\n- Describe an actual due-diligence document check and a register or filing-tracker task without overstating authority.\n- Explain a contract or NDA review boundary and one data-handling task in plain language.\n- Deliver four specific behavioral stories and handle two follow-ups per example, acknowledging any knowledge or evidence limits.\n\n**The After Profile:** A legal and compliance professional whose answers show clear responsibility, sound risk reasoning and credible evidence across stakeholder handoffs.\n\nReassess using a confirmed rubric. Technical **2.3** and Overall Readiness **2** remain separate; Technical Readiness Score was not supplied and remains blank. Proposed targets are practice goals, not guaranteed improvements."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Complete the Clear Compliance Voice Drill before Session 1",
+          "content": "Record the career introduction and three short examples. Explain the issue, your action, handoff and known result."
+        },
+        {
+          "icon": "FileText",
+          "title": "Document every question you struggled with",
+          "content": "Record the exact question and whether the gap was delivery, technical understanding, evidence, ownership or structure."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Re-practice weak answers within 24 hours",
+          "content": "Repair the outline or concept, record the answer and practice two follow-ups using genuine, non-confidential evidence."
+        },
+        {
+          "icon": "Target",
+          "title": "Meet the completion check before the next mock",
+          "content": "A listener should understand your action and the known result. Repeat a focused drill when an explanation or its underlying reasoning remains incomplete."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Keep the assessment mapping accurate",
+          "content": "Prioritize Communication 2 while developing Technical 2.3 and Behavioural 2.4. Preserve Structure 2.8; Overall Readiness 2 is separate and Technical Readiness Score is unsupplied."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Probe the risk and ownership boundary",
+          "content": "Ask what happened, what Deeksha did, who made the decision and what evidence supports the outcome. Treat score-led risks as hypotheses until observed."
+        },
+        {
+          "icon": "FileText",
+          "title": "Give specific written feedback",
+          "content": "Record the question, observed difficulty and one drill. Do not add an invented incident, audit finding, legal obligation or result."
+        },
+        {
+          "icon": "Target",
+          "title": "Retest with a consistent rubric",
+          "content": "Compare baseline and final answers using the same definitions. Confirm scoring conventions before using proposed numerical targets as gates."
+        }
+      ],
+      "content": "**Working Rule:** Start with an actual example and a clear outline. If the explanation is unclear, repeat the delivery drill; if the procedure, evidence or technical reasoning is incomplete, prepare it before polishing the answer. Label hypothetical scenarios as practice and protect confidential information.\n\n**Timeline:**\n- Week 1: Career introduction and baseline recordings.\n- Week 2: Sessions 1–2; communication, audit and risk follow-up.\n- Week 3: Session 3; legal review and behavioral examples.\n- Week 4: Session 4; full role-specific simulation.\n- Week 5, if needed: Repeat the unresolved drills and mock sections.\n\n**Completion Check:** A listener can identify the issue, your contribution, the decision owner and the supported outcome. You can handle two follow-ups without adding unsupported details or overstating authority. Start with the career introduction and one audit request; retain the first recordings for comparison."
+    }
+  ]
+}

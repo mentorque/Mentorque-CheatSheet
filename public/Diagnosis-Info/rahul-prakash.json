@@ -1,0 +1,256 @@
+{
+  "name": "Rahul Prakash",
+  "email": "rahulgarg318@gmail.com",
+  "targetRole": "Data Analyst / Business Intelligence Analyst",
+  "assessmentContext": {
+    "columnOrder": [
+      "Name",
+      "Email",
+      "Resume",
+      "Structure",
+      "Technical",
+      "Behavioural",
+      "Communication",
+      "Overall Readiness",
+      "Primary Risk",
+      "Technical Readiness Score"
+    ],
+    "scores": {
+      "Resume": 1.8,
+      "Structure": 1.2,
+      "Technical": 1.6,
+      "Behavioural": 2,
+      "Communication": 2,
+      "Overall Readiness": 2,
+      "Technical Readiness Score": 2
+    },
+    "suppliedScoresInOrder": [
+      1.8,
+      1.2,
+      1.6,
+      2,
+      2,
+      2
+    ],
+    "suppliedRisk": "Structuring Risk",
+    "scoreMappingStatus": "User-confirmed column order retained. Technical 1.6, Overall Readiness 2 and Technical Readiness Score 2 are separate reported metrics; no formula inferred.",
+    "evidence": "User-provided assessment row and one-page resume. Resume claims are candidate-reported and not independently verified. No interview transcript, recording, target job description or assessment rubric was supplied.",
+    "interpretationNote": "Likely interview struggles are score-led coaching hypotheses to validate in a mock. Illustrative answers are not candidate transcripts.",
+    "targetRoleStatus": "Provisional positioning based on resume; tailor the diagnosis to an actual vacancy.",
+    "chartConvention": "Five competency values use the Nidhi reference maximum of 5; the assessment scale is not independently confirmed. Overall Readiness and Technical Readiness Score are kept separate.",
+    "coachingTargets": "Targets are proposed practice goals using the reference five-point convention, not reported results, confirmed assessment thresholds or guaranteed improvements."
+  },
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": [
+          "Resume",
+          "Structure",
+          "Technical",
+          "Behavioural",
+          "Communication"
+        ],
+        "values": [
+          1.8,
+          1.2,
+          1.6,
+          2,
+          2
+        ],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: Structuring Risk — Analytical Work That Needs a Clearer Interview Story.**\n\nRahul, your resume contains substantial material for a Data Analyst interview: integrating LMS, CRM and survey data for management dashboards at Vepsun, supporting placement analysis using 10,000+ records, analyzing approximately 12,000 pizza orders, and benchmarking churn models on 10,000 banking records. Your immediate challenge is to explain that work in a sequence that makes the problem, your analysis and the result easy to follow.\n\n**The Mapping Rule Analysis:**\n\nYour assessment reports Structure **1.2**, Technical **1.6**, Resume **1.8**, Behavioural **2** and Communication **2**. Overall Readiness is **2**; Technical Readiness Score is a separate reported metric of **2**. Structure is the lowest reported competency, and Technical and Resume also need focused attention. Communication and Behavioural are comparatively stronger, so use spoken practice and specific examples to build on them.\n\n“I built a dashboard and course completion improved by 12%” names a tool and a result, but it does not yet explain the original business question, how the data was combined, which decision the dashboard informed or how improvement was measured. Structure **1.2** makes that sequence the first practice priority. Technical **1.6** means you must also prepare the analytical methods and evidence behind each step; an organized answer alone cannot replace technical depth.\n\n**Your central coaching challenge: connect data to a decision through a defensible analytical process.** Start with the business problem, explain data and your contribution, describe the method and finish with a supported outcome and limitation. These are score-led coaching priorities; the first mock should establish which difficulties actually occur."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: The Resume Walkthrough (15m)**\n\n**The Red Flag:** “Rahul, walk me through how your dashboards supported the reported 12% improvement in course completion.”\n\n**Justification:** Structure **1.2** makes this the first test. The risk is jumping from LMS, CRM and survey data to Power BI or a result without explaining the original problem, your actions and the decision the work supported. The resume claims an improvement, but it does not establish the evaluation method or that the dashboard alone caused it.\n\n**Required Shift:** Use problem → data → your action → decision → measured outcome → limitation. Define whether 12% refers to a relative change or percentage points and the period over which it was measured.\n\n---\n\n**Scenario B: The Technical Case (25m)**\n\n**The Red Flag:** “How did you combine the three source systems and check that your dashboard reported the correct student and completion counts?”\n\n**Justification:** Technical **1.6** calls for preparation on data grain, joins, duplicates and validation. Structure **1.2** makes the order of explanation important: the interviewer needs to follow the data from source to report.\n\n**Required Shift:** Describe one actual pipeline, its source grain, matching keys, transformations, quality checks and destination. If you did not own a stage, identify who did rather than claim end-to-end ownership.\n\n---\n\n**Scenario C: The Modeling Follow-Up (20m)**\n\n**The Red Flag:** “Your churn project aimed to reduce false negatives. How did you choose a threshold and evaluate the trade-off?”\n\n**Justification:** Technical **1.6** makes precision, recall, validation and leakage important to test. Structure **1.2** creates a risk that the candidate lists algorithms without connecting their predictions to the business decision.\n\n**Required Shift:** Explain the churn definition, data split, model comparison, threshold selection, relevant confusion-matrix outcomes and limitation. Use the actual method and metrics; the resume does not specify model names, thresholds or scores.\n\n---\n\n**Scenario D: The Behavioral Blend**\n\n**The Red Flag:** “Tell me about a time a stakeholder questioned your analysis or a team disagreed about a data definition.”\n\n**Justification:** Behavioural **2** is relatively stronger than Structure, making a real stakeholder story useful material for practice. The risk to test is losing the disagreement, personal action and result among technical details.\n\n**Required Shift:** Choose a genuine incident and use Situation → Task → Action → Result. If the outcome was a revised recommendation or an agreed definition, describe it accurately without inventing a business impact."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "The “Structure” Drill",
+          "content": "Create 60-90 second outlines for course completion, placement analysis, the banking churn project and GOGO Pizza. Use problem → data → personal action → decision → result → limitation. Record each answer and ask a listener to identify the problem and contribution. **Practice Target:** Structure 1.2 → 3.5."
+        },
+        {
+          "week": "Week 2",
+          "title": "Analytics First Principles",
+          "content": "Trace the real LMS/CRM/survey pipeline and practice joins, duplicate handling, nulls, data grain and reconciliation. Define the completion and placement measures, periods and evidence behind the reported improvements. **Practice Target:** Technical 1.6 → 3.5."
+        },
+        {
+          "week": "Week 3",
+          "title": "Model-to-Decision and Behavioral Stories",
+          "content": "Explain churn threshold trade-offs, leakage and the actual model evaluation. Prepare real stories about stakeholder feedback, data-quality issues, collaboration and learning. Practice concise delivery while preserving the evidence. **Practice Targets:** Structure 4.0; Behavioural 2 → 3.5."
+        },
+        {
+          "week": "Week 4",
+          "title": "The Follow-Up Pressure Test",
+          "content": "Run a Data Analyst or BI mock with a project walkthrough, SQL/data-quality case, model-evaluation question and behavioral examples. Repeat baseline prompts and answer two or three follow-ups per project. **Stretch Targets:** Structure 4.5; Overall Readiness 4.5."
+        }
+      ],
+      "content": "Complete the preparation for each phase before its corresponding mock. Numerical targets are proposed coaching goals under the reference template's five-point convention; confirm the actual scale and rubric before using them as pass thresholds."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Experience 1: Vepsun Technologies — Course Completion and Management Dashboards**\n\n**Interviewer Probe:** “How did integrating LMS, CRM and survey data support the reported 12% course-completion improvement across 10,000 students and five courses?”\n\n**Likely Struggle:** A score-led risk is listing tools and the outcome without explaining the business problem, integration or how a stakeholder used the analysis. Structure **1.2** and Technical **1.6** make the method and sequence central.\n\n**Prep Drill:** Trace the actual data from each source through matching, cleaning, definition of completion, dashboard measures and management action. Define the unit of analysis and how duplicate or missing students were handled. Prepare the comparison period, denominator and source behind 12%; establish whether this is relative change or percentage points. Explain who acted on the findings and distinguish association or support from a demonstrated causal effect. Clarify whether your contribution was pipeline development, analysis, dashboard creation or shared work.\n\n---\n\n**Experience 2: Vepsun — Placement Prediction and 10,000+ Records**\n\n**Interviewer Probe:** “What did the placement model predict, how was it evaluated, and how did it support the reported 10% increase in placement success for approximately 500–600 students?”\n\n**Likely Struggle:** Confusing the 10,000+ training records with the approximately 500–600 students associated with the reported outcome, or treating a model metric as proof of placement impact.\n\n**Prep Drill:** Define a placement record and prediction target, the time point at which a prediction was made, features actually available at that time, and the train/validation/test approach. Explain the actual model and baseline, leakage checks and evaluation metrics if known. Separately define the placement-success numerator, denominator, period and whether 10% means relative change or percentage points. Identify the human or operational action the model informed and any limitations in attributing the outcome to it. Do not invent model names or performance figures.\n\n---\n\n**Project 3: Retail Banking — Customer Churn Prediction**\n\n**Interviewer Probe:** “How did you choose a decision threshold to reduce false negatives, and what was the cost of the resulting false positives?”\n\n**Likely Struggle:** Listing four algorithms without explaining why a missed churner mattered, how the threshold was selected or whether the evaluation remained unbiased. Technical **1.6** makes validation and trade-offs a priority.\n\n**Prep Drill:** Explain the actual churn target, class distribution, data split, preprocessing, models compared and metrics used. Draw a confusion matrix and explain precision, recall and false negatives in the bank's context. Describe how the threshold was selected on validation data, or explain the actual method and its limitations if different. Identify leakage risks, how feature importance was computed, and why importance or inactivity does not by itself prove causation. The resume does not provide the four algorithm names, selected threshold or scores.\n\n---\n\n**Project 4: GOGO Pizza — Relational Data, ETL and Power BI**\n\n**Interviewer Probe:** “How did you model customer and order data, and how did the dashboard identify low-selling items across approximately 12,000 orders?”\n\n**Likely Struggle:** Describing Salesforce, ETL and Power BI as a tool list rather than explaining the data model, your contribution and the business question.\n\n**Prep Drill:** Sketch the actual tables, keys and relationships, and identify the grain of orders and order lines. Trace one field from source through transformation to the dashboard. Explain reconciliation checks, the metric and period used for low-selling items among 22 pizza types, and the stakeholder decision the analysis could support. Separate your contribution to database design and the team's CRM implementation from the ETL and dashboard work you personally built. Practice a simple SQL join and aggregation using labeled synthetic data.\n\n---\n\n**Project 5: Hotel, Taxi and Telco — Predictive Analysis**\n\n**Interviewer Probe:** “How did feature engineering produce an 8% improvement across three datasets, and how did you compare classification with regression?”\n\n**Likely Struggle:** Presenting 8% as one interchangeable accuracy measure across tasks without explaining baselines, metrics or dataset-specific evaluation.\n\n**Prep Drill:** Select one dataset and show the actual target, split, baseline, engineered features, model comparison and held-out metric. Explain total customer stay duration only where it was truly available at prediction time. Define what the reported 8% measures for each task, including relative versus percentage-point change; verify whether the same metric is appropriate across classification and regression. State per-dataset results and limitations rather than inventing a common accuracy figure."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Experience: Course Completion Dashboards at Vepsun Technologies.**\n\nThese examples illustrate structure; they are not transcripts of Rahul's interview. The stronger opening uses resume claims without inventing a dashboard feature, intervention or evaluation method.\n\n**Baseline Example — Tools and Result Without a Sequence:**\n\n“At Vepsun, I used data from different systems and created dashboards. There were 10,000 students, and course completion improved by 12%.”\n\n**Stronger Example — Business Context, Work and Outcome:**\n\n“At Vepsun Technologies, I worked as a Data Analyst on reporting that brought LMS, CRM and survey data together for management dashboards. The work covered data across 10,000 students and five courses. I developed automated ETL pipelines to consolidate reporting from those sources. The resume reports a 12% improvement in course completion associated with this work. To explain the result properly, I would define the completion metric and period and describe which management actions the reporting supported.”\n\n**Justification:** The stronger version gives a clear sequence: role → data → contribution → reported outcome. It avoids claiming that a dashboard alone caused the improvement. It is a structured opening, not a complete account of the analytical method.\n\n**The Follow-Up Layer:** Prepare the real business question, matching and validation methods, personal ownership, management decision and basis for the 12% figure. Clarify whether the metric is relative change or percentage points. Add only details you can substantiate.\n\n**Practice Rule:** Deliver the opening in 60 seconds. Then explain one genuine analytical decision in two minutes and answer “How did you validate it?” and “What happened after the dashboard was used?” Ask a listener to identify the problem, your action and the supported result."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "“How did the course-completion dashboard support the 12% improvement? What exactly was measured?” **(Risk: Structure 1.2 + Technical 1.6 — method-to-outcome connection)**\n\n“How did you join LMS, CRM and survey data and verify student counts?” **(Risk: Technical 1.6 — data grain, joins and validation)**\n\n“What did the placement model predict, and how did you avoid using information unavailable at prediction time?” **(Risk: Technical 1.6 — target definition and leakage)**\n\n“How do 10,000+ placement records relate to the approximately 500–600 students in the 10% placement-success claim?” **(Risk: Structure 1.2 — population and outcome clarity)**\n\n“In the churn project, how did you choose the threshold and balance false negatives against false positives?” **(Risk: Technical 1.6 — evaluation and business trade-offs)**\n\n“How did the GOGO Pizza data model connect customers, orders and products? What did you personally build?” **(Risk: Structure 1.2 — pipeline and ownership)**\n\n“What does an 8% predictive improvement mean across classification and regression, and what were the separate baselines?” **(Risk: Technical 1.6 — metric interpretation)**\n\n“Tell me about a stakeholder who challenged a dashboard or definition. What did you do?” **(Focus: Build on Behavioural 2 with a genuine, structured incident)**\n\n“Explain one dashboard finding to a non-technical manager, then explain the validation to an analyst.” **(Focus: Build on Communication 2 while improving structure)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: The Diagnostic Walkthrough",
+              "duration": "45 minutes",
+              "objective": "Establish the Structure 1.2 baseline through the resume and course-completion story."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: Data and BI Deep-Dive",
+              "duration": "50 minutes",
+              "objective": "Test Technical 1.6 through joins, data quality, ETL and dashboard measures."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: Modeling and Behavioral Impact",
+              "duration": "45 minutes",
+              "objective": "Practice threshold trade-offs, placement evaluation and a real stakeholder incident."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: The Final Pressure Test",
+              "duration": "60 minutes",
+              "objective": "Run a role-specific simulation and reassess against the supplied Overall Readiness baseline of 2 using a consistent rubric."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            {
+              "label": "Session 1: Answer Structure",
+              "value": 10,
+              "max": 10
+            },
+            {
+              "label": "Session 2: Data and BI Fundamentals",
+              "value": 9,
+              "max": 10
+            },
+            {
+              "label": "Session 3: Modeling and Behavioral",
+              "value": 9,
+              "max": 10
+            },
+            {
+              "label": "Session 4: Full Simulation",
+              "value": 10,
+              "max": 10
+            }
+          ]
+        }
+      ],
+      "content": "**Session 1: The Diagnostic Walkthrough**\n\n**Focus:** Resume story and the course-completion example.\n\n**Mentor Push:** Let Rahul finish a 90-second answer, then ask “What was the question?”, “What did you personally do?” and “How was the result measured?” Compare a written outline with the spoken answer to distinguish structure, evidence, delivery and understanding. Record the baseline.\n\n---\n\n**Session 2: Data and BI Deep-Dive**\n\n**Focus:** LMS/CRM/survey integration and GOGO Pizza reporting.\n\n**Mentor Push:** Trace the source grain, joins, transformation, checks and dashboard measure. Use a small synthetic SQL or data-quality case. Ask how the stakeholder would use the output and what might make the result misleading. Avoid assuming a tool or process not established by the candidate.\n\n---\n\n**Session 3: Modeling and Behavioral Impact**\n\n**Focus:** Churn thresholds, placement prediction and one real stakeholder story.\n\n**Mentor Push:** Ask for target definition, validation, leakage and false-negative trade-offs. Separately ask about a genuine disagreement or feedback incident and identify the candidate's action and outcome. Require a logical sequence before increasing technical depth.\n\n---\n\n**Session 4: The Final Pressure Test**\n\n**Focus:** A full Data Analyst or BI Analyst interview using one actual vacancy.\n\n**Mentor Push:** Include an introduction, project walkthrough, data case, modeling question and behavioral story. Ask two or three follow-ups per main example and repeat comparable baseline prompts. Score Structure, Technical, Communication and Behavioural separately before assessing Overall Readiness.\n\nFocus bars show suggested mentor attention on a ten-point planning scale; they are not assessment scores."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 2,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        {
+          "label": "Structure",
+          "current": "1.2",
+          "target": "4.5"
+        },
+        {
+          "label": "Technical",
+          "current": "1.6",
+          "target": "4.0"
+        },
+        {
+          "label": "Resume",
+          "current": "1.8",
+          "target": "4.0"
+        },
+        {
+          "label": "Behavioural",
+          "current": "2",
+          "target": "4.0"
+        }
+      ],
+      "content": "**Target Overall Readiness: 4.5.** This is a proposed coaching goal using the reference template's five-point convention, not a predicted result. The supplied current Overall Readiness is **2**; it is not an average of competency scores.\n\n**Measurable Change:**\n\n- Explain the course-completion project in a clear sequence from business problem through data, personal action, decision and supported result.\n- Define the 12% completion and 10% placement-success claims, including population, period, comparison and what the evidence can establish.\n- Trace one LMS/CRM/survey pipeline and explain joins, grain, duplicates and validation.\n- Explain a churn confusion matrix and threshold trade-off, and describe the actual validation and leakage checks used.\n- Walk through the GOGO Pizza data model and distinguish your work from the team's CRM implementation.\n- Explain the 8% modeling claim with the correct dataset-specific baseline and metric.\n- Deliver four real behavioral examples and handle two follow-ups per project without inventing details.\n\n**The After Profile:** An analyst who can lead an interviewer from a business question to data, method, decision and a defensible outcome.\n\nReassess dimensions with a confirmed rubric. Technical **1.6**, Overall Readiness **2** and Technical Readiness Score **2** remain separate values even where their numbers coincide. Proposed targets are practice goals, not guaranteed improvements."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Complete the Structure Drill before Session 1",
+          "content": "Record four project outlines using problem, data, action, decision, result and limitation."
+        },
+        {
+          "icon": "FileText",
+          "title": "Document questions you struggled with",
+          "content": "Record the exact question and whether the issue was sequence, data, technical reasoning, ownership or evidence."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Re-practice weak answers within 24 hours",
+          "content": "Repair the outline or concept, record the answer and practice two follow-ups using only supported details."
+        },
+        {
+          "icon": "Target",
+          "title": "Meet the completion check before the next mock",
+          "content": "A listener should understand your contribution and the evidence. Repeat a focused drill when the explanation or technical understanding is incomplete."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Keep the supplied scores distinct",
+          "content": "Prioritize Structure 1.2 and Technical 1.6; track Resume 1.8, Behavioural 2 and Communication 2. Overall Readiness 2 and Technical Readiness Score 2 are separate metrics."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Probe the analysis behind the outcome",
+          "content": "Ask about the business question, source grain, method, evaluation, decision and limitations. Treat score-led risks as hypotheses until observed."
+        },
+        {
+          "icon": "FileText",
+          "title": "Give specific written feedback",
+          "content": "Record the question, observed difficulty and one drill. Do not supply an invented model, validation method, stakeholder action or business result."
+        },
+        {
+          "icon": "Target",
+          "title": "Retest with a consistent rubric",
+          "content": "Compare baseline and final answers using the same definitions. Confirm the scoring convention before using proposed numerical targets as gates."
+        }
+      ],
+      "content": "**Working Rule:** Structure the answer around the actual business question and evidence. If the story is unclear, repeat the structure drill; if the analysis or evidence is incomplete, learn or verify it before polishing the delivery. Treat synthetic data and hypothetical scenarios as practice.\n\n**Timeline:**\n- Week 1: Project outlines and recorded baseline answers.\n- Week 2: Sessions 1–2; structure, data integration and BI.\n- Week 3: Session 3; modeling and stakeholder stories.\n- Week 4: Session 4; full role-specific simulation.\n- Week 5, if needed: Repeat the unresolved drills and mock sections.\n\n**Completion Check:** A listener can identify the problem, your contribution, the analytical method and the supported outcome. You can answer two follow-ups and distinguish a measured result from a hypothesis or an attribution you cannot establish. Start with the course-completion walkthrough and retain the first recording for comparison."
+    }
+  ]
+}

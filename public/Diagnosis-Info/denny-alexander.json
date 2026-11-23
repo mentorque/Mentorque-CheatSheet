@@ -1,0 +1,257 @@
+{
+  "name": "Denny Alexander",
+  "email": "dennyalexander2611@gmail.com",
+  "targetRole": "AML / KYC Compliance Analyst",
+  "assessmentContext": {
+    "columnOrder": [
+      "Name",
+      "Email",
+      "Resume",
+      "Structure",
+      "Technical",
+      "Behavioural",
+      "Communication",
+      "Overall Readiness",
+      "Primary Risk",
+      "Technical Readiness Score"
+    ],
+    "scores": {
+      "Resume": 3,
+      "Structure": 3,
+      "Technical": 2.7,
+      "Behavioural": 2.8,
+      "Communication": 2.75,
+      "Overall Readiness": 2.75,
+      "Technical Readiness Score": null
+    },
+    "suppliedScoresInOrder": [
+      3,
+      3,
+      2.7,
+      2.8,
+      2.75,
+      2.75
+    ],
+    "suppliedRisk": "Technical Readiness Risk",
+    "scoreMappingStatus": "User-confirmed column order retained. Technical 2.7 and Overall Readiness 2.75 are distinct; Technical Readiness Score was blank and is null. No score formula inferred.",
+    "evidence": "User-provided assessment row and one-page resume. Resume claims are candidate-reported and not independently verified. No interview recording, transcript, target job description or assessment rubric supplied.",
+    "nameNote": "Assessment row uses Denny Alexander; resume uses Denny Kuruvilla Alexander. Assessment name retained.",
+    "interpretationNote": "Interview risks and likely struggles are score-led coaching hypotheses, not observations. Worked answers are illustrative, not candidate interview transcripts.",
+    "targetRoleStatus": "Provisional AML/KYC positioning based on resume; tailor to an actual vacancy and jurisdiction.",
+    "chartConvention": "Five competency dimensions use the Nidhi reference chart maximum of 5; the assessment scale is not independently confirmed. Overall Readiness is separate.",
+    "coachingTargets": "Targets are proposed practice goals under the reference five-point convention, not supplied results, confirmed thresholds or predicted gains."
+  },
+  "sections": [
+    {
+      "title": "Diagnosis Summary",
+      "sectionType": "spider",
+      "spiderGraph": {
+        "labels": [
+          "Resume",
+          "Structure",
+          "Technical",
+          "Behavioural",
+          "Communication"
+        ],
+        "values": [
+          3,
+          3,
+          2.7,
+          2.8,
+          2.75
+        ],
+        "maxValue": 5
+      },
+      "content": "**Primary Risk: Technical Readiness Risk — Compliance Experience That Needs Defensible Decision-Making Detail.**\n\nDenny, your resume provides relevant material for AML/KYC interviews: customer due diligence across 10–15 insurer-related portfolios, enhanced due diligence and screening for 10 accounts, beneficial ownership assessment, and legal research across Ireland, the UK and the Netherlands. Your first priority is to explain the evidence and reasoning behind one real review, not just name the checks you completed.\n\n**The Mapping Rule Analysis:**\n\nYour assessment reports Resume **3**, Structure **3**, Technical **2.7**, Behavioural **2.8** and Communication **2.75**. Overall Readiness is **2.75**. Technical is the lowest reported competency, and the supplied primary risk is Technical Readiness Risk. Resume and Structure are comparatively stronger, so preserve the sequencing you already demonstrate while deepening the substance of your case explanations. Technical Readiness Score was blank and remains separate from Technical.\n\n“I screened an account and escalated a risk” identifies an activity. An interviewer will also want to know how you established the ownership structure, distinguished a potential screening match from a confirmed match, assessed the available evidence, documented uncertainty and determined the appropriate handoff. Technical **2.7** makes those decision points the first practice priority; Communication **2.75** makes it important to explain them clearly without obscuring the answer in regulatory terminology.\n\n**Your central coaching challenge: move from a list of AML checks to a traceable case decision.** Lead with the customer and risk question, explain the information and checks actually used, describe your analysis and ownership boundaries, then close with the handoff and known outcome. This is a score-led coaching hypothesis; a mock should establish which technical or delivery gaps actually occur."
+    },
+    {
+      "title": "How This Risk Shows Up in Interviews",
+      "sectionType": "content",
+      "content": "**Scenario A: The KYC Walkthrough (15m)**\n\n**The Red Flag:** “Denny, walk me through a corporate onboarding review where the beneficial ownership structure was difficult to establish.”\n\n**Justification:** Technical **2.7** makes the methodology behind ownership verification the primary test. A list of documents and screening checks can leave the interviewer unclear about how you resolved an ownership question or handled missing information.\n\n**Required Shift:** Explain the customer, ownership or control question, reliable information available, your analysis, documentation and escalation. Use a real non-confidential example. Apply the relevant institution's policy and the applicable rules for the specific jurisdiction; do not assume one universal ownership threshold.\n\n---\n\n**Scenario B: The Screening Case (20m)**\n\n**The Red Flag:** “You identify a possible sanctions or PEP match during onboarding. How would you investigate it and decide what to do next?”\n\n**Justification:** Technical **2.7** makes the distinction between a potential match, a confirmed match and a risk-based decision important. Structure **3** is a relative strength to preserve in the answer. This is a practice scenario, not a claim that a particular match occurred.\n\n**Required Shift:** Clarify the customer and identifiers, compare available evidence, record the rationale, identify unresolved facts and follow the relevant escalation and decision process. Explain that sanctions and PEP screening raise different questions; final decisions depend on the applicable rules, facts and delegated authority.\n\n---\n\n**Scenario C: The Enhanced Due Diligence Follow-Up (20m)**\n\n**The Red Flag:** “Your resume refers to enhanced due diligence on 10 accounts. What additional work did you perform, and what happened when a KYC discrepancy remained unresolved?”\n\n**Justification:** The interviewer needs to see the connection between a risk trigger, additional checks and a defensible recommendation. Communication **2.75** makes a concise explanation useful; the resume does not identify the precise trigger or outcome for each account.\n\n**Required Shift:** Use one genuine case, state the trigger and checks you actually performed, the evidence you reviewed, what you escalated and what you know about the outcome. The resume says onboarding was delayed pending review; do not turn that into a confirmed breach or a rejection decision without evidence.\n\n---\n\n**Scenario D: The Behavioral Blend**\n\n**The Red Flag:** “Tell me about a time a stakeholder wanted an onboarding decision before your review was complete.”\n\n**Justification:** Behavioural **2.8** is a useful starting point for a specific story about professional judgment and communication. The risk to test is giving a general compliance principle without describing your actual action and the outcome.\n\n**Required Shift:** Choose a genuine incident and use Situation → Task → Action → Result. Explain how you communicated the issue, who owned the decision and what you learned. These scenarios are coaching hypotheses, not observations of past interview behavior."
+    },
+    {
+      "title": "Priority Fix Order",
+      "sectionType": "stepper",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "The “Case Decision” Drill",
+          "content": "Prepare 60–90 second walkthroughs of one corporate KYC review, one enhanced review and one legal due-diligence example. Use customer → risk question → evidence → analysis → your action → handoff → known result. Preserve the structure reflected in the 3 score. **Practice Target:** Technical 2.7 → 3.5."
+        },
+        {
+          "week": "Week 2",
+          "title": "AML/KYC First Principles",
+          "content": "Review beneficial ownership and control, customer risk assessment, sanctions and PEP screening, adverse media and enhanced due diligence for the target role. Work through a labeled hypothetical ownership chain and screening alert using the applicable institution policy and jurisdiction. **Practice Target:** Technical 2.7 → 4.0."
+        },
+        {
+          "week": "Week 3",
+          "title": "Evidence-to-Decision and Behavioral Stories",
+          "content": "Prepare real examples of a discrepancy, an incomplete file, stakeholder disagreement and a review decision or escalation. Practice an audit-ready rationale and a concise stakeholder update. **Practice Targets:** Communication 2.75 → 4.0; Behavioural 2.8 → 4.0."
+        },
+        {
+          "week": "Week 4",
+          "title": "The Follow-Up Pressure Test",
+          "content": "Run a role-specific AML/KYC mock covering corporate ownership, screening, enhanced review, escalation and behavioral questions. Repeat baseline prompts and answer two or three deeper follow-ups per case. **Stretch Targets:** Technical 4.5; Overall Readiness 4.5."
+        }
+      ],
+      "content": "Complete the preparation for each phase before its corresponding mock. Numerical targets are proposed coaching goals using the reference template's five-point convention; confirm the actual assessment scale and rubric before using them as pass thresholds."
+    },
+    {
+      "title": "Resume-Anchored Technical Prep",
+      "sectionType": "content",
+      "content": "**Experience 1: Beale & Co — Corporate AML/KYC Reviews Across 10–15 Portfolios**\n\n**Interviewer Probe:** “How did you assess a corporate ownership structure and support a risk profile for an insurer-related client?”\n\n**Likely Struggle:** A score-led risk is listing customer due diligence checks without tracing the ownership analysis, evidence and decision. Technical **2.7** makes the method the priority; Structure **3** can help present it in order.\n\n**Prep Drill:** Draw a sanitized example of an actual ownership chain. Explain the customer relationship, information sources and documents you reviewed, how ownership and control were assessed, inconsistencies or unknowns, your contribution and the reviewer or decision owner. Define what the 10–15 portfolios represent and the period, if known. Distinguish an ownership calculation from a legal conclusion about beneficial ownership; use the institution's policy and relevant jurisdiction rather than assuming a universal threshold.\n\n---\n\n**Experience 2: Beale & Co — EDD and Screening for 10 Accounts**\n\n**Interviewer Probe:** “Describe a case involving PEP exposure, an ownership conflict or a KYC discrepancy. What additional work did you perform and why?”\n\n**Likely Struggle:** Treating all screening alerts as confirmed matches, or saying onboarding was delayed without explaining what was unresolved and who made the next decision.\n\n**Prep Drill:** Choose one genuine non-confidential case. Trace the trigger → identifiers and sources checked → additional information → analysis → documentation → escalation → known outcome. Explain what made the review enhanced under the applicable process. Compare sanctions, PEP and adverse-media concerns as distinct risk questions, and explain how you avoided assuming a name match was a confirmed identity. The resume does not say every one of the 10 accounts contained each issue or that any alert established wrongdoing.\n\n---\n\n**Experience 3: Beale & Co — Ireland, UK and Netherlands AML Research**\n\n**Interviewer Probe:** “How did you research a compliance question across jurisdictions and present your advice to the review team?”\n\n**Likely Struggle:** Listing jurisdictions without explaining the question, sources, role boundaries or how a legal conclusion was checked.\n\n**Prep Drill:** Pick one actual research note and explain the question, relevant jurisdiction, source selection, date checked, analysis, supervisor review and audience. Describe what you authored versus what a qualified reviewer approved. Distinguish research support from jurisdiction-specific authorization to practice law. For current rules, use the relevant authoritative sources and employer policy; do not rely on an unverified threshold or claim the same rule applies everywhere.\n\n---\n\n**Experience 4: King and Partridge — Seed Funding and Commercial Contracts**\n\n**Interviewer Probe:** “How did you assess a legal or governance issue in one of the four seed funding rounds, and how was the risk communicated?”\n\n**Likely Struggle:** Quoting transaction values without explaining the document, risk and personal contribution.\n\n**Prep Drill:** Prepare one real transaction or a permitted sanitized example: client objective, document or governance issue reviewed, evidence, risk analysis, escalation and outcome. For a contract, explain how you approached a liability, warranty or representation clause that you actually reviewed and who approved the advice. Clarify whether euro values were converted and the basis where applicable; avoid presenting deal values as fees or verified savings.\n\n---\n\n**Experience 5: CK Juris — Investment Due Diligence and Legal Opinions**\n\n**Interviewer Probe:** “Describe one change-of-control, litigation or governance risk you identified during investment due diligence. What evidence supported it?”\n\n**Likely Struggle:** Naming legal issues without linking them to an actual document, consequence and recommendation.\n\n**Prep Drill:** Trace a genuine issue from document review through evidence, analysis, written communication and supervisor or client decision. Explain your role in the Companies Act or FEMA research within the Indian legal context and state what remains outside your knowledge. Do not transfer an Indian legal requirement automatically to Ireland, the UK or the Netherlands.\n\n---\n\n**Technical Case Practice — Hypothetical Ownership and Screening Alert**\n\nBuild a clearly labeled fictional company with two ownership layers and a potential name match. Map the ownership relationships and control questions, record what is missing, compare identifying data and draft a concise escalation. State the applicable jurisdiction and policy as assumptions, not facts about a real client. Have the mentor test whether each conclusion follows from the evidence, whether uncertainty is recorded and whether the final decision is assigned to an authorized owner."
+    },
+    {
+      "title": "Interview Answer Construction Guidance",
+      "sectionType": "content",
+      "content": "**Experience: Enhanced Due Diligence at Beale & Co.**\n\nThe examples below illustrate answer structure; they are not transcripts of Denny's interview. The stronger opening uses resume claims without inventing a screening hit, ownership structure or investigation outcome.\n\n**Baseline Example — Checks Without a Decision Sequence:**\n\n“At Beale & Co, I did AML checks, screened clients for sanctions and PEPs, and escalated issues. Some onboarding was delayed.”\n\n**Stronger Example — Scope, Contribution and Handoff:**\n\n“At Beale & Co, I conducted AML/KYC reviews and customer due diligence across insurer-related portfolios. My work included assessing corporate structures, verifying beneficial ownership and developing client risk profiles to support onboarding. I also performed enhanced due diligence and sanctions, PEP and adverse-media screening for 10 accounts. Where I identified PEP exposure, ownership conflicts or KYC discrepancies, I flagged and escalated the risk; onboarding was delayed pending review. To explain one case fully, I would describe the information I checked, my analysis, the decision owner and the outcome I know.”\n\n**Justification:** The stronger version makes the role, checks and handoff visible without asserting that all issues appeared in one account or that an escalation proved wrongdoing. It is an overview, not a complete incident-based STAR answer: a genuine case, specific evidence and known result still need to be added from experience.\n\n**The Follow-Up Layer:** Prepare one real case: its trigger, actual ownership or screening question, evidence, your rationale, the precise escalation and what you know happened next. Protect client confidentiality and state if the final decision was outside your visibility.\n\n**Practice Rule:** Deliver the overview in 60 seconds, then explain one case in two minutes. Ask a listener to identify the risk, your checks, decision owner and supported outcome. Repeat with one India-based due-diligence example."
+    },
+    {
+      "title": "High-Risk Questions (The Landmines)",
+      "sectionType": "content",
+      "content": "“Walk me through a corporate KYC review: how did you establish ownership and control, and how did you document uncertainty?” **(Risk: Technical 2.7 — ownership analysis and evidence)**\n\n“What is the difference between a possible screening match and a confirmed match, and what information would you compare?” **(Risk: Technical 2.7 — screening reasoning)**\n\n“How do sanctions, PEP exposure and adverse media differ as risk questions?” **(Risk: Technical 2.7 — distinguish screening outcomes and applicable decisions)**\n\n“Describe one enhanced review from the 10 accounts. What triggered additional work, what did you do and who made the decision?” **(Risk: Technical 2.7 — trigger, evidence and ownership)**\n\n“What did you do when a KYC discrepancy or ownership conflict could not be resolved before onboarding?” **(Risk: Technical 2.7 + Communication 2.75 — escalation and clear handoff)**\n\n“How did you research an AML question involving Ireland, the UK or the Netherlands and confirm the applicable source?” **(Risk: Technical 2.7 — jurisdiction and research method)**\n\n“Explain one seed-funding or investment due-diligence issue, the supporting document and how you communicated the risk.” **(Risk: Technical 2.7 — evidence-to-recommendation link)**\n\n“Tell me about a real disagreement over an onboarding or legal review deadline.” **(Focus: Behavioural 2.8 — specific action and outcome)**\n\n“What did 10–15 insurer-related portfolios and 10 EDD accounts represent in your workload?” **(Risk: Communication 2.75 — scope and metric clarity)**"
+    },
+    {
+      "title": "Mock Interview Plan (Mentor-Led)",
+      "sectionType": "mockGraphs",
+      "graphs": [
+        {
+          "title": "Mock Interview Timeline",
+          "type": "timeline",
+          "data": [
+            {
+              "timing": "Week 2, Day 1",
+              "label": "Session 1: The Technical Diagnostic",
+              "duration": "45 minutes",
+              "objective": "Establish the Technical 2.7 baseline through corporate KYC and ownership analysis."
+            },
+            {
+              "timing": "Week 2, Day 5",
+              "label": "Session 2: Screening and EDD Deep-Dive",
+              "duration": "50 minutes",
+              "objective": "Practice potential matches, additional checks, documentation and decision ownership."
+            },
+            {
+              "timing": "Week 3, Day 3",
+              "label": "Session 3: Legal and Behavioral Impact",
+              "duration": "45 minutes",
+              "objective": "Test legal due diligence, jurisdictional research and a genuine stakeholder story."
+            },
+            {
+              "timing": "Week 4, Day 2",
+              "label": "Session 4: The Final Pressure Test",
+              "duration": "60 minutes",
+              "objective": "Run a role-specific simulation and reassess against Overall Readiness 2.75 using a consistent rubric."
+            }
+          ]
+        },
+        {
+          "title": "Focus Areas by Session",
+          "type": "bar",
+          "data": [
+            {
+              "label": "Session 1: KYC and Ownership",
+              "value": 10,
+              "max": 10
+            },
+            {
+              "label": "Session 2: Screening and EDD",
+              "value": 10,
+              "max": 10
+            },
+            {
+              "label": "Session 3: Legal and Behavioral",
+              "value": 8,
+              "max": 10
+            },
+            {
+              "label": "Session 4: Full Simulation",
+              "value": 10,
+              "max": 10
+            }
+          ]
+        }
+      ],
+      "content": "**Session 1: The Technical Diagnostic**\n\n**Focus:** Corporate KYC walkthrough and ownership analysis.\n\n**Mentor Push:** Let Denny complete the first answer, then ask “What was the ownership question?”, “What evidence did you use?” and “What did you personally decide or escalate?” Compare a written case outline with the spoken answer to separate technical understanding, evidence and delivery. Record a baseline.\n\n---\n\n**Session 2: Screening and Enhanced Due Diligence Deep-Dive**\n\n**Focus:** A labeled hypothetical screening alert and one real EDD example.\n\n**Mentor Push:** Ask how identifiers were compared, what additional information mattered and how the rationale was documented. Distinguish sanctions, PEP and adverse-media issues. Probe the applicable policy, jurisdiction and decision owner without assuming a particular legal rule or a confirmed match.\n\n---\n\n**Session 3: Legal Due Diligence and Behavioral Impact**\n\n**Focus:** One funding or investment review, cross-jurisdiction research and a genuine stakeholder story.\n\n**Mentor Push:** Ask for the document, issue, analysis, personal contribution and known outcome. Then probe a real disagreement or deadline issue for action and learning. Preserve the structured presentation reflected in the **3** score while deepening technical reasoning.\n\n---\n\n**Session 4: The Final Pressure Test**\n\n**Focus:** A full interview against one actual AML/KYC or financial-crime compliance vacancy.\n\n**Mentor Push:** Include a KYC walkthrough, ownership chain, screening or EDD scenario, legal research question and behavioral example. Ask two or three follow-ups per case and repeat baseline prompts. Assess Technical, Structure, Communication and Behavioural separately before Overall Readiness.\n\nThe focus bars show suggested mentor attention on a ten-point planning scale; they are not candidate assessment scores."
+    },
+    {
+      "title": "Expected Outcome",
+      "sectionType": "expectedOutcome",
+      "currentScore": 2.75,
+      "targetScore": 4.5,
+      "maxScore": 5,
+      "metrics": [
+        {
+          "label": "Technical",
+          "current": "2.7",
+          "target": "4.5"
+        },
+        {
+          "label": "Communication",
+          "current": "2.75",
+          "target": "4.0"
+        },
+        {
+          "label": "Behavioural",
+          "current": "2.8",
+          "target": "4.0"
+        },
+        {
+          "label": "Structure",
+          "current": "3",
+          "target": "4.0"
+        }
+      ],
+      "content": "**Target Overall Readiness: 4.5.** This is a proposed coaching goal using the reference template's five-point convention, not a predicted result. The supplied current Overall Readiness is **2.75**; it is not an average.\n\n**Measurable Change:**\n\n- Explain one corporate KYC review from ownership question through evidence, analysis, escalation and known result.\n- Distinguish a possible screening match from a confirmed match and explain the separate questions raised by sanctions, PEP exposure and adverse media.\n- Walk through one real enhanced review, including the additional work, personal contribution, decision owner and outcome known.\n- Explain how an AML research note was scoped, sourced, reviewed and limited to the relevant jurisdiction.\n- Describe one seed-funding or investment due-diligence issue with the supporting document and accurate ownership of the advice.\n- Deliver four specific behavioral stories and handle two relevant follow-ups per example while protecting client confidentiality.\n\n**The After Profile:** A compliance professional who can explain the evidence, reasoning, documentation and decision boundaries behind a KYC or legal review.\n\nReassess using a confirmed rubric. Technical **2.7** and Overall Readiness **2.75** remain separate; Technical Readiness Score was not supplied and remains blank. Proposed targets are practice goals, not guaranteed score gains."
+    },
+    {
+      "title": "How to Use This Plan",
+      "sectionType": "howToUse",
+      "candidateSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Complete the Case Decision Drill before Session 1",
+          "content": "Record three short case explanations. State the risk question, evidence, personal action, handoff and known result."
+        },
+        {
+          "icon": "FileText",
+          "title": "Document every question you struggled with",
+          "content": "Record the exact question and whether the gap was technical reasoning, evidence, jurisdiction, ownership or delivery."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Re-practice weak answers within 24 hours",
+          "content": "Repair the explanation or concept, record the answer and practice two follow-ups using genuine, non-confidential details."
+        },
+        {
+          "icon": "Target",
+          "title": "Meet the completion check before the next mock",
+          "content": "A listener should understand your reasoning and the known outcome. Repeat a focused drill when the explanation or underlying knowledge remains incomplete."
+        }
+      ],
+      "mentorSteps": [
+        {
+          "icon": "FileCheck",
+          "title": "Keep the assessment mapping accurate",
+          "content": "Prioritize Technical 2.7, with Communication 2.75 and Behavioural 2.8 as supporting practice. Preserve Structure 3; Overall Readiness 2.75 is separate and Technical Readiness Score is unsupplied."
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Probe the evidence and decision boundary",
+          "content": "Ask what was checked, how the evidence was assessed, who made the decision and what outcome is known. Treat score-led risks as hypotheses until observed."
+        },
+        {
+          "icon": "FileText",
+          "title": "Give specific written feedback",
+          "content": "Record the question, observed gap and one drill. Do not add an invented alert, ownership structure, legal rule or result."
+        },
+        {
+          "icon": "Target",
+          "title": "Retest with a consistent rubric",
+          "content": "Compare baseline and final answers using the same definitions. Confirm scoring conventions before using proposed numerical targets as gates."
+        }
+      ],
+      "content": "**Working Rule:** Start with a real case and a clear outline. If evidence or technical reasoning is incomplete, prepare and retest it; if the explanation is unclear, repeat the delivery drill. Label hypothetical scenarios as practice and protect confidential client information.\n\n**Timeline:**\n- Week 1: Case outlines and baseline recordings.\n- Week 2: Sessions 1–2; ownership, screening and EDD.\n- Week 3: Session 3; legal due diligence and behavioral examples.\n- Week 4: Session 4; full role-specific simulation.\n- Week 5, if needed: Repeat the unresolved drills and mock sections.\n\n**Completion Check:** A listener can identify the case question, evidence, your analysis, the decision owner and the supported outcome. You can handle two follow-ups without assuming a confirmed alert or an unsupported legal rule. Start with the corporate KYC and EDD walkthroughs; retain the first recordings for comparison."
+    }
+  ]
+}
